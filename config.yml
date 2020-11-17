@@ -1,0 +1,33 @@
+title: Telehealth.HHS.gov
+baseurl: ""
+url: "https://cdc.poc.gov"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
+exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - adr/
+  - assets/js/src
+  - config.json
+  - Gemfile*
+  - gemfiles/
+  - gulpfile.js
+  - node_modules
+  - node_modules/
+  - package-lock.json
+  - package.json
+  - package*.json
+  - README.md
+  - scripts/
+  - vendor/
+  - webpack.config.js
+  - artifact/
+  - artifact.zip
+  - lighthouse
+  - release-notes.txt
+  - spec/
+  - assets/js/uswds.js
+  - webpack/
