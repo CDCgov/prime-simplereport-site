@@ -1,0 +1,16 @@
+.results-found {
+  font-size: 1.15rem;
+}
+.alternate-results {
+  font-size: .875rem;
+  a {
+    text-decoration: none !important;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .carrot {
+    text-decoration: none !important;
+    display: inline;
+  }
+}
