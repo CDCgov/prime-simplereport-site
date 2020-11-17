@@ -1,4 +1,4 @@
-# cdc-cdc-poc-setup
+# cdc-poc-setup
 
 Install node packages
 `npm install`
