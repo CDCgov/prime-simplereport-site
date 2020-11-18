@@ -40,6 +40,13 @@ main: foo, bar, qaz
       {{ _graphics }}
     {% endif %}
 
+
+    {% capture _sections %}
+      {% include section-list.html sections=page.sections %}
+    {% endcapture %}
+
+    {{ _sections }}
+    
     {% if page.layout == 'post' %}
       {{ content }}
     {% else %}

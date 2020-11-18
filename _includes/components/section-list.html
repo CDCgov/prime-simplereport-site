@@ -1,0 +1,22 @@
+{% assign sections = include.sections %}
+{% if sections %}
+<section class="usa-section-list usa-section">
+    <div class="grid-container">
+        {% for section in sections %}
+        <div class="grid-row">
+            <h5>{{section.title}}</h3>
+        </div>
+        <div class="grid-row grid-gap">
+            {% for column in section.columns %}
+            <div class="grid-col">
+                <h3>{{column.heading}}</h2>
+                {% for bullet in column.bullets %}
+                <p>{{bullet}}</p>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}

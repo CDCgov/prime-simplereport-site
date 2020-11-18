@@ -87,11 +87,44 @@ Typography
   border: 1px solid #a9aeb1;
   border-radius: 6px;
   box-sizing: border-box;
-  margin-bottom: -10rem;
+  margin: 0 4em -10rem -4em;
   height: 349px;
   width: 524px;
 }
 
 .usa-hero + .usa-section {
   padding-top: 12rem;
+}
+
+.usa-section-list {
+  h3 {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1b1b1b;
+  }
+
+  h5 {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1b1b1b;
+  }
+
+  p {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 162%;
+    color: #000000;
+  }
+
+  .grid-row.grid-gap {
+    padding-bottom: 7em;
+  }
 }
