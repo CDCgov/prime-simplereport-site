@@ -1,21 +1,24 @@
 # SimpleReport_Public_Site Setup
 
-Install node packages
+Install node packages  
 `npm install`
 
 Set ruby to `2.6.0`
 
-Install bundler
+Install bundler  
 `gem install bundler`
 
-Install gems
+Install gems  
 `bundle install`
 
-Run Setup
+Run Setup  
 `npm run setup`
 
-Build/Watch sass in seperate
+Build/Watch sass in seperate  
 `npm run watch`
 
-Serve site
+Serve site  
 `npm run serve`
+
+Deploy to GitHub Pages  
+`npm run deploy`
