@@ -1,4 +1,4 @@
-# cdc-poc-setup
+# SimpleReport_Public_Site Setup
 
 Install node packages
 `npm install`
