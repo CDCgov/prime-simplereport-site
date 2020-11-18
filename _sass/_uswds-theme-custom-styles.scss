@@ -26,7 +26,7 @@ Variables
 ----------------------------------------
 */
 
-$image-path: "../../../assets/img/";
+$image-path: '../../../assets/img/';
 
 /*
 ----------------------------------------
@@ -42,4 +42,56 @@ Typography
 
 .usa-intro {
   font-weight: $theme-font-weight-light;
+}
+
+.usa-logo__text {
+  font-size: 40px;
+}
+
+.usa-header,
+.usa-hero {
+  background-color: #f0f0f0;
+}
+
+.usa-header + .usa-hero {
+  border-top: none;
+  padding-top: 0;
+}
+
+.usa-header--extended .usa-nav {
+  border-top: none;
+}
+
+.usa-nav__secondary {
+  margin-bottom: -0.5rem;
+}
+
+.usa-hero__callout {
+  background-color: none;
+  color: black;
+  max-width: 34rem;
+  padding: 0 0 2em 0;
+
+  p {
+    font-size: 22px;
+    margin: 0;
+  }
+}
+
+.usa-button.wide-button {
+  width: 217px;
+}
+
+.usa-hero__placeholder {
+  background: #f0f0f0;
+  border: 1px solid #a9aeb1;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-bottom: -10rem;
+  height: 349px;
+  width: 524px;
+}
+
+.usa-hero + .usa-section {
+  padding-top: 12rem;
 }

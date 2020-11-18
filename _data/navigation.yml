@@ -38,7 +38,7 @@ secondary:
   - text: Log in
     href: https://prime-eval.okta.com
     external: true
-    class: usa-button usa-button--outline text-no-underline text-primary
+    class: usa-button usa-button--outline text-no-underline text-primary wide-button
 
 docs:
   - text: Sidenav Documentation

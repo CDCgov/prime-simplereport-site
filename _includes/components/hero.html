@@ -20,6 +20,12 @@
       </a>
       {% endif %}
     </div>
+    {% if hero.placeholder %}
+      <div class="grid-row">
+        <div class="grid-col"></div>
+        <div class="grid-col usa-hero__placeholder"></div>
+      </div>
+    {% endif %}
   </div>
 </section>
 {% endif %}
