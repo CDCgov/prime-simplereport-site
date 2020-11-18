@@ -17,7 +17,8 @@
     "uswds-update": "npm update uswds",
     "uncss": "gulp uncss",
     "watch": "gulp watch",
-    "eslint": "eslint assets/js/"
+    "eslint": "eslint assets/js/",
+    "deploy": "gh-pages -d _site"
   },
   "dependencies": {
     "gulp-watch": "^5.0.0",
@@ -30,9 +31,13 @@
   "devDependencies": {
     "acorn": "^8.0.1",
     "autoprefixer": "^9.8.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "braces": ">=2.3.1",
     "eslint": "^7.9.0",
     "eslint-plugin-frontmatter": "0.0.8",
+    "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-notify": "^3.2.0",
     "gulp-postcss": "^8.0.0",
@@ -41,6 +46,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "lodash": "^4.17.20",
+    "meow": "7.1.1",
     "minimist": "1.2.5",
     "postcss-csso": "^4.0.0",
     "postcss-uncss": "^0.17.0",
@@ -49,12 +55,8 @@
     "uncss": "^0.17.3",
     "uswds": "^2.8.1",
     "uswds-gulp": "github:uswds/uswds-gulp",
-    "yargs": "16.0.3",
-    "meow": "7.1.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0"
+    "yargs": "16.0.3"
   }
 }
