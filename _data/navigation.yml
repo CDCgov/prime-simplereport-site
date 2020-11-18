@@ -36,7 +36,8 @@ primary:
 
 secondary:
   - text: Log in
-    href: /login/
+    href: https://prime-eval.okta.com
+    external: true
     class: usa-button usa-button--outline text-no-underline text-primary
 
 docs:
