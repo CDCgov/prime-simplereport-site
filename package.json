@@ -18,6 +18,7 @@
     "uncss": "gulp uncss",
     "watch": "gulp watch",
     "eslint": "eslint assets/js/",
+    "build": "gulp build-sass && bundle exec jekyll build --config _config.yml",
     "deploy": "gh-pages -d _site"
   },
   "dependencies": {

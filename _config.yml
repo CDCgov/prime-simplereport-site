@@ -1,6 +1,6 @@
 title: SimpleReport
-baseurl: ""
-url: "https://cdc.poc.gov"
+baseurl: /SimpleReport_Public_Site
+url: http://cdcgov.github.io
 
 plugins:
   - jekyll-sitemap
