@@ -13,6 +13,7 @@ ignorePatterns:
   - uswds.js
   - jquery3.5.1.min.js
   - url-search-param-polyfil.js
+  - anchor.min.js
 rules: {}
 plugins:
   - frontmatter
