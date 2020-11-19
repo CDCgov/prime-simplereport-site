@@ -19,3 +19,29 @@ jobs:
         uploadArtifacts: false
         configPath: ./lighthouse/lighthouserc.yml
         runs: 1
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Install eslint plugins
+      run: npm install eslint-plugin-frontmatter@latest --save-dev
+    - name: Install eslint
+      run: npm i -g eslint
+    - name: Run es-lint
+      run: eslint assets/js/
+  rubocop:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    - name: Install rubocop
+      run: gem install rubocop
+    - name: Run rubocop
+      run: rubocop
