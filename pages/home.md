@@ -103,9 +103,6 @@ sections:
 
 
 ---
-## test failure
-<img src='/SimpleReport_Public_Site/assets/img/circle.png'/>
-
 <!-- ### Why do I need SimpleReport?
 
 {:.font-heading-xl.margin-y-0"}
