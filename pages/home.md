@@ -100,7 +100,11 @@ sections:
       - heading: Individual logins
         bullets:
           - Each individual logging into SimpleReport at your facility will need their own unique login credentials. They can sign up for their own login, by filling out this form and providing their name, work email address, and the Facility Account ID given to the administrator.
+
+
 ---
+## test failure
+<img src='/SimpleReport_Public_Site/assets/img/circle.png'/>
 
 <!-- ### Why do I need SimpleReport?
 

@@ -16,6 +16,6 @@ jobs:
       with:
         urls: |
           https://cdcgov.github.io/SimpleReport_Public_Site/
-        uploadArtifacts: true
+        uploadArtifacts: false
         configPath: ./lighthouse/lighthouserc.yml
         runs: 1
