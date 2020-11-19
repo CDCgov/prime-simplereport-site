@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - gh-pages
+    - main
 jobs:
   validate-site:
     runs-on: ubuntu-latest
