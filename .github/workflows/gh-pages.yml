@@ -1,0 +1,20 @@
+name: Run Lighthouse
+
+on:
+  push:
+    branches:
+    - gh-pages
+jobs:
+  validate-site:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Lighthouse CI Action
+      uses: treosh/lighthouse-ci-action@v2
+      with:
+        urls: |
+          http://cdcgov.github.io/
+        uploadArtifacts: false
+        configPath: ./lighthouse/lighthouserc.yml
+        runs: 1
