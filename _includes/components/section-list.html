@@ -6,13 +6,25 @@
         <div class="grid-row">
             <h5>{{section.title}}</h3>
         </div>
-        <div class="grid-row grid-gap">
+        <div class="grid-row grid-gap grid-gap-small-btm">
             {% for column in section.columns %}
             <div class="grid-col">
                 <h3>{{column.heading}}</h2>
-                {% for bullet in column.bullets %}
-                <p>{{bullet}}</p>
-                {% endfor %}
+                {% if column.intro_p %}
+                  <div class='usa-prose'>
+                    {{column.intro_p | markdownify}}
+                  </div>
+                {% endif %}
+                {% if column.sub_heading %}
+                  <h4>{{column.sub_heading}}</h4>
+                {% endif %}
+                {% if column. bullets %}
+                  <ul>
+                  {% for bullet in column.bullets %}
+                    <li>{{bullet}}</li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
