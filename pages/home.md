@@ -120,7 +120,7 @@ sections:
         </li>
       </ol>
       <p>Ready to streamline your COVID-19 reporting? Create a SimpleReport account today.</p>
-      <a href='#' class='usa-button usa-button--big cta-btn'>Get Started</a>
+      <a href='https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform' class='usa-button usa-button--big cta-btn'>Get Started</a>
     </div>
   </div>
 </div>
