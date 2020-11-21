@@ -4,12 +4,12 @@
     <div class="grid-container">
         {% for section in sections %}
         <div class="grid-row">
-            <h5>{{section.title}}</h3>
+            <h2>{{section.title}}</h2>
         </div>
         <div class="grid-row grid-gap grid-gap-small-btm">
             {% for column in section.columns %}
             <div class="grid-col">
-                <h3>{{column.heading}}</h2>
+                <h4>{{column.heading}}</h4>
                 {% if column.intro_p %}
                   <div class='usa-prose'>
                     {{column.intro_p | markdownify}}

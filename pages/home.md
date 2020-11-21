@@ -15,8 +15,13 @@ hero:
   # link:
   #   text: Link to more about that priority
   #   href: /link/
-  content: SimpleReport is a free web-based tool that provides COVID-19 testing sites an easy way to record results for rapid point-of-care tests and quickly report data to public health departments. <br/><br/> SimpleReport is HIPAA-compliant and backed by the Centers for Disease Control (CDC).
-  placeholder: true
+  content: SimpleReport is a free web-based tool that provides COVID-19 testing sites an easy way to record results for rapid point-of-care tests and quickly report data to public health departments. <br/> SimpleReport is HIPAA-compliant and backed by the Centers for Disease Control (CDC).
+  placeholder:
+    src: /assets/img/HeroPlaceholder.svg
+    alt: placeholder
+  vector:
+    src: /assets/img/HeroVector.svg
+    alt: hero-vector
 # tagline: A tagline highlights your approach.
 # intro: |
 #   The tagline should inspire confidence and interest, [focusing on the value](javascript:void(0);) that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
@@ -50,20 +55,20 @@ sections:
     columns:
       - heading: Testing sites
         intro_p: SimpleReport integrates with COVID-19 testing workflows to streamline data collection and reporting. Smart data entry features let you skip repetitive tasks and get through the testing process faster, while reducing manual data entry errors.
-        sub_heading: "Features:"
+        sub_heading: 'Features:'
         bullets:
           - <strong>Smart data entry</strong> - Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.
-          - <strong>Public health department compliant</strong> - SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.  
-          - <strong>Safe and secure</strong> - Test results and patient information are securely stored and protected by two-factor authentication. 
+          - <strong>Public health department compliant</strong> - SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.
+          - <strong>Safe and secure</strong> - Test results and patient information are securely stored and protected by two-factor authentication.
       - heading: Public health departments
         intro_p: |
           During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, HIPAA-compliant COVID-19 reports from testing sites in real time, customized to meet your reporting requirements. Get results from every testing site using SimpleReport in exactly the same way — eliminating inconsistencies and manual fixes.
-          
+
           Fast, accurate data means you can start case investigations and contact tracing sooner, stay on top of trends to make informed policy decisions, and quickly plan and prepare for emergencies.
   - title: Who should use SimpleReport?
     columns:
       - heading: COVID-19 testing sites
-        intro_p: "Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:"
+        intro_p: 'Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:'
         bullets:
           - Hospitals and clinics
           - Long term care facilities
@@ -74,9 +79,8 @@ sections:
           - Airports, and more
       - heading: Public health departments
         intro_p: Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
-
-
 ---
+
 <div class='grid-container'>
   <div class='grid-row grid-gap'>
     <div class='usa-prose grid-col-9'>

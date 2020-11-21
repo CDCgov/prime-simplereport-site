@@ -1,31 +1,39 @@
 {% if hero %}
 <section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";>
   <div class="grid-container">
-    <div class="usa-hero__callout">
-      {% if hero.callout %}
-      <h1 class="usa-hero__heading">
-        {% if hero.callout.alt %}
-        <span class="usa-hero__heading--alt">{{ hero.callout.alt }}</span>
+    <div class="grid-row">
+      <div class="grid-col usa-hero__callout">
+        {% if hero.callout %}
+        <h1 class="usa-hero__heading">
+          {% if hero.callout.alt %}
+          <span class="usa-hero__heading--alt">{{ hero.callout.alt }}</span>
+          {% endif %}
+          {{ hero.callout.text | default: hero.callout }}
+        </h1>
         {% endif %}
-        {{ hero.callout.text | default: hero.callout }}
-      </h1>
-      {% endif %}
 
-      {{ hero.content | markdownify }}
+        <h2>
+        {{ hero.content }}
+        </h2>
 
-      {% if hero.button %}
-      <a class="usa-button"
-        href="{{ hero.button.href | relative_url }}">
-        {{ hero.button.text }}
-      </a>
-      {% endif %}
+        {% if hero.button %}
+        <a class="usa-button"
+          href="{{ hero.button.href | relative_url }}">
+          {{ hero.button.text }}
+        </a>
+        {% endif %}
+      </div>
     </div>
     {% if hero.placeholder %}
-      <div class="grid-row">
-        <div class="grid-col"></div>
-        <div class="grid-col usa-hero__placeholder"></div>
-      </div>
+      <img class="usa-hero-placeholder"
+        src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
+        alt="{{ hero.placeholder.alt }}">
     {% endif %}
   </div>
 </section>
+{% if hero.vector %}
+<img class="usa-hero-vector"
+  src="{% if hero.vector.external %}{{ hero.vector.src }}{% else %}{{ hero.vector.src | relative_url }}{% endif %}"
+  alt="{{ hero.vector.alt }}">
+{% endif %}
 {% endif %}

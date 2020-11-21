@@ -34,6 +34,12 @@ Typography
 ----------------------------------------
 */
 
+@font-face {
+  font-family: 'SF Mono';
+  font-weight: 400;
+  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
+}
+
 .usa-prose {
   a {
     @include typeset-link;
@@ -50,7 +56,7 @@ Typography
 
 .usa-header,
 .usa-hero {
-  background-color: #f0f0f0;
+  background-color: #274863;
 }
 
 .usa-header + .usa-hero {
@@ -62,18 +68,34 @@ Typography
   border-top: none;
 }
 
+.usa-nav {
+  margin-bottom: -2em;
+}
+
+.usa-navbar {
+  padding-top: 5em;
+}
+
 .usa-nav__secondary {
-  margin-bottom: -0.5rem;
+  margin-bottom: 5em;
+}
+
+.usa-hero {
+  padding-bottom: 13em;
 }
 
 .usa-hero__callout {
   background-color: none;
-  color: black;
-  max-width: 34rem;
+  max-width: none;
   padding: 0 0 2em 0;
 
-  p {
-    font-size: 22px;
+  h2 {
+    color: #d9e8f6;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 151.28%;
     margin: 0;
   }
 }
@@ -82,46 +104,50 @@ Typography
   width: 217px;
 }
 
-.usa-hero__placeholder {
-  background: #f0f0f0;
-  border: 1px solid #a9aeb1;
-  border-radius: 6px;
-  box-sizing: border-box;
-  margin: 0 4em -10rem -4em;
-  height: 349px;
-  width: 524px;
+.usa-hero-placeholder {
+  position: absolute;
+  width: 442px;
+  height: 310px;
+  left: calc(50% - 442px / 2 + 44px);
+  top: 29em;
 }
 
-.usa-hero + .usa-section {
-  padding-top: 12rem;
+.usa-hero-vector {
+  margin-top: -6em;
+  width: 100%;
+}
+
+.usa-hero-vector + .usa-section-list {
+  margin-top: -5em;
+  padding-top: 0;
 }
 
 .usa-section-list {
-  h3 {
-    font-family: Public Sans;
+  h2 {
+    font-family: Inter;
     font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
-    color: #1b1b1b;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 151.28%;
+    color: #274863;
   }
 
-  h5 {
-    font-family: Public Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 18px;
-    color: #1b1b1b;
-  }
-
-  p {
-    font-family: Public Sans;
+  h4 {
+    font-family: SF Mono;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 162%;
-    color: #000000;
+    line-height: 150%;
+    color: #1b1b1b;
+  }
+
+  .usa-prose {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #274863;
   }
 
   .grid-row.grid-gap {

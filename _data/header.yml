@@ -20,10 +20,10 @@ type: extended
 
 # Configuration for site header logo
 # If the logo is external add external: true
-# logo:
-#   src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-#   alt: 18F
-#   external: true
+logo:
+  src: /assets/img/SimpleReportLogo.svg
+  alt: SimpleReport
+  # external: true
 
 # this is a key into _data/navigation.yml
 primary:
