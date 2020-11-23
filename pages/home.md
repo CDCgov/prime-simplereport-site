@@ -88,15 +88,15 @@ sections:
       </div>
     </div>
     <div class="grid-row grid-gap">
-      <div class="grid-col-4 usa-bullets">
+      <div class="tablet:grid-col-4 usa-bullets">
         <img class="centered-image" src="{{ '/assets/img/smart-data.svg' | relative_url }}"><br><br>
         <strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.
       </div>
-      <div class="grid-col-4 usa-bullets">
+      <div class="tablet:grid-col-4 usa-bullets">
         <img class="centered-image" src="{{ '/assets/img/compliant.svg' | relative_url }}"><br><br>
         <strong>Public health department compliant.</strong> SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.
       </div>
-      <div class="grid-col-4 usa-bullets">
+      <div class="tablet:grid-col-4 usa-bullets">
         <img class="centered-image" src="{{ '/assets/img/secure.svg' | relative_url }}"><br><br>
         <strong>Safe and secure.</strong> Test results and patient information are securely stored and protected by two-factor authentication.
       </div>
@@ -124,7 +124,7 @@ sections:
       <h2>Who should use SimpleReport?</h2>
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col">
+      <div class="tablet:grid-col">
         <h4>Testing sites</h4>
         <div class="usa-prose">
           Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:
@@ -139,7 +139,7 @@ sections:
           <li>Airports, and more</li>
         </ul>
       </div>
-      <div class="grid-col">
+      <div class="tablet:grid-col">
         <h4>Public health departments</h4>
         <div class="usa-prose">
           Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
@@ -174,7 +174,7 @@ sections:
           To get started using SimpleReport, you'll need someone at your testing site to be the SimpleReport administrator and point of contact. Request a free SimpleReport testing site account by using this form and providing a few details:
         </div>
       </div>
-      <div class="grid-col-6">
+      <div class="tablet:grid-col-6">
         <ul class="usa-list">
           <li><strong>Testing site information:</strong></li>
           <ul class="usa-list">
@@ -184,7 +184,7 @@ sections:
           </ul>
         </ul>
       </div>
-      <div class="grid-col-6">
+      <div class="tablet:grid-col-6">
         <ul class="usa-list">
           <li><strong>Account administrator name and basic information,</strong> including any identity verification information required by your state </li>
         </ul>
