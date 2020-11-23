@@ -109,6 +109,10 @@ Typography
 
 .usa-hero-placeholder-container {
   margin-bottom: -19em;
+  display: none;
+  @include at-media("tablet") {
+    display: block;
+  }
 }
 
 .usa-hero-placeholder {
