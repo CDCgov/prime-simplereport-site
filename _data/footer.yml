@@ -3,7 +3,7 @@
 # Configuration for type of footer.
 # Footer types can be 'slim', 'default', or 'big'.
 # https://designsystem.digital.gov/components/footers/
-type: default
+type: slim
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
@@ -32,40 +32,40 @@ links: footer
 big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
-heading: Centers for Disease Control
+heading: Centers for Disease Control and Prevention
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-    alt: 18F
-    external: true
+  - src: /assets/img/cdc-logo.svg
+    alt: CDC-logo
+    external: false
 
 # Configuration for footer contact links
 contact:
   # Configuration for social media links
   # Comment out links you don't want to use (RSS is an example)
-  social_links:
-    - text: Facebook
-      href: https://facebook.com/CDC
-      external: true
-      type: facebook
-    - text: Twitter
-      href: https://twitter.com/CDCgov
-      external: true
-      type: twitter
-    - text: YouTube
-      href: https://youtube.com/CDCstreamingHealth
-      external: true
-      type: youtube
-    - text: RSS Feed
-      href: https://tools.cdc.gov/podcasts/rss.asp
-      external: true
-      type: rss
-  heading: CDC contact center
+  # social_links:
+  #   - text: Facebook
+  #     href: https://facebook.com/CDC
+  #     external: true
+  #     type: facebook
+  #   - text: Twitter
+  #     href: https://twitter.com/CDCgov
+  #     external: true
+  #     type: twitter
+  #   - text: YouTube
+  #     href: https://youtube.com/CDCstreamingHealth
+  #     external: true
+  #     type: youtube
+  #   - text: RSS Feed
+  #     href: https://tools.cdc.gov/podcasts/rss.asp
+  #     external: true
+  #     type: rss
+  # heading: CDC contact center
   # Configuration for contact links for email, phone, etc...
-  contact_links:
-    - text: (800) CDC-INFO
-      href: tel:1-800-232-4636
-    - text: info@cdc.gov
-      href: mailto:info@cdc.gov
+  # contact_links:
+  #   - text: (800) CDC-INFO
+  #     href: tel:1-800-232-4636
+  #   - text: info@cdc.gov
+  #     href: mailto:info@cdc.gov
