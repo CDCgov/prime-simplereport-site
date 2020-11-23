@@ -114,14 +114,15 @@ $font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 .usa-hero-placeholder-container {
   margin-bottom: -19em;
   display: none;
-  @include at-media("tablet") {
+  @include at-media("tablet-lg") {
     display: block;
   }
 }
 
 .usa-hero-placeholder {
-  width: 540px;
-  height: 423.32px;
+  max-width: 540px;
+  width: 100%;
+  height: auto;
   z-index: 10;
 }
 
