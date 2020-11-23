@@ -80,7 +80,7 @@ sections:
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="grid-col">
-        <h4>Testing sites</h4>
+        <h3>Testing sites</h3>
         <div class="usa-prose">
           SimpleReport integrates with COVID-19 testing workflows to streamline data collection and reporting. Smart data entry features let you skip repetitive tasks and get through the testing process faster, while reducing manual data
           entry errors.
@@ -89,21 +89,21 @@ sections:
     </div>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/smart-data.svg' | relative_url }}"><br><br>
+        <img class="centered-image" src="{{ '/assets/img/smart-data.svg' | relative_url }}" alt=""><br><br>
         <strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/compliant.svg' | relative_url }}"><br><br>
+        <img class="centered-image" src="{{ '/assets/img/compliant.svg' | relative_url }}" alt=""><br><br>
         <strong>Public health department compliant.</strong> SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/secure.svg' | relative_url }}"><br><br>
+        <img class="centered-image" src="{{ '/assets/img/secure.svg' | relative_url }}" alt=""><br><br>
         <strong>Safe and secure.</strong> Test results and patient information are securely stored and protected by two-factor authentication.
       </div>
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="grid-col">
-        <h4>Public health departments</h4>
+        <h3>Public health departments</h3>
         <div class="usa-prose">
           During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, HIPAA-compliant COVID-19 reports from testing sites in real time, customized to meet your reporting requirements. Get results from every
           testing site using SimpleReport in exactly the same way — eliminating inconsistencies and manual fixes.<br />
@@ -125,7 +125,7 @@ sections:
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="tablet:grid-col">
-        <h4>Testing sites</h4>
+        <h3>Testing sites</h3>
         <div class="usa-prose">
           Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:
         </div>
@@ -140,7 +140,7 @@ sections:
         </ul>
       </div>
       <div class="tablet:grid-col">
-        <h4>Public health departments</h4>
+        <h3>Public health departments</h3>
         <div class="usa-prose">
           Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
         </div>
@@ -157,7 +157,7 @@ sections:
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="grid-col-12">
-        <h4>Public health departments</h4>
+        <h3>Public health departments</h3>
         <div class="prose-f4">
           Public health departments should contact <a href="mailto:usds@cdc.gov">usds@cdc.gov</a>. We’ll get you set up quickly and make sure you receive testing site data in your required reporting format.
         </div>
@@ -166,7 +166,7 @@ sections:
     </div>
     <div class="grid-row grid-gap section-columns">
       <div class="grid-col-12">
-        <h4>Testing sites</h4>
+        <h3>Testing sites</h3>
         <div class="number-header">
           1. Request an account
         </div>
@@ -176,12 +176,14 @@ sections:
       </div>
       <div class="tablet:grid-col-6">
         <ul class="usa-list">
-          <li><strong>Testing site information:</strong></li>
-          <ul class="usa-list">
-            <li>Your Clinical Laboratory Improvement Amendments (CLIA) number, required for diagnostic testing</li>
-            <li>Web browsers and devices (laptops, tablets, etc.) that will be used to access SimpleReport</li>
-            <li>COVID-19 rapid testing device information (name of test/device)</li>
-          </ul>
+          <li>
+            <strong>Testing site information:</strong>
+            <ul class="usa-list">
+              <li>Your Clinical Laboratory Improvement Amendments (CLIA) number, required for diagnostic testing</li>
+              <li>Web browsers and devices (laptops, tablets, etc.) that will be used to access SimpleReport</li>
+              <li>COVID-19 rapid testing device information (name of test/device)</li>
+            </ul>
+          </li>
         </ul>
       </div>
       <div class="tablet:grid-col-6">

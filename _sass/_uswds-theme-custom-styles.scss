@@ -75,6 +75,7 @@ Typography
 
 .usa-nav__secondary {
   margin-bottom: 5em;
+  bottom: 2rem;
 }
 
 .usa-hero {
@@ -159,7 +160,7 @@ Typography
     color: #162e51;
   }
 
-  h4 {
+  h4, h3 {
     font-family: SF Mono;
     font-style: normal;
     font-weight: normal;
@@ -264,7 +265,7 @@ Typography
     height: 128px;
   }
 
-  h4 {
+  h4, h3 {
     color: #ffbc78;
   }
 

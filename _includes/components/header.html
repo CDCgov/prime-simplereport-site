@@ -21,6 +21,7 @@
               class="usa-logo-img"
               src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
               alt="{{ header.logo.alt }}">
+            <h1 class='usa-sr-only'>{{header.logo.alt}}</h1>
           {% else %}
           <em class="usa-logo__text">
             {{ header.title | default: site.title }}
@@ -84,9 +85,11 @@
             </div>
             {% endif %}
             {% else %}
-              <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
-                <span>{{ _section.text }}</span>
-              </a>
+              {% if _section.text %}
+                <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+                  <span>{{ _section.text }}test</span>
+                </a>
+              {% endif %}
             {% endif %}
           </li>
           {% endfor %}

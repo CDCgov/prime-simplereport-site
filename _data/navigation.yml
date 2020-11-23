@@ -12,6 +12,10 @@
 #   links: primary
 #
 primary:
+  # - text: Log in
+  #   href: https://prime-eval.okta.com/oauth2/default/v1/authorize?client_id=0oa53ln2xltKTIOyF4h6&response_type=token&scope=openid&scope=pdi&redirect_uri=https://cdc.simplereport.org/dev/app
+  #   external: true
+  #   class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
 # - text: Documentation
 #   href: /docs/
 # - text: Navigation section
