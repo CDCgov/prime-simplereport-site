@@ -70,6 +70,7 @@ Typography
   padding-top: 5em;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  border-bottom: none !important;
 }
 
 .usa-nav__secondary {
@@ -77,10 +78,13 @@ Typography
 }
 
 .usa-hero {
-  margin-top: -3em;
-  margin-bottom: -16em;
-  padding-bottom: 16em;
+  @include at-media("desktop") {
+    margin-top: -3em;
+    margin-bottom: -16em;
+    padding-bottom: 16em;
+  }
 }
+
 
 .usa-hero__callout {
   background-color: none;
