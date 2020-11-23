@@ -3,10 +3,11 @@
 <section class="usa-section-list usa-section">
     <div class="grid-container">
         {% for section in sections %}
-        <div class="grid-row">
+        <div class="grid-row section-title">
+            <div class="section-title-line"></div>
             <h2>{{section.title}}</h2>
         </div>
-        <div class="grid-row grid-gap grid-gap-small-btm">
+        <div class="grid-row grid-gap grid-gap-small-btm section-columns">
             {% for column in section.columns %}
             <div class="grid-col">
                 <h4>{{column.heading}}</h4>

@@ -10,7 +10,7 @@ main: foo, bar, qaz
     {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 
@@ -40,21 +40,8 @@ main: foo, bar, qaz
     {% if page.graphics_position != 'after' %}
       {{ _graphics }}
     {% endif %}
-
-
-    {% capture _sections %}
-      {% include section-list.html sections=page.sections %}
-    {% endcapture %}
-
-    {{ _sections }}
-    
-    {% if page.layout == 'post' %}
-      {{ content }}
-    {% else %}
-      <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
-        {{ content }}
-      </main>
-    {% endif %}
+ 
+    {{ content }}
 
     {% if page.graphics_position == 'after' %}
       {{ _graphics }}

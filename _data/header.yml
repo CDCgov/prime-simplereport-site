@@ -21,7 +21,7 @@ type: extended
 # Configuration for site header logo
 # If the logo is external add external: true
 logo:
-  src: /assets/img/SimpleReportLogo.svg
+  src: /assets/img/SimpleReport.svg
   alt: SimpleReport
   # external: true
 

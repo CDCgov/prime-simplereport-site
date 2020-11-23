@@ -24,13 +24,20 @@
         {% endif %}
       </div>
     </div>
-    {% if hero.placeholder %}
+  </div>
+</section>
+{% if hero.placeholder %}
+<div class="grid-container usa-hero-placeholder-container">
+  <div class="grid-row">
+    <div class="grid-col-4"></div>
+    <div class="grid-col">
       <img class="usa-hero-placeholder"
         src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
         alt="{{ hero.placeholder.alt }}">
-    {% endif %}
+    </div>
   </div>
-</section>
+</div>
+{% endif %}
 {% if hero.vector %}
 <img class="usa-hero-vector"
   src="{% if hero.vector.external %}{{ hero.vector.src }}{% else %}{{ hero.vector.src | relative_url }}{% endif %}"

@@ -34,12 +34,6 @@ Typography
 ----------------------------------------
 */
 
-@font-face {
-  font-family: 'SF Mono';
-  font-weight: 400;
-  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
-}
-
 .usa-prose {
   a {
     @include typeset-link;
@@ -54,9 +48,9 @@ Typography
   font-size: 40px;
 }
 
-.usa-header,
+.usa-header-container,
 .usa-hero {
-  background-color: #274863;
+  background-color: #162e51;
 }
 
 .usa-header + .usa-hero {
@@ -74,6 +68,8 @@ Typography
 
 .usa-navbar {
   padding-top: 5em;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .usa-nav__secondary {
@@ -81,39 +77,43 @@ Typography
 }
 
 .usa-hero {
-  padding-bottom: 13em;
+  margin-top: -3em;
+  margin-bottom: -16em;
+  padding-bottom: 16em;
 }
 
 .usa-hero__callout {
   background-color: none;
   max-width: none;
-  padding: 0 0 2em 0;
+  padding: 0;
 
   h2 {
-    color: #d9e8f6;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 151.28%;
-    margin: 0;
+    color: #ffffff;
   }
 }
 
 .usa-button.wide-button {
   width: 217px;
+  font-weight: normal;
+  margin-right: 0;
+}
+
+.usa-hero-placeholder-container {
+  margin-bottom: -19em;
 }
 
 .usa-hero-placeholder {
-  position: absolute;
-  width: 442px;
-  height: 310px;
-  left: calc(50% - 442px / 2 + 44px);
-  top: 29em;
+  width: 540px;
+  height: 423.32px;
+  z-index: 10;
 }
 
 .usa-hero-vector {
-  margin-top: -6em;
   width: 100%;
 }
 
@@ -123,13 +123,32 @@ Typography
 }
 
 .usa-section-list {
+  background: white;
+
+  .section-title-line {
+    border-bottom: 1px solid #73b3e7;
+    border-top: 1px solid #73b3e7;
+    height: 94px;
+    margin-right: -40px;
+    width: 40px;
+
+    + h2 {
+      margin-top: 29px;
+    }
+  }
+
+  .section-title + .section-columns {
+    margin-top: 5em;
+    margin-bottom: 1em;
+  }
+
   h2 {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 151.28%;
-    color: #274863;
+    color: #162e51;
   }
 
   h4 {
@@ -145,9 +164,44 @@ Typography
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 151.28%;
+    color: #162e51;
+  }
+
+  .prose-f4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
+    line-height: 24px;
+    color: #3d4551;
+  }
+
+  .number-header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 151.28%;
+    color: #1b1b1b;
+    padding-bottom: 1em;
+    padding-top: 2em;
+  }
+
+  .usa-list {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 150%;
-    color: #274863;
+    color: #1b1b1b;
+    padding-left: 1em;
+    padding-top: 1em;
+
+    li {
+      padding-left: 5px;
+    }
   }
 
   .grid-row.grid-gap {
@@ -162,4 +216,71 @@ Typography
 .cta-btn {
   color: #ffffff !important;
   text-decoration: none !important;
+}
+
+.grid-row {
+  padding: 0 5em;
+}
+
+.centered-image {
+  display: block;
+  margin: auto;
+}
+
+.usa-bullets {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #3d4551;
+}
+
+.usa-prose .usa-bullets {
+  width: 59%;
+}
+
+.blue-section {
+  background: #162e51;
+  color: white;
+  margin: 0 -10em;
+
+  h2 {
+    color: white;
+    width: 217px;
+  }
+
+  .section-title-line {
+    height: 128px;
+  }
+
+  h4 {
+    color: #ffbc78;
+  }
+
+  .usa-prose {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .usa-list {
+    color: white;
+    font-size: 14px;
+    padding-left: 1em;
+    padding-top: 1em;
+
+    li {
+      padding-left: 5px;
+    }
+  }
+}
+
+.divider-line {
+  border: 1px solid #73b3e7;
+  margin-top: 3em;
+  width: 800px;
 }
