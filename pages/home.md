@@ -171,7 +171,7 @@ sections:
           1. Request an account
         </div>
         <div class="prose-f4">
-          To get started using SimpleReport, you'll need someone at your testing site to be the SimpleReport administrator and point of contact. Request a free SimpleReport testing site account by using this form and providing a few details:
+          To get started using SimpleReport, you'll need someone at your testing site to be the SimpleReport administrator and point of contact. Request a free SimpleReport testing site account by using <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform">this form</a> and providing a few details:
         </div>
       </div>
       <div class="tablet:grid-col-6">
@@ -196,7 +196,7 @@ sections:
           2. Sign up for log in access
         </div>
         <div class="prose-f4">
-          Each person who uses SimpleReport will need their own unique login. Sign up to get login access by filling out this form and providing some basic information and a Facility Account ID.
+          Each person who uses SimpleReport will need their own unique login. Sign up to get login access by filling out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">this form</a> and providing some basic information and a Facility Account ID.
         </div>
       </div>
     </div>
