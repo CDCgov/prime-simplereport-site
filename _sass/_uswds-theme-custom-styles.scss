@@ -227,7 +227,9 @@ Typography
 }
 
 .grid-row {
-  padding: 0 5em;
+  @include at-media("tablet") {
+    padding: 0 5em;
+  }
 }
 
 .centered-image {
