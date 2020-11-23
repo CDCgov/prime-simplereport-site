@@ -34,6 +34,9 @@ Typography
 ----------------------------------------
 */
 
+$font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
 .usa-prose {
   a {
     @include typeset-link;
@@ -93,7 +96,7 @@ Typography
   padding: 0;
 
   h2 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -152,7 +155,7 @@ Typography
   }
 
   h2 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -161,7 +164,7 @@ Typography
   }
 
   h4, h3 {
-    font-family: SF Mono;
+    font-family: $font-mono;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -170,7 +173,7 @@ Typography
   }
 
   .usa-prose {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -179,7 +182,7 @@ Typography
   }
 
   .prose-f4 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -188,7 +191,7 @@ Typography
   }
 
   .number-header {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -199,7 +202,7 @@ Typography
   }
 
   .usa-list {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -239,7 +242,7 @@ Typography
 }
 
 .usa-bullets {
-  font-family: Inter;
+  font-family: $font-sans;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -270,7 +273,7 @@ Typography
   }
 
   .usa-prose {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -291,7 +294,27 @@ Typography
 }
 
 .divider-line {
-  border: 1px solid #73b3e7;
+  border-top: 1px solid #73b3e7;
   margin-top: 3em;
   width: 800px;
+}
+
+.usa-footer {
+  .usa-footer__return-to-top {
+    a {
+      margin-left: 80px;
+    }
+  }
+  .usa-footer__primary-section {
+    display: none;
+  }
+  .usa-footer__secondary-section {
+    margin-top: 40px;
+    background-color: #D9E8F6; // $theme-color-primary-lighter
+    h3.usa-footer__logo-heading {
+      font-family: $font-sans;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
 }
