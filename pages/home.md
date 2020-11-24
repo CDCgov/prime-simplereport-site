@@ -15,7 +15,7 @@ hero:
   # link:
   #   text: Link to more about that priority
   #   href: /link/
-  content: SimpleReport is a free web-based tool that provides COVID-19 testing sites an easy way to record results for rapid point-of-care tests and quickly report data to public health departments. SimpleReport is HIPAA-compliant and backed by the Centers for Disease Control (CDC).
+  content: SimpleReport is a free web-based tool that provides COVID-19 testing sites an easy way to record results for rapid point-of-care tests and quickly report data to public health departments. SimpleReport is HIPAA-compliant and backed by the Centers for Disease Control and Prevention (CDC).
   placeholder:
     src: /assets/img/ipad.png
     alt: placeholder
