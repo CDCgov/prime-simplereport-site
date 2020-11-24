@@ -89,16 +89,16 @@ sections:
     </div>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/smart-data.svg' | relative_url }}" alt=""><br><br>
-        <strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.
+        <img class="centered-image" src="{{ '/assets/img/smart-data.svg' | relative_url }}" alt="">
+        <p><strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.</p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/compliant.svg' | relative_url }}" alt=""><br><br>
-        <strong>Public health department compliant.</strong> SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.
+        <img class="centered-image" src="{{ '/assets/img/compliant.svg' | relative_url }}" alt="">
+        <p><strong>Public health department compliant.</strong> SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.</p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/secure.svg' | relative_url }}" alt=""><br><br>
-        <strong>Safe and secure.</strong> Test results and patient information are securely stored and protected by two-factor authentication.
+        <img class="centered-image" src="{{ '/assets/img/secure.svg' | relative_url }}" alt="">
+        <p><strong>Safe and secure.</strong> Test results and patient information are securely stored and protected by two-factor authentication.</p>
       </div>
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">

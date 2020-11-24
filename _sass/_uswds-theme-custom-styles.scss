@@ -33,8 +33,8 @@ $image-path: '../../../assets/img/';
 Typography
 ----------------------------------------
 */
-
-$font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$font-sans: Inter, $font-system;
 $font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 
 .usa-prose {
@@ -135,6 +135,32 @@ $font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   padding-top: 0;
 }
 
+.usa-section {
+
+  img {
+    margin-bottom: 24px;
+  }
+
+  .usa-bullets {
+    p {
+      margin: 0 auto 56px auto;
+      font-size: 16px;
+      line-height: 150%;
+      @include at-media("tablet") {
+        margin-bottom: 0;
+        font-size: 14px;
+      }
+    }
+  }
+
+  strong {
+    font-family: $font-system;
+    font-weight: 600;
+    color: #1B1B1B; // base-darkest
+  }
+
+}
+
 .usa-section-list {
   background: white;
 
@@ -232,7 +258,7 @@ $font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 .grid-row {
-  @include at-media("tablet") {
+  @include at-media("mobile-lg") {
     padding: 0 5em;
   }
 }
@@ -252,7 +278,10 @@ $font-mono: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 .usa-prose .usa-bullets {
-  width: 59%;
+  width: 100%;
+  @include at-media("tablet") {
+    max-width: 480px;
+  }
 }
 
 .blue-section {
