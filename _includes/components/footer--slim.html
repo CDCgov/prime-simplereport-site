@@ -12,9 +12,8 @@
       <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
     </div>
   {% endif %}
-
   {% if footer.links %}
-    {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}
+    {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}    
     {% assign _sizes = 'whole half third fourth sixth' | split: ' ' %}
     {% assign _size = footer_links.size | minus: 1 %}
     {% assign _size = _sizes[_size] | default: 'whole' %}
@@ -63,7 +62,7 @@
           <div class="grid-col-auto">
             {% for logo in footer.logos -%}
               {% if logo.url %}
-                <a href="{{ logo.url }}">
+                <a href="{{ logo.url }}">test
               {% endif %}
               <img class="usa-footer__logo-img" src="{% if logo.external %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}" alt="{{ logo.alt }}"{% if logo.width %}width="{{ logo.width }}"{% endif %}{% if logo.height %}height="{{ logo.height }}"{% endif %}>
               {% if logo.url %}
@@ -76,6 +75,9 @@
         {% if footer.heading %}
         <div class="grid-col-auto">
           <h3 class="usa-footer__logo-heading">{{ footer.heading }}</h3>
+        </div>
+        <div class="grid-col-fill text-align-right">
+          <a href='{% link pages/tos.md %}'>Terms of use</a>
         </div>
         {% endif %}
       </div>
