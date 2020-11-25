@@ -40,9 +40,9 @@ main: foo, bar, qaz
     {% if page.graphics_position != 'after' %}
       {{ _graphics }}
     {% endif %}
- 
-    {{ content }}
-
+    <div id='main-content'>
+      {{ content }}
+    </div>
     {% if page.graphics_position == 'after' %}
       {{ _graphics }}
     {% endif %}
