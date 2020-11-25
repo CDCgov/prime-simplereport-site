@@ -24,7 +24,7 @@ last_updated: false
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
-links: footer
+# links: footer
 
 # Configuration for the big footer's email sign-up form.
 # Set to true to make the form visible.
