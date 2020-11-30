@@ -1,5 +1,6 @@
 title: SimpleReport
-url: https://simplereport.cdc.gov
+baseurl: /SimpleReport_Public_Site
+url: http://cdcgov.github.io
 dap_agency: HHS
 dap_subagency: CDC
 
