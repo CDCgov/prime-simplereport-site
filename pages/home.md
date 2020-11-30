@@ -15,13 +15,11 @@ hero:
   # link:
   #   text: Link to more about that priority
   #   href: /link/
-  content: SimpleReport is a free web-based tool that provides COVID-19 testing sites an easy way to record results for rapid point-of-care tests and quickly report data to public health departments. SimpleReport is HIPAA-compliant and backed by the Centers for Disease Control and Prevention (CDC).
+  content: A better way to report COVID-19 rapid tests
   placeholder:
-    src: /assets/img/ipad.png
+    src: /assets/img/hero-illo.svg
     alt: placeholder
-  vector:
-    src: /assets/img/wave.svg
-    alt: hero-vector
+  vector: true
 # tagline: A tagline highlights your approach.
 # intro: |
 #   The tagline should inspire confidence and interest, [focusing on the value](javascript:void(0);) that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
@@ -82,35 +80,30 @@ sections:
       <div class="grid-col">
         <h3>Testing sites</h3>
         <div class="usa-prose">
-          SimpleReport integrates with COVID-19 testing workflows to streamline data collection and reporting. Smart data entry features let you skip repetitive tasks and get through the testing process faster, while reducing manual data
-          entry errors.
+          SimpleReport aligns with your existing workflow to streamline data collection and automatically report COVID-19 test results to public health departments.
         </div>
       </div>
     </div>
     <div class="grid-row grid-gap">
+      <div class="grid-col-12">
+        <img class="illustration-image" src="{{ '/assets/img/SimpleReportIllustration.svg' | relative_url }}" alt="">
+      </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/smart-data.svg' | relative_url }}" alt="">
         <p><strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.</p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/compliant.svg' | relative_url }}" alt="">
         <p><strong>Public health department compliant.</strong> SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.</p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <img class="centered-image" src="{{ '/assets/img/secure.svg' | relative_url }}" alt="">
         <p><strong>Safe and secure.</strong> Test results and patient information are securely stored and protected by two-factor authentication.</p>
       </div>
+      <div class="grid-col-12 divider-line"></div>
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="grid-col">
         <h3>Public health departments</h3>
         <div class="usa-prose">
-          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, HIPAA-compliant COVID-19 reports from testing sites in real time, customized to meet your reporting requirements. Get results from every
-          testing site using SimpleReport in exactly the same way — eliminating inconsistencies and manual fixes.<br />
-          <br />
-          <div class="usa-bullets">
-            Fast, accurate data means you can start case investigations and contact tracing sooner, stay on top of trends to make informed policy decisions, and quickly plan and prepare for emergencies.
-          </div>
+          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, complete, and timely rapid test results in real time, customized to meet your reporting requirements. Save time and reduce inconsistencies and manual fixes.
         </div>
       </div>
     </div>
@@ -192,11 +185,20 @@ sections:
         </ul>
       </div>
       <div class="grid-col-12">
+        <div class="prose-f4">
+          <br>
+          After submitting the form, you'll receive a response within 24 hours. If SimpleReport is supported in your area, you’ll get a Facility Account ID that staff can use to sign up for login access.
+          <br>
+          <br>
+          <div class="usa-button usa-button--primary text-no-underline text-ink large-button">Request a test site account ↗</div>
+        </div>
+      </div>
+      <div class="grid-col-12">
         <div class="number-header">
           2. Sign up for log in access
         </div>
         <div class="prose-f4">
-          Each person who uses SimpleReport will need their own unique login. Sign up to get login access by filling out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">this form</a> and providing some basic information and a Facility Account ID.
+          Each person who uses SimpleReport to enter testing data will need a unique login. Once you receive your Facility Account ID, new users can request login access by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">staff login access form</a>.
         </div>
       </div>
     </div>

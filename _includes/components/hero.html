@@ -29,7 +29,11 @@
 {% if hero.placeholder %}
 <div class="grid-container usa-hero-placeholder-container">
   <div class="grid-row">
-    <div class="grid-col-4"></div>
+    <div class="grid-col-6 usa-hero-subsection">
+      <p><strong>SimpleReport is a free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report required data to public health departments.</strong></p>
+      <p>✓ HIPAA-compliant</p>
+      <p>✓ Developed in partnership with the CDC</p>
+    </div>
     <div class="grid-col">
       <img class="usa-hero-placeholder"
         src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
@@ -39,8 +43,10 @@
 </div>
 {% endif %}
 {% if hero.vector %}
-<img class="usa-hero-vector"
-  src="{% if hero.vector.external %}{{ hero.vector.src }}{% else %}{{ hero.vector.src | relative_url }}{% endif %}"
-  alt="{{ hero.vector.alt }}">
+<img class="usa-hero-wave-top"
+  src="{{ '/assets/img/wave-top.svg' | relative_url }}"
+  alt="wave-top">
+<img class="usa-hero-wave-bottom" src="{{ '/assets/img/wave-bottom.svg' | relative_url }}" alt="wave-bottom">
+<div class="under-wave"></div>
 {% endif %}
 {% endif %}
