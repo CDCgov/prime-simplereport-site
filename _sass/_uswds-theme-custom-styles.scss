@@ -39,6 +39,7 @@ $font-sans: Inter, $font-system;
 $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .usa-prose {
+  font-weight: 400 !important;
   a {
     @include typeset-link;
   }
@@ -100,9 +101,9 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   padding: 0;
 
   h2 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 40px;
     line-height: 130%;
     color: #ffffff;
@@ -145,13 +146,19 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-hero-subsection {
-  font-family: Inter;
+  font-family: $font-sans;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal !important;
   font-size: 16px;
   line-height: 24px;
   color: #1b1b1b;
   padding-top: 15em;
+  strong {
+    font-weight: normal !important;
+  }
+  p:last-of-type {
+    margin-top: -16px;
+  }
 }
 
 .usa-hero-wave-top {
@@ -257,7 +264,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .usa-prose {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -266,7 +273,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .prose-f4 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -416,7 +423,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
 
     h3.usa-footer__logo-heading {
-      font-family: Inter;
+      font-family: $font-sans;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -425,7 +432,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
     a {
       color: white !important;
-      font-family: Inter;
+      font-family: $font-sans;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
@@ -454,7 +461,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   background: #005ea2;
   border-radius: 4px;
   color: white !important;
-  font-family: Inter;
+  font-family: $font-sans;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
