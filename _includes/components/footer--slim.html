@@ -8,9 +8,11 @@
   {% endif %}
 
   {% if footer.top %}
-    <div class="grid-container usa-footer__return-to-top">
-      <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
-    </div>
+    {% if page.return_top != 'false' %}
+      <div class="grid-container usa-footer__return-to-top">
+        <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
+      </div>
+    {% endif %}
   {% endif %}
   {% if footer.links %}
     {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}    

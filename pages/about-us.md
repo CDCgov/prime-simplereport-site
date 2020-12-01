@@ -4,6 +4,7 @@ description: About us
 permalink: /about-us/
 
 layout: post
+return_top: 'false'
 ---
 
 ## About SimpleReport
