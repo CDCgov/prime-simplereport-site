@@ -52,6 +52,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 40px;
 }
 
+.usa-logo {
+  margin-left: 0;
+}
+
 .usa-header-container,
 .usa-hero {
   background-color: #162e51;
@@ -115,10 +119,21 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .usa-hero-placeholder-container {
   margin-bottom: -13em;
-  margin-top: -20em;
-  display: none;
-  @include at-media('tablet-lg') {
+  margin-top: -15em;
+  /*display: none;*/
+  @include at-media('desktop') {
+    /*display: block;*/
+    margin-top: -20em;
+  }
+  @include at-media('tablet') {
     display: block;
+    margin-top: -11em;
+  }
+  .hero-img-col {
+    display: none;
+    @include at-media('tablet-lg') {
+      display: block;
+    }
   }
 }
 
@@ -142,18 +157,31 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .usa-hero-wave-top {
   margin-top: -13em;
   width: 100%;
+  display: none;
+  background-color: #162e51;
+  @include at-media('tablet'){
+    display: inline-block;
+  }
 }
 
 .usa-hero-wave-bottom {
   margin-top: -7em;
   width: 100%;
+  display: none;
+  @include at-media('tablet'){
+    display: inline-block;
+  }
 }
 
 .under-wave {
   background: #e1f3f8;
-  height: 10em;
+  height: 15em;
   width: 100%;
-  margin-top: -1em;
+  margin-top: -15em;
+  @include at-media('tablet'){
+    margin-top: -1em;
+    height: 10em;
+  }
 }
 
 .under-wave + .usa-section-list {
