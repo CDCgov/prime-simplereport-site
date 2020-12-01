@@ -169,7 +169,7 @@ sections:
       </div>
       <div class="grid-col-12 divider-line"></div>
     </div>
-    <div class="grid-row grid-gap section-columns">
+    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="grid-col-12">
         <h3>Testing sites</h3>
         <div class="prose-f4">
@@ -212,10 +212,9 @@ sections:
           2. Add users
         </div>
         <div class="prose-f4">
-          Each person who uses SimpleReport will need a unique login. Once you receive your Facility Account ID, request login access by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">form</a> with some basic information.
+          Each person who uses SimpleReport to enter testing data will need a unique login. Once you receive your Facility Account ID, new users can request login access by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">staff login access form</a>.
         </div>
       </div>
     </div>
-
   </div>
 </section>
