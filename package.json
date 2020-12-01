@@ -19,7 +19,8 @@
     "watch": "gulp watch",
     "eslint": "eslint assets/js/",
     "build": "gulp build-sass && bundle exec jekyll build --config _config.yml",
-    "deploy": "gulp build-sass && bundle exec jekyll build --config _ghpages_config.yml && gh-pages -d _site"
+    "deploy": "gulp build-sass && bundle exec jekyll build --config _ghpages_config.yml && gh-pages -d _site",
+    "deploy-azure": "git pull && npm install && gem install bundler && bundle install && npm run build && cd _site && az storage blob upload-batch -s . -d '$web' --account-name usdssimplereportbeta --destination-path '/'"
   },
   "dependencies": {
     "gulp-watch": "^5.0.0",
