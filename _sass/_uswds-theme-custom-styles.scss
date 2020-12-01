@@ -39,8 +39,38 @@ $font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
 $font-sans: Inter, $font-system;
 $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
+@font-face {
+  font-family: Inter;
+  src: url('https://static.figma.com/webfont/1/Inter-Regular.woff2?v=3.10')
+      format('woff2'),
+    url('https://static.figma.com/webfont/1/Inter-Regular.woff?v=3.10')
+      format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('https://static.figma.com/webfont/1/Inter-Medium.woff2?v=3.10')
+      format('woff2'),
+    url('https://static.figma.com/webfont/1/Inter-Medium.woff?v=3.10')
+      format('woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('https://static.figma.com/webfont/1/Inter-SemiBold.woff2?v=3.10')
+      format('woff2'),
+    url('https://static.figma.com/webfont/1/Inter-SemiBold.woff?v=3.10')
+      format('woff');
+  font-style: normal;
+  font-weight: 600;
+}
+
 .usa-prose {
-  font-weight: 400 !important;
+  font-weight: 400;
   a {
     @include typeset-link;
   }
@@ -104,7 +134,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   h2 {
     font-family: $font-sans;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 40px;
     line-height: 130%;
     color: #ffffff;
@@ -132,7 +162,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       // border: 1px solid #f00;
     }
   }
-
 }
 
 .usa-hero-placeholder-container {
@@ -166,21 +195,23 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .usa-hero-subsection {
   font-family: $font-sans;
-  font-weight: normal !important;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #1b1b1b;
+  color: #162e51;
   padding-top: 15em;
   ul {
     list-style: none;
     padding: 0;
     li {
       &:before {
-        content: '✓' ;
+        content: '✓';
         display: inline-block;
         width: 16px;
         font-family: $font-system;
       }
+
+      font-weight: 400;
     }
   }
 }
@@ -190,7 +221,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 100%;
   display: none;
   background-color: #162e51;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     display: inline-block;
   }
 }
@@ -199,7 +230,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   margin-top: -9em;
   width: 100%;
   display: none;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     display: inline-block;
   }
 }
@@ -209,11 +240,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   height: 15em;
   width: 100%;
   margin-top: -15em;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     margin-top: -1em;
     height: 10em;
   }
-  @include at-media('desktop'){
+  @include at-media('desktop') {
     height: 7em;
   }
 }
@@ -231,13 +262,16 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   .usa-bullets {
     p {
       margin: 0 auto 56px auto;
-      font-family: $font-system;
+      font-family: $font-sans;
       font-weight: 400;
       font-size: 16px;
       line-height: 150%;
       @include at-media('tablet') {
         margin-bottom: 0;
         font-size: 14px;
+      }
+      strong {
+        font-weight: 600;
       }
     }
   }
@@ -253,7 +287,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       padding-bottom: 40px;
     }
   }
-
 }
 
 .usa-section-list {
