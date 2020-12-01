@@ -182,6 +182,9 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     margin-top: -1em;
     height: 10em;
   }
+  @include at-media('desktop'){
+    height: 7em;
+  }
 }
 
 .under-wave + .usa-section-list {
