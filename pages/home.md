@@ -18,7 +18,7 @@ hero:
   content: A better way to report COVID-19 rapid tests
   placeholder:
     src: /assets/img/project-images/test-queue-horiz.png
-    alt: placeholder
+    alt: simplereport displayed on a tablet
   vector: true
 # tagline: A tagline highlights your approach.
 # intro: |
