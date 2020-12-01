@@ -86,7 +86,7 @@ sections:
     </div>
     <div class="grid-row grid-gap">
       <div class="grid-col-12">
-        <img class="illustration-image" src="{{ '/assets/img/SimpleReportIllustration.svg' | relative_url }}" alt="">
+        <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
         <p><strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.</p>
