@@ -395,15 +395,38 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
   }
   .usa-footer__primary-section {
-    display: none;
+    // display: none;
   }
   .usa-footer__secondary-section {
     margin-top: 40px;
-    background-color: #d9e8f6; // $theme-color-primary-lighter
+    background-color: #162e51;
+    color: white;
+    padding-bottom: 5em;
+
+    .usa-footer__logo {
+      margin-left: -6em;
+      margin-bottom: 3em;
+    }
+
+    .usa-footer__logo-img {
+      max-width: 74px;
+    }
+
     h3.usa-footer__logo-heading {
-      font-family: $font-sans;
-      font-weight: 400;
-      font-size: 16px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 151.28%;
+    }
+
+    a {
+      color: white !important;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
     }
   }
   .tos-right {
