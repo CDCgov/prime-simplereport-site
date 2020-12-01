@@ -215,10 +215,6 @@ sections:
           Each person who uses SimpleReport will need a unique login. Once you receive your Facility Account ID, request login access by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">form</a> with some basic information.
         </div>
       </div>
-      <div class="prose-f4 margin-top-3">
-        Ready to simplify your COVID-19 reporting? Create a SimpleReport account today.
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform" class="usa-button usa-button--primary text-no-underline text-ink large-button margin-top-3">Get started</a>
-      </div>
     </div>
 
   </div>
