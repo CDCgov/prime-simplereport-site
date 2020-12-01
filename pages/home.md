@@ -17,7 +17,7 @@ hero:
   #   href: /link/
   content: A better way to report COVID-19 rapid tests
   placeholder:
-    src: /assets/img/hero-illo.svg
+    src: /assets/img/project-images/test-queue-horiz.png
     alt: placeholder
   vector: true
 # tagline: A tagline highlights your approach.
