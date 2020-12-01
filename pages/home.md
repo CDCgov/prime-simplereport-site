@@ -80,7 +80,7 @@ sections:
       <div class="grid-col">
         <h3>Testing sites</h3>
         <div class="usa-prose">
-          SimpleReport aligns with your existing workflow to streamline data collection and automatically report COVID-19 test results to public health departments.
+          SimpleReport aligns with your existing workflow to streamline data collection and automatically reports COVID-19 test results to public health departments.
         </div>
       </div>
     </div>
@@ -89,13 +89,22 @@ sections:
         <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <p><strong>Smart data entry.</strong> Enter details like patient and testing site information just one time. Generate pre-filled reports 24/7 in just a few clicks, simply by entering in new test results.</p>
+        <p>
+          <strong>Smart data collection.</strong>
+          Instead of manually collecting and reporting the same information over and over again, SimpleReport allows you to store this data and automatically report the results in just a few clicks.
+        </p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <p><strong>Public health department compliant.</strong> SimpleReport automatically converts your data into the format required by your local public health department. Testing data is sent in real time, eliminating reporting delays.</p>
+        <p>
+          <strong>Public health department compliant.</strong>
+          SimpleReport automatically converts your datato the format required by your state and local public health departments. Testing data is sent in real time, eliminating reporting delays.
+        </p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
-        <p><strong>Safe and secure.</strong> Test results and patient information are securely stored and protected by two-factor authentication.</p>
+        <p>
+          <strong>Safe and secure.</strong> 
+         Test results and patient information are securely stored and protected by two-factor authentication.
+        </p>
       </div>
       <div class="grid-col-12 divider-line"></div>
     </div>
@@ -103,7 +112,7 @@ sections:
       <div class="grid-col">
         <h3>Public health departments</h3>
         <div class="usa-prose">
-          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, complete, and timely rapid test results in real time, customized to meet your reporting requirements. Save time and reduce inconsistencies and manual fixes.
+          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, complete, and timely rapid test results in real time, customized to meet your reporting requirementsSave time and reduce inconsistencies and manual fixes.
         </div>
       </div>
     </div>
@@ -118,14 +127,12 @@ sections:
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="tablet:grid-col">
-        <h3>Testing sites</h3>
+        <h3>Anyone providing COVID-19 rapid tests.</h3>
         <div class="usa-prose">
           Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:
         </div>
         <ul class="usa-list">
-          <li>Hospitals and clinics</li>
           <li>Long term care facilities</li>
-          <li>Independent labs</li>
           <li>K-12 schools</li>
           <li>Universities</li>
           <li>Urgent care centers</li>
@@ -135,7 +142,12 @@ sections:
       <div class="tablet:grid-col">
         <h3>Public health departments</h3>
         <div class="usa-prose">
-          Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
+          <p>
+            Any public health department in the United States is eligible to use SimpleReport. SimpleReport can connect you to thousands of testing sites, ensuring you get results in one place, in the format that’s easiest for you.
+          </p>
+          <p>
+            State, territorial, local, and tribal public health departments can all use SimpleReport. Once SimpleReport is connected to your health department you can offer it to sites providing rapid COVID-19 testing.
+          </p>
         </div>
       </div>
     </div>
@@ -152,7 +164,7 @@ sections:
       <div class="grid-col-12">
         <h3>Public health departments</h3>
         <div class="prose-f4">
-          Public health departments should contact <a href="mailto:usds@cdc.gov">usds@cdc.gov</a>. We’ll get you set up quickly and make sure you receive testing site data in your required reporting format.
+          Public health departments should contact <a href="mailto:usds@cdc.gov">usds@cdc.gov</a>. We’ll work with you to make sure you receive testing site data in your required reporting format.
         </div>
       </div>
       <div class="grid-col-12 divider-line"></div>
@@ -160,12 +172,20 @@ sections:
     <div class="grid-row grid-gap section-columns">
       <div class="grid-col-12">
         <h3>Testing sites</h3>
+        <div class="prose-f4">
+          Testing sites can get up and running with SimpleReport in just 2 steps.
+        </div>
         <div class="number-header">
           1. Request an account
         </div>
         <div class="prose-f4">
-          To get started using SimpleReport, you'll need someone at your testing site to be the SimpleReport administrator and point of contact. Request a free SimpleReport testing site account by using <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform">this form</a> and providing a few details:
+          To get started, you'll need someone at your testing site to be the SimpleReport account administrator and point of contact. Request a free SimpleReport testing site account by completing <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform">this form</a> and providing a few details:
         </div>
+      </div>
+      <div class="tablet:grid-col-6">
+        <ul class="usa-list">
+          <li>SimpleReport account administrator name and basic information, including any identity verification information required by your state</li>
+        </ul>
       </div>
       <div class="tablet:grid-col-6">
         <ul class="usa-list">
@@ -179,27 +199,25 @@ sections:
           </li>
         </ul>
       </div>
-      <div class="tablet:grid-col-6">
-        <ul class="usa-list">
-          <li><strong>Account administrator name and basic information,</strong> including any identity verification information required by your state </li>
-        </ul>
-      </div>
       <div class="grid-col-12">
         <div class="prose-f4">
-          <br>
+          <p>
           After submitting the form, you'll receive a response within 24 hours. If SimpleReport is supported in your area, you’ll get a Facility Account ID that staff can use to sign up for login access.
-          <br>
-          <br>
+          </p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform" class="usa-button usa-button--primary text-no-underline text-ink large-button">Request a test site account ↗</a>
         </div>
       </div>
       <div class="grid-col-12">
         <div class="number-header">
-          2. Sign up for log in access
+          2. Add users
         </div>
         <div class="prose-f4">
-          Each person who uses SimpleReport to enter testing data will need a unique login. Once you receive your Facility Account ID, new users can request login access by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">staff login access form</a>.
+          Each person who uses SimpleReport will need a unique login. Once you receive your Facility Account ID, request login access by filling out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform">form</a> with some basic information.
         </div>
+      </div>
+      <div class="prose-f4 margin-top-3">
+        Ready to simplify your COVID-19 reporting? Create a SimpleReport account today.
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform" class="usa-button usa-button--primary text-no-underline text-ink large-button margin-top-3">Get started</a>
       </div>
     </div>
 
