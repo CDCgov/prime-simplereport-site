@@ -33,12 +33,14 @@ $image-path: '../../../assets/img/';
 Typography
 ----------------------------------------
 */
+
 $font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
   sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 $font-sans: Inter, $font-system;
 $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .usa-prose {
+  font-weight: 400 !important;
   a {
     @include typeset-link;
   }
@@ -89,8 +91,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .usa-hero {
   @include at-media('desktop') {
     margin-top: -3em;
-    margin-bottom: -16em;
-    padding-bottom: 16em;
+    // margin-bottom: -16em;
+    // padding-bottom: 16em;
   }
 }
 
@@ -98,16 +100,19 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   background-color: none;
   max-width: none;
   padding: 0;
-
+  margin-top: 40px;
   h2 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 40px;
     line-height: 130%;
     color: #ffffff;
     width: 90%;
     margin-top: 5px;
+  }
+  @include at-media('desktop') {
+    margin-top: 0;
   }
 }
 
@@ -117,8 +122,21 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   margin-right: 0;
 }
 
+.usa-navbar {
+  @include at-media(mobile) {
+    padding-top: 0;
+    .usa-menu-btn {
+    }
+    #header-logo {
+      margin-top: 160px;
+      // border: 1px solid #f00;
+    }
+  }
+
+}
+
 .usa-hero-placeholder-container {
-  margin-bottom: -13em;
+  margin-bottom: -12em;
   margin-top: -15em;
   /*display: none;*/
   @include at-media('desktop') {
@@ -127,7 +145,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
   @include at-media('tablet') {
     display: block;
-    margin-top: -11em;
+    margin-top: -10em;
   }
   .hero-img-col {
     display: none;
@@ -142,16 +160,29 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 100%;
   height: auto;
   z-index: 10;
+  margin-top: 12em;
+  margin-left: 1em;
 }
 
 .usa-hero-subsection {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  font-family: $font-sans;
+  font-weight: normal !important;
   font-size: 16px;
   line-height: 24px;
   color: #1b1b1b;
   padding-top: 15em;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      &:before {
+        content: '✓' ;
+        display: inline-block;
+        width: 16px;
+        font-family: $font-system;
+      }
+    }
+  }
 }
 
 .usa-hero-wave-top {
@@ -165,7 +196,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-hero-wave-bottom {
-  margin-top: -7em;
+  margin-top: -9em;
   width: 100%;
   display: none;
   @include at-media('tablet'){
@@ -200,6 +231,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   .usa-bullets {
     p {
       margin: 0 auto 56px auto;
+      font-family: $font-system;
+      font-weight: 400;
       font-size: 16px;
       line-height: 150%;
       @include at-media('tablet') {
@@ -208,12 +241,19 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       }
     }
   }
-
-  strong {
-    font-family: $font-system;
-    font-weight: 600;
-    color: #1b1b1b; // base-darkest
+  .usa-list {
+    li {
+      font-family: $font-system;
+      font-weight: 400;
+    }
   }
+
+  &.blue-section {
+    ul {
+      padding-bottom: 40px;
+    }
+  }
+
 }
 
 .usa-section-list {
@@ -257,7 +297,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .usa-prose {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -266,7 +306,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .prose-f4 {
-    font-family: Inter;
+    font-family: $font-sans;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -416,7 +456,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
 
     h3.usa-footer__logo-heading {
-      font-family: Inter;
+      font-family: $font-sans;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -425,7 +465,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
     a {
       color: white !important;
-      font-family: Inter;
+      font-family: $font-sans;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
@@ -454,7 +494,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   background: #005ea2;
   border-radius: 4px;
   color: white !important;
-  font-family: Inter;
+  font-family: $font-sans;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
