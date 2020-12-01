@@ -97,7 +97,7 @@ sections:
       <div class="tablet:grid-col-4 usa-bullets">
         <p>
           <strong>Public health department compliant.</strong>
-          SimpleReport automatically converts your datato the format required by your state and local public health departments. Testing data is sent in real time, eliminating reporting delays.
+          SimpleReport automatically converts your data to the format required by your state and local public health departments. Testing data is sent in real time, eliminating reporting delays.
         </p>
       </div>
       <div class="tablet:grid-col-4 usa-bullets">
@@ -112,7 +112,7 @@ sections:
       <div class="grid-col">
         <h3>Public health departments</h3>
         <div class="usa-prose">
-          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, complete, and timely rapid test results in real time, customized to meet your reporting requirementsSave time and reduce inconsistencies and manual fixes.
+          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, complete, and timely rapid test results in real time, customized to meet your reporting requirements. Save time and reduce inconsistencies and manual fixes.
         </div>
       </div>
     </div>
@@ -132,7 +132,7 @@ sections:
           Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:
         </div>
         <ul class="usa-list">
-          <li>Long term care facilities</li>
+          <li>Long-term care facilities</li>
           <li>K-12 schools</li>
           <li>Universities</li>
           <li>Urgent care centers</li>
