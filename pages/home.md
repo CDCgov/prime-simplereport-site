@@ -190,7 +190,7 @@ sections:
           After submitting the form, you'll receive a response within 24 hours. If SimpleReport is supported in your area, you’ll get a Facility Account ID that staff can use to sign up for login access.
           <br>
           <br>
-          <div class="usa-button usa-button--primary text-no-underline text-ink large-button">Request a test site account ↗</div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform" class="usa-button usa-button--primary text-no-underline text-ink large-button">Request a test site account ↗</a>
         </div>
       </div>
       <div class="grid-col-12">
