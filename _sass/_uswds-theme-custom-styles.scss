@@ -89,10 +89,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-hero {
+  padding-top: 40px;
+  padding-bottom: 160px;
+  // border: 1px solid #f00;
   @include at-media('desktop') {
-    margin-top: -3em;
+    // margin-top: -3em;
     // margin-bottom: -16em;
     // padding-bottom: 16em;
+    background: #162E51 url('wave-top.svg') bottom left no-repeat;
   }
 }
 
@@ -101,15 +105,22 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   max-width: none;
   padding: 0;
   margin-top: 40px;
-  h2 {
+  h1, h2 {
     font-family: $font-sans;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 130%;
     color: #ffffff;
-    width: 90%;
-    margin-top: 5px;
+    max-width: 640px;
+    padding: 0;
+    margin: 0;
+    // width: 90%;
+    // margin-top: 5px;
+  }
+  h1 {
+    color: #97D4E9;
+;
   }
   @include at-media('desktop') {
     margin-top: 0;
@@ -184,39 +195,39 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
   }
 }
-
-.usa-hero-wave-top {
-  margin-top: -13em;
-  width: 100%;
-  display: none;
-  background-color: #162e51;
-  @include at-media('tablet'){
-    display: inline-block;
-  }
-}
-
-.usa-hero-wave-bottom {
-  margin-top: -9em;
-  width: 100%;
-  display: none;
-  @include at-media('tablet'){
-    display: inline-block;
-  }
-}
-
-.under-wave {
-  background: #e1f3f8;
-  height: 15em;
-  width: 100%;
-  margin-top: -15em;
-  @include at-media('tablet'){
-    margin-top: -1em;
-    height: 10em;
-  }
-  @include at-media('desktop'){
-    height: 7em;
-  }
-}
+//
+// .usa-hero-wave-top {
+//   margin-top: -13em;
+//   width: 100%;
+//   display: none;
+//   background-color: #162e51;
+//   @include at-media('tablet'){
+//     display: inline-block;
+//   }
+// }
+//
+// .usa-hero-wave-bottom {
+//   margin-top: -9em;
+//   width: 100%;
+//   display: none;
+//   @include at-media('tablet'){
+//     display: inline-block;
+//   }
+// }
+//
+// .under-wave {
+//   background: #e1f3f8;
+//   height: 15em;
+//   width: 100%;
+//   margin-top: -15em;
+//   @include at-media('tablet'){
+//     margin-top: -1em;
+//     height: 10em;
+//   }
+//   @include at-media('desktop'){
+//     height: 7em;
+//   }
+// }
 
 .under-wave + .usa-section-list {
   margin-top: -5em;
