@@ -22,3 +22,10 @@ Serve site
 
 Deploy to GitHub Pages  
 `npm run deploy`
+
+## Azure Deployments
+Deploy to Azure Demo Site
+- `npm run deploy-azure-demo`
+
+Deploy to Azure Beta Site
+- `npm run deploy-azure-beta`

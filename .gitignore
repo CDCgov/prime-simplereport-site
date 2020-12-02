@@ -17,3 +17,5 @@ docker-compose.yml
 spec/dest/*
 assets/js/bundles/
 
+# IDE
+.idea
