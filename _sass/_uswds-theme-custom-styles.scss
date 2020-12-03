@@ -98,7 +98,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   max-width: none;
   padding: 0;
   margin-top: 40px;
-  h1, h2 {
+  h1,
+  h2 {
     font-family: $font-sans;
     font-style: normal;
     font-weight: 400;
@@ -116,8 +117,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     // margin-top: 5px;
   }
   h1 {
-    color: #97D4E9;
-;
+    color: #97d4e9;
+    margin-top: 3em;
   }
   @include at-media('desktop') {
     margin-top: 0;
@@ -129,8 +130,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   font-weight: normal;
   margin-right: 0;
   margin-bottom: 1em;
+  float: right;
   @include at-media('mobile-lg') {
-
   }
 }
 
@@ -143,13 +144,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       margin-top: 160px;
     }
   }
-
 }
 
 .usa-hero-placeholder-container {
-
   @include at-media('desktop') {
-
   }
   @include at-media('tablet') {
     display: block;
@@ -177,10 +175,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .container-blue {
-  background: #E1F3F8;
+  background: #e1f3f8;
   @include at-media('desktop') {
     padding-bottom: 160px;
-    background: #E1F3F8 url('/assets/img/waves.svg') top center no-repeat;
+    background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
     max-height: 340px;
   }
 }
@@ -193,7 +191,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   color: #1b1b1b;
   padding-top: 1em;
   // border: 1px solid #f00;
-  @include at-media ('desktop') {
+  @include at-media('desktop') {
     padding-top: 7em;
     // padding-bottom: 15em;
     // max-height: 180px;
@@ -211,7 +209,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     padding: 0;
     li {
       &:before {
-        content: '✓' ;
+        content: '✓';
         display: inline-block;
         width: 16px;
         font-family: $font-system;
@@ -219,7 +217,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
   }
 }
-
 
 //
 // .usa-hero-wave-top {
@@ -290,7 +287,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       padding-bottom: 40px;
     }
   }
-
 }
 
 .usa-section-list {
