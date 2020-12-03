@@ -19,7 +19,7 @@
     "watch": "gulp watch",
     "eslint": "eslint assets/js/",
     "build": "gulp build-sass && bundle exec jekyll build --config _config.yml",
-    "deploy": "gulp build-sass && bundle exec jekyll build --config _ghpages_config.yml && gh-pages -d _site",
+    "deploy": "gulp build-sass --ghpages && bundle exec jekyll build --config _ghpages_config.yml && gh-pages -d _site",
     "deploy-azure-beta": "./deploy.sh beta",
     "deploy-azure-demo": "./deploy.sh demo"
   },
