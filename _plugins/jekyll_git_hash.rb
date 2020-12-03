@@ -9,12 +9,15 @@
 # Distributed under the MIT license
 # Copyright Yegor Bugayenko, 2014
 
+# frozen_string_literal: true
+
 module Jekyll
+  # Jekyll plugin for generating Git hash
   class GitHashGenerator < Generator
     priority :high
     safe true
     def generate(site)
-      hash = %x( git rev-parse --short HEAD ).strip
+      hash = `git rev-parse --short HEAD`.strip
       site.data['hash'] = hash
     end
   end
