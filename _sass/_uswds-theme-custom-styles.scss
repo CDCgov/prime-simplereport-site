@@ -91,13 +91,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .usa-hero {
   padding-top: 40px;
   background-image: none;
-  @include at-media('desktop') {
-    // margin-top: -3em;
-    // margin-bottom: -16em;
-    // padding-bottom: 16em;
-    padding-bottom: 160px;
-    background: #162E51 url('/assets/img/waves.svg') bottom left no-repeat;
-  }
 }
 
 .usa-hero__callout {
@@ -116,9 +109,9 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     padding: 0;
     margin: 0;
 
-    @include at-media('desktop') {
-      padding-bottom: 40px;
-    }
+    // @include at-media('desktop') {
+    //   padding-bottom: 40px;
+    // }
     // width: 90%;
     // margin-top: 5px;
   }
@@ -135,6 +128,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 217px;
   font-weight: normal;
   margin-right: 0;
+  margin-bottom: 1em;
+  @include at-media('mobile-lg') {
+
+  }
 }
 
 .usa-navbar {
@@ -144,28 +141,25 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
     #header-logo {
       margin-top: 160px;
-      // border: 1px solid #f00;
     }
   }
 
 }
 
 .usa-hero-placeholder-container {
-  margin-bottom: -12em;
-  margin-top: -15em;
-  /*display: none;*/
+
   @include at-media('desktop') {
-    /*display: block;*/
-    margin-top: -20em;
+
   }
   @include at-media('tablet') {
     display: block;
-    margin-top: -10em;
+    // margin-top: -10em;
   }
   .hero-img-col {
     display: none;
     @include at-media('tablet-lg') {
       display: block;
+      // margin-top: -10em;
     }
   }
 }
@@ -175,8 +169,20 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 100%;
   height: auto;
   z-index: 10;
-  margin-top: 12em;
-  margin-left: 1em;
+  // margin-top: 12em;
+  // margin-left: 1em;
+  // margin-top: 1em;
+  margin: 1em 0 1em 1em;
+  padding-top: 1em;
+}
+
+.container-blue {
+  background: #E1F3F8;
+  @include at-media('desktop') {
+    padding-bottom: 160px;
+    background: #E1F3F8 url('/assets/img/waves.svg') top center no-repeat;
+    max-height: 340px;
+  }
 }
 
 .usa-hero-subsection {
@@ -185,8 +191,21 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 16px;
   line-height: 24px;
   color: #1b1b1b;
-  padding-top: 15em;
-  border: 1px solid #f00;
+  padding-top: 1em;
+  // border: 1px solid #f00;
+  @include at-media ('desktop') {
+    padding-top: 7em;
+    // padding-bottom: 15em;
+    // max-height: 180px;
+  }
+  p {
+    max-width: 380px;
+  }
+  @include at-media('desktop') {
+    & > p {
+      padding-top: 1em;
+    }
+  }
   ul {
     list-style: none;
     padding: 0;
@@ -200,6 +219,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
   }
 }
+
+
 //
 // .usa-hero-wave-top {
 //   margin-top: -13em;
@@ -233,11 +254,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 //     height: 7em;
 //   }
 // }
-
-.under-wave + .usa-section-list {
-  margin-top: -5em;
-  padding-top: 0;
-}
+//
+// .under-wave + .usa-section-list {
+//   margin-top: -5em;
+//   padding-top: 0;
+// }
 
 .usa-section {
   img {
