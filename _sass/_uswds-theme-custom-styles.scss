@@ -26,7 +26,7 @@ Variables
 ----------------------------------------
 */
 
-$image-path: '../../../assets/img/';
+$image-path: '/assets/img/';
 
 /*
 ----------------------------------------
@@ -90,13 +90,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .usa-hero {
   padding-top: 40px;
-  padding-bottom: 160px;
-  // border: 1px solid #f00;
+  background-image: none;
   @include at-media('desktop') {
     // margin-top: -3em;
     // margin-bottom: -16em;
     // padding-bottom: 16em;
-    background: #162E51 url('wave-top.svg') bottom left no-repeat;
+    padding-bottom: 160px;
+    background: #162E51 url('/assets/img/waves.svg') bottom left no-repeat;
   }
 }
 
@@ -115,6 +115,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     max-width: 640px;
     padding: 0;
     margin: 0;
+
+    @include at-media('desktop') {
+      padding-bottom: 40px;
+    }
     // width: 90%;
     // margin-top: 5px;
   }
@@ -182,6 +186,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   line-height: 24px;
   color: #1b1b1b;
   padding-top: 15em;
+  border: 1px solid #f00;
   ul {
     list-style: none;
     padding: 0;

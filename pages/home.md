@@ -19,7 +19,7 @@ hero:
   placeholder:
     src: /assets/img/project-images/test-queue-horiz.png
     alt: simplereport displayed on a tablet
-  vector: true
+  vector: false
 # tagline: A tagline highlights your approach.
 # intro: |
 #   The tagline should inspire confidence and interest, [focusing on the value](javascript:void(0);) that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.

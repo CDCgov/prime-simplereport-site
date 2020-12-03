@@ -1,5 +1,7 @@
 {% if hero %}
-<section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";>
+<section class="usa-hero" aria-label="Introduction";>
+
+<!-- <section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";> -->
   <div class="grid-container">
     <div class="grid-row">
       <div class="grid-col usa-hero__callout">
@@ -39,11 +41,11 @@
           Developed in partnership with the CDC
         </li>
     </div>
-    <div class="grid-col hero-img-col">
+    <!-- <div class="grid-col hero-img-col">
       <img class="usa-hero-placeholder"
         src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
         alt="{{ hero.placeholder.alt }}">
-    </div>
+    </div> -->
   </div>
 </div>
 {% endif %}
