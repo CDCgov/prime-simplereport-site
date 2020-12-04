@@ -40,7 +40,7 @@ primary:
 
 secondary:
   - text: Log in
-    href: https://hhs-prime.okta.com/oauth2/default/v1/authorize?client_id=0oa5ahrdfSpxmNZO74h6&response_type=token&scope=openid&scope=simple_report&redirect_uri=https://simplereport.cdc.gov/app&nonce=thisisnotsafe&state=thisisbogus
+    href: https://hhs-prime.okta.com/oauth2/default/v1/authorize?client_id=0oa5ahrdfSpxmNZO74h6&response_type=token+id_token&scope=openid&scope=simple_report&redirect_uri=https://simplereport.cdc.gov/app&nonce=thisisnotsafe&state=thisisbogus
     external: true
     class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
 
