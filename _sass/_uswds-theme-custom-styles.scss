@@ -569,3 +569,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   line-height: 150%;
   text-align: center;
 }
+
+.no-top-margin {
+  margin-top: 0 !important;
+}
