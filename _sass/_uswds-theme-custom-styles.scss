@@ -355,7 +355,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
   .section-title + .section-columns {
     margin-top: 2em;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
   }
 
   h2 {
@@ -444,7 +444,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .illustration-image {
   margin-bottom: 3em !important;
-  margin-top: -4em;
 }
 
 .usa-bullets {
