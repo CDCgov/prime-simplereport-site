@@ -1,9 +1,8 @@
 ---
 title: Terms of Service – SimpleReport
-description: Terms of use
-permalink: /terms-of-use/
+description: Terms of service
+permalink: /terms-of-service/
 layout: post
-home_link: /
 home_text: SimpleReport
 ---
 
