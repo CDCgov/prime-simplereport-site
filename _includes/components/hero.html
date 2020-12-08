@@ -39,7 +39,12 @@
 
   <div class="grid-container usa-hero-placeholder-container">
     <div class="grid-row">
-      <div class="grid-col usa-hero-subsection">
+      <div class="tablet:grid-col hero-img-col mobile-display">
+        <img class="usa-hero-placeholder"
+          src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
+          alt="{{ hero.placeholder.alt }}">
+      </div>
+      <div class="tablet:grid-col usa-hero-subsection">
         <p>SimpleReport is a free tool that makes it easy for COVID-19 testing sites to record results for rapid point-of-care tests and quickly report required data to public health departments.</p>
         <ul>
           <li>
@@ -49,7 +54,7 @@
             Developed in partnership with the CDC
           </li>
       </div>
-      <div class="grid-col hero-img-col">
+      <div class="tablet:grid-col hero-img-col tablet-display">
         <img class="usa-hero-placeholder"
           src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
           alt="{{ hero.placeholder.alt }}">

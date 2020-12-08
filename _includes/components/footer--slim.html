@@ -10,7 +10,9 @@
   {% if footer.top %}
     {% if page.return_top != 'false' %}
       <div class="grid-container usa-footer__return-to-top">
-        <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
+        <div class="grid-row">
+          <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
+        </div>
       </div>
     {% endif %}
   {% endif %}

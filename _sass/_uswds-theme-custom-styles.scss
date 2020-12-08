@@ -121,13 +121,17 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .usa-hero {
   padding-top: 40px;
   background-image: none;
+  padding-bottom: 3rem;
+  @include at-media('desktop'){
+    padding-bottom: 2rem;
+  }
+
 }
 
 .usa-hero__callout {
   background-color: none;
   max-width: none;
   padding: 0;
-  margin-top: 40px;
   h1,
   h2 {
     font-family: $font-sans;
@@ -156,12 +160,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-button.wide-button {
-  width: 217px;
+  width: 150px;
   font-weight: normal;
   margin-right: 0;
   margin-bottom: 1em;
   float: right;
-  @include at-media('mobile-lg') {
+  @include at-media('desktop') {
+    width: 218px;
   }
 }
 
@@ -184,7 +189,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     // margin-top: -10em;
   }
   .hero-img-col {
-    display: none;
+    /*display: none;*/
     @include at-media('tablet-lg') {
       display: block;
       // margin-top: -10em;
@@ -200,8 +205,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   // margin-top: 12em;
   // margin-left: 1em;
   // margin-top: 1em;
-  margin: 1em 0 1em 1em;
-  padding-top: 1em;
+  /*margin: 0 0 1em 1em;*/
+  padding-top: 2em;
+  @include at-media('tablet'){
+    margin: 1em 0 1em 1em;
+    padding-top: 1em;
+  }
+  
 }
 
 .container-blue {
@@ -221,6 +231,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   color: #1b1b1b;
   padding-top: 1em;
   // border: 1px solid #f00;
+  padding-bottom: 1rem;
+  @include at-media('tablet'){
+    padding-bottom: 0;
+  }
   @include at-media('desktop') {
     padding-top: 7em;
     // padding-bottom: 15em;
@@ -296,7 +310,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
   .usa-bullets {
     p {
-      margin: 0 auto 56px auto;
+      /*margin: 0 auto 2em auto;*/
       font-family: $font-sans;
       font-weight: 400;
       font-size: 16px;
@@ -341,7 +355,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
   .section-title + .section-columns {
     margin-top: 2em;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
   }
 
   h2 {
@@ -409,7 +423,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .grid-row.grid-gap {
-    padding-bottom: 7em;
+    padding-bottom: 3em;
   }
 }
 
@@ -423,14 +437,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .grid-row {
-  @include at-media('mobile-lg') {
+  @include at-media('tablet') {
     padding: 0 5em;
   }
 }
 
 .illustration-image {
   margin-bottom: 3em !important;
-  margin-top: -4em;
 }
 
 .usa-bullets {
@@ -450,7 +463,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-bullets + .divider-line {
-  margin-top: 5em;
+  /*margin-top: 5em;*/
 }
 
 .blue-section {
@@ -500,11 +513,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-footer {
-  .usa-footer__return-to-top {
-    a {
-      margin-left: 80px;
-    }
-  }
   .usa-footer__primary-section {
     // display: none;
   }
@@ -515,7 +523,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     padding-bottom: 5em;
 
     .usa-footer__logo {
-      margin-left: -6em;
       margin-bottom: 3em;
     }
 
@@ -569,6 +576,20 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   line-height: 150%;
   text-align: center;
 }
+
+.mobile-display {
+  display: block;
+  @include at-media('tablet'){
+    display: none !important;
+  }
+
+}
+
+.tablet-display {
+  display: none;
+  @include at-media('tablet'){
+    display: block;
+  }
 
 .no-top-margin {
   margin-top: 0 !important;
