@@ -590,6 +590,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   @include at-media('tablet'){
     display: block;
   }
+}
 
 .no-top-margin {
   margin-top: 0 !important;
