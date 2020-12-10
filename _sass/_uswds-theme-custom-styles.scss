@@ -367,7 +367,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     color: #162e51;
   }
 
-  h4,
   h3 {
     font-family: $font-mono;
     font-style: normal;
@@ -376,6 +375,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     line-height: 150%;
     color: #1b1b1b;
     margin-bottom: 2em;
+  }
+  h4 {
+    font-family: $font-sans;
+    font-weight: 700;
+    font-size: 14px;
   }
 
   .usa-prose {

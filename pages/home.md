@@ -179,13 +179,13 @@ sections:
           Request an account
         </h4>
         <div class="prose-f4">
-          To get started, you'll need to choose a SimpleReport account administrator. Then simply provide the details below to request a <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform">testing site account</a>.
+          To get started, you'll need to choose a SimpleReport account administrator. Then simply provide the details below to <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform">request a testing site account</a>.
         </div>
       </div>
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="tablet:grid-col-6">
-        <strong>SimpleReport account information</strong>
+        <h4>SimpleReport account information</h4>
         <ul class="usa-list">
           <li>Name of your SimpleReport account administrator</li>
           <li>Email address and phone number</li>
@@ -193,7 +193,7 @@ sections:
         </ul>
       </div>
       <div class="tablet:grid-col-6">
-        <strong>Testing site information</strong>
+        <h4>Testing site information</h4>
         <ul class="usa-list">
           <li>Your Clinical Laboratory Improvement Amendments (CLIA) number</li>
           <li>Web browsers and devices (laptops, tablets, etc.) used to access SimpleReport</li>
