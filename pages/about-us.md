@@ -2,9 +2,9 @@
 title: About us
 description: About us
 permalink: /about-us/
-
 layout: post
 return_top: 'false'
+home_text: SimpleReport
 ---
 
 ## About SimpleReport
