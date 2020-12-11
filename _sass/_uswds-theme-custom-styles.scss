@@ -601,3 +601,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .no-top-margin {
   margin-top: 0 !important;
 }
+
+.no-underline {
+  text-decoration: none !important;
+}
