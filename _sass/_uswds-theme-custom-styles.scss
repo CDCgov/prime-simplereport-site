@@ -605,3 +605,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .no-underline {
   text-decoration: none !important;
 }
+
+.home-link {
+  svg {
+    height: 1em;
+    margin-bottom: -2px;
+    margin-right: .5rem;
+  }
+}
