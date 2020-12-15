@@ -219,6 +219,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   @include at-media('desktop') {
     padding-bottom: 160px;
     background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
+    /*uncomment for githubpages*/
+    /*background-image: url('/assets/img/waves.svg'), url('/SimpleReport_Public_Site/assets/img/waves.svg');*/
     max-height: 340px;
   }
 }
@@ -367,7 +369,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     color: #162e51;
   }
 
-  h4,
   h3 {
     font-family: $font-mono;
     font-style: normal;
@@ -376,6 +377,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     line-height: 150%;
     color: #1b1b1b;
     margin-bottom: 2em;
+  }
+  h4 {
+    font-family: $font-sans;
+    font-weight: 700;
+    font-size: 14px;
   }
 
   .usa-prose {
@@ -594,4 +600,16 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .no-top-margin {
   margin-top: 0 !important;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+.home-link {
+  svg {
+    height: 1em;
+    margin-bottom: -2px;
+    margin-right: .5rem;
+  }
 }

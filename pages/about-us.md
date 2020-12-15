@@ -1,10 +1,10 @@
 ---
-title: About Us
+title: About us
 description: About us
 permalink: /about-us/
-
 layout: post
 return_top: 'false'
+home_text: SimpleReport
 ---
 
 ## About SimpleReport
@@ -19,7 +19,7 @@ CDC increases the health security of our nation. As the nation’s health protec
 - [Read CDC’s Privacy Policy Notice](https://www.cdc.gov/other/privacy.html)
 
 ## About USDS
-USDS is a group of technologists from diverse backgrounds working across the federal government to transform critical services for the people. These specialists join for tours of civic service to create a steady influx of fresh perspectives. Our mission is to do the greatest good for the greatest number of people in the greatest need.
+USDS is a group of technologists from diverse backgrounds working across the federal government to transform critical services for the people. These specialists join for tours of civic service to create a steady influx of fresh perspectives. Today USDS continues its non-partisan mission by bringing better government services to all Americans through design and technology.
 
 - [Learn more about USDS](https://www.usds.gov/mission)
 

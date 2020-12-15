@@ -16,10 +16,13 @@ main:
 
       <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
         {% if page.home_text %}
-          <a href="{% link pages/home.md %}">{{ page.home_text }}</a>
+          <a class='home-link' href="{% link pages/home.md %}">
+            {% include arrow-left.html %}
+            {{ page.home_text }}
+          </a>
         {% endif %}
         {% if page.title %}
-          <h1 {% if page.home_link %}class="no-top-margin"{% endif %}>{{ page.title }}</h1>
+          <h1 {% if page.home_text %}class="no-top-margin"{% endif %}>{{ page.title }}</h1>
         {% endif %}
         {{ content }}
       </main>
