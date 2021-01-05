@@ -15,7 +15,7 @@
           {{ hero.callout.text | default: hero.callout }}
         </h1>
         {% endif %} -->
-        <a href="https://hhs-prime.okta.com/oauth2/default/v1/authorize?client_id=0oa5ahrdfSpxmNZO74h6&amp;response_type=token+id_token&amp;scope=openid&amp;scope=simple_report&amp;redirect_uri=https://simplereport.cdc.gov/app&amp;nonce=thisisnotsafe&amp;state=thisisbogus" class="usa-button usa-button--accent-cool text-no-underline text-ink wide-button">
+        <a href="{{ site.okta_url }}" class="usa-button usa-button--accent-cool text-no-underline text-ink wide-button">
           Log in
         </a>
         <h1>SimpleReport</h1>
