@@ -115,7 +115,7 @@ gulp.task('build-sass', function () {
       .pipe(
         ghPages
           ? replace(/\/assets\/img/g, '/SimpleReport_Public_Site/assets/img')
-          : null
+          : replace(/this will never be found/g, 'this will never be found')
       )
       .pipe(postcss(plugins))
       .pipe(sourcemaps.write('.'))
