@@ -28,7 +28,8 @@
     "deploy-azure-dev": "./deploy.sh dev",
     "deploy-azure-test": "./deploy.sh test",
     "deploy-azure-beta": "./deploy.sh beta",
-    "deploy-azure-demo": "./deploy.sh demo"
+    "deploy-azure-demo": "./deploy.sh demo",
+    "deploy-azure-stg": "./deploy.sh stg"
   },
   "dependencies": {
     "gulp-watch": "^5.0.0",
