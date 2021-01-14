@@ -15,10 +15,14 @@
           {{ hero.callout.text | default: hero.callout }}
         </h1>
         {% endif %} -->
-        <a href="{{ site.okta_url | xml_escape }}"
-          class="usa-button usa-button--accent-cool text-no-underline text-ink wide-button">
-          Log in
-        </a>
+        <div class="float-right">
+          <a href="{{ site.okta_url | xml_escape }}"
+            class="usa-button usa-button--accent-cool text-no-underline text-ink wide-button">
+            Log in
+          </a>
+          <br>
+          <a href="#" class="request-account-link">Request an account</a>
+        </div>
         <h1>SimpleReport</h1>
         <h2>
         {{ hero.content }}
@@ -53,6 +57,9 @@
           </li>
           <li>
             Developed in partnership with the CDC
+          </li>
+          <li>
+            100% Free
           </li>
       </div>
       <div class="tablet:grid-col hero-img-col tablet-display">

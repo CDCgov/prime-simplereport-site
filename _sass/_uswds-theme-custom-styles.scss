@@ -122,10 +122,9 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   padding-top: 40px;
   background-image: none;
   padding-bottom: 3rem;
-  @include at-media('desktop'){
+  @include at-media('desktop') {
     padding-bottom: 2rem;
   }
-
 }
 
 .usa-hero__callout {
@@ -163,8 +162,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 150px;
   font-weight: normal;
   margin-right: 0;
-  margin-bottom: 1em;
-  float: right;
+  margin-bottom: 0.5em;
   @include at-media('desktop') {
     width: 218px;
   }
@@ -207,11 +205,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   // margin-top: 1em;
   /*margin: 0 0 1em 1em;*/
   padding-top: 2em;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     margin: 1em 0 1em 1em;
     padding-top: 1em;
   }
-  
 }
 
 .container-blue {
@@ -221,7 +218,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
     /*uncomment for githubpages*/
     /*background-image: url('/assets/img/waves.svg'), url('/SimpleReport_Public_Site/assets/img/waves.svg');*/
-    max-height: 340px;
+    max-height: 390px;
   }
 }
 
@@ -234,7 +231,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   padding-top: 1em;
   // border: 1px solid #f00;
   padding-bottom: 1rem;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     padding-bottom: 0;
   }
   @include at-media('desktop') {
@@ -244,6 +241,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
   p {
     max-width: 380px;
+    color: #162e51;
   }
   @include at-media('desktop') {
     & > p {
@@ -473,8 +471,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .blue-section {
-  background: #162e51;
+  background: #e1f3f8;
   color: white;
+  padding-top: 2em !important;
+  margin-bottom: -10em;
   /*margin: 0 -10em;*/
 
   h2 {
@@ -509,6 +509,25 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     li {
       padding-left: 5px;
     }
+  }
+
+  .medium-header {
+    font-family: $font-sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #3d4551;
+    margin-bottom: 0.5em;
+  }
+
+  .prose {
+    font-family: $font-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3d4551;
   }
 }
 
@@ -585,15 +604,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .mobile-display {
   display: block;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     display: none !important;
   }
-
 }
 
 .tablet-display {
   display: none;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     display: block;
   }
 }
@@ -610,6 +628,110 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   svg {
     height: 1em;
     margin-bottom: -2px;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
+}
+
+.float-right {
+  float: right;
+}
+
+.request-account-link {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.huge-header {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  color: #162e51;
+}
+
+.medium-header {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  color: #162e51;
+}
+
+.prose {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+
+  /* or 30px */
+
+  /* base-darker */
+  color: #3d4551;
+}
+
+.gap-row {
+  height: 217px;
+}
+
+.gap-row-2 {
+  height: 200px;
+}
+
+.gap-row-3 {
+  height: 122px;
+}
+
+.gap-row-4 {
+  height: 82px;
+}
+
+.brown-bubble {
+  margin-top: -12em;
+  margin-left: 4em;
+}
+
+.blue-bubble {
+  margin-top: 2em;
+  margin-left: 6em;
+  margin-bottom: -4em !important;
+}
+
+.animation-1 {
+  margin-top: -25em;
+  margin-left: 6em;
+}
+
+.animation-2 {
+  margin-top: -25em;
+  margin-left: -5em;
+}
+
+.mid-wave-top,
+.mid-wave-bottom {
+  width: 100%;
+}
+
+.mid-wave-top {
+  margin-top: -10em;
+}
+
+.mid-wave-bottom {
+  margin-top: 2em;
+}
+
+.cdc-logo-large {
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+.shield {
+  margin-left: 3em;
+}
+
+.margin-top-8 {
+  margin-top: 8em;
 }
