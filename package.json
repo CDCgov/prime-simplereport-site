@@ -24,12 +24,14 @@
     "build:beta": "gulp build-sass && bundle exec jekyll build --config _beta_config.yml",
     "build:demo": "gulp build-sass && bundle exec jekyll build --config _demo_config.yml",
     "build:stg": "gulp build-sass && bundle exec jekyll build --config _stg_config.yml",
+    "build:prod": "gulp build-sass && bundle exec jekyll build --config _prod_config.yml",
     "deploy": "gulp build-sass --ghpages && bundle exec jekyll build --config _ghpages_config.yml && gh-pages -d _site",
     "deploy-azure-dev": "./deploy.sh dev",
     "deploy-azure-test": "./deploy.sh test",
     "deploy-azure-beta": "./deploy.sh beta",
     "deploy-azure-demo": "./deploy.sh demo",
-    "deploy-azure-stg": "./deploy.sh stg"
+    "deploy-azure-stg": "./deploy.sh stg",
+    "deploy-azure-prod": "./deploy.sh prod"
   },
   "dependencies": {
     "gulp-watch": "^5.0.0",
