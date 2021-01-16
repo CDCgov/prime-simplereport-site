@@ -162,7 +162,7 @@ sections:
             Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
           </p>
           <br>
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform' class='usa-button usa-button--primary text-no-underline text-ink large-button'>Get started with SimpleReport</a>
+          <a href="{% link pages/sign-up.md %}" class='usa-button usa-button--primary text-no-underline text-ink large-button'>Get started with SimpleReport</a>
         </div>
       </div>
     </div>

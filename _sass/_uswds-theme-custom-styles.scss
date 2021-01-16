@@ -353,6 +353,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
   }
 
+  .section-title-line.taller-section-title-line {
+    height: 105px;
+
+    + .huge-header {
+      margin-top: 27px;
+    }
+  }
+
   .section-title + .section-columns {
     margin-top: 2em;
     /*margin-bottom: 1em;*/
@@ -660,17 +668,35 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   color: #162e51;
 }
 
+.small-header {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 151.28%;
+  color: #000000;
+
+  + .small-prose {
+    padding-top: 24px;
+  }
+}
+
 .prose {
   font-family: $font-sans;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 150%;
-
-  /* or 30px */
-
-  /* base-darker */
   color: #3d4551;
+}
+
+.small-prose {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1b1b;
 }
 
 .gap-row {
@@ -734,4 +760,39 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .margin-top-8 {
   margin-top: 8em;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.padding-left-0 {
+  padding-left: 0em;
+}
+
+.padding-top-32 {
+  padding-top: 32px;
+}
+
+.padding-bottom-48 {
+  padding-bottom: 48px;
+}
+
+.sign-up-box {
+  border: 1px solid #dcdee0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 22px;
+  height: 396px;
+  width: 325px;
+
+  + .sign-up-box {
+    margin-left: 40px;
+  }
+}
+
+.large-button.width-100 {
+  position: absolute;
+  bottom: 20px;
+  width: 86%;
 }
