@@ -24,14 +24,14 @@ CDC works 24/7 to protect America from health, safety and security threats, both
 
 CDC increases the health security of our nation. As the nation’s health protection agency, CDC saves lives and protects people from health threats. To accomplish our mission, CDC conducts critical science and provides health information that protects our nation against expensive and dangerous health threats, and responds when these arise.
 
-- [Learn more about the CDC](https://www.cdc.gov/about/default.htm)
-- [Read CDC’s Privacy Policy Notice](https://www.cdc.gov/other/privacy.html)
+- [Learn more about the CDC](https://www.cdc.gov/about/default.htm).
+- [Read CDC’s Privacy Policy Notice](https://www.cdc.gov/other/privacy.html).
 
 ## USDS
 
 USDS is a group of technologists from diverse backgrounds working across the federal government to transform critical services for the people. These specialists join for tours of civic service to create a steady influx of fresh perspectives. Today USDS continues its non-partisan mission by bringing better government services to all Americans through design and technology.
 
-- [Learn more about USDS](https://www.usds.gov/mission)
+- [Learn more about USDS](https://www.usds.gov/mission).
 
 <br>
 <br>

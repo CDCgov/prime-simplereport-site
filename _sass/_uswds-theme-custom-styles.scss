@@ -136,10 +136,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 130%;
-    color: #ffffff;
-    max-width: 640px;
+    color: #97d4ea;
+    max-width: 400px;
     padding: 0;
     margin: 0;
 
@@ -152,6 +152,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   h1 {
     color: #97d4e9;
     margin-top: 3em;
+    margin-left: -2em;
+    margin-bottom: 1em;
   }
   @include at-media('desktop') {
     margin-top: 0;

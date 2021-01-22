@@ -109,7 +109,7 @@ sections:
           Reporting done for you
         </div>
         <div class="prose">
-          SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them, saving you time.
+          SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
         </div>
       </div>
       <div class="grid-col-12 gap-row-3"></div>
@@ -126,7 +126,7 @@ sections:
           Free and created by the CDC
         </div>
         <div class="prose">
-          SimpleReport is always free to use for testing sites and public health departments.
+          Developed for testing sites and public health departments, SimpleReport is 100% free.
         </div>
       </div>
       <div class="grid-col-7">
