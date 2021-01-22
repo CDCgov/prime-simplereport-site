@@ -668,6 +668,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 32px;
   line-height: 130%;
   color: #162e51;
+
+  + .prose {
+    padding-top: 24px;
+  }
 }
 
 .small-header {
