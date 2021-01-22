@@ -87,7 +87,11 @@ sections:
       </div>
       <div class="grid-col-12 gap-row">
       </div>
-      <div class="grid-col-4">
+      <div class="grid-col-12 tablet-lg-show">
+        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+      </div>
+      <div class="tablet-lg:grid-col-4 grid-col-12">
         <div class="medium-header">
           No more repeat data entry 
         </div>
@@ -95,7 +99,7 @@ sections:
           Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
         </div>
       </div>
-      <div class="grid-col-8">
+      <div class="tablet-lg-hide grid-col-8">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
