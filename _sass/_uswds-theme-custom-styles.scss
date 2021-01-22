@@ -152,8 +152,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   h1 {
     color: #97d4e9;
     margin-top: 3em;
-    margin-left: -2em;
     margin-bottom: 1em;
+
+    @include at-media('tablet') {
+      margin-left: -2em;
+    }
   }
   @include at-media('desktop') {
     margin-top: 0;
@@ -723,21 +726,41 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .brown-bubble {
   position: absolute;
-}
+  top: -160px;
+  left: -30px;
 
-.blue-bubble {
-  margin-top: 2em;
-  margin-left: 6em;
-  margin-bottom: -4em !important;
+  @include at-media('tablet-lg') {
+    top: -175px;
+    left: 8px;
+  }
 }
 
 .animation-1 {
   position: relative;
+
+  @include at-media('tablet-lg') {
+    top: -40px;
+  }
+}
+
+.blue-bubble {
+  position: absolute;
+  top: -120px;
+
+  @include at-media('tablet-lg') {
+    top: 10px;
+    left: 65px;
+  }
 }
 
 .animation-2 {
-  margin-top: -25em;
-  margin-left: -5em;
+  position: relative;
+  top: -75px;
+
+  @include at-media('tablet-lg') {
+    top: -17px;
+    left: -50px;
+  }
 }
 
 .mid-wave-top,

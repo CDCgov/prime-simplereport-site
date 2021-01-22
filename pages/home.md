@@ -91,7 +91,7 @@ sections:
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
-      <div class="tablet-lg:grid-col-4 grid-col-12">
+      <div class="tablet-lg:grid-col-5 grid-col-12">
         <div class="medium-header">
           No more repeat data entry 
         </div>
@@ -99,16 +99,16 @@ sections:
           Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
         </div>
       </div>
-      <div class="tablet-lg-hide grid-col-8">
+      <div class="tablet-lg-hide grid-col-7">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
       <div class="grid-col-12 gap-row-2"></div>
-      <div class="grid-col-8">
+      <div class="tablet-lg:grid-col-7 grid-col-12">
         <img class="blue-bubble" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
         <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
       </div>
-      <div class="grid-col-4">
+      <div class="tablet-lg:grid-col-5 grid-col-12">
         <div class="medium-header">
           Reporting done for you
         </div>
@@ -134,7 +134,7 @@ sections:
         </div>
       </div>
       <div class="grid-col-7">
-        <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.svg' | relative_url }}" alt="cdc logo">
+        <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
       </div>
       <div class="grid-col-12 gap-row-4"></div>
       <div class="grid-col-5">
