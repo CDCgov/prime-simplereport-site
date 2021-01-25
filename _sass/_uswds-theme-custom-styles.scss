@@ -487,7 +487,17 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   background: #e1f3f8;
   color: white;
   padding-top: 2em !important;
-  margin-bottom: -10em;
+  margin-bottom: -5em;
+  @include at-media('tablet') {
+    margin-bottom: -9em;
+  }
+  @include at-media('tablet-lg') {
+    margin-bottom: -10em;
+  }
+  @media screen and (min-width: 1300px) {
+    margin-bottom: -12em;
+  }
+
   /*margin: 0 -10em;*/
 
   h2 {
@@ -769,7 +779,20 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .mid-wave-top {
-  margin-top: -10em;
+  position: relative;
+  top: -57px;
+  @include at-media('tablet') {
+    top: -80px;
+  }
+  @include at-media('tablet-lg') {
+    top: -94px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: -120px;
+  }
+  @media screen and (min-width: 1600px) {
+    top: -150px;
+  }
 }
 
 .mid-wave-bottom {
@@ -839,5 +862,12 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   display: block;
   @include at-media('tablet-lg') {
     display: none;
+  }
+}
+
+.mobile-margin-top-2 {
+  margin-top: 2em;
+  @include at-media('tablet') {
+    margin-top: 0em;
   }
 }

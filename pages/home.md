@@ -125,7 +125,7 @@ sections:
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
   <div class="grid-container">
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col-5">
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
         <div class="medium-header">
           Free and created by the CDC
         </div>
@@ -133,11 +133,11 @@ sections:
           Developed for testing sites and public health departments, SimpleReport is 100% free.
         </div>
       </div>
-      <div class="grid-col-7">
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
         <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
       </div>
       <div class="grid-col-12 gap-row-4"></div>
-      <div class="grid-col-5">
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
         <div class="medium-header">
           Safe and secure
         </div>
@@ -145,7 +145,7 @@ sections:
           Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
         </div>
       </div>
-      <div class="grid-col-7">
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
         <img class="shield" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
       </div>
     </div>

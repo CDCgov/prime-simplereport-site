@@ -25,7 +25,7 @@ home_text: Return to home
                 <li>Urgent care centers</li>
                 <li>Airports, and more</li>
             </ul>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a testing site</a>
+            <a href="https://airtable.com/shrekmUp6PNvVbHAJ" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a testing site</a>
         </div>
     </div>
     <div class="grid-col-6 sign-up-box">
