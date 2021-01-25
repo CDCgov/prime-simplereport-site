@@ -841,7 +841,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 325px;
 
   + .sign-up-box {
-    margin-left: 40px;
+    margin-top: 2em;
+    @include at-media('tablet-lg') {
+      margin-top: 0em;
+      margin-left: 40px;
+    }
   }
 }
 

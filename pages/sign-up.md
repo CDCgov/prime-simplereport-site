@@ -14,7 +14,7 @@ home_text: Return to home
     <div class="medium-header padding-top-32 padding-bottom-48">SimpleReport serves two different types of organizations.</div>
   </div>
   <div class="grid-row padding-left-0">
-    <div class="grid-col-6 sign-up-box">
+    <div class="grid-col-12 tablet-lg:grid-col-6 sign-up-box">
         <div class="small-header">Testing sites</div>
         <div class="small-prose">
             For locations providing rapid COVID-19 testing, including:
@@ -28,7 +28,7 @@ home_text: Return to home
             <a href="https://airtable.com/shrekmUp6PNvVbHAJ" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a testing site</a>
         </div>
     </div>
-    <div class="grid-col-6 sign-up-box">
+    <div class="grid-col-12 tablet-lg:grid-col-6 sign-up-box">
         <div class="small-header">Public health departments</div>
         <div class="small-prose">
             For United States public health agencies at various levels, including:
