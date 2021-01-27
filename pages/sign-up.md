@@ -38,7 +38,7 @@ home_text: Return to home
                 <li>Territorial</li>
                 <li>Tribal</li>
             </ul>
-            <a href="https://docs.google.com/forms/d/18VoUG_kpogHqJrrM5J2pp1EeMklAydPwPJzYZyieN2Y/edit" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a public health department</a>
+            <a href="https://airtable.com/shrGp8X54SqpeqNod" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a public health department</a>
         </div>
     </div>
     <a class='grid-col-6 home-link margin-top-40' href="{% link pages/home.md %}">
