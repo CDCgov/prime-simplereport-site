@@ -122,10 +122,9 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   padding-top: 40px;
   background-image: none;
   padding-bottom: 3rem;
-  @include at-media('desktop'){
+  @include at-media('desktop') {
     padding-bottom: 2rem;
   }
-
 }
 
 .usa-hero__callout {
@@ -137,10 +136,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 130%;
-    color: #ffffff;
-    max-width: 640px;
+    color: #97d4ea;
+    max-width: 400px;
     padding: 0;
     margin: 0;
 
@@ -153,6 +152,11 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   h1 {
     color: #97d4e9;
     margin-top: 3em;
+    margin-bottom: 1em;
+
+    @include at-media('tablet') {
+      margin-left: -2em;
+    }
   }
   @include at-media('desktop') {
     margin-top: 0;
@@ -163,8 +167,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   width: 150px;
   font-weight: normal;
   margin-right: 0;
-  margin-bottom: 1em;
-  float: right;
+  margin-bottom: 0.5em;
   @include at-media('desktop') {
     width: 218px;
   }
@@ -207,11 +210,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   // margin-top: 1em;
   /*margin: 0 0 1em 1em;*/
   padding-top: 2em;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     margin: 1em 0 1em 1em;
     padding-top: 1em;
   }
-  
 }
 
 .container-blue {
@@ -221,7 +223,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
     /*uncomment for githubpages*/
     /*background-image: url('/assets/img/waves.svg'), url('/SimpleReport_Public_Site/assets/img/waves.svg');*/
-    max-height: 340px;
+    max-height: 390px;
   }
 }
 
@@ -234,7 +236,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   padding-top: 1em;
   // border: 1px solid #f00;
   padding-bottom: 1rem;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     padding-bottom: 0;
   }
   @include at-media('desktop') {
@@ -244,6 +246,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
   p {
     max-width: 380px;
+    color: #162e51;
   }
   @include at-media('desktop') {
     & > p {
@@ -352,6 +355,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
     + h2 {
       margin-top: 29px;
+    }
+  }
+
+  .section-title-line.taller-section-title-line {
+    height: 105px;
+
+    + .huge-header {
+      margin-top: 27px;
     }
   }
 
@@ -473,8 +484,20 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .blue-section {
-  background: #162e51;
+  background: #e1f3f8;
   color: white;
+  padding-top: 2em !important;
+  margin-bottom: -5em;
+  @include at-media('tablet') {
+    margin-bottom: -9em;
+  }
+  @include at-media('tablet-lg') {
+    margin-bottom: -10em;
+  }
+  @media screen and (min-width: 1300px) {
+    margin-bottom: -12em;
+  }
+
   /*margin: 0 -10em;*/
 
   h2 {
@@ -509,6 +532,25 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     li {
       padding-left: 5px;
     }
+  }
+
+  .medium-header {
+    font-family: $font-sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #3d4551;
+    margin-bottom: 0.5em;
+  }
+
+  .prose {
+    font-family: $font-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3d4551;
   }
 }
 
@@ -585,15 +627,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
 .mobile-display {
   display: block;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     display: none !important;
   }
-
 }
 
 .tablet-display {
   display: none;
-  @include at-media('tablet'){
+  @include at-media('tablet') {
     display: block;
   }
 }
@@ -610,6 +651,227 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   svg {
     height: 1em;
     margin-bottom: -2px;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.float-right {
+  float: right;
+}
+
+.request-account-link {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.huge-header {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  color: #162e51;
+}
+
+.medium-header {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  color: #162e51;
+
+  + .prose {
+    padding-top: 24px;
+  }
+}
+
+.small-header {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 151.28%;
+  color: #000000;
+
+  + .small-prose {
+    padding-top: 24px;
+  }
+}
+
+.prose {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #3d4551;
+}
+
+.small-prose {
+  font-family: $font-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1b1b1b;
+}
+
+.gap-row {
+  height: 217px;
+}
+
+.gap-row-2 {
+  height: 200px;
+}
+
+.gap-row-3 {
+  height: 122px;
+}
+
+.gap-row-4 {
+  height: 82px;
+}
+
+.brown-bubble {
+  position: absolute;
+  top: -160px;
+  left: -30px;
+
+  @include at-media('tablet-lg') {
+    top: -175px;
+    left: 8px;
+  }
+}
+
+.animation-1 {
+  position: relative;
+
+  @include at-media('tablet-lg') {
+    top: -40px;
+  }
+}
+
+.blue-bubble {
+  position: absolute;
+  top: -120px;
+
+  @include at-media('tablet-lg') {
+    top: 10px;
+    left: 65px;
+  }
+}
+
+.animation-2 {
+  position: relative;
+  top: -75px;
+
+  @include at-media('tablet-lg') {
+    top: -17px;
+    left: -50px;
+  }
+}
+
+.mid-wave-top,
+.mid-wave-bottom {
+  width: 100%;
+}
+
+.mid-wave-top {
+  position: relative;
+  top: -57px;
+  @include at-media('tablet') {
+    top: -80px;
+  }
+  @include at-media('tablet-lg') {
+    top: -94px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: -120px;
+  }
+  @media screen and (min-width: 1600px) {
+    top: -150px;
+  }
+}
+
+.mid-wave-bottom {
+  margin-top: 2em;
+}
+
+.cdc-logo-large {
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+.shield {
+  margin-left: 3em;
+}
+
+.margin-top-8 {
+  margin-top: 8em;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.padding-left-0 {
+  padding-left: 0em;
+}
+
+.padding-top-32 {
+  padding-top: 32px;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0px;
+}
+
+.padding-bottom-48 {
+  padding-bottom: 48px;
+}
+
+.sign-up-box {
+  border: 1px solid #dcdee0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 22px;
+  height: 396px;
+  width: 325px;
+
+  + .sign-up-box {
+    margin-top: 2em;
+    @include at-media('tablet-lg') {
+      margin-top: 0em;
+      margin-left: 40px;
+    }
+  }
+}
+
+.large-button.width-100 {
+  position: absolute;
+  bottom: 20px;
+  width: 86%;
+}
+
+.tablet-lg-hide {
+  display: none;
+  @include at-media('tablet-lg') {
+    display: block;
+  }
+}
+
+.tablet-lg-show {
+  display: block;
+  @include at-media('tablet-lg') {
+    display: none;
+  }
+}
+
+.mobile-margin-top-2 {
+  margin-top: 2em;
+  @include at-media('tablet') {
+    margin-top: 0em;
   }
 }

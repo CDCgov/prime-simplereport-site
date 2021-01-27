@@ -76,147 +76,97 @@ sections:
       <div class="section-title-line"></div>
       <h2>How it works</h2>
     </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col">
-        <h3>Testing sites</h3>
-        <div class="usa-prose">
-          SimpleReport aligns with your existing workflow to streamline data collection and automatically reports COVID-19 test results to public health departments.
-        </div>
-      </div>
-    </div>
-    <div class="grid-row grid-gap">
+    <div class="grid-row grid-gap-small-btm section-columns">
       <div class="grid-col-12">
         <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
       </div>
-      <div class="tablet:grid-col-4 usa-bullets">
-        <h4>Smart data collection</h4>
-        <p>
-          Instead of manually collecting and reporting the same information over and over again, SimpleReport allows you to store this data and automatically report the results in just a few clicks.
-        </p>
-      </div>
-      <div class="tablet:grid-col-4 usa-bullets">
-        <h4>Reporting done for you</h4>
-        <p>
-          SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits your test results for you the moment you record them, eliminating reporting delays.
-        </p>
-      </div>
-      <div class="tablet:grid-col-4 usa-bullets">
-        <h4>Safe and secure</h4> 
-        <p>
-         Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
-        </p>
-      </div>
-      <div class="grid-col-12 divider-line"></div>
-    </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col">
-        <h3>Public health departments</h3>
-        <div class="usa-prose">
-          During the COVID-19 pandemic, every moment counts. With SimpleReport, receive consistent, complete, and timely rapid test results in real time, customized to meet your reporting requirements. Save time and reduce inconsistencies and manual fixes.
+      <div class="grid-col-12">
+        <div class="huge-header">
+          SimpleReport fits into your existing workflow.
         </div>
       </div>
+      <div class="grid-col-12 gap-row">
+      </div>
+      <div class="grid-col-12 tablet-lg-show">
+        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+      </div>
+      <div class="tablet-lg:grid-col-5 grid-col-12">
+        <div class="medium-header">
+          No more repeat data entry 
+        </div>
+        <div class="prose">
+          Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
+        </div>
+      </div>
+      <div class="tablet-lg-hide grid-col-7">
+        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+      </div>
+      <div class="grid-col-12 gap-row-2"></div>
+      <div class="tablet-lg:grid-col-7 grid-col-12">
+        <img class="blue-bubble" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
+        <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
+      </div>
+      <div class="tablet-lg:grid-col-5 grid-col-12">
+        <div class="medium-header">
+          Reporting done for you
+        </div>
+        <div class="prose">
+          SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
+        </div>
+      </div>
+      <div class="grid-col-12 gap-row-3"></div>
     </div>
   </div>
 </section>
 
 <section class="usa-section-list usa-section blue-section">
+  <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
   <div class="grid-container">
-    <div class="grid-row section-title">
-      <div class="section-title-line"></div>
-      <h2>Who should use SimpleReport?</h2>
-    </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="tablet:grid-col">
-        <h3>Anyone providing COVID-19 rapid tests</h3>
-        <div class="usa-prose">
-          Any location providing rapid COVID-19 testing (Quidel Sofia 2, BD Veritor, Abbott BinaxNow cards, Abbott ID Now, LumiraDX), including:
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
+        <div class="medium-header">
+          Free and created by the CDC
         </div>
-        <ul class="usa-list">
-          <li>K-12 schools</li>
-          <li>Congregate living settings (assisted living, long-term care facilities, jails, etc.)</li>
-          <li>Universities</li>
-          <li>Urgent care centers</li>
-          <li>Airports, and more</li>
-        </ul>
+        <div class="prose">
+          Developed for testing sites and public health departments, SimpleReport is 100% free.
+        </div>
       </div>
-      <div class="tablet:grid-col">
-        <h3>Public health departments</h3>
-        <div class="usa-prose">
-          <p>
-            Any public health department in the United States is eligible to use SimpleReport. SimpleReport can connect you to thousands of testing sites, ensuring you get results in one place, in the format that’s easiest for you.
-          </p>
-          <p>
-            State, territorial, local, and tribal public health departments can all use SimpleReport. Once SimpleReport is connected to your health department, you can offer it to sites providing rapid COVID-19 testing.
-          </p>
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
+        <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
+      </div>
+      <div class="grid-col-12 gap-row-4"></div>
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
+        <div class="medium-header">
+          Safe and secure
         </div>
+        <div class="prose">
+          Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
+        </div>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
+        <img class="shield" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
       </div>
     </div>
   </div>
+  <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="mid wave bottom">
 </section>
 
 <section class="usa-section-list usa-section">
   <div class="grid-container">
-    <div class="grid-row section-title">
+    <div class="grid-row section-title margin-top-8">
       <div class="section-title-line"></div>
-      <h2>How do I sign up?</h2>
-    </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col-12">
-        <h3>Public health departments</h3>
-        <div class="prose-f4">
-          We work with public health departments  to make sure you receive testing site data in your required reporting format. Request a free account using our <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5h27vxNTkPAnKI7niBWyC7Sj79Ubu_yMl898OfetrW2h8tQ/viewform">public health department form</a>. 
-        </div>
-      </div>
-      <div class="grid-col-12 divider-line"></div>
-    </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col-12">
-        <h3>Testing sites</h3>
-        <div class="prose-f4">
-          Testing sites can get up and running with SimpleReport for free, in minutes:
-        </div>
-        <h4>
-          Request an account
-        </h4>
-        <div class="prose-f4">
-          To get started, you'll need to choose a SimpleReport account administrator. Then simply provide the details below to <a href="https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform">request a testing site account</a>.
-        </div>
-      </div>
-    </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="tablet:grid-col-6">
-        <h4>SimpleReport account information</h4>
-        <ul class="usa-list">
-          <li>Name of your SimpleReport account administrator</li>
-          <li>Email address and phone number</li>
-          <li>Identity verification information </li>
-        </ul>
-      </div>
-      <div class="tablet:grid-col-6">
-        <h4>Testing site information</h4>
-        <ul class="usa-list">
-          <li>Your Clinical Laboratory Improvement Amendments (CLIA) number</li>
-          <li>Web browsers and devices (laptops, tablets, etc.) used to access SimpleReport</li>
-          <li>COVID-19 rapid test device name </li>
-        </ul>
-      </div>
+      <h2>Get started</h2>
     </div>
     <div class="grid-row grid-gap grid-gap-small-btm section-columns">
       <div class="grid-col-12">
         <div class="prose-f4">
           <p>
-          After submitting the form, you’ll receive a response within 24 hours. If SimpleReport is supported in your area, you’ll get a Facility Account ID to <a href='https://docs.google.com/forms/d/e/1FAIpQLSfZ4JT46ZDpHa8tiifAOGuwxgVRG_P6qgnvQBiQKnL5J1izkw/viewform'>request staff login access</a>.
+            Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
           </p>
-        </div>
-      </div>
-    </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col-12">
-        <div class="prose-f4">
-          <p>
-            <strong>Ready to simplify your COVID-19 reporting? Create a SimpleReport account today.</strong>
-          </p>
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLSepG6FCNhTm-nrIm9h4XKZCQoJRrItjOpMqyymEyj6tYk9V-g/viewform' class='usa-button usa-button--primary text-no-underline text-ink large-button'>Request a testing site account</a>
+          <br>
+          <a href="{% link pages/sign-up.md %}" class='usa-button usa-button--primary text-no-underline text-ink large-button'>Get started with SimpleReport</a>
         </div>
       </div>
     </div>
