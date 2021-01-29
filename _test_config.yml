@@ -2,7 +2,7 @@ title: SimpleReport
 url: https://test.simplereport.gov
 dap_agency: HHS
 dap_subagency: CDC
-okta_url: https://test.simplereport.gov/app
+okta_url: https://hhs-prime.okta.com/oauth2/default/v1/authorize?client_id=0oa6fl5n8ARasjheq4h6&redirect_uri=https://test.simplereport.gov/app&response_type=token+id_token&scope=openid%20simple_report%20simple_report_test&nonce=thisisnotsafe&state=thisisbogus
 
 plugins:
   - jekyll-sitemap
