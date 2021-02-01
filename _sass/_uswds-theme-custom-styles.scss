@@ -842,9 +842,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
   + .sign-up-box {
     margin-top: 2em;
-    @include at-media('tablet-lg') {
+    @media screen and (min-width: 921px) {
+      margin-right: 3em;
+    }
+    @media screen and (min-width: 962px) {
       margin-top: 0em;
       margin-left: 40px;
+      margin-right: 0em;
     }
   }
 }
