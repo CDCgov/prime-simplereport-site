@@ -39,7 +39,7 @@ We also have videos available to help you get up to speed.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Demo Day videos on YouTube](https://youtube.com/playlist?list=PL3U3nqqPGhaZbRpj1r7dE1W2tIzcjthbh)
+[Demo Day videos](https://youtube.com/playlist?list=PL3U3nqqPGhaZbRpj1r7dE1W2tIzcjthbh)
 
 <br>
 <br>
