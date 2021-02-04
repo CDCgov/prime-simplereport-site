@@ -24,13 +24,14 @@ SimpleReport is currently available in Arizona and Florida, with more locations 
 Whether you’re a testing site or a public health department, our onboarding guides can help you learn more about SimpleReport. If you don’t have an account yet, [request one to get access to SimpleReport](https://airtable.com/shrGp8X54SqpeqNod).
 
 ### For testing sites
-- [SimpleReport User Guide](/assets/resources/SimpleReport_User_Guide.docx) (PDF)
-- [SimpleReport Site Onboarding Guide](/assets/resources/Site_Onboarding_Guide.docx) (PDF)
+- [SimpleReport User Guide](/assets/resources/SimpleReport_User_Guide.pdf) (PDF)
+- [SimpleReport Site Onboarding Guide](/assets/resources/Site_Onboarding_Guide.pdf) (PDF)
+- [Details on bulk person uploads](#0) (PDF)
 
 To help keep your data formatted correctly, you can [download a CSV template](/assets/resources/test-upload.csv).
 
 ### For public health departments
-- [Public Health Department Onboarding Checklist](/assets/resources/Public_Health_Department_Onboarding_Checklist.docx) (PDF)
+- [Public Health Department Onboarding Checklist](/assets/resources/Public_Health_Department_Onboarding_Checklist.pdf) (PDF)
 - [PRIME Data Hub Receiver Integration Guide](/assets/resources/Data_Hub_Onboarding_Guide.docx) (PDF)
 
 ## Videos
