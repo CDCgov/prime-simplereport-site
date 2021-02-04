@@ -1,7 +1,7 @@
 ---
 title:
-description: Onboarding to SimpleReport
-permalink: /onboarding/
+description: SimpleReport resources
+permalink: /resources/
 layout: post
 return_top: 'false'
 home_text: Return to home
@@ -21,20 +21,21 @@ With real-time reporting and automatic formatting to match your public health de
 SimpleReport is currently available in Arizona and Florida, with more locations coming soon.
 
 ## Guides
-If you already have a SimpleReport account, get started with our onboarding guides:
-- [SimpleReport User Guide](/assets/docs/SimpleReport_User_Guide.docx)
-- [SimpleReport Site Onboarding Guide](/assets/docs/Site_Onboarding_Guide.docx)
-- [Public Health Department Onboarding Checklist](/assets/docs/Public_Health_Department_Onboarding_Checklist.docx)
-- [PRIME Data Hub Receiver Integration Guide](/assets/docs/Data_Hub_Onboarding_Guide.docx)
+Whether you’re a testing site or a public health department, our onboarding guides can help you learn more about SimpleReport. If you don’t have an account yet, [request one to get access to SimpleReport](https://airtable.com/shrGp8X54SqpeqNod).
 
-If you don’t have an account yet, [request one to get access to SimpleReport](https://airtable.com/shrGp8X54SqpeqNod).
+### For testing sites
+- [SimpleReport User Guide](/assets/resources/SimpleReport_User_Guide.docx)
+- [SimpleReport Site Onboarding Guide](/assets/resources/Site_Onboarding_Guide.docx)
 
-<!-- [Download a sample CSV template](#0) -->
+To help keep your data formatted correctly, you can [download a CSV template](/assets/resources/test-upload.csv).
+
+### For public health departments
+- [Public Health Department Onboarding Checklist](/assets/resources/Public_Health_Department_Onboarding_Checklist.docx)
+- [PRIME Data Hub Receiver Integration Guide](/assets/resources/Data_Hub_Onboarding_Guide.docx)
 
 ## Videos
 We also have videos available to help you get up to speed.
 
-### Intro to SimpleReport & Onboarding video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Demo Day videos on YouTube](https://youtube.com/playlist?list=PL3U3nqqPGhaZbRpj1r7dE1W2tIzcjthbh)
