@@ -9,7 +9,7 @@ home_text: Return to home
 
 <section class="usa-section-list usa-section padding-bottom-0">
   <div class="grid-row section-title padding-left-0">
-    <div class="section-title-line taller-section-title-line"></div>
+    <div class="display-none desktop:display-block section-title-line taller-section-title-line"></div>
     <div class="huge-header">{{ page.description }}</div>
   </div>
 </section>
