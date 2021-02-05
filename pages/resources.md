@@ -21,7 +21,7 @@ With real-time reporting and automatic formatting to match your public health de
 SimpleReport is currently available in Arizona and Florida, with more locations coming soon. [Sign up](/sign-up/) to get started in these states, or get notified when SimpleReport becomes available where you are.
 
 ## Guides
-Whether you’re a testing site or a public health department, our onboarding guides can help you learn more about SimpleReport.
+Whether you’re a testing site or a public health department, our guides can help you learn more about SimpleReport.
 
 ### For testing sites
 - To learn how to use it: [SimpleReport User Guide](/assets/resources/SimpleReport_User_Guide.pdf) (PDF)
