@@ -24,8 +24,8 @@ SimpleReport is currently available in Arizona and Florida, with more locations 
 Whether you’re a testing site or a public health department, our guides can help you learn more about SimpleReport.
 
 ### For testing sites
-- To learn how to use it: [SimpleReport User Guide](/assets/resources/SimpleReport_User_Guide.pdf) (PDF)
-- To get you started: [SimpleReport Site Onboarding Guide](/assets/resources/Site_Onboarding_Guide.pdf) (PDF)
+- To learn how to use it: [SimpleReport User Guide]({{ '/assets/resources/SimpleReport_User_Guide.pdf' | relative_url }}) (PDF)
+- To get you started: [SimpleReport Site Onboarding Guide]({{ site.baseurl }}/assets/resources/Site_Onboarding_Guide.pdf) (PDF)
 - To prepare your bulk upload of people to be tested: [CSV template](/assets/resources/template.csv) and [instructions](/assets/resources/Bulk_Person_Upload_&_CSV_Example.pdf) (PDF)
 
 ### For public health departments
