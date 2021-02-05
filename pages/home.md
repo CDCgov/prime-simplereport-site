@@ -93,7 +93,7 @@ sections:
       </div>
       <div class="tablet-lg:grid-col-5 grid-col-12">
         <div class="medium-header">
-          No more repeat data entry 
+          No more repeat data entry
         </div>
         <div class="prose">
           Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
@@ -167,6 +167,7 @@ sections:
           </p>
           <br>
           <a href="{% link pages/sign-up.md %}" class='usa-button usa-button--primary text-no-underline text-ink large-button'>Get started with SimpleReport</a>
+          <p>You can also check out <a class="usa-link" href="/resources/">resources for SimpleReport</a>.</p>
         </div>
       </div>
     </div>
