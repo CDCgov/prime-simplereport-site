@@ -18,20 +18,20 @@ SimpleReport is a free tool that helps COVID-19 testing sites report rapid test 
 
 With real-time reporting and automatic formatting to match your public health department’s requirements, SimpleReport can help save your team time and increase the accuracy of your data.
 
-SimpleReport is currently available in Arizona and Florida, with more locations coming soon. [Sign up](/sign-up/) to get started in these states, or get notified when SimpleReport becomes available where you are.
+SimpleReport is currently available in Arizona and Florida, with more locations coming soon. [Sign up]({{ site.baseurl }}/sign-up/) to get started in these states, or get notified when SimpleReport becomes available where you are.
 
 ## Guides
 Whether you’re a testing site or a public health department, our guides can help you learn more about SimpleReport.
 
 ### For testing sites
-- To learn how to use it: [SimpleReport User Guide]({{ '/assets/resources/SimpleReport_User_Guide.pdf' | relative_url }}) (PDF)
+- To learn how to use it: [SimpleReport User Guide]({{ site.baseurl }}/assets/resources/SimpleReport_User_Guide.pdf) (PDF)
 - To get you started: [SimpleReport Site Onboarding Guide]({{ site.baseurl }}/assets/resources/Site_Onboarding_Guide.pdf) (PDF)
-- To prepare your bulk upload of people to be tested: [CSV template](/assets/resources/template.csv) and [instructions](/assets/resources/Bulk_Person_Upload_&_CSV_Example.pdf) (PDF)
+- To prepare your bulk upload of people to be tested: [CSV template]({{ site.baseurl }}/assets/resources/template.csv) and [instructions](/assets/resources/Bulk_Person_Upload_&_CSV_Example.pdf) (PDF)
 
 ### For public health departments
 In order to empower testing sites in your jurisdiction to send you data through SimpleReport, you need to connect to the Data Hub.
-- [Public Health Department Onboarding Checklist](/assets/resources/Public_Health_Department_Onboarding_Checklist.pdf) (PDF)
-- [Data Hub State Integration Guide](/assets/resources/Data_Hub_Onboarding_Guide.pdf) (PDF)
+- [Public Health Department Onboarding Checklist]({{ site.baseurl }}/assets/resources/Public_Health_Department_Onboarding_Checklist.pdf) (PDF)
+- [Data Hub State Integration Guide]({{ site.baseurl }}/assets/resources/Data_Hub_Onboarding_Guide.pdf) (PDF)
   - The Data Hub makes it easier for local public health departments to receive complete, well-structured COVID-19 electronic test result data.
 
 ## Videos
