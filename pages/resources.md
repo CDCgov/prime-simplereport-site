@@ -26,7 +26,7 @@ Whether you’re a testing site or a public health department, our guides can he
 ### For testing sites
 - To learn how to use it: [SimpleReport User Guide]({{ site.baseurl }}/assets/resources/SimpleReport_User_Guide.pdf) (PDF)
 - To get you started: [SimpleReport Site Onboarding Guide]({{ site.baseurl }}/assets/resources/Site_Onboarding_Guide.pdf) (PDF)
-<!-- - To prepare your bulk upload of people to be tested: [CSV template]({{ site.baseurl }}/assets/resources/template.csv) and [instructions]({{ site.baseurl }}/assets/resources/Bulk_Person_Upload_&_CSV_Example.pdf) (PDF) -->
+- To prepare your bulk upload of people to be tested: [CSV template]({{ site.baseurl }}/assets/resources/template.csv) and [instructions]({{ site.baseurl }}/assets/resources/Bulk_person_upload_guide.pdf) (PDF)
 
 ### For public health departments
 In order to empower testing sites in your jurisdiction to send you data through SimpleReport, you need to connect to the Data Hub.
