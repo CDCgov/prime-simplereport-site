@@ -16,8 +16,6 @@ home_text: Return to home
 
 SimpleReport is a free tool that helps COVID-19 testing sites report rapid test results. Developed by the CDC in partnership with the U.S. Digital Service, SimpleReport makes it easy to record and report your tests.
 
-With real-time reporting and automatic formatting to match your public health department’s requirements, SimpleReport can help save your team time and increase the accuracy of your data.
-
 SimpleReport is currently available in Arizona and Florida, with more locations coming soon. [Sign up]({{ site.baseurl }}/sign-up/) to get started in these states, or get notified when SimpleReport becomes available where you are.
 
 ## Guides
@@ -26,7 +24,7 @@ Whether you’re a testing site or a public health department, our guides can he
 ### For testing sites
 - To learn how to use it: [SimpleReport User Guide]({{ site.baseurl }}/assets/resources/SimpleReport_User_Guide.pdf) (PDF)
 - To get you started: [SimpleReport Site Onboarding Guide]({{ site.baseurl }}/assets/resources/Site_Onboarding_Guide.pdf) (PDF)
-<!-- - To prepare your bulk upload of people to be tested: [CSV template]({{ site.baseurl }}/assets/resources/template.csv) and [instructions]({{ site.baseurl }}/assets/resources/Bulk_Person_Upload_&_CSV_Example.pdf) (PDF) -->
+- To prepare your bulk upload of people to be tested: [CSV template]({{ site.baseurl }}/assets/resources/template.csv) and [instructions]({{ site.baseurl }}/assets/resources/Bulk_person_upload_guide.pdf) (PDF)
 
 ### For public health departments
 In order to empower testing sites in your jurisdiction to send you data through SimpleReport, you need to connect to the Data Hub.
