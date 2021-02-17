@@ -22,7 +22,7 @@ main:
           </a>
         {% endif %}
         {% if page.class == "page-docs" %}
-          <p class="text-uppercase text-ls-2 text-base font-heading-3xs">
+          <p class="text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
             {% assign kicker = page.url | split: "/" | reverse %}
             {{ kicker[1] | replace: '-', ' ' }}
           </p>
@@ -30,7 +30,7 @@ main:
         {% if page.title %}
           <h1
             {% if page.home_text %}class="no-top-margin"{% endif %}
-            {% if page.class == "page-docs" %} class="huge-header margin-top-2"{% endif %}>
+            {% if page.class == "page-docs" %} class="margin-top-2"{% endif %}>
             {{ page.title }}
           </h1>
         {% endif %}

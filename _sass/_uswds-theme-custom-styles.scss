@@ -465,6 +465,19 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       padding: 0;
     }
   }
+
+  .usa-layout-docs__main {
+    h1,
+    h2,
+    h3 {
+      color: color('primary-darker');
+    }
+
+    .usa-button {
+      color: color('white');
+      text-decoration: none;
+    }
+  }
 }
 
 .illustration-image {
