@@ -56,65 +56,65 @@ resources:
           - page: Onboard with a checklist
             url: /resources/getting-started/testing-sites/onboard-with-a-checklist/
           - page: Register for an account
-            url: #0
+            url: /resources/getting-started/testing-sites/register-for-an-account/
           - page: Log in to SimpleReport
-            url: #0
+            url: /resources/getting-started/testing-sites/log-in-to-simplereport/
           - page: Get training
-            url: #0
+            url: /resources/getting-started/testing-sites/get-training/
       - page: Public health departments
-        url: #0
+        url: /resources/getting-started/public-health-departments/how-the-prime-data-hub-works/
         subsubnav:
           - page: How the PRIME Data Hub works
-            url: #0
+            url: /resources/getting-started/public-health-departments/how-the-prime-data-hub-works/
           - page: Prepare for and fill out the Data Hub Intake Form
-            url: #0
+            url: /resources/getting-started/public-health-departments/prepare-for-and-fill-out-the-data-hub-intake-form/
           - page: Integrate with the Data Hub and start your rollout
-            url: #0
+            url: /resources/getting-started/public-health-departments/integrate-with-the-data-hub-and-start-your-rollout/
           - page: Sample integration timeline
-            url: #0
+            url: /resources/getting-started/public-health-departments/sample-integration-timeline/
           - page: Tech specs
-            url: #0
+            url: /resources/getting-started/public-health-departments/tech-specs/
           - page: FAQs
-            url: #0
+            url: /resources/getting-started/public-health-departments/faqs/
   - title: Using SimpleReport
+    url: /resources/using-simplereport/conduct-and-submit-tests/
     subnav:
       - page: Conduct and submit tests
-        url: #0
+        url: /resources/using-simplereport/conduct-and-submit-tests/
       - page: Manage people
-        url: #0
+        url: /resources/using-simplereport/manage-people/add-a-new-person/
         subsubnav:
           - page: Add a new person
-            url: #0
-          - page: Review a patient's test history
-            url: #0
+            url: /resources/using-simplereport/manage-people/add-a-new-person/
+          - page: Review a patient’s test history
+            url: /resources/using-simplereport/manage-people/review-a-patients-test-history/
       - page: Manage results
-        url: #0
+        url: /resources/using-simplereport/manage-results/
       - page: Manage facility info
-        url: #0
+        url: /resources/using-simplereport/manage-facility-info/edit-facility-info/
         subsubnav:
           - page: Edit facility info
-            url: #0
-          - page: Edit your facility's devices
-            url: #0
+            url: /resources/using-simplereport/manage-facility-info/edit-facility-info/
+          - page: Edit your facility’s devices
+            url: /resources/using-simplereport/manage-facility-info/edit-your-facilitys-devices/
       - page: Manage users on your account
-        url: #0
+        url: /resources/using-simplereport/manage-users-on-your-account/
   - title: Troubleshooting
+    url: /resources/troubleshooting/reset-your-simplereport-password/
     subnav:
       - page: Reset your SimpleReport password
-        url: #0
+        url: /resources/troubleshooting/reset-your-simplereport-password/
       - page: Troubleshoot common problems
-        url: #0
+        url: /resources/troubleshooting/troubleshoot-common-problems/
       - page: Contact us for more help
-        url: #0
+        url: /resources/troubleshooting/contact-us-for-more-help/
   - title: Staying connected
+    url: /resources/staying-connected/join-the-simplereport-google-group/
     subnav:
       - page: Join the SimpleReport Google Group
-        url: #0
+        url: /resources/staying-connected/join-the-simplereport-google-group/
       - page: Stay up-to-date on improvements
-        url: #0
-        subsubnav:
-          - page: Demo Day playlist
-            url: #0
+        url: /resources/staying-connected/stay-up-to-date-on-improvements/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.
