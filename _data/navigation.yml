@@ -47,10 +47,10 @@ secondary:
 resources:
   - title: Getting started
     url: /resources/getting-started/testing-sites/onboard-your-organization/
-    subfolderitems:
+    subnav:
       - page: Testing sites
         url: /resources/getting-started/testing-sites/onboard-your-organization/
-        subsubfolderitems:
+        subsubnav:
           - page: Onboard your organization
             url: /resources/getting-started/testing-sites/onboard-your-organization/
           - page: Onboard with a checklist
@@ -63,7 +63,7 @@ resources:
             url: #0
       - page: Public health departments
         url: #0
-        subsubfolderitems:
+        subsubnav:
           - page: How the PRIME Data Hub works
             url: #0
           - page: Prepare for and fill out the Data Hub Intake Form
@@ -77,12 +77,12 @@ resources:
           - page: FAQs
             url: #0
   - title: Using SimpleReport
-    subfolderitems:
+    subnav:
       - page: Conduct and submit tests
         url: #0
       - page: Manage people
         url: #0
-        subsubfolderitems:
+        subsubnav:
           - page: Add a new person
             url: #0
           - page: Review a patient's test history
@@ -91,7 +91,7 @@ resources:
         url: #0
       - page: Manage facility info
         url: #0
-        subsubfolderitems:
+        subsubnav:
           - page: Edit facility info
             url: #0
           - page: Edit your facility's devices
@@ -99,7 +99,7 @@ resources:
       - page: Manage users on your account
         url: #0
   - title: Troubleshooting
-    subfolderitems:
+    subnav:
       - page: Reset your SimpleReport password
         url: #0
       - page: Troubleshoot common problems
@@ -107,12 +107,12 @@ resources:
       - page: Contact us for more help
         url: #0
   - title: Staying connected
-    subfolderitems:
+    subnav:
       - page: Join the SimpleReport Google Group
         url: #0
       - page: Stay up-to-date on improvements
         url: #0
-        subsubfolderitems:
+        subsubnav:
           - page: Demo Day playlist
             url: #0
 
