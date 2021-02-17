@@ -176,8 +176,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .usa-navbar {
   @include at-media(mobile) {
     padding-top: 0;
-    .usa-menu-btn {
-    }
     #header-logo {
       margin-top: 160px;
     }
@@ -500,10 +498,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 }
 
-.usa-bullets + .divider-line {
-  /*margin-top: 5em;*/
-}
-
 .blue-section {
   background: #e1f3f8;
   color: white;
@@ -582,9 +576,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-footer {
-  .usa-footer__primary-section {
-    // display: none;
-  }
   .usa-footer__secondary-section {
     margin-top: 40px;
     background-color: #162e51;
