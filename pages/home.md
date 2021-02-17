@@ -167,7 +167,7 @@ sections:
           </p>
           <br>
           <a href="{% link pages/sign-up.md %}" class='usa-button usa-button--primary text-no-underline text-ink large-button'>Get started with SimpleReport</a>
-          <p>You can also check out <a class="usa-link" href="/resources/">resources for SimpleReport</a>.</p>
+          <p>You can also check out <a class="usa-link" href="{% link _pages/resources/getting-started/testing-sites/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
         </div>
       </div>
     </div>

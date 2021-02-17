@@ -459,6 +459,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 }
 
+.page-docs {
+  .grid-row {
+    @include at-media('tablet') {
+      padding: 0;
+    }
+  }
+}
+
 .illustration-image {
   margin-bottom: 3em !important;
 }

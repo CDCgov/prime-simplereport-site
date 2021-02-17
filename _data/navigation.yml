@@ -44,12 +44,77 @@ secondary:
     external: true
     class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
 
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
-    external: true
+resources:
+  - title: Getting started
+    url: /resources/getting-started/testing-sites/onboard-your-organization/
+    subfolderitems:
+      - page: Testing sites
+        url: /resources/getting-started/testing-sites/onboard-your-organization/
+        subsubfolderitems:
+          - page: Onboard your organization
+            url: /resources/getting-started/testing-sites/onboard-your-organization/
+          - page: Onboard with a checklist
+            url: /resources/getting-started/testing-sites/onboard-with-a-checklist/
+          - page: Register for an account
+            url: #0
+          - page: Log in to SimpleReport
+            url: #0
+          - page: Get training
+            url: #0
+      - page: Public health departments
+        url: #0
+        subsubfolderitems:
+          - page: How the PRIME Data Hub works
+            url: #0
+          - page: Prepare for and fill out the Data Hub Intake Form
+            url: #0
+          - page: Integrate with the Data Hub and start your rollout
+            url: #0
+          - page: Sample integration timeline
+            url: #0
+          - page: Tech specs
+            url: #0
+          - page: FAQs
+            url: #0
+  - title: Using SimpleReport
+    subfolderitems:
+      - page: Conduct and submit tests
+        url: #0
+      - page: Manage people
+        url: #0
+        subsubfolderitems:
+          - page: Add a new person
+            url: #0
+          - page: Review a patient's test history
+            url: #0
+      - page: Manage results
+        url: #0
+      - page: Manage facility info
+        url: #0
+        subsubfolderitems:
+          - page: Edit facility info
+            url: #0
+          - page: Edit your facility's devices
+            url: #0
+      - page: Manage users on your account
+        url: #0
+  - title: Troubleshooting
+    subfolderitems:
+      - page: Reset your SimpleReport password
+        url: #0
+      - page: Troubleshoot common problems
+        url: #0
+      - page: Contact us for more help
+        url: #0
+  - title: Staying connected
+    subfolderitems:
+      - page: Join the SimpleReport Google Group
+        url: #0
+      - page: Stay up-to-date on improvements
+        url: #0
+        subsubfolderitems:
+          - page: Demo Day playlist
+            url: #0
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.

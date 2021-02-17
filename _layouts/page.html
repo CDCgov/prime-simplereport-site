@@ -10,7 +10,7 @@ main:
       {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
       {% if sidenav %}
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
-          {% include sidenav.html links=sidenav %}
+          {% include sidenav-custom.html %}
         </div>
       {% endif %}
 
@@ -21,8 +21,15 @@ main:
             {{ page.home_text }}
           </a>
         {% endif %}
+        {% if page.class == "page-docs" %}
+          <p class="text-uppercase text-ls-2 text-base font-heading-3xs">Testing sites</p>
+        {% endif %}
         {% if page.title %}
-          <h1 {% if page.home_text %}class="no-top-margin"{% endif %}>{{ page.title }}</h1>
+          <h1
+            {% if page.home_text %}class="no-top-margin"{% endif %}
+            {% if page.class == "page-docs" %} class="huge-header margin-top-2"{% endif %}>
+            {{ page.title }}
+          </h1>
         {% endif %}
         {{ content }}
       </main>
