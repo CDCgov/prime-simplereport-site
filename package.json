@@ -4,7 +4,7 @@
   "author": "Skylight Digital",
   "license": "CC0-1.0",
   "scripts": {
-    "serve": "bundle exec jekyll serve --livereload --config _config.yml,_config.yml",
+    "serve": "bundle exec jekyll serve --livereload --config _config.yml",
     "setup": "npm run uswds-copy-assets && npm run uswds-build-sass",
     "build-webpack": "./node_modules/.bin/webpack",
     "uswds-build-sass": "gulp build-sass",
