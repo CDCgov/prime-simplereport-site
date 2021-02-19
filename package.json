@@ -23,7 +23,6 @@
     "build:test": "gulp build-sass && bundle exec jekyll build --config _config.yml,_test_config.yml",
     "build:pentest": "gulp build-sass && bundle exec jekyll build --config _config.yml,_pentest_config.yml",
     "build:training": "gulp build-sass && bundle exec jekyll build --config _config.yml,_training_config.yml",
-    "build:beta": "gulp build-sass && bundle exec jekyll build --config _config.yml,_beta_config.yml",
     "build:demo": "gulp build-sass && bundle exec jekyll build --config _config.yml,_demo_config.yml",
     "build:stg": "gulp build-sass && bundle exec jekyll build --config _config.yml,_stg_config.yml",
     "build:prod": "gulp build-sass && bundle exec jekyll build --config _config.yml",
@@ -32,7 +31,6 @@
     "deploy-azure-test": "./deploy.sh test",
     "deploy-azure-pentest": "./deploy.sh pentest",
     "deploy-azure-training": "./deploy.sh training",
-    "deploy-azure-beta": "./deploy.sh beta",
     "deploy-azure-demo": "./deploy.sh demo",
     "deploy-azure-stg": "./deploy.sh stg",
     "deploy-azure-prod": "./deploy.sh prod"
