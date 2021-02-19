@@ -26,7 +26,7 @@
     "build:beta": "gulp build-sass && bundle exec jekyll build --config _config.yml,_beta_config.yml",
     "build:demo": "gulp build-sass && bundle exec jekyll build --config _config.yml,_demo_config.yml",
     "build:stg": "gulp build-sass && bundle exec jekyll build --config _config.yml,_stg_config.yml",
-    "build:prod": "gulp build-sass && bundle exec jekyll build --config _config.yml,_prod_config.yml",
+    "build:prod": "gulp build-sass && bundle exec jekyll build --config _config.yml",
     "deploy": "gulp build-sass --ghpages && bundle exec jekyll build --config _config.yml,_ghpages_config.yml && gh-pages -d _site",
     "deploy-azure-dev": "./deploy.sh dev",
     "deploy-azure-test": "./deploy.sh test",
