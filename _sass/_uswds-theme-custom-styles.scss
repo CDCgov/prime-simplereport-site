@@ -891,20 +891,3 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     margin-top: 0em;
   }
 }
-
-// Side nav fix
-.usa-sidenav__sublist {
-  .usa-sidenav__item {
-    a {
-      padding-left: units($sidenav-level-2-inset);
-    }
-  }
-
-  .usa-sidenav__sublist {
-    .usa-sidenav__item {
-      a {
-        padding-left: units($sidenav-level-3-inset);
-      }
-    }
-  }
-}
