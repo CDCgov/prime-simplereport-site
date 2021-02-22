@@ -28,7 +28,6 @@ Whether you’re a testing site or a public health department, our guides can he
 
 ### For public health departments
 In order to empower testing sites in your jurisdiction to send you data through SimpleReport, you need to connect to the Data Hub.
-- [Public Health Department Onboarding Checklist]({{ site.baseurl }}/assets/resources/Public_Health_Department_Onboarding_Checklist.pdf) (PDF)
 - [Data Hub State Integration Guide]({{ site.baseurl }}/assets/resources/Data_Hub_Onboarding_Guide.pdf) (PDF)
   - The Data Hub makes it easier for local public health departments to receive complete, well-structured COVID-19 electronic test result data.
 
