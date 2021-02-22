@@ -28,4 +28,4 @@ SimpleReport doesn’t support the following browsers:
 
 For the best experience, use SimpleReport with Chrome or Safari.
 
-If you’re still having trouble after trying these steps,[contact us]({% link _pages/resources/troubleshooting/contact-us-for-more-help.md %}).
+If you’re still having trouble after trying these steps, [contact us]({% link _pages/resources/troubleshooting/contact-us-for-more-help.md %}).
