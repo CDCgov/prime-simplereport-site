@@ -1,11 +1,10 @@
-name: Deploy to Test
+name: Deploy to test
 
 on:
   workflow_dispatch:
-    env:
-      description: 'environment to deploy'
-      default: 'test'
-      required: true
+  push:
+    branches:
+      - main
 
 jobs:
   build-deploy:
