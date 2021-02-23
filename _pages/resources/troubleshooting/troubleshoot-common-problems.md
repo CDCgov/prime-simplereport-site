@@ -20,7 +20,7 @@ Try [resetting your password]({% link _pages/resources/troubleshooting/reset-you
 Make sure that the volume on your device is on, and that you’re not connected to external speakers that might be turned off or muted.
 
 ## If you can’t access certain parts of SimpleReport
-Ask an administrator to double-check your access level. From their account, they can [change your access to SimpleReport]({% link _pages/resources/using-simplereport/manage-users/manage-users-on-your-account.md %}).
+Ask an administrator to double-check your access level. From their account, they can [change your access to SimpleReport]({% link _pages/resources/using-simplereport/manage-users/manage-user-permissions.md %}).
 
 ## If your browser can’t run SimpleReport
 SimpleReport doesn’t support the following browsers:

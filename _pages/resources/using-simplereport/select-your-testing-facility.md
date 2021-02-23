@@ -1,5 +1,5 @@
 ---
-title: Register for an account
+title: Select your testing facility
 description:
 layout: page
 class: page-docs

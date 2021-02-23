@@ -1,5 +1,5 @@
 ---
-title: Manage test results
+title: Activate your user account
 description:
 layout: page
 class: page-docs

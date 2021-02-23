@@ -1,5 +1,5 @@
 ---
-title: Manage users on your account
+title: Manage user permissions
 description:
 layout: page
 class: page-docs
