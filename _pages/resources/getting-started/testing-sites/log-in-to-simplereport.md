@@ -18,5 +18,5 @@ To log in:
    - Click Verify.
 4. If your organization has multiple testing facilities, select yours from the choices shown.
 
-Once you’ve successfully logged in, you can do a number of tasks, like [conduct a test]({% link _pages/resources/using-simplereport/conduct-and-submit-tests.md %}) or [add a new person to SimpleReport]({% link _pages/resources/using-simplereport/manage-people/add-a-new-person.md %}).
+Once you’ve successfully logged in, you can do a number of tasks, like [conduct a test]({% link _pages/resources/using-simplereport/run-tests/conduct-and-submit-tests.md %}) or [add a new person to SimpleReport]({% link _pages/resources/using-simplereport/run-tests/add-a-new-person.md %}).
 

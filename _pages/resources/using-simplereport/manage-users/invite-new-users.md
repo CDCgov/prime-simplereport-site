@@ -1,5 +1,5 @@
 ---
-title: Manage results
+title: Invite new users
 description:
 layout: page
 class: page-docs

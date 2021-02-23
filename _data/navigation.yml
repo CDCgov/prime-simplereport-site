@@ -53,8 +53,6 @@ resources:
         subsubnav:
           - page: Onboard your organization
             url: /resources/getting-started/testing-sites/onboard-your-organization/
-          - page: Onboard with a checklist
-            url: /resources/getting-started/testing-sites/onboard-with-a-checklist/
           - page: Register for an account
             url: /resources/getting-started/testing-sites/register-for-an-account/
           - page: Log in to SimpleReport
@@ -62,43 +60,47 @@ resources:
           - page: Get training
             url: /resources/getting-started/testing-sites/get-training/
       - page: Public health departments
-        url: /resources/getting-started/public-health-departments/how-the-prime-data-hub-works/
+        url: /resources/getting-started/public-health-departments/learn-about-prime-reportstream/
         subsubnav:
-          - page: How the PRIME Data Hub works
-            url: /resources/getting-started/public-health-departments/how-the-prime-data-hub-works/
-          - page: Prepare for and fill out the Data Hub Intake Form
-            url: /resources/getting-started/public-health-departments/prepare-for-and-fill-out-the-data-hub-intake-form/
-          - page: Integrate with the Data Hub and start your rollout
-            url: /resources/getting-started/public-health-departments/integrate-with-the-data-hub-and-start-your-rollout/
-          - page: Sample integration timeline
-            url: /resources/getting-started/public-health-departments/sample-integration-timeline/
-          - page: Tech specs
-            url: /resources/getting-started/public-health-departments/tech-specs/
-          - page: FAQs
-            url: /resources/getting-started/public-health-departments/faqs/
+          - page: Learn about PRIME ReportStream
+            url: /resources/getting-started/public-health-departments/learn-about-prime-reportstream/
   - title: Using SimpleReport
-    url: /resources/using-simplereport/conduct-and-submit-tests/
+    url: /resources/using-simplereport/run-tests/switch-between-testing-sites/
     subnav:
-      - page: Conduct and submit tests
-        url: /resources/using-simplereport/conduct-and-submit-tests/
-      - page: Manage people
-        url: /resources/using-simplereport/manage-people/add-a-new-person/
+      - page: Run tests
+        url: /resources/using-simplereport/run-tests/switch-between-testing-sites/
         subsubnav:
+          - page: Switch between testing sites
+            url: /resources/using-simplereport/run-tests/switch-between-testing-sites/
           - page: Add a new person
-            url: /resources/using-simplereport/manage-people/add-a-new-person/
-          - page: Review a patient’s test history
-            url: /resources/using-simplereport/manage-people/review-a-patients-test-history/
-      - page: Manage results
-        url: /resources/using-simplereport/manage-results/
-      - page: Manage facility info
-        url: /resources/using-simplereport/manage-facility-info/edit-facility-info/
+            url: /resources/using-simplereport/run-tests/add-a-new-person/
+          - page: Conduct and submit tests
+            url: /resources/using-simplereport/run-tests/conduct-and-submit-tests/
+      - page: Review results
+        url: /resources/using-simplereport/review-results/manage-test-results/
         subsubnav:
-          - page: Edit facility info
-            url: /resources/using-simplereport/manage-facility-info/edit-facility-info/
-          - page: Edit your facility’s devices
-            url: /resources/using-simplereport/manage-facility-info/edit-your-facilitys-devices/
-      - page: Manage users on your account
-        url: /resources/using-simplereport/manage-users-on-your-account/
+          - page: Manage test results
+            url: /resources/using-simplereport/review-results/manage-test-results/
+          - page: Print someone’s test results
+            url: /resources/using-simplereport/review-results/print-someones-test-results/
+          - page: Correct a previous test result
+            url: /resources/using-simplereport/review-results/correct-a-previous-test-result/
+      - page: Manage users
+        url: /resources/using-simplereport/manage-users/manage-users-on-your-account/
+        subsubnav:
+          - page: Manage user permissions
+            url: /resources/using-simplereport/manage-users/manage-users-on-your-account/
+          - page: Invite new users
+            url: /resources/using-simplereport/manage-users/invite-new-users/
+      - page: Manage facility info
+        url: /resources/using-simplereport/manage-facility-info/add-a-facility/
+        subsubnav:
+          - page: Add a facility
+            url: /resources/using-simplereport/manage-facility-info/add-a-facility/
+          - page: Update facility settings
+            url: /resources/using-simplereport/manage-facility-info/update-facility-settings/
+          - page: Find supported jurisdictions
+            url: /resources/using-simplereport/manage-facility-info/find-supported-jurisdictions/
   - title: Troubleshooting
     url: /resources/troubleshooting/reset-your-simplereport-password/
     subnav:
@@ -113,8 +115,8 @@ resources:
     subnav:
       - page: Join the SimpleReport Google Group
         url: /resources/staying-connected/join-the-simplereport-google-group/
-      - page: Stay up-to-date on improvements
-        url: /resources/staying-connected/stay-up-to-date-on-improvements/
+      - page: Check out Demo Day
+        url: /resources/staying-connected/check-out-demo-day/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.

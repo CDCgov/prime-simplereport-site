@@ -1,5 +1,5 @@
 ---
-title: Review a patient’s test history
+title: Print someone’s test results
 description:
 layout: page
 class: page-docs

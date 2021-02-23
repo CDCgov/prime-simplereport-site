@@ -1,5 +1,5 @@
 ---
-title: Edit your facility’s devices
+title: Update facility settings
 description:
 layout: page
 class: page-docs

@@ -1,5 +1,5 @@
 ---
-title: Integrate with the Data Hub and start your rollout
+title: Learn about PRIME ReportStream
 description:
 layout: page
 class: page-docs

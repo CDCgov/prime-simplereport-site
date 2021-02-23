@@ -1,5 +1,5 @@
 ---
-title: Tech specs
+title: Manage test results
 description:
 layout: page
 class: page-docs

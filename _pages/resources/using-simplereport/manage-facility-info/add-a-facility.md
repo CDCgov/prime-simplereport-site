@@ -1,5 +1,5 @@
 ---
-title: Sample integration timeline
+title: Add a facility
 description:
 layout: page
 class: page-docs
