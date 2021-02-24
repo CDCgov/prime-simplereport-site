@@ -485,13 +485,25 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       @include u-margin-y(2);
       border: units(1px) solid color('base-lightest');
       display: block;
-      max-width: units('card-lg');
+      // max-width: units('card-lg');
     }
 
     ol ul img {
       // margin-left: units(-5);
     }
   }
+}
+
+.page-docs-img-sm {
+  .usa-layout-docs__main {
+    img {
+      max-width: units('card-lg');
+    }
+  }
+}
+
+.margin-left-neg-5 {
+  margin-left: units(-5);
 }
 
 .illustration-image {

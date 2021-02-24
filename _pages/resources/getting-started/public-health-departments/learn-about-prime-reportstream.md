@@ -9,7 +9,7 @@ return_top: 'false'
 ---
 
 Public health departments receive SimpleReport testing data via PRIME ReportStream. ReportStream is a free and open-sourced data platform that makes it easier for testing facilities to send their COVID-19 rapid test data to public health departments.
-![alt_text]({% link assets/img/resources/learn-about-prime-reportstream/reportstream-diagram.png %}){: .maxw-full }
+![alt_text]({% link assets/img/resources/learn-about-prime-reportstream/reportstream-diagram.png %})
 
 There are three main reasons for public health departments to use ReportStream:
 - **You’ll receive data from SimpleReport.** If your jurisdiction wants to receive point-of-care tests results from SimpleReport, you’ll need to build an integration with ReportStream.

@@ -2,7 +2,7 @@
 title: Activate your user account
 description:
 layout: page
-class: page-docs
+class: page-docs page-docs-img-sm
 sidenav: resources
 home_link: true
 return_top: 'false'
@@ -20,7 +20,7 @@ Once you receive the invitation, follow these steps:
   - A forgot password question
   - A security image
   These all help to keep your account secure.
-![alt_text]({% link assets/img/resources/activate-your-user-account/step-2.png %})
+![alt_text]({% link assets/img/resources/activate-your-user-account/step-2.png %}){: .margin-left-neg-5 }
 1. Click **Create My Account** at the bottom right of the page.
 ![alt_text]({% link assets/img/resources/activate-your-user-account/step-3.png %})
 4. Pick a multifactor authentication option, and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.

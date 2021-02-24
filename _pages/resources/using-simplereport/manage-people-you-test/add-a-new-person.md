@@ -14,7 +14,9 @@ You can find out if they’ve already been added by searching for their name in 
 
 To add someone new:
 1. Click **People** at the top of the page.
-2. Click the **+ Add person** button on the right side of the page
+![alt_text]({% link assets/img/resources/add-a-new-person/step-1.png %})
+1. Click the **+ Add person** button on the right side of the page
+![alt_text]({% link assets/img/resources/add-a-new-person/step-2.png %})
 3. Enter the person’s information on the “Add New Person” page that appears. There are a few types of information to enter for the new person:
   **Role (optional):** Mark the person as either “Staff”, “Resident”, “Visitor”, or “Student”.
   - **Facility (required):**  Associate the person with all of your organization’s testing facilities, or just one. They’ll only appear in search results for tests conducted at the facilities that they’re associated with.
