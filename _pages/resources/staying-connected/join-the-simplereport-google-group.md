@@ -17,6 +17,7 @@ If you already have one, skip to the next section.
 
 If you don’t already have a work email address associated with a Google account, follow these instructions:
 1. Go to [accounts.google.com](http://accounts.google.com).
+![image]({% link assets/img/project-images/test-queue-horiz.png %})
 2. Click **Create account**, then click **To manage my business** in the dropdown menu. (If you're signed in to Google with a different account, click your profile picture in the top right corner of the page, then click **Add another account** and follow the previous instructions.)
 3. On the next page, click the blue **Use my current email address instead** link. Then, fill out the rest of your information.
 4. Follow the process on your screen to create the new Google account. Google will likely send a verification code to your work email, and another verification code to your cell phone.

@@ -21,12 +21,12 @@ Once you receive the invitation, follow these steps:
 3. Click **Create My Account** at the bottom right of the page.
 4. Pick a multifactor authentication option, and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.
 
-### If you choose SMS authentication
+## If you choose SMS authentication
 1. Enter your phone number, then click Send code. (Make sure to click Send code, or you won’t be able to continue.)
 2. Check your text messages for a 6-digit authentication code.
 3. Enter the code in the “Enter Code” field, then click **Verify**.
 
-### If you choose Google Authenticator or Okta Verify
+## If you choose Google Authenticator or Okta Verify
 1. Select the kind of phone that you use (either iPhone or Android). You’ll be asked to download an app. Download it on your phone and wait for it to install. (The page on your device might vary a bit from the screenshot below, based on your device type and whether you chose Google Authenticator or Okta Verify.)
 2. Once the app is installed, click **Next**.
 3. Once the app is installed, open the app and scan the QR code that appears on your SimpleReport registration page. Once you’ve successfully scanned the QR code, click **Next**.

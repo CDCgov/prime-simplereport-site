@@ -16,18 +16,6 @@ Welcome to SimpleReport! Let’s get started.
   </div>
 </div>
 
-<!-- <div class="usa-summary-box" role="complementary">
-  <div class="usa-summary-box__body">
-    <h3 class="usa-summary-box__heading">We’ll start with these steps:</h3>
-    <div class="usa-summary-box__text">
-      <ul class="usa-list">
-        <li>Watch the SimpleReport onboarding video</li>
-        <li>Request access for your testing facility</li>
-      </ul>
-    </div>
-  </div>
-</div> -->
-
 We’ll start with these steps:
 - Watch the SimpleReport onboarding video
 - Request access for your testing facility
