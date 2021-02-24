@@ -1,9 +1,8 @@
 ---
 title: Home
 permalink: /
-
 layout: home
-
+class: page-home
 hero:
   image: ''
   # callout:
