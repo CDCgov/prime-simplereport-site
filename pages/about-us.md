@@ -4,7 +4,7 @@ description: About us
 permalink: /about-us/
 layout: post
 return_top: 'false'
-home_text: Return to home
+home_link: true
 ---
 
 <section class="usa-section-list usa-section padding-bottom-0">
@@ -32,11 +32,3 @@ CDC increases the health security of our nation. As the nation’s health protec
 USDS is a group of technologists from diverse backgrounds working across the federal government to transform critical services for the people. These specialists join for tours of civic service to create a steady influx of fresh perspectives. Today USDS continues its non-partisan mission by bringing better government services to all Americans through design and technology.
 
 - [Learn more about USDS](https://www.usds.gov/mission).
-
-<br>
-<br>
-<br>
-<a class='grid-col-6 home-link margin-top-40' href="{% link pages/home.md %}">
-    {% include arrow-left.html %}
-    {{ page.home_text }}
-</a>

@@ -9,16 +9,21 @@ main:
     <div class="grid-row grid-gap flex-align-start">
       {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
       {% if sidenav %}
+
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
+          {% if page.class == "page-docs" and page.home_link == true %}
+            <a class='home-link display-block margin-bottom-2' href="{% link pages/home.md %}">
+              {% include arrow-left.html %}Return to home
+            </a>
+          {% endif %}
           {% include sidenav-custom.html %}
         </div>
       {% endif %}
 
       <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
-        {% if page.home_text %}
+        {% if page.class != "page-docs" and page.home_link == true %}
           <a class='home-link' href="{% link pages/home.md %}">
-            {% include arrow-left.html %}
-            {{ page.home_text }}
+            {% include arrow-left.html %}Return to home
           </a>
         {% endif %}
         {% if page.class == "page-docs" %}
@@ -29,7 +34,7 @@ main:
         {% endif %}
         {% if page.title %}
           <h1
-            {% if page.home_text %}class="no-top-margin"{% endif %}
+            {% if page.home_link %}class="no-top-margin"{% endif %}
             {% if page.class == "page-docs" %} class="margin-top-2"{% endif %}>
             {{ page.title }}
           </h1>
