@@ -660,6 +660,12 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .home-link {
+  color: color($theme-link-color);
+
+  &:hover {
+    color: color($theme-link-hover-color);
+  }
+
   svg {
     height: 1em;
     margin-bottom: -2px;
