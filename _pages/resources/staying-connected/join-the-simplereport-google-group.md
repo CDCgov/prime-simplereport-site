@@ -25,4 +25,4 @@ If you don’t already have a work email address associated with a Google accoun
 To join the SimpleReport Google Group with your Google work account:
 1. Email [support@simplereport.gov](mailto:support@simplereport.gov), and they’ll invite you to the group.
 2. Accept the invite in your work account email inbox.
-3. Go to [https://groups.google.com/u/1/g/cdc-usds](https://groups.google.com/u/1/g/cdc-usds) to check out group conversations with the USDS, CDC, and other SimpleReport users. You’ll also receive group updates in your email inbox.
+3. Go to the [SimpleReport Google Group](https://groups.google.com/u/1/g/cdc-usds) to check out group conversations with the USDS, CDC, and other SimpleReport users. You’ll also receive group updates in your email inbox.
