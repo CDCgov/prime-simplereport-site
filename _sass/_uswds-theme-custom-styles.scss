@@ -653,12 +653,16 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
 
     a {
-      color: white !important;
+      color: color('base-lighter');
       font-family: $font-sans;
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 150%;
+
+      &:hover {
+        color: color('white');
+      }
     }
   }
   .tos-right {
