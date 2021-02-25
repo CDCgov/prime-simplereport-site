@@ -24,8 +24,8 @@ Once you’ve [logged in to SimpleReport]({% link _pages/resources/getting-start
 ![alt_text]({% link assets/img/resources/conduct-and-submit-tests/step-2.png %})
 3. Confirm the person’s full name and date of birth. Then click **Begin test** to the right of their name.
 ![alt_text]({% link assets/img/resources/conduct-and-submit-tests/step-3.png %})
-  - If the person you’re looking for doesn’t appear in the search results, make sure that you’ve spelled their name correctly. If you still can’t find them, you’ll need to add them before proceeding with the rest of these steps.
-4. The test questionnaire will appear. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
+- If the person you’re looking for doesn’t appear in the search results, make sure that you’ve spelled their name correctly. If you still can’t find them, you’ll need to add them before proceeding with the rest of these steps.
+1. The test questionnaire will appear. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
 ![alt_text]({% link assets/img/resources/conduct-and-submit-tests/step-4.png %})
 5. The person’s name will appear on a card on the “Conduct Tests” page. You can continue with their test or, if you’re testing multiple people at once, you can repeat the previous steps for each of the people you’re testing.
 6. Collect the swab from the person you’re testing and prepare their sample.
@@ -35,9 +35,9 @@ Once you’ve [logged in to SimpleReport]({% link _pages/resources/getting-start
 ![alt_text]({% link assets/img/resources/conduct-and-submit-tests/step-8.png %})
 9. Once the test is complete, select the result of the test on the right side of the person’s card: either “Positive”, “Negative”, or “Inconclusive”.
 ![alt_text]({% link assets/img/resources/conduct-and-submit-tests/step-9.png %})
-10.  Make sure that you’ve completed the test questionnaire. You can review the questions by clicking Test questionnaire on the card. A gray “PENDING” tag means that some answers are still missing. A green “COMPLETE” tag means that all questions are completed.
-  - You can submit the results without completing all of the questions, if the person being tested declines to answer them.
+10.  Make sure that you’ve completed the test questionnaire. You can review the questions by clicking Test questionnaire on the card. A gray “PENDING” tag means that some answers are still missing. A green “COMPLETE” tag means that all questions are completed.<br>
+You can submit the results without completing all of the questions, if the person being tested declines to answer them.
 ![alt_text]({% link assets/img/resources/conduct-and-submit-tests/step-10.png %})
-11.  Click **Submit**.
+1.   Click **Submit**.
 
 You’ve successfully submitted the test result to your public health department. You’re all done. If you have the SimpleReport permissions to do so, you can also [review submitted results]({% link _pages/resources/using-simplereport/manage-results/review-results.md %}).

@@ -502,6 +502,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
         list-style-type: lower-alpha !important;
       }
     }
+
+    li {
+      br {
+        content: "";
+        display: block;
+        margin-top: units(2) !important;
+      }
+    }
   }
 }
 
