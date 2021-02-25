@@ -18,13 +18,13 @@ You may need to change information about your facility, from the phone number to
 
 To update your facility information:
 1. Click the gear icon at the top right corner of the page.
-![alt_text]({% link assets/img/resources/update-facility-settings/step-1.png %})
+![SimpleReport’s top navigation, with the gear icon on the far right side selected]({% link assets/img/resources/update-facility-settings/step-1.png %})
 2. Beneath the SimpleReport logo at the top of the page, find the “Manage Organization” and “Manage Facilities” tabs. (Your organization is the umbrella for all of your facilities.) Click **Manage Facilities**.
-![alt_text]({% link assets/img/resources/update-facility-settings/step-2.png %})
+![The “Manage Facilities” tab selected in SimpleReport]({% link assets/img/resources/update-facility-settings/step-2.png %})
 3. Click the name of the facility whose information you want to edit. (You can also [add a new facility]({% link _pages/resources/using-simplereport/manage-facility-info/add-a-facility.md %}).)
-![alt_text]({% link assets/img/resources/update-facility-settings/step-3.png %})
+![The "Manage Facilities" page, with a list of all facilities in your organization]({% link assets/img/resources/update-facility-settings/step-3.png %})
 4. Edit the information that you want to change.<br class="margin-top-2"><br>
 If the testing devices your facility uses have changed, update your device information at the bottom of the page, on the “Manage devices” card. You can also indicate which device should be the facility’s default device for tests.
-![alt_text]({% link assets/img/resources/update-facility-settings/step-4.png %})
+![The "Manage devices" section of the page, with two facilities already entered, the option to set one as the default device, the option to delete either of them, and the "+ Add device" button at the bottom]({% link assets/img/resources/update-facility-settings/step-4.png %})
 1. When you’re done, scroll back to the top right of the page and click **Save changes**.
-![alt_text]({% link assets/img/resources/update-facility-settings/step-5.png %})
+![The blue “Save changes” button toward the top right of the page]({% link assets/img/resources/update-facility-settings/step-5.png %})
