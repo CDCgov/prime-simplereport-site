@@ -34,7 +34,7 @@ main:
         {% endif %}
         {% if page.title %}
           <h1
-            {% if page.home_link %}class="no-top-margin"{% endif %}
+            {% unless page.class contains "page-docs" and page.home_link %}class="no-top-margin"{% endunless %}
             {% if page.class == "page-docs" %} class="margin-top-2"{% endif %}>
             {{ page.title }}
           </h1>
