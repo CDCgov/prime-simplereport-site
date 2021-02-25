@@ -11,7 +11,7 @@ main:
       {% if sidenav %}
 
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
-          {% if page.class == "page-docs" and page.home_link == true %}
+          {% if page.class contains "page-docs" and page.home_link == true %}
             <a class='home-link display-block margin-bottom-2' href="{% link pages/home.md %}">
               {% include arrow-left.html %}Return to home
             </a>
@@ -21,11 +21,11 @@ main:
       {% endif %}
 
       <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
-        {% if page.class != "page-docs" and page.home_link == true %}
+        {% unless page.class contains "page-docs" and page.home_link == true %}
           <a class='home-link' href="{% link pages/home.md %}">
             {% include arrow-left.html %}Return to home
           </a>
-        {% endif %}
+        {% endunless %}
         {% if page.class == "page-docs" %}
           <p class="text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
             {% assign kicker = page.url | split: "/" | reverse %}
