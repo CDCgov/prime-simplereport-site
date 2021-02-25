@@ -36,14 +36,14 @@ You can now [log in to SimpleReport]({% link _pages/resources/getting-started/te
 ## Multifactor authentication options
 If you choose SMS or Google Authenticator/Okta Verify as your multifactor authentication, follow the instructions below to get set up.
 {: .usa-intro }
-### If you choose SMS authentication
+### SMS authentication
 1. Enter your phone number, then click Send code. (Make sure to click Send code, or you won’t be able to continue.)
 ![alt_text]({% link assets/img/resources/activate-your-user-account/sms-step-1.png %})
 2. Check your text messages for a 6-digit authentication code.
 3. Enter the code in the “Enter Code” field, then click **Verify**.
 ![alt_text]({% link assets/img/resources/activate-your-user-account/sms-step-3.png %})
 
-### If you choose Google Authenticator or Okta Verify
+### Google Authenticator or Okta Verify
 1. Select the kind of phone that you use (either iPhone or Android). You’ll be asked to download an app. Download it on your phone and wait for it to install. (The page on your device might vary a bit from the screenshot below, based on your device type and whether you chose Google Authenticator or Okta Verify.)
 ![alt_text]({% link assets/img/resources/activate-your-user-account/authenticator-verify-step-1.png %})
 2. Once the app is installed, click **Next**.
