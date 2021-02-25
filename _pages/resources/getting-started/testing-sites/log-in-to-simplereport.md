@@ -15,11 +15,11 @@ To log in:
 ![alt_text]({% link assets/img/resources/log-in-to-simplereport/step-1.png %})
 2. Enter your username and password.
 3. You’ll need to use the multifactor authentication option that you set up when you registered your account. Here’s an example of what you’ll need to do if you set up SMS authentication:
-   - Click the gray **Send code** button to have the verification code sent to your phone. (Make sure to click the button, or else the code won’t get sent.)
+   1. Click the gray **Send code** button to have the verification code sent to your phone. (Make sure to click the button, or else the code won’t get sent.)
    ![alt_text]({% link assets/img/resources/log-in-to-simplereport/sms-step-1.png %}){: .maxw-card-lg }
-   - Once you receive the text, enter the code in the “Enter Code” field.
+   1. Once you receive the text, enter the code in the “Enter Code” field.
    ![alt_text]({% link assets/img/resources/log-in-to-simplereport/sms-step-1.png %}){: .maxw-card-lg }
-   - Click **Verify**.
+   1. Click **Verify**.
    {: .list--alpha }
 4. If your organization has multiple testing facilities, select yours from the choices shown.
 
