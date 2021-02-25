@@ -14,7 +14,7 @@ A few tactics can resolve many issues that people have while using SimpleReport.
 * Make sure that your internet connection is working
 * Reboot your device
 
-If you’re still having trouble after trying these steps, try these:
+If you’re still having trouble, here are solutions for common issues.
 
 <div class="usa-accordion usa-accordion--bordered">
   <!-- Use the accurate heading level to maintain the document outline -->
