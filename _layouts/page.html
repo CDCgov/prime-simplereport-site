@@ -26,7 +26,7 @@ main:
             {% include arrow-left.html %}Return to home
           </a>
         {% endunless %}
-        {% if page.class == "page-docs" %}
+        {% if page.class contains "page-docs" %}
           <p class="text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
             {% assign kicker = page.url | split: "/" | reverse %}
             {{ kicker[1] | replace: '-', ' ' }}
