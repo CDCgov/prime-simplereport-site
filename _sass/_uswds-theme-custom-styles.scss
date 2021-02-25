@@ -484,7 +484,8 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     img {
       border: units(1px) solid color('base-lightest');
       display: block;
-      margin: units(2) 0 !important;
+      margin-bottom: units(2) !important;;
+      margin-top: units(2) !important;;
     }
 
     > ol {

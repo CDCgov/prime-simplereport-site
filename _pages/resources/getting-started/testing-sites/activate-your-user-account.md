@@ -23,10 +23,10 @@ Once you receive the invitation, follow these steps:
 ![alt_text]({% link assets/img/resources/activate-your-user-account/step-2.png %}){: .margin-left-neg-5 }
 1. Click **Create My Account** at the bottom right of the page.
 ![alt_text]({% link assets/img/resources/activate-your-user-account/step-3.png %})
-4. [Pick a multifactor authentication option](#multifactor-authentication-options), and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.
-  - At the bottom of this page, you can review instructions for setting up [SMS authentication and Google Authenticator/Okta Verify](#multifactor-authentication-options).
+4. [Pick a multifactor authentication option](#multifactor-authentication-options), and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.<br>
+At the bottom of this page, you can review instructions for setting up [SMS authentication and Google Authenticator/Okta Verify](#multifactor-authentication-options).
 ![alt_text]({% link assets/img/resources/activate-your-user-account/step-4.png %})
-5. Click the **Finish** button at the bottom of the registration page. The page will confirm that you’ve successfully set up your multifactor authentication, and you’ll get a confirmation email, too.
+1. Click the **Finish** button at the bottom of the registration page. The page will confirm that you’ve successfully set up your multifactor authentication, and you’ll get a confirmation email, too.
 ![alt_text]({% link assets/img/resources/activate-your-user-account/step-5.png %})
 
 Now that you’re registered, [join the USDS-CDC Google Group]({% link _pages/resources/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
