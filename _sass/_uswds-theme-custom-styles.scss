@@ -491,6 +491,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     ol ul img {
       // margin-left: units(-5);
     }
+
+    > ol {
+      @extend .usa-process-list;
+
+      > li {
+        @extend .usa-process-list__item;
+      }
+    }
   }
 }
 
