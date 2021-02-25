@@ -6,6 +6,7 @@ class: page-docs
 sidenav: resources
 home_link: true
 return_top: 'false'
+redirect_from: /resources/
 ---
 
 Welcome to SimpleReport! Let’s get started.
