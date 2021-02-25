@@ -482,14 +482,9 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
   .usa-layout-docs__main {
     img {
-      @include u-margin-y(2);
       border: units(1px) solid color('base-lightest');
       display: block;
-      // max-width: units('card-lg');
-    }
-
-    ol ul img {
-      // margin-left: units(-5);
+      margin: units(2) 0 !important;
     }
 
     > ol {
@@ -497,6 +492,14 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
       > li {
         @extend .usa-process-list__item;
+
+        > ul:first-child {
+          margin-top: units(.5);
+        }
+      }
+
+      .list--alpha {
+        list-style-type: lower-alpha !important;
       }
     }
   }
