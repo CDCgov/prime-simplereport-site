@@ -31,11 +31,11 @@ At the bottom of this page, you can review instructions for setting up [SMS auth
 
 Now that you’re registered, [join the USDS-CDC Google Group]({% link _pages/resources/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
 
-You can now [log in to SimpleReport]({% link _pages/resources/getting-started/testing-sites/log-in-to-simplereport.md %}).
+You can now [log in to SimpleReport]({% link _pages/resources/getting-started/testing-facilities/log-in-to-simplereport.md %}).
 
 ## Multifactor authentication options
 If you choose SMS or Google Authenticator/Okta Verify as your multifactor authentication, follow the instructions below to get set up.
-{: .usa-intro }
+
 ### SMS authentication
 1. Enter your phone number, then click Send code. (Make sure to click Send code, or you won’t be able to continue.)
 ![alt_text]({% link assets/img/resources/activate-your-user-account/sms-step-1.png %})

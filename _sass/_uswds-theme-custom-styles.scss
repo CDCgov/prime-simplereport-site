@@ -494,8 +494,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       > li {
         @extend .usa-process-list__item;
 
-        > ul:first-child {
-          margin-top: units(.5);
+        > ul, > ol {
+          &:first-child {
+            margin-top: units(.5);
+          }
         }
       }
 
@@ -512,6 +514,10 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
       }
     }
   }
+}
+
+.tag--success {
+  background-color: color('green-cool-50v');
 }
 
 .page-docs-img-sm {

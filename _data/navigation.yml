@@ -46,19 +46,19 @@ secondary:
 
 resources:
   - title: Getting started
-    url: /resources/getting-started/testing-sites/onboard-your-organization/
+    url: /resources/getting-started/testing-facilities/onboard-your-organization/
     subnav:
-      - page: Testing sites
-        url: /resources/getting-started/testing-sites/onboard-your-organization/
+      - page: Testing facilities
+        url: /resources/getting-started/testing-facilities/onboard-your-organization/
         subsubnav:
           - page: Onboard your organization
-            url: /resources/getting-started/testing-sites/onboard-your-organization/
+            url: /resources/getting-started/testing-facilities/onboard-your-organization/
           - page: Activate your user account
-            url: /resources/getting-started/testing-sites/activate-your-user-account/
+            url: /resources/getting-started/testing-facilities/activate-your-user-account/
           - page: Log in to SimpleReport
-            url: /resources/getting-started/testing-sites/log-in-to-simplereport/
+            url: /resources/getting-started/testing-facilities/log-in-to-simplereport/
           - page: Get training
-            url: /resources/getting-started/testing-sites/get-training/
+            url: /resources/getting-started/testing-facilities/get-training/
       - page: Public health departments
         url: /resources/getting-started/public-health-departments/learn-about-prime-reportstream/
         subsubnav:
