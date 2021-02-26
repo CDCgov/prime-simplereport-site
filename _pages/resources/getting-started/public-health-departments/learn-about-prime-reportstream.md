@@ -9,7 +9,7 @@ return_top: 'false'
 ---
 
 Public health departments receive SimpleReport testing data via the PRIME Data Hub. The Data Hub is a free and open-sourced data platform that makes it easier for testing facilities to send their COVID-19 rapid test data to public health departments.
-![Diagram showing how SimpleReport, lab, and hospitals all send data to the Data Hub, which then sends data to state and county public health departments]({% link assets/img/resources/learn-about-prime-reportstream/reportstream-diagram.png %})
+![Diagram showing how SimpleReport, lab, and hospitals all send data to the Data Hub, which then sends data to state and county public health departments]({% link assets/img/resources/learn-about-prime-data-hub/data-hub-diagram.png %})
 
 There are three main reasons for public health departments to use the Data Hub:
 - **You’ll receive data from SimpleReport.** If your jurisdiction wants to receive point-of-care tests results from SimpleReport, you’ll need to build an integration with the Data Hub.
