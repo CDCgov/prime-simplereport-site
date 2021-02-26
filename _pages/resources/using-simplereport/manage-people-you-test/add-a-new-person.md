@@ -18,7 +18,7 @@ To add someone new:
 1. Click the **+ Add person** button on the right side of the page
 ![The user's mouse hovering over the "+ Add person" button toward the top right of the page]({% link assets/img/resources/add-a-new-person/step-2.png %})
 3. Enter the person’s information on the “Add New Person” page that appears. There are a few types of information to enter for the new person:
-- **Role (optional):** Mark the person as either “Staff”,“Resident”, “Visitor”, or “Student”.
+- **Role (optional):** Mark the person as either “Staff”, “Resident”, “Visitor”, or “Student”.
 - **Facility (required):**  Associate the person with all ofyour organization’s testing facilities, or just one. They’ll only appear in search results for tests conducted at the facilities that they’re associated with.
 - **Demographics (optional, but encouraged):** Fill out information about the person’s demographics. We know that public health problems are disproportionately high in some populations. Filling out this information can help efforts to recognize and mitigate disparities in health outcomes.
 4. When you’re done, click **Save changes** at either the bottom right or top right corner of the page.
