@@ -19,14 +19,15 @@ Once you receive the invitation, follow these steps:
   - A secure password
   - A forgot password question
   - A security image
-  These all help to keep your account secure.
+<br>
+These all help to keep your account secure.
 ![An Okta page requesting a password, password question, and security image]({% link assets/img/resources/activate-your-user-account/step-2.png %}){: .margin-left-neg-5 }
-1. Click **Create My Account** at the bottom right of the page.
+3. Click **Create My Account** at the bottom right of the page.
 ![The "Create My Account" button]({% link assets/img/resources/activate-your-user-account/step-3.png %})
 4. [Pick a multifactor authentication option](#multifactor-authentication-options), and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.<br>
 At the bottom of this page, you can review instructions for setting up [SMS authentication and Google Authenticator/Okta Verify](#multifactor-authentication-options).
 ![An Okta page showing the four different multifactor authentication options: Okta Verify, Security Key or Biometric Authenticator, Google Authenticator, and SMS Authentication]({% link assets/img/resources/activate-your-user-account/step-4.png %})
-1. Click the **Finish** button at the bottom of the registration page. The page will confirm that you’ve successfully set up your multifactor authentication, and you’ll get a confirmation email, too.
+5. Click the **Finish** button at the bottom of the registration page. The page will confirm that you’ve successfully set up your multifactor authentication, and you’ll get a confirmation email, too.
 ![The blue "Finish" button at the bottom of the Okta multifactor authentication options page]({% link assets/img/resources/activate-your-user-account/step-5.png %})
 
 Now that you’re registered, [join the USDS-CDC Google Group]({% link _pages/resources/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
