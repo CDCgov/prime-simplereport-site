@@ -16,5 +16,5 @@ If you have questions about training for SimpleReport, contact [support@simplere
 <div class="usa-embed-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
+<br>
 Continue learning with [our series of quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF).
