@@ -13,5 +13,5 @@ We’re always looking for ways to keep you updated on progress and improvements
 You can also check out our weekly Demo Day videos to keep tabs on what’s new in SimpleReport.
 
 <div class="usa-embed-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe title="USDS-CDC PRIME Demo Day Playlist" width="560" height="315" src="https://www.youtube.com/watch?v=Ve-KgBDEnPs&list=PL3U3nqqPGhaZbRpj1r7dE1W2tIzcjthbh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
