@@ -26,7 +26,7 @@ We’ll start with these steps:
 Get started with a video introduction to SimpleReport.
 
 <div class="usa-embed-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe title="PRIME SimpleReport Introduction & Onboarding Guide" width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Request access for your testing facility
