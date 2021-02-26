@@ -27,7 +27,7 @@ main:
           </a>
         {% endunless %}
         {% if page.class contains "page-docs" %}
-          <p class="text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
+          <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
             {% assign kicker = page.url | split: "/" | reverse %}
             {{ kicker[1] | replace: '-', ' ' }}
           </p>
