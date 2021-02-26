@@ -13,7 +13,7 @@ SimpleReport uses a service called Okta to register users and create their accou
 Once you’ve set up your account, you can [invite members of your team to SimpleReport]({% link _pages/resources/using-simplereport/manage-users/invite-new-users.md %}).
 
 Once you receive the invitation, follow these steps:
-1. Click the green **Activate your SimpleReport Account** button. You’ll need to click the button within 7 days of receiving the invitation, or else it will expire.
+1. Click the green **Activate your SimpleReport Account** button. You’ll need to click the button within seven days of receiving the invitation, or else it will expire.
 ![Email from Okta with green "Activate your SimpleReport Account" button]({% link assets/img/resources/activate-your-user-account/step-1.png %})
 2. On the page that appears, you’ll need to pick:
   - A secure password
