@@ -60,10 +60,10 @@ resources:
           - page: Get training
             url: /resources/getting-started/testing-facilities/get-training/
       - page: Public health departments
-        url: /resources/getting-started/public-health-departments/learn-about-prime-reportstream/
+        url: /resources/getting-started/public-health-departments/learn-about-prime-data-hub/
         subsubnav:
-          - page: Learn about PRIME ReportStream
-            url: /resources/getting-started/public-health-departments/learn-about-prime-reportstream/
+          - page: Learn about PRIME Data Hub
+            url: /resources/getting-started/public-health-departments/learn-about-prime-data-hub/
   - title: Using SimpleReport
     url: /resources/using-simplereport/select-your-testing-facility/
     subnav:
