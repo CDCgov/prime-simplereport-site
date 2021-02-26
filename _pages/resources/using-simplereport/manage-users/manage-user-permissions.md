@@ -10,7 +10,7 @@ return_top: 'false'
 
 You might want to limit which members of your staff can perform certain tasks or access certain information in SimpleReport. All users can conduct and report tests, but you can restrict access to other things, like viewing and correcting results, viewing and editing profiles, and accessing facility settings.
 
-To manage user permissions in SimpleReport, you must have admin privileges. If you do not have admin privileges, talk to an admin about upgrading permissions on your account.
+To manage user permissions in SimpleReport, you must have admin privileges. If you don't have admin privileges, talk to an admin about upgrading permissions on your account.
 
 To change permissions for a user:
 1. Click the gear icon at the top right corner of the page
