@@ -114,7 +114,7 @@ gulp.task('build-sass', function () {
       .pipe(replace(/\buswds @version\b/g, 'based on uswds v' + pkg.version))
       .pipe(
         ghPages
-          ? replace(/\/assets\/img/g, '/SimpleReport_Public_Site/assets/img')
+          ? replace(/\/assets\/img/g, '/prime-simplereport-site/assets/img')
           : replace(/this will never be found/g, 'this will never be found')
       )
       .pipe(postcss(plugins))
