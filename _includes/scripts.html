@@ -1,5 +1,5 @@
 {% assign _scripts = '' | split: '' %}
-{% assign _async_marker = 'uswds_async=true' %}
+{% assign _async_marker = 'uswds_async=false' %}
 {% assign _site_scripts = site.scripts %}
 {% unless _site_scripts -%}
   {% assign _uswds_js = '/assets/js/uswds.min.js' | append: '?' | append: _async_marker %}

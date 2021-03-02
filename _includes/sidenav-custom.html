@@ -1,0 +1,40 @@
+<nav aria-label="Secondary navigation">
+  <ul class="usa-sidenav">
+    {% if site.data.navigation.resources[0] %}
+      {% for item in site.data.navigation.resources %}
+        {% assign title_slug = item.title | slugify %}
+        <li class="usa-sidenav__item">
+          <a href="{{ site.baseurl }}{{ item.url }}"
+            {% if page.url contains title_slug %} class="usa-current" {% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+        {% if item.subnav[0] and page.url contains title_slug %}
+          <ul class="usa-sidenav__sublist">
+            {% for entry in item.subnav %}
+              {% assign title_slug = entry.page | slugify %}
+              <li class="usa-sidenav__item">
+                <a href="{{ site.baseurl }}{{ entry.url }}"
+                  {% if page.url contains title_slug %} class="usa-current" {% endif %}>
+                  {{ entry.page }}
+                </a>
+                {% if entry.subsubnav[0] and page.url contains title_slug %}
+                  <ul class="usa-sidenav__sublist">
+                  {% for subentry in entry.subsubnav %}
+                    <li class="usa-sidenav__item">
+                      <a href="{{ site.baseurl }}{{ subentry.url }}"
+                        {% if subentry.url ==page.url %} class="usa-current" {% endif %}>
+                        {{ subentry.page }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </ul>
+</nav>

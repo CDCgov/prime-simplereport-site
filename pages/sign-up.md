@@ -4,7 +4,7 @@ description: Sign up
 permalink: /sign-up/
 layout: post
 return_top: 'false'
-home_text: Return to home
+home_link: true
 ---
 
 <section class="usa-section-list usa-section">
@@ -43,7 +43,7 @@ home_text: Return to home
     </div>
     <a class='grid-col-6 home-link margin-top-40' href="{% link pages/home.md %}">
       {% include arrow-left.html %}
-      {{ page.home_text }}
+      {{ page.home_link }}
     </a>
   </div>
 </section>

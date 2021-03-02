@@ -15,7 +15,7 @@ jobs:
       uses: treosh/lighthouse-ci-action@v2
       with:
         urls: |
-          https://cdcgov.github.io/SimpleReport_Public_Site/
+          https://cdcgov.github.io/prime-simplereport-site/
         uploadArtifacts: false
         configPath: ./lighthouse/lighthouserc.yml
         runs: 1

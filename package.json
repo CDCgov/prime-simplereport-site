@@ -1,5 +1,5 @@
 {
-  "name": "SimpleReport_Public_Site",
+  "name": "prime-simplereport-site",
   "private": true,
   "author": "Skylight Digital",
   "license": "CC0-1.0",
@@ -68,7 +68,7 @@
     "prettier": "2.0.5",
     "sass": "^1.26.11",
     "uncss": "^0.17.3",
-    "uswds": "^2.8.1",
+    "uswds": "^2.10.1",
     "uswds-gulp": "github:uswds/uswds-gulp",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",

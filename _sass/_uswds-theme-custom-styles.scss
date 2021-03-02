@@ -34,45 +34,13 @@ Typography
 ----------------------------------------
 */
 
-$font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-$font-sans: Inter, $font-system;
-$font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
-
-@font-face {
-  font-family: Inter;
-  src: url('https://static.figma.com/webfont/1/Inter-Regular.woff2?v=3.10')
-      format('woff2'),
-    url('https://static.figma.com/webfont/1/Inter-Regular.woff?v=3.10')
-      format('woff');
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url('https://static.figma.com/webfont/1/Inter-Medium.woff2?v=3.10')
-      format('woff2'),
-    url('https://static.figma.com/webfont/1/Inter-Medium.woff?v=3.10')
-      format('woff');
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url('https://static.figma.com/webfont/1/Inter-SemiBold.woff2?v=3.10')
-      format('woff2'),
-    url('https://static.figma.com/webfont/1/Inter-SemiBold.woff?v=3.10')
-      format('woff');
-  font-style: normal;
-  font-weight: 600;
-}
-
 .usa-prose {
-  font-weight: 400;
   a {
     @include typeset-link;
+  }
+
+  h1, h2, h3 {
+    font-weight: $theme-font-weight-medium;
   }
 }
 
@@ -133,7 +101,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   padding: 0;
   h1,
   h2 {
-    font-family: $font-sans;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -176,8 +143,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 .usa-navbar {
   @include at-media(mobile) {
     padding-top: 0;
-    .usa-menu-btn {
-    }
     #header-logo {
       margin-top: 160px;
     }
@@ -222,13 +187,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     padding-bottom: 160px;
     background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
     /*uncomment for githubpages*/
-    /*background-image: url('/assets/img/waves.svg'), url('/SimpleReport_Public_Site/assets/img/waves.svg');*/
+    /*background-image: url('/assets/img/waves.svg'), url('/prime-simplereport-site/assets/img/waves.svg');*/
     max-height: 390px;
   }
 }
 
 .usa-hero-subsection {
-  font-family: $font-sans;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -261,7 +226,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
         content: '✓';
         display: inline-block;
         width: 16px;
-        font-family: $font-system;
+
       }
 
       font-weight: 400;
@@ -308,40 +273,43 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 //   padding-top: 0;
 // }
 
-.usa-section {
-  img {
-    margin-bottom: 24px;
-  }
+.page-home {
+  .usa-section {
+    img {
+      margin-bottom: 24px;
+    }
 
-  .usa-bullets {
-    p {
-      /*margin: 0 auto 2em auto;*/
-      font-family: $font-sans;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 150%;
-      @include at-media('tablet') {
-        margin-bottom: 0;
-        font-size: 14px;
-      }
-      strong {
-        font-weight: 600;
+    .usa-bullets {
+      p {
+        /*margin: 0 auto 2em auto;*/
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        @include at-media('tablet') {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+        strong {
+          font-weight: 600;
+        }
       }
     }
-  }
-  .usa-list {
-    li {
-      font-family: $font-system;
-      font-weight: 400;
-    }
-  }
+    .usa-list {
+      li {
 
-  &.blue-section {
-    ul {
-      padding-bottom: 40px;
+        font-weight: 400;
+      }
+    }
+
+    &.blue-section {
+      ul {
+        padding-bottom: 40px;
+      }
     }
   }
 }
+
 
 .usa-section-list {
   background: white;
@@ -372,7 +340,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   h2 {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -381,7 +349,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   h3 {
-    font-family: $font-mono;
+
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -390,13 +358,13 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     margin-bottom: 2em;
   }
   h4 {
-    font-family: $font-sans;
+
     font-weight: 700;
     font-size: 14px;
   }
 
   .usa-prose {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -405,7 +373,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .prose-f4 {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -414,7 +382,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .number-header {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -425,7 +393,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .usa-list {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -459,12 +427,84 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 }
 
+.page-docs {
+  .grid-row {
+    @include at-media('tablet') {
+      padding: 0;
+    }
+  }
+
+  .usa-layout-docs__main {
+    h1,
+    h2,
+    h3 {
+      color: color('primary-darker');
+    }
+
+    .usa-button {
+      color: color('white');
+      text-decoration: none;
+    }
+  }
+
+  .usa-layout-docs__main {
+    img {
+      border: units(1px) solid color('base-lightest');
+      display: block;
+      margin-bottom: units(2) !important;;
+      margin-top: units(2) !important;;
+    }
+
+    > ol {
+      @extend .usa-process-list;
+
+      > li {
+        @extend .usa-process-list__item;
+
+        > ul, > ol {
+          &:first-child {
+            margin-top: units(.5);
+          }
+        }
+      }
+
+      .list--alpha {
+        list-style-type: lower-alpha !important;
+      }
+    }
+
+    li {
+      br {
+        content: "";
+        display: block;
+        margin-top: units(2) !important;
+      }
+    }
+  }
+}
+
+.tag--success {
+  background-color: color('green-cool-50v');
+}
+
+.page-docs-img-sm {
+  .usa-layout-docs__main {
+    img {
+      max-width: units('card-lg');
+    }
+  }
+}
+
+.margin-left-neg-5 {
+  margin-left: units(-5);
+}
+
 .illustration-image {
   margin-bottom: 3em !important;
 }
 
 .usa-bullets {
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -477,10 +517,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   @include at-media('tablet') {
     max-width: 480px;
   }
-}
-
-.usa-bullets + .divider-line {
-  /*margin-top: 5em;*/
 }
 
 .blue-section {
@@ -515,7 +551,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .usa-prose {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -535,7 +571,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .medium-header {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -545,7 +581,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   }
 
   .prose {
-    font-family: $font-sans;
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -561,9 +597,6 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .usa-footer {
-  .usa-footer__primary-section {
-    // display: none;
-  }
   .usa-footer__secondary-section {
     margin-top: 40px;
     background-color: #162e51;
@@ -579,7 +612,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
 
     h3.usa-footer__logo-heading {
-      font-family: $font-sans;
+
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -587,12 +620,16 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     }
 
     a {
-      color: white !important;
-      font-family: $font-sans;
+      color: color('base-lighter');
+
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 150%;
+
+      &:hover {
+        color: color('white');
+      }
     }
   }
   .tos-right {
@@ -617,7 +654,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   background: #005ea2;
   border-radius: 4px;
   color: white !important;
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -648,6 +685,12 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .home-link {
+  color: color($theme-link-color);
+
+  &:hover {
+    color: color($theme-link-hover-color);
+  }
+
   svg {
     height: 1em;
     margin-bottom: -2px;
@@ -666,7 +709,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .huge-header {
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -675,7 +718,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .medium-header {
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -688,7 +731,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .small-header {
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -701,7 +744,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .prose {
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -710,7 +753,7 @@ $font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
 .small-prose {
-  font-family: $font-sans;
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

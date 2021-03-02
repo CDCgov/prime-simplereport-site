@@ -33,13 +33,13 @@ Serve site
 
 ## Contributing
 1. make changes on a branch
-2. Open a PR and deploy branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main` 
+2. Open a PR and deploy branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`
 3. Link to deployed code in PR
 4. Ensure all checks are passing, get at least one code review, and that changes work as expected in the cloud env
 5. Merge PR into `main` make sure changes are deployed and working in [demo](https://demo.simplereport.gov)
 6. Manually trigger a deploy of `main` to `prod`. See [Manually Trigger Deploy](#manually-trigger-deploy)
 
-## Cloud Environments 
+## Cloud Environments
 **Type**|**Static Site URL**|**Deployment**|**How to trigger**
 :-----:|:-----:|:-----:|:-----:
 Prod|https://simplereport.gov|Manual|[Github Actions](#manually-trigger-deploy)
@@ -49,11 +49,11 @@ Demo|https://demo.simplereport.gov|Automed on merge to `main`|[Github Actions](#
 Test|https://test.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Pentest|https://pentest.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Training|https://training.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
-github pages|https://cdcgov.github.io/SimpleReport_Public_Site/|Automed on merge to `main` and `gh-pages`|`npm run deploy`
+github pages|https://cdcgov.github.io/prime-simplereport-site/|Automed on merge to `main` and `gh-pages`|`npm run deploy`
 
 ## Manually Trigger Deploy
 
-1. Navigate to the [Github Actions Tab](https://github.com/CDCgov/SimpleReport_Public_Site/actions)
+1. Navigate to the [Github Actions Tab](https://github.com/CDCgov/prime-simplereport-site/actions)
 2. Select the environment you want to deploy to from the workflows list. In this case we are selecting the `dev` environment
 ![Select-dev](https://user-images.githubusercontent.com/53869143/108391209-78026280-71df-11eb-8cab-2d124f71627e.png)
 1. Click the "Run workflow" button, select the branch you want to deploy and click the green "Run workflow" button. In this case we are deploying the latest commit on `main` to `dev`

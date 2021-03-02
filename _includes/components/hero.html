@@ -15,15 +15,31 @@
           {{ hero.callout.text | default: hero.callout }}
         </h1>
         {% endif %} -->
-        <div class="float-right">
-          <a href="{{ site.okta_url | xml_escape }}"
-            class="usa-button usa-button--accent-cool text-no-underline text-ink wide-button">
-            Log in
-          </a>
-          <br>
-          <a href="{% link pages/sign-up.md %}" class="request-account-link">Request an account</a>
-        </div>
-        <h1><img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport logo"></h1>
+        <nav class="mobile-lg:float-right">
+          <ul class="usa-list--unstyled display-flex flex-column mobile-lg:flex-row flex-align-center">
+            <li>
+              <a class="text-base-lighter
+               hover:text-white" href='{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}'>
+                Get resources
+              </a>
+            </li>
+            <li class="mobile-lg:margin-left-2">
+              <a class="text-base-lighter
+              hover:text-white" href="{% link pages/sign-up.md %}">
+                Request an account
+              </a>
+            </li>
+            <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
+              <a href="{{ site.okta_url | xml_escape }}"
+              class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal padding-x-6">
+              Log in
+            </a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="margin-top-3 mobile-lg:margin-top-10">
+          <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport logo">
+        </h1>
         <h2>
         {{ hero.content }}
         </h2>

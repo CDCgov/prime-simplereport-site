@@ -3,10 +3,17 @@ url: https://simplereport.gov
 dap_agency: HHS
 dap_subagency: CDC
 okta_url: https://hhs-prime.okta.com/oauth2/default/v1/authorize?client_id=0oa5ahrdfSpxmNZO74h6&redirect_uri=https://simplereport.gov/app&response_type=token+id_token&scope=openid%20simple_report%20simple_report_prod&nonce=thisisnotsafe&state=thisisbogus
+permalink: pretty
+
+collections:
+   pages:
+     output: true
+     permalink: /:path/
 
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-redirect-from
 
 exclude:
   - .jekyll-cache/
