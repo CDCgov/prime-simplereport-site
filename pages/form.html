@@ -8,32 +8,32 @@ home_link: true
 ---
 
 <div>
-<h1 class="usa-legend usa-legend--large">Contact us to sign up</h1>
-<form
-  class="usa-form"
-  action="mailto:maya@skylight.digital?subject=New account request""
-  method="POST"
-  enctype="multipart/form-data"
-  name="sign-up"
->
-  <p>
-    Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
-  </p>
-  <label class="usa-label" for="name">Name {% include required.html %}</label>
-  <input class="usa-input" id="name" name="name" type="text" spellcheck="false" autocomplete="name" required>
-  <label class="usa-label" for="email">Email address {% include required.html %}</label>
-  <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
-  <label class="usa-label" for="phone-number">Phone number {% include required.html %}</label>
-  <input class="usa-input" id="phone-number" name="phone-number" type="tel" autocomplete="tel" required>
-  <label class="usa-label" for="state">State {% include required.html %}</label>
-  <input class="usa-input" id="state" name="state" type="text" autocomplete="address-level1" required>
-  <label class="usa-label" for="organization">Organization {% include required.html %}</label>
-  <span class="usa-hint">
-    Your facility or the Public Health Department you are representing
-  </span>
-  <input class="usa-input" id="organization" name="organization" type="text" required>
-  <label class="usa-label" for="referral">How did you hear about us?</label>
-  <input class="usa-input" id="referral" name="referral" type="text">
-  <button class="usa-button" type="submit" value="submit">Submit</button>
-</form>
+  <h1 class="usa-legend usa-legend--large">Contact us to sign up</h1>
+  <form
+    class="usa-form"
+    action="mailto:maya@skylight.digital?subject=New account request""
+    method="POST"
+    enctype="multipart/form-data"
+    name="sign-up"
+  >
+    <p>
+      Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+    </p>
+    <label class="usa-label" for="name">Name {% include required.html %}</label>
+    <input class="usa-input" id="name" name="name" type="text" spellcheck="false" autocomplete="name" >
+    <label class="usa-label" for="email">Email address {% include required.html %}</label>
+    <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" >
+    <label class="usa-label" for="phone-number">Phone number {% include required.html %}</label>
+    <input class="usa-input" id="phone-number" name="phone-number" type="tel" autocomplete="tel" >
+    <label class="usa-label" for="state">State {% include required.html %}</label>
+    <input class="usa-input" id="state" name="state" type="text" autocomplete="address-level1" >
+    <label class="usa-label" for="organization">Organization {% include required.html %}</label>
+    <span class="usa-hint">
+      Your facility or the Public Health Department you are representing
+    </span>
+    <input class="usa-input" id="organization" name="organization" type="text" >
+    <label class="usa-label" for="referral">How did you hear about us?</label>
+    <input class="usa-input" id="referral" name="referral" type="text">
+    <button class="usa-button" type="submit" value="submit">Submit</button>
+  </form>
 </div>
