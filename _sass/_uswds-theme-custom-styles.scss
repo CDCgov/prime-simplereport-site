@@ -421,12 +421,6 @@ Typography
   text-decoration: none !important;
 }
 
-.grid-row {
-  @include at-media('tablet') {
-    padding: 0 5em;
-  }
-}
-
 .page-docs {
   .grid-row {
     @include at-media('tablet') {
