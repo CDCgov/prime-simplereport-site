@@ -25,7 +25,7 @@ home_link: true
                 <li>Urgent care centers</li>
                 <li>Airports, and more</li>
             </ul>
-            <a href="https://airtable.com/shrP44AsyW1CYy05V" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a testing site</a>
+            <a href="{% link pages/form.html %}" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a testing site</a>
         </div>
     </div>
     <div class="grid-col-12 tablet-lg:grid-col-6 sign-up-box">
@@ -38,7 +38,7 @@ home_link: true
                 <li>Territorial</li>
                 <li>Tribal</li>
             </ul>
-            <a href="https://airtable.com/shrGp8X54SqpeqNod" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a public health department</a>
+            <a href="{% link pages/form.html %}" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a public health department</a>
         </div>
     </div>
     <a class='grid-col-6 home-link margin-top-40' href="{% link pages/home.md %}">
