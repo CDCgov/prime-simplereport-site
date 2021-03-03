@@ -14,7 +14,7 @@ If you have questions about training for SimpleReport, contact [support@simplere
 
 ## Videos
 <div class="usa-embed-container">
-  <iframe title="USDS-CDC PRIME Demo Day Playlist" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe title="SimpleReport Training from the USDS & CDC" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 <br>
 Continue learning with [our series of quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF).
