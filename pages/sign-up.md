@@ -41,9 +41,5 @@ home_link: true
             <a href="{% link pages/form.html %}" class='usa-button usa-button--primary text-no-underline text-ink large-button width-100'>I'm a public health department</a>
         </div>
     </div>
-    <a class='grid-col-6 home-link margin-top-40' href="{% link pages/home.md %}">
-      {% include arrow-left.html %}
-      {{ page.home_link }}
-    </a>
   </div>
 </section>
