@@ -17,10 +17,8 @@ class: page-form
   <p>{{ page.description }}</p>
   </div>
   <form
+    id="account-request-form"
     class="usa-form"
-    action="mailto:maya@skylight.digital?subject=New account request"
-    method="POST"
-    enctype="multipart/form-data"
     name="sign-up"
   >
     <p>
@@ -30,8 +28,8 @@ class: page-form
     <input class="usa-input" id="name" name="name" type="text" spellcheck="false" autocomplete="name" >
     <label class="usa-label" for="email">Email address {% include required.html %}</label>
     <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" >
-    <label class="usa-label" for="phone-number">Phone number {% include required.html %}</label>
-    <input class="usa-input" id="phone-number" name="phone-number" type="tel" autocomplete="tel" >
+    <label class="usa-label" for="phone">Phone number {% include required.html %}</label>
+    <input class="usa-input" id="phone" name="phone" type="tel" autocomplete="tel" >
     <label class="usa-label" for="state" id="state">State {% include required.html %}</label>
     <div class="usa-combo-box">
       <select class="usa-select" id="state" name="state" required>
@@ -111,3 +109,25 @@ class: page-form
     <button class="usa-button" type="submit" value="submit" name="submit">Submit</button>
   </form>
 </div>
+
+<script>
+  const form = document.getElementById('account-request-form');
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const fields = ['name', 'email', 'phone', 'state', 'organization', 'referral'];
+
+    const data = {};
+    fields.forEach(field => data[field] = document.getElementById(field).value);
+
+    let response = await fetch('/account-request/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    let text = await response.text(); // read response body as text
+    // TODO: something with the response, IE put a success message on the page
+  };
+</script>
