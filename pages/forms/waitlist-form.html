@@ -1,16 +1,20 @@
 ---
-title:
-description: Form
-permalink: /sign-up/contact/
-layout: post
+title: Join the SimpleReport waiting list
+description: Thanks for your interest in SimpleReport. We’re working to make this tool available throughout the country. Fill out this form and we’ll let you know when SimpleReport becomes available in your area.
+permalink: /sign-up/waitlist/
+layout: default
 return_top: 'false'
 home_link: true
+class: page-form
 ---
 
-<div>
-  <div class="usa-prose margin-top-5">
-  <h1 class="usa-legend usa-legend--large">Contact us to sign up</h1>
-  <p>Thanks for taking the first step with SimpleReport. Once you fill out this form, you can <a href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">learn more about the onboarding process</a>.</p>
+<div class="width-mobile-lg margin-top-8">
+  {% include home-link.html  %}
+</div>
+<div class="form-container usa-card__container padding-4 maxw-mobile-lg  margin-bottom-4">
+  <div class="usa-prose">
+  <h1 class="font-heading-xl text-primary-darker">{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
   </div>
   <form
     class="usa-form"
@@ -97,14 +101,13 @@ home_link: true
         <option value="AP">AP - Armed Forces Pacific</option>
       </select>
     </div>
-
     <label class="usa-label" for="organization">Organization {% include required.html %}</label>
     <span class="usa-hint">
       Your facility or the Public Health Department you are representing
     </span>
     <input class="usa-input" id="organization" name="organization" type="text" >
     <label class="usa-label" for="referral">How did you hear about us?</label>
-    <textarea class="usa-textarea" id="referral" name="referral"></textarea>
+    <textarea class="usa-textarea height-10" id="referral" name="referral"></textarea>
     <button class="usa-button" type="submit" value="submit" name="submit">Submit</button>
   </form>
 </div>

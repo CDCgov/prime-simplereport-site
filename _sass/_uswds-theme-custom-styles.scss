@@ -916,3 +916,17 @@ Typography
     margin-top: 0em;
   }
 }
+
+.page-form {
+  background-color: color('gray-1');
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    align-self: center;
+  }
+}

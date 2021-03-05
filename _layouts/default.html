@@ -39,7 +39,7 @@ main: foo, bar, qaz
     {% if page.graphics_position != 'after' %}
       {{ _graphics }}
     {% endif %}
-    <div id='main-content'>
+    <div class="page-container" id='main-content'>
       {{ content }}
     </div>
     {% if page.graphics_position == 'after' %}
