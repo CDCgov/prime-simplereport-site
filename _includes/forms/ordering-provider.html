@@ -11,9 +11,9 @@
   <input class="usa-input" id="op-phone-number" name="op-phone-number" type="tel">
   <fieldset class="usa-fieldset">
     <label class="usa-label" for="op-mailing-address-1">
-    Street address <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+    Street address
     </label>
-    <input class="usa-input" id="op-mailing-address-1" name="op-mailing-address-1" type="text" required="">
+    <input class="usa-input" id="op-mailing-address-1" name="op-mailing-address-1" type="text">
     <div class="grid-row grid-gap">
       <div class="mobile-lg:grid-col-8">
         <label class="usa-label" for="op-apt-suite-other" id="op-apt-suite-other-label">Unit type</label>
@@ -92,9 +92,9 @@
         <input class="usa-input" id="op-apt-floor-suite-no" name="op-apt-floor-suite-no" type="text">
       </div>
     </div>
-    <label class="usa-label" for="op-city">City <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-    <input class="usa-input" id="op-city" name="op-city" type="text" required="">
-    <label class="usa-label" for="op-state" id="op-state-label">State <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <label class="usa-label" for="op-city">City</label>
+    <input class="usa-input" id="op-city" name="op-city" type="text">
+    <label class="usa-label" for="op-state" id="op-state-label">State</label>
     <div class="usa-combo-box" data-enhanced="true">
       <select class="usa-select usa-sr-only usa-combo-box__select" id="" name="op-state" aria-hidden="true" tabindex="-1">
         <option value="">- Select -</option>
@@ -162,7 +162,7 @@
         <option value="AE">AE - Armed Forces Middle East</option>
         <option value="AP">AP - Armed Forces Pacific</option>
       </select>
-      <input aria-owns="op-state--list" aria-autocomplete="list" aria-describedby="op-state--assistiveHint" aria-expanded="false" autocapitalize="off" autocomplete="off" id="op-state" class="usa-combo-box__input" type="text" role="combobox" required=""><span class="usa-combo-box__clear-input__wrapper" tabindex="-1">
+      <input aria-owns="op-state--list" aria-autocomplete="list" aria-describedby="op-state--assistiveHint" aria-expanded="false" autocapitalize="off" autocomplete="off" id="op-state" class="usa-combo-box__input" type="text" role="combobox"><span class="usa-combo-box__clear-input__wrapper" tabindex="-1">
       <button type="button" class="usa-combo-box__clear-input" aria-label="Clear the select contents">&nbsp;</button>
       </span><span class="usa-combo-box__input-button-separator">&nbsp;</span><span class="usa-combo-box__toggle-list__wrapper" tabindex="-1">
       <button type="button" tabindex="-1" class="usa-combo-box__toggle-list" aria-label="Toggle the dropdown list">&nbsp;</button>
@@ -175,9 +175,9 @@
       Touch device users, explore by touch or with swipe gestures.
       </span>
     </div>
-    <label class="usa-label" for="op-zip">ZIP code <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-    <input class="usa-input usa-input--medium" id="op-zip" name="op-zip" type="text" pattern="[\d]{5}(-[\d]{4})?" required="">
-    <label class="usa-label" for="op-county">County {% include required.html %}</label>
-    <input class="usa-input" id="op-county" name="op-county" type="text" spellcheck="false" required>
+    <label class="usa-label" for="op-zip">ZIP code</label>
+    <input class="usa-input usa-input--medium" id="op-zip" name="op-zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
+    <label class="usa-label" for="op-county">County</label>
+    <input class="usa-input" id="op-county" name="op-county" type="text" spellcheck="false">
   </fieldset>
 </fieldset>
