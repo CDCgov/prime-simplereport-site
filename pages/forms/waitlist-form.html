@@ -27,11 +27,11 @@ class: page-form
       Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
     </p>
     <label class="usa-label" for="name">Name {% include required.html %}</label>
-    <input class="usa-input" id="name" name="name" type="text" spellcheck="false" autocomplete="name" >
+    <input class="usa-input" id="name" name="name" type="text" spellcheck="false" autocomplete="name" required>
     <label class="usa-label" for="email">Email address {% include required.html %}</label>
-    <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" >
+    <input class="usa-input" id="email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
     <label class="usa-label" for="phone-number">Phone number {% include required.html %}</label>
-    <input class="usa-input" id="phone-number" name="phone-number" type="tel" autocomplete="tel" >
+    <input class="usa-input" id="phone-number" name="phone-number" type="tel" autocomplete="tel" required>
     <label class="usa-label" for="state" id="state">State {% include required.html %}</label>
     <div class="usa-combo-box">
       <select class="usa-select" id="state" name="state" required>
@@ -105,7 +105,7 @@ class: page-form
     <span class="usa-hint">
       Your facility or the Public Health Department you are representing
     </span>
-    <input class="usa-input" id="organization" name="organization" type="text" >
+    <input class="usa-input" id="organization" name="organization" type="text" required>
     <label class="usa-label" for="referral">How did you hear about us?</label>
     <textarea class="usa-textarea height-10" id="referral" name="referral"></textarea>
     <button class="usa-button" type="submit" value="submit" name="submit">Submit</button>
