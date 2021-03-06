@@ -64,6 +64,8 @@ resources:
         subsubnav:
           - page: Learn about PRIME Data Hub
             url: /resources/getting-started/public-health-departments/learn-about-prime-data-hub/
+          - page: What public health departments receive from the Data Hub
+            url: /resources/getting-started/public-health-departments/technical-docs/
   - title: Using SimpleReport
     url: /resources/using-simplereport/select-your-testing-facility/
     subnav:
@@ -101,6 +103,11 @@ resources:
             url: /resources/using-simplereport/manage-facility-info/update-facility-settings/
           - page: Find supported jurisdictions
             url: /resources/using-simplereport/manage-facility-info/find-supported-jurisdictions/
+  - title: Getting tested
+    url: /resources/getting-tested/test-questionnarie/
+    subnav:
+      - page: Complete the test questionnaire
+        url: /resources/getting-tested/test-questionnarie/
   - title: Troubleshooting
     url: /resources/troubleshooting/reset-your-simplereport-password/
     subnav:
