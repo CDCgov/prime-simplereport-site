@@ -22,7 +22,7 @@ class: page-form
     name="waitlist"
   >
     <p>
-      Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+      Required fields are marked with an asterisk ({% include required.html %}).
     </p>
     <label class="usa-label" for="name">Name {% include required.html %}</label>
     <input class="usa-input" id="name" name="name" type="text" spellcheck="false" autocomplete="name" required>
