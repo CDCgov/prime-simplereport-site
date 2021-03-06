@@ -24,14 +24,14 @@ class: page-form
     class="usa-form usa-form--large"
     id="account-request-form"
     name="account-request">
-    <div class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4 margin-bottom-4">
-      {% include forms/testing-site-information.html %}
-    </div>
-    <div class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4 margin-bottom-4">
-      {% include forms/ordering-provider.html %}
-    </div>
     <div class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4">
       {% include forms/facility-administrator.html %}
+    </div>
+    <div class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4">
+      {% include forms/testing-facility-information.html %}
+    </div>
+    <div class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4">
+      {% include forms/ordering-provider.html %}
     </div>
     <button class="usa-button usa-button--big" type="submit" value="submit" name="submit">Submit</button>
   </form>
