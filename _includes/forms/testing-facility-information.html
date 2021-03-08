@@ -201,14 +201,6 @@
       <input class="usa-radio__input" id="other" name="facility-type" type="radio" value="other">
       <label class="usa-radio__label" for="other">Other</label>
     </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="fqhc" name="facility-type" type="radio" value="fqhc">
-      <label class="usa-radio__label" for="fqhc">FQHC</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="primary-care-mental-health-outpatient" name="facility-type" type="radio" value="primary-care-mental-health-outpatient">
-      <label class="usa-radio__label" for="primary-care-mental-health-outpatient">Primary Care / Mental Health outpatient</label>
-    </div>
   </fieldset>
   <label class="usa-label" for="organization-name">What’s the name of your organization?</label>
   <p class="usa-hint margin-top-1 font-body-2xs">If you have only one testing facility, then your organization name and facility name will be the same.</p>
@@ -230,8 +222,16 @@
       <label class="usa-checkbox__label" for="abbott-id-now">Abbott ID Now</label>
     </div>
     <div class="usa-checkbox">
+      <input class="usa-checkbox__input" id="access-bio-carestart" type="checkbox" name="testing-devices" value="access-bio-carestart">
+      <label class="usa-checkbox__label" for="access-bio-carestart">Access Bio CareStart</label>
+    </div>
+    <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="bd-veritor" type="checkbox" name="testing-devices" value="bd-veritor">
       <label class="usa-checkbox__label" for="bd-veritor">BD Veritor</label>
+    </div>
+    <div class="usa-checkbox">
+      <input class="usa-checkbox__input" id="cuetm" type="checkbox" name="testing-devices" value="cuetm">
+      <label class="usa-checkbox__label" for="cuetm">CueTM Covid-19 Test</label>
     </div>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="lumiradx" type="checkbox" name="testing-devices" value="lumiradx">
@@ -240,10 +240,6 @@
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="quidel-sofia-2" type="checkbox" name="testing-devices" value="quidel-sofia-2">
       <label class="usa-checkbox__label" for="quidel-sofia-2">Quidel Sofia 2</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="access-bio-carestart" type="checkbox" name="testing-devices" value="access-bio-carestart">
-      <label class="usa-checkbox__label" for="access-bio-carestart">Access Bio CareStart</label>
     </div>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="other-testing-device" type="checkbox" name="testing-devices" value="other">
@@ -272,16 +268,16 @@
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">Which web browsers do you use on those devices? {% include required.html %}</legend>
     <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="safari" type="checkbox" name="browsers" value="safari" required>
-      <label class="usa-checkbox__label" for="safari">Safari</label>
-    </div>
-    <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="chrome" type="checkbox" name="browsers" value="chrome">
       <label class="usa-checkbox__label" for="chrome">Chrome</label>
     </div>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="firefox" type="checkbox" name="browsers" value="firefox">
       <label class="usa-checkbox__label" for="firefox">Firefox</label>
+    </div>
+    <div class="usa-checkbox">
+      <input class="usa-checkbox__input" id="safari" type="checkbox" name="browsers" value="safari" required>
+      <label class="usa-checkbox__label" for="safari">Safari</label>
     </div>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="other-browser" type="checkbox" name="browsers" value="other-browser">
