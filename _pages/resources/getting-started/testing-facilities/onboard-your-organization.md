@@ -34,4 +34,4 @@ To get access, fill out the [SimpleReport facility access request form](https://
 
 Make sure that the facility name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 
-Within a few days of completing the form, DocuSign will email you a document to review and sign. Once you’ve signed, we’ll schedule a video call to wrap up a few final pieces and get your facility access to SimpleReport.
+Within a few days of completing the form, DocuSign will email you a document to review and sign. Check your Spam folder for an email with “Access Request for SimpleReport” as the subject message. Once you’ve signed, we’ll schedule a video call to wrap up a few final pieces and get your facility access to SimpleReport.
