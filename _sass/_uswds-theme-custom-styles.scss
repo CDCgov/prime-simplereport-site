@@ -680,17 +680,15 @@ Typography
 
 .home-link {
   color: color($theme-link-color);
-  display: flex;
-  line-height: 1;
 
   &:hover {
     color: color($theme-link-hover-color);
   }
 
   svg {
-    height: 1.2em;
-    margin-right: 0.25rem;
-    // vertical-align: sub;
+    height: 1em;
+    margin-bottom: -2px;
+    margin-right: 0.5rem;
   }
 }
 

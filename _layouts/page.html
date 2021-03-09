@@ -14,7 +14,7 @@ main:
       {% if sidenav %}
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
           {% if page.class contains "page-docs" and page.home_link == true %}
-            <a class='home-link margin-bottom-2' href="{% link pages/home.md %}">
+            <a class='home-link display-block margin-bottom-2' href="{% link pages/home.md %}">
               {% include arrow-left.html %}Return to home
             </a>
           {% endif %}
