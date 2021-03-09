@@ -3,13 +3,13 @@ title: "SimpleReport: Testing facility account request"
 description: Thanks for requesting access to SimpleReport. We need to collect a bit more information about your facility.
 permalink: /sign-up/
 layout: default
-return_top: 'false'
+return_top: "false"
 home_link: true
 class: page-form
 ---
 
 <div class="width-mobile-lg margin-top-8">
-  {% include home-link.html  %}
+  {% include home-link.html %}
   <div class="usa-prose">
     <h1 class="font-heading-2xl text-primary-darker">{{ page.title }}</h1>
     <p>{{ page.description }}</p>
@@ -19,20 +19,113 @@ class: page-form
   </div>
 </div>
 
-<div class="form-container  width-mobile-lg ">
+<div class="form-container width-mobile-lg">
   <form
     class="usa-form usa-form--large"
     id="account-request-form"
-    name="account-request">
-    <div class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4">
+    name="account-request"
+  >
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4"
+    >
       {% include forms/facility-administrator.html %}
     </div>
-    <div class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4">
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
+    >
       {% include forms/testing-facility-information.html %}
     </div>
-    <div class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4">
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
+    >
       {% include forms/ordering-provider.html %}
     </div>
-    <button class="usa-button usa-button--big" type="submit" value="submit" name="submit">Submit</button>
+    <button
+      class="usa-button usa-button--big"
+      type="submit"
+      value="submit"
+      name="submit"
+    >
+      Submit
+    </button>
   </form>
 </div>
+
+<script>
+  const form = document.getElementById("account-request-form");
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const stringFields = [
+      "firstName",
+      "lastName",
+      "email",
+      "workPhoneNumber",
+      "cellPhoneNumber",
+      "mailingAddress1",
+      "aptSuiteOther",
+      "aptFloorSuiteNo",
+      "city",
+      "state",
+      "zip",
+      "county",
+      "organizationName",
+      "facilityName",
+      "cliaNumber",
+      "workflow",
+      "opFirstName",
+      "opLastName",
+      "npi",
+      "opPhoneNumber",
+      "opMailingAddress1",
+      "opAptSuiteOther",
+      "opAptFloorSuiteNo",
+      "opCity",
+      "opState",
+      "opZip",
+      "opCounty",
+    ];
+    const radioFields = [
+      "facilityType",
+      "recordsTestResults",
+      "processTime",
+      "submittingResultsTime",
+    ];
+    const checkboxFields = ["browsers", "testingDevices", "accessDevices"];
+
+    const data = {};
+    fields.forEach(
+      (field) => (data[field] = document.getElementsByName(field).item(0).value)
+    );
+
+    radioFields.foreach(
+      (field) =>
+        (data[field] = document.querySelector(
+          `input[name=${field}]:checked`
+        ).value)
+    );
+
+    checkboxFields.foreach(
+      (field) =>
+        (data[field] = Array.from(document.getElementsByName(field))
+          .filter((e) => e.checked)
+          .map((e) => e.nextElementSibling.textContent)
+          .join(", "))
+    );
+
+    let response = await fetch("/account-request", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    if(response.ok) {
+      window.alert("Tada");
+    } else {
+      window.alert("It didn't work");
+    }
+
+    // TODO: something with the response, IE put a success message on the page
+  };
+</script>
