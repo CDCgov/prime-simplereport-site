@@ -918,9 +918,10 @@ Typography
 }
 
 .page-form {
-  background-color: color('gray-1');
+  background-color: color('gray-2');
 
   .page-container {
+    border-top: 1px solid color('base-lighter');
     display: flex;
     flex-direction: column;
     align-items: center;
