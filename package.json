@@ -68,7 +68,7 @@
     "prettier": "2.0.5",
     "sass": "^1.26.11",
     "uncss": "^0.17.3",
-    "uswds": "^2.10.1",
+    "uswds": "uswds/uswds#accelerator/3940-printer-friendly",
     "uswds-gulp": "github:uswds/uswds-gulp",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
