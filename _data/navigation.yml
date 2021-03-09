@@ -46,7 +46,7 @@ secondary:
 
 resources:
   - title: Getting started
-    url: /resources/getting-started/testing-facilities/onboard-your-organization/
+    url: /resources/getting-started/
     subnav:
       - page: Testing facilities
         url: /resources/getting-started/testing-facilities/onboard-your-organization/
@@ -67,7 +67,7 @@ resources:
           - page: What public health departments receive from the Data Hub
             url: /resources/getting-started/public-health-departments/technical-docs/
   - title: Using SimpleReport
-    url: /resources/using-simplereport/select-your-testing-facility/
+    url: /resources/using-simplereport/
     subnav:
       - page: Select your testing facility
         url: /resources/using-simplereport/select-your-testing-facility/
@@ -87,6 +87,8 @@ resources:
         subsubnav:
           - page: Add a new person
             url: /resources/using-simplereport/manage-people-you-test/add-a-new-person/
+          - page: Update someone’s profile
+            url: /resources/using-simplereport/manage-people-you-test/update-someones-profile/
       - page: Manage users
         url: /resources/using-simplereport/manage-users/manage-user-permissions/
         subsubnav:
@@ -103,13 +105,8 @@ resources:
             url: /resources/using-simplereport/manage-facility-info/update-facility-settings/
           - page: Find supported jurisdictions
             url: /resources/using-simplereport/manage-facility-info/find-supported-jurisdictions/
-  - title: Getting tested
-    url: /resources/getting-tested/complete-the-test-questionnaire/
-    subnav:
-      - page: Complete the test questionnaire
-        url: /resources/getting-tested/complete-the-test-questionnaire/
   - title: Troubleshooting
-    url: /resources/troubleshooting/reset-your-simplereport-password/
+    url: /resources/troubleshooting/
     subnav:
       - page: Reset your SimpleReport password
         url: /resources/troubleshooting/reset-your-simplereport-password/
@@ -118,7 +115,7 @@ resources:
       - page: Contact us for more help
         url: /resources/troubleshooting/contact-us-for-more-help/
   - title: Staying connected
-    url: /resources/staying-connected/join-the-simplereport-google-group/
+    url: /resources/staying-connected/
     subnav:
       - page: Join the SimpleReport Google Group
         url: /resources/staying-connected/join-the-simplereport-google-group/
