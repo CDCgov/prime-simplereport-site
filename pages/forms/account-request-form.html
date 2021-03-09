@@ -56,55 +56,55 @@ class: page-form
   form.onsubmit = async (e) => {
     e.preventDefault();
     const stringFields = [
-      "firstName",
-      "lastName",
+      "first-name",
+      "last-name",
       "email",
-      "workPhoneNumber",
-      "cellPhoneNumber",
-      "mailingAddress1",
-      "aptSuiteOther",
-      "aptFloorSuiteNo",
+      "work-phone-number",
+      "cell-phone-number",
+      "mailing-address-1",
+      "apt-suite-other",
+      "apt-floor-suite-no",
       "city",
       "state",
       "zip",
       "county",
-      "organizationName",
-      "facilityName",
-      "cliaNumber",
+      "organization-name",
+      "facility-name",
+      "clia-number",
       "workflow",
-      "opFirstName",
-      "opLastName",
+      "op-first-name",
+      "op-last-name",
       "npi",
-      "opPhoneNumber",
-      "opMailingAddress1",
-      "opAptSuiteOther",
-      "opAptFloorSuiteNo",
-      "opCity",
-      "opState",
-      "opZip",
-      "opCounty",
+      "op-phone-number",
+      "op-mailing-address-1",
+      "op-apt-suite-other",
+      "op-apt-floor-suite-no",
+      "op-city",
+      "op-state",
+      "op-zip",
+      "op-county",
     ];
     const radioFields = [
-      "facilityType",
-      "recordsTestResults",
-      "processTime",
-      "submittingResultsTime",
+      "facility-type",
+      "records-test-results",
+      "process-time",
+      "submitting-results-time",
     ];
-    const checkboxFields = ["browsers", "testingDevices", "accessDevices"];
+    const checkboxFields = ["browsers", "testing-devices", "access-devices"];
 
     const data = {};
-    fields.forEach(
+    stringFields.forEach(
       (field) => (data[field] = document.getElementsByName(field).item(0).value)
     );
 
-    radioFields.foreach(
+    radioFields.forEach(
       (field) =>
         (data[field] = document.querySelector(
           `input[name=${field}]:checked`
-        ).value)
+        ).nextElementSibling.textContent)
     );
 
-    checkboxFields.foreach(
+    checkboxFields.forEach(
       (field) =>
         (data[field] = Array.from(document.getElementsByName(field))
           .filter((e) => e.checked)
@@ -112,7 +112,7 @@ class: page-form
           .join(", "))
     );
 
-    let response = await fetch("/account-request", {
+    let response = await fetch("http://localhost:8080/account-request", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
