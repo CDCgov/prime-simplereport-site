@@ -65,7 +65,7 @@ resources:
           - page: Learn about PRIME Data Hub
             url: /resources/getting-started/public-health-departments/learn-about-prime-data-hub/
           - page: What public health departments receive from the Data Hub
-            url: /resources/getting-started/public-health-departments/technical-docs/
+            url: /resources/getting-started/public-health-departments/data-public-health-departments-receive/
   - title: Using SimpleReport
     url: /resources/using-simplereport/
     subnav:
