@@ -42,7 +42,7 @@ Serve site
 ## Cloud Environments
 **Type**|**Static Site URL**|**Deployment**|**How to trigger**
 :-----:|:-----:|:-----:|:-----:
-Prod|https://simplereport.gov|Manual|[Github Actions](#manually-trigger-deploy)
+Prod|https://simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Staging|https://stg.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Dev|https://dev.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Demo|https://demo.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
