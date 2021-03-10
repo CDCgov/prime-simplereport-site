@@ -48,15 +48,14 @@ Typography
   font-weight: $theme-font-weight-light;
 }
 
-.usa-logo__text {
+.page-home .usa-logo__text {
   font-size: 40px;
 }
 
-.usa-logo {
+.page-home .usa-logo {
   margin-left: 0;
 }
 
-.usa-header-container,
 .usa-hero {
   background-color: #162e51;
 }
@@ -74,12 +73,12 @@ Typography
   margin-bottom: -2em;
 }
 
-.usa-navbar {
-  padding-top: 5em;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  border-bottom: none !important;
-}
+// .usa-navbar {
+//   padding-top: 5em;
+//   padding-left: 0 !important;
+//   padding-right: 0 !important;
+//   border-bottom: none !important;
+// }
 
 .usa-nav__secondary {
   margin-bottom: 9em;
@@ -140,12 +139,18 @@ Typography
   }
 }
 
-.usa-navbar {
-  @include at-media(mobile) {
-    padding-top: 0;
+.usa-hero {
+  @include at-media('mobile-lg') {
+    // padding-top: 0;
     #header-logo {
       margin-top: 160px;
     }
+  }
+}
+
+.usa-header--basic .usa-nav-container {
+  @include at-media($theme-header-min-width) {
+    align-items: initial;
   }
 }
 
@@ -643,7 +648,7 @@ Typography
   text-align: right;
 }
 
-#header-logo {
+.page-home #header-logo {
   margin-top: 3em;
 }
 
