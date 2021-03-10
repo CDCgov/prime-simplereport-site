@@ -20,7 +20,7 @@ main:
         </div>
       {% endif %}
 
-      <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
+      <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}">
         {% unless page.class contains "page-docs" and page.home_link == true %}
           <a class='home-link' href="{% link pages/home.md %}">
             {% include arrow-left.html %}Return to home
