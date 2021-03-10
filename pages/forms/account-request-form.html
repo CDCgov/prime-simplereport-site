@@ -13,10 +13,16 @@ class: page-form
   <div class="usa-prose">
     <h1 class="font-heading-2xl text-primary-darker">{{ page.title }}</h1>
     <p>{{ page.description }}</p>
-    <p>Fill out this form for locations that provide rapid COVID-19 testing, including:</p>
+    <p>
+      Fill out this form for locations that provide rapid COVID-19 testing,
+      including:
+    </p>
     <ul>
       <li>K-12 schools</li>
-      <li>Congregate living settings (assisted living, long-term care facilities, jails, etc.)</li>
+      <li>
+        Congregate living settings (assisted living, long-term care facilities,
+        jails, etc.)
+      </li>
       <li>Universities</li>
       <li>Urgent care centers</li>
       <li>Airports, and more</li>
@@ -60,39 +66,37 @@ class: page-form
 </div>
 
 <script>
-  const button = document.getElementById("form-submit-button");
-  const form = document.getElementById("account-request-form");
-  button.onclick = async () => {
-    // Define all fields on the form here
-    const stringFields = [
-      "first-name",
-      "last-name",
-      "email",
-      "work-phone-number",
-      "cell-phone-number",
-      "mailing-address1",
-      "apt-suite-other",
-      "apt-floor-suite-no",
-      "city",
-      "state",
-      "zip",
-      "county",
-      "organization-name",
-      "facility-name",
-      "clia-number",
-      "workflow",
-      "op-first-name",
-      "op-last-name",
-      "npi",
-      "op-phone-number",
-      "op-mailing-address1",
-      "op-apt-suite-other",
-      "op-apt-floor-suite-no",
-      "op-city",
-      "op-state",
-      "op-zip",
-      "op-county",
-    ];
+  (function formLogic() {
+      // Define all fields on the form here
+      const stringFields = [
+        "first-name",
+        "last-name",
+        "email",
+        "work-phone-number",
+        "cell-phone-number",
+        "mailing-address1",
+        "apt-suite-other",
+        "apt-floor-suite-no",
+        "city",
+        "state",
+        "zip",
+        "county",
+        "organization-name",
+        "facility-name",
+        "clia-number",
+        "workflow",
+        "op-first-name",
+        "op-last-name",
+        "npi",
+        "op-phone-number",
+        "op-mailing-address1",
+        "op-apt-suite-other",
+        "op-apt-floor-suite-no",
+        "op-city",
+        "op-state",
+        "op-zip",
+        "op-county",
+      ];
     const radioFields = [
       "facility-type",
       "records-test-results",
@@ -100,63 +104,88 @@ class: page-form
       "submitting-results-time",
     ];
     const checkboxFields = ["browsers", "testing-devices", "access-devices"];
+    
+    // If a non-required checkbox or radio group is added, this will need to change
+    const requiredElementGroups = radioFields.concat(checkboxFields); 
 
-    // Pull data from the fields
-    const data = {};
-    stringFields.forEach(
-      (field) => (data[field] = document.getElementsByName(field).item(0).value)
-    );
+    // Get the button & form elements
+    const button = document.getElementById("form-submit-button");
+    const form = document.getElementById("account-request-form");
 
-    radioFields.forEach(
-      (field) => {
+    // Has submit ever been pressed?
+    let submitted = false;
+
+    /** 
+     * The text inputs are handled with native HTML validation. 
+     * The radios and checkboxes are all required and need manual validation here
+     */
+    function groupsAreValid() {
+      let groupError = false;
+      requiredElementGroups.forEach((field) => {
+        const errorSpan = document.getElementById(`${field}-error-message`);
+        if (!data[field]) {
+          groupError = true;
+          errorSpan.className = "usa-error-message";
+        } else {
+          errorSpan.className = "usa-error-message display-none";
+        }
+      });
+      return !groupError;
+    }
+
+    /**
+     * Set up onChange handlers to clear validation styling on required groups
+     * after initial validation
+     */
+    requiredElementGroups.forEach(field => {
+      Array.from(document.getElementsByName(field)).forEach(element => element.onchange=groupsAreValid);
+    })
+
+    /**
+     * Aggregate the form data; validate the form; submit
+     */
+    button.onclick = async () => {
+      submitted = true;
+      // Pull data from the fields
+      const data = {};
+      stringFields.forEach(
+        (field) =>
+          (data[field] = document.getElementsByName(field).item(0).value)
+      );
+
+      radioFields.forEach((field) => {
         const radioElements = Array.from(document.getElementsByName(field))
           .filter((e) => e.checked)
           .map((e) => e.nextElementSibling.textContent);
         data[field] = radioElements.length ? radioElements[0] : null;
+      });
+
+      checkboxFields.forEach(
+        (field) =>
+          (data[field] = Array.from(document.getElementsByName(field))
+            .filter((e) => e.checked)
+            .map((e) => e.nextElementSibling.textContent)
+            .join(", "))
+      );
+
+      if (!form.reportValidity() || !groupsAreValid()) {
+        return;
       }
-    );
 
-    checkboxFields.forEach(
-      (field) =>
-      (data[field] = Array.from(document.getElementsByName(field))
-        .filter((e) => e.checked)
-        .map((e) => e.nextElementSibling.textContent)
-        .join(", "))
-    );
+      let response = await fetch("http://localhost:8080/account-request", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
-    // Validation
-    let groupError = false;
-    // The text inputs are handled with native HTML validation. The radios and checkboxes are all required and need manual validation here
-    const required = radioFields.concat(checkboxFields);
-    required.forEach((field) =>{
-      const errorSpan = document.getElementById(`${field}-error-message`);
-      if (!data[field]) {
-        groupError = true;
-        errorSpan.className = "usa-error-message";
+      if (response.ok) {
+        window.alert("Tada");
+      // TODO: something with the response, IE put a success message on the page
       } else {
-        errorSpan.className = "usa-error-message display-none";
+        window.alert("It didn't work");
       }
-    })
-    
-
-    if (!form.reportValidity() || groupError) {
-      return;
-    }
-
-    let response = await fetch("http://localhost:8080/account-request", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-
-    if (response.ok) {
-      window.alert("Tada");
-    } else {
-      window.alert("It didn't work");
-    }
-
-    // TODO: something with the response, IE put a success message on the page
-  };
+    };
+  })();
 </script>
