@@ -41,8 +41,8 @@ class: page-form
       {% include forms/ordering-provider.html %}
     </div>
     <button
+      id="form-submit-button"
       class="usa-button usa-button--big"
-      type="submit"
       value="submit"
       name="submit"
     >
@@ -52,9 +52,10 @@ class: page-form
 </div>
 
 <script>
+  const button = document.getElementById("form-submit-button");
   const form = document.getElementById("account-request-form");
-  form.onsubmit = async (e) => {
-    e.preventDefault();
+  button.onclick = async () => {
+    // Define all fields on the form here
     const stringFields = [
       "first-name",
       "last-name",
@@ -92,25 +93,47 @@ class: page-form
     ];
     const checkboxFields = ["browsers", "testing-devices", "access-devices"];
 
+    // Pull data from the fields
     const data = {};
     stringFields.forEach(
       (field) => (data[field] = document.getElementsByName(field).item(0).value)
     );
 
     radioFields.forEach(
-      (field) =>
-        (data[field] = document.querySelector(
-          `input[name=${field}]:checked`
-        ).nextElementSibling.textContent)
+      (field) => {
+        const radioElements = Array.from(document.getElementsByName(field))
+          .filter((e) => e.checked)
+          .map((e) => e.nextElementSibling.textContent);
+        data[field] = radioElements.length ? radioElements[0] : null;
+      }
     );
 
     checkboxFields.forEach(
       (field) =>
-        (data[field] = Array.from(document.getElementsByName(field))
-          .filter((e) => e.checked)
-          .map((e) => e.nextElementSibling.textContent)
-          .join(", "))
+      (data[field] = Array.from(document.getElementsByName(field))
+        .filter((e) => e.checked)
+        .map((e) => e.nextElementSibling.textContent)
+        .join(", "))
     );
+
+    // Validation
+    let groupError = false;
+    // The text inputs are handled with native HTML validation. The radios and checkboxes are all required and need manual validation here
+    const required = radioFields.concat(checkboxFields);
+    required.forEach((field) =>{
+      const errorSpan = document.getElementById(`${field}-error-message`);
+      if (!data[field]) {
+        groupError = true;
+        errorSpan.className = "usa-error-message";
+      } else {
+        errorSpan.className = "usa-error-message display-none";
+      }
+    })
+    
+
+    if (!form.reportValidity() || groupError) {
+      return;
+    }
 
     let response = await fetch("http://localhost:8080/account-request", {
       method: "POST",
@@ -120,7 +143,7 @@ class: page-form
       body: JSON.stringify(data),
     });
 
-    if(response.ok) {
+    if (response.ok) {
       window.alert("Tada");
     } else {
       window.alert("It didn't work");

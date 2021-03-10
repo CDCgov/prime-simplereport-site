@@ -173,6 +173,7 @@
   </fieldset>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend">Which type of testing facility are you? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="facility-type-error-message">This field is required</span>
     <div class="usa-radio">
       <input class="usa-radio__input" id="hospital-or-clinic" name="facility-type" type="radio" value="hospital-or-clinic">
       <label class="usa-radio__label" for="hospital-or-clinic">Hospital or clinic</label>
@@ -213,6 +214,7 @@
   <input class="usa-input" id="clia-number" name="clia-number" type="text" required>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">Which device(s) do you use for rapid COVID-19 testing? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="testing-devices-error-message">This field is required</span>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="abbott-binaxnow-cards" type="checkbox" name="testing-devices" value="abbott-binaxnow-cards">
       <label class="usa-checkbox__label" for="abbott-binaxnow-cards">Abbott BinaxNow cards</label>
@@ -248,6 +250,7 @@
   </fieldset>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">Which devices will you use to access SimpleReport? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="access-devices-error-message">This field is required</span>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="laptop-computer" type="checkbox" name="access-devices" value="laptop-computer">
       <label class="usa-checkbox__label" for="laptop-computer">Laptop computer</label>
@@ -267,6 +270,7 @@
   </fieldset>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">Which web browsers do you use on those devices? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="browsers-error-message">This field is required</span>
     <div class="usa-checkbox">
       <input class="usa-checkbox__input" id="chrome" type="checkbox" name="browsers" value="chrome">
       <label class="usa-checkbox__label" for="chrome">Chrome</label>
@@ -288,6 +292,7 @@
   <textarea class="usa-textarea" id="workflow" name="workflow"></textarea>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">In your testing process, does the person who checks people in also record test results? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="records-test-results-error-message">This field is required</span>
     <div class="usa-radio">
       <input class="usa-radio__input" id="records-test-results-yes" type="radio" name="records-test-results" value="yes">
       <label class="usa-radio__label" for="records-test-results-yes">Yes</label>
@@ -299,6 +304,7 @@
   </fieldset>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">Approximately how long does the registration/check-in and testing process take for a single person? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="process-time-error-message">This field is required</span>
     <div class="usa-radio">
       <input class="usa-radio__input" id="less-than-15-mins" type="radio" name="process-time" value="less-than-15-mins">
       <label class="usa-radio__label" for="less-than-15-mins">Less than 15 minutes</label>
@@ -322,6 +328,7 @@
   </fieldset>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">Approximately how much time do you spend every day submitting results to your public health department? {% include required.html %}</legend>
+    <span class="usa-error-message display-none" id="submitting-results-time-error-message">This field is required</span>
     <div class="usa-radio">
       <input class="usa-radio__input" id="less-than-30-mins" type="radio" name="submitting-results-time" value="less-than-30-mins">
       <label class="usa-radio__label" for="less-than-30-mins">Less than 30 minutes</label>
