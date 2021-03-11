@@ -195,7 +195,7 @@ class: page-form
       }
 
       try {
-        let response = await fetch("http://localhost:8080/account-request", {
+        let response = await fetch("/api/account-request", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

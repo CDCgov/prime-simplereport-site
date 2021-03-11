@@ -127,7 +127,7 @@ class: page-form
       fields.forEach(field => data[field] = document.getElementById(field).value);
 
       try {
-        let response = await fetch('http://localhost:8080/account-request/waitlist', {
+        let response = await fetch('/api/account-request/waitlist', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
