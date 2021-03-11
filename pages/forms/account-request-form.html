@@ -67,36 +67,36 @@ class: page-form
 
 <script>
   (function formLogic() {
-      // Define all fields on the form here
-      const stringFields = [
-        "first-name",
-        "last-name",
-        "email",
-        "work-phone-number",
-        "cell-phone-number",
-        "mailing-address1",
-        "apt-suite-other",
-        "apt-floor-suite-no",
-        "city",
-        "state",
-        "zip",
-        "county",
-        "organization-name",
-        "facility-name",
-        "clia-number",
-        "workflow",
-        "op-first-name",
-        "op-last-name",
-        "npi",
-        "op-phone-number",
-        "op-mailing-address1",
-        "op-apt-suite-other",
-        "op-apt-floor-suite-no",
-        "op-city",
-        "op-state",
-        "op-zip",
-        "op-county",
-      ];
+    // Define all fields on the form here
+    const stringFields = [
+      "first-name",
+      "last-name",
+      "email",
+      "work-phone-number",
+      "cell-phone-number",
+      "mailing-address1",
+      "apt-suite-other",
+      "apt-floor-suite-no",
+      "city",
+      "state",
+      "zip",
+      "county",
+      "organization-name",
+      "facility-name",
+      "clia-number",
+      "workflow",
+      "op-first-name",
+      "op-last-name",
+      "npi",
+      "op-phone-number",
+      "op-mailing-address1",
+      "op-apt-suite-other",
+      "op-apt-floor-suite-no",
+      "op-city",
+      "op-state",
+      "op-zip",
+      "op-county",
+    ];
     const radioFields = [
       "facility-type",
       "records-test-results",
@@ -104,9 +104,9 @@ class: page-form
       "submitting-results-time",
     ];
     const checkboxFields = ["browsers", "testing-devices", "access-devices"];
-    
+
     // If a non-required checkbox or radio group is added, this will need to change
-    const requiredElementGroups = radioFields.concat(checkboxFields); 
+    const requiredElementGroups = radioFields.concat(checkboxFields);
 
     // Get the button & form elements
     const button = document.getElementById("form-submit-button");
@@ -115,8 +115,8 @@ class: page-form
     // Has submit ever been pressed?
     let submitted = false;
 
-    /** 
-     * The text inputs are handled with native HTML validation. 
+    /**
+     * The text inputs are handled with native HTML validation.
      * The radios and checkboxes are all required and need manual validation here
      */
     function groupsAreValid() {
@@ -134,25 +134,14 @@ class: page-form
     }
 
     /**
-     * Set up onChange handlers to clear validation styling on required groups
-     * after initial validation
+     * Translate the form data from element values into JSON
      */
-    requiredElementGroups.forEach(field => {
-      Array.from(document.getElementsByName(field)).forEach(element => element.onchange=groupsAreValid);
-    })
-
-    /**
-     * Aggregate the form data; validate the form; submit
-     */
-    button.onclick = async () => {
-      submitted = true;
-      // Pull data from the fields
+    function aggregateFormData() {
       const data = {};
       stringFields.forEach(
         (field) =>
           (data[field] = document.getElementsByName(field).item(0).value)
       );
-
       radioFields.forEach((field) => {
         const radioElements = Array.from(document.getElementsByName(field))
           .filter((e) => e.checked)
@@ -167,8 +156,30 @@ class: page-form
             .map((e) => e.nextElementSibling.textContent)
             .join(", "))
       );
+      return data;
+    }
 
-      if (!form.reportValidity() || !groupsAreValid()) {
+    /**
+     * Set up onChange handlers to clear validation styling on required groups
+     * after initial validation
+     */
+    requiredElementGroups.forEach((field) => {
+      Array.from(document.getElementsByName(field)).forEach(
+        (element) =>
+          (element.onchange = () => {
+            groupsAreValid(aggregateFormData());
+          })
+      );
+    });
+
+    /**
+     * Aggregate the form data; validate the form; submit
+     */
+    button.onclick = async () => {
+      submitted = true;
+      const data = aggregateFormData();
+
+      if (!form.reportValidity() || !groupsAreValid(data)) {
         return;
       }
 
@@ -181,9 +192,9 @@ class: page-form
       });
 
       if (response.ok) {
-        window.alert("Tada");
-      // TODO: something with the response, IE put a success message on the page
+        window.location.replace("thanks");
       } else {
+        // TODO: deal with this negative case
         window.alert("It didn't work");
       }
     };

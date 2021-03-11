@@ -128,10 +128,10 @@ class: page-form
     });
 
     if(response.ok) {
-      window.alert("Tada");
+      window.location.replace("thanks");
     } else {
+      // TODO: deal with this negative case
       window.alert("It didn't work");
     }
-    // TODO: something with the response, IE put a success message on the page
   };
 </script>
