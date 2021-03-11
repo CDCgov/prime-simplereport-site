@@ -119,18 +119,19 @@ class: page-form
      * The text inputs are handled with native HTML validation.
      * The radios and checkboxes are all required and need manual validation here
      */
-    function groupsAreValid() {
-      let groupError = false;
+    function groupsAreValid(data) {
+      let valid = true;
       requiredElementGroups.forEach((field) => {
         const errorSpan = document.getElementById(`${field}-error-message`);
         if (!data[field]) {
-          groupError = true;
+          groupError = false;
           errorSpan.className = "usa-error-message";
         } else {
           errorSpan.className = "usa-error-message display-none";
         }
       });
-      return !groupError;
+
+      return valid;
     }
 
     /**
@@ -167,7 +168,7 @@ class: page-form
       Array.from(document.getElementsByName(field)).forEach(
         (element) =>
           (element.onchange = () => {
-            groupsAreValid(aggregateFormData());
+            submitted && groupsAreValid(aggregateFormData());
           })
       );
     });
@@ -179,7 +180,10 @@ class: page-form
       submitted = true;
       const data = aggregateFormData();
 
-      if (!form.reportValidity() || !groupsAreValid(data)) {
+      const formValid = form.reportValidity();
+      const groupsValid = groupsAreValid(data);
+
+      if (!formValid || !groupsValid) {
         return;
       }
 
