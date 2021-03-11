@@ -54,8 +54,15 @@ class: page-form
     >
       {% include forms/ordering-provider.html %}
     </div>
+    <div id="alert-api-error" class="usa-alert usa-alert--error display-none" role="alert">
+      <div class="usa-alert__body">
+        <h3 class="usa-alert__heading">Error</h3>
+        <p class="usa-alert__text">Failed to submit. Please try again.</p>
+      </div>
+    </div>
     <button
       id="form-submit-button"
+      type="button"
       class="usa-button usa-button--big"
       value="submit"
       name="submit"
@@ -187,19 +194,21 @@ class: page-form
         return;
       }
 
-      let response = await fetch("http://localhost:8080/account-request", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      if (response.ok) {
-        window.location.replace("thanks");
-      } else {
-        // TODO: deal with this negative case
-        window.alert("It didn't work");
+      try {
+        let response = await fetch("http://localhost:8080/account-request", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+        if (response.ok) {
+          window.location.replace("thanks");
+        } else {
+          throw("oh no");
+        }
+      } catch (error) {
+        document.getElementById("alert-api-error").className="usa-alert usa-alert--error";
       }
     };
   })();

@@ -106,32 +106,42 @@ class: page-form
     <input class="usa-input" id="organization" name="organization" type="text" required>
     <label class="usa-label" for="referral">How did you hear about us?</label>
     <textarea class="usa-textarea height-10" id="referral" name="referral"></textarea>
+    <div id="alert-api-error" class="usa-alert usa-alert--error display-none" role="alert">
+      <div class="usa-alert__body">
+        <h3 class="usa-alert__heading">Error</h3>
+        <p class="usa-alert__text">Failed to submit. Please try again.</p>
+      </div>
+    </div>
     <button class="usa-button" type="submit" value="submit" name="submit">Submit</button>
   </form>
 </div>
 
 <script>
-  const form = document.getElementById('waitlist-form');
-  form.onsubmit = async (e) => {
-    e.preventDefault();
-    const fields = ['name', 'email', 'phone', 'state', 'organization', 'referral'];
+  (function formLogic() {
+    const form = document.getElementById('waitlist-form');
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const fields = ['name', 'email', 'phone', 'state', 'organization', 'referral'];
 
-    const data = {};
-    fields.forEach(field => data[field] = document.getElementById(field).value);
+      const data = {};
+      fields.forEach(field => data[field] = document.getElementById(field).value);
 
-    let response = await fetch('http://localhost:8080/account-request/waitlist', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    });
-
-    if(response.ok) {
-      window.location.replace("thanks");
-    } else {
-      // TODO: deal with this negative case
-      window.alert("It didn't work");
-    }
-  };
+      try {
+        let response = await fetch('http://localhost:8080/account-request/waitlist', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        });
+        if (response.ok) {
+          window.location.replace("thanks");
+        } else {
+          throw("oh no");
+        }
+      } catch (error) {
+        document.getElementById("alert-api-error").className="usa-alert usa-alert--error";
+      }
+    };
+  })();
 </script>
