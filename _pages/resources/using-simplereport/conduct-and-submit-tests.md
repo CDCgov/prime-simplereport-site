@@ -25,7 +25,11 @@ Once you’ve [logged in to SimpleReport]({% link _pages/resources/getting-start
 3. Confirm the person’s full name and date of birth. Then click **Begin test** to the right of their name.
 ![Search results showing two people with similar names but different birth dates.]({% link assets/img/resources/conduct-and-submit-tests/step-3.png %})<br>
 If the person you’re looking for doesn’t appear in the search results, make sure that you’ve spelled their name correctly. If you still can’t find them, you’ll need to add them before proceeding with the rest of these steps.
-1. The test questionnaire will appear. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
+1. The person you’re testing will need to answer a test questionnaire. They can do so on their phone or by telling you their answers. Ask them which method they prefer.
+
+2. Follow the instructions for whichever option the person chooses:
+
+3. The test questionnaire will appear. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
 ![The bottom of the test questionnaire window, including the blue "Continue" button on the bottom right]({% link assets/img/resources/conduct-and-submit-tests/step-4.png %})
 5. The person’s name will appear on a card on the “Conduct Tests” page. You can continue with their test or, if you’re testing multiple people at once, you can repeat the previous steps for each of the people you’re testing.
 6. Collect the swab from the person you’re testing and prepare their sample.
