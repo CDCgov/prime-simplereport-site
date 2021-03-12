@@ -25,4 +25,4 @@ To add someone new:
 
 A green confirmation box will appear to let you know that you’ve successfully added someone new. You’re all done.
 
-If you’re ready to conduct a test for this person, learn how to [conduct and submit tests]().
+If you’re ready to conduct a test for this person, learn how to [conduct and submit tests](({% link _pages/resources/using-simplereport/conduct-and-submit-tests.md %})).
