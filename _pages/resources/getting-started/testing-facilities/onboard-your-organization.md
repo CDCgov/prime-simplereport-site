@@ -13,11 +13,30 @@ Welcome to SimpleReport! Let’s get started.
 
 ## Onboarding checklist
 Complete the following steps to start using SimpleReport:
-- Request access for your testing facility
-- Complete DocuSign documents
-- Verify your identity
-- (optional) Get training
-- Start testing
+
+<fieldset class="usa-fieldset">
+  <legend class="usa-legend usa-sr-only">Onboarding checklist</legend>
+  <div class="usa-checkbox">
+    <input class="usa-checkbox__input" id="access" type="checkbox" name="access" value="access">
+    <label class="usa-checkbox__label" for="access">Request access for your testing facility</label>
+  </div>
+  <div class="usa-checkbox">
+    <input class="usa-checkbox__input" id="docusign" type="checkbox" name="docusign" value="docusign">
+    <label class="usa-checkbox__label" for="docusign">Complete DocuSign documents</label>
+  </div>
+  <div class="usa-checkbox">
+    <input class="usa-checkbox__input" id="identity" type="checkbox" name="identity" value="identity">
+    <label class="usa-checkbox__label" for="identity">Verify your identity</label>
+  </div>
+  <div class="usa-checkbox">
+    <input class="usa-checkbox__input" id="training" type="checkbox" name="training" value="training">
+    <label class="usa-checkbox__label" for="training">(optional) Get training</label>
+  </div>
+  <div class="usa-checkbox">
+    <input class="usa-checkbox__input" id="start" type="checkbox" name="start" value="start">
+    <label class="usa-checkbox__label" for="start">Start testing</label>
+  </div>
+</fieldset>
 
 ## Request access for your testing facility
 To get access, fill out the [SimpleReport facility access request form](https://airtable.com/shrP44AsyW1CYy05V). If you have multiple facilities, fill out the form separately for each facility. (For example, if you have three facilities, you’ll fill out the form three separate times.)
