@@ -19,12 +19,12 @@ Once you’ve [logged in to SimpleReport]({% link _pages/resources/getting-start
 If the person you’re looking for doesn’t appear in the search results, make sure that you’ve spelled their name correctly. If you still can’t find them, you’ll need to add them before proceeding with the rest of these steps.
 1. The person you’re testing will need to answer a test questionnaire. They can do so on their phone or by telling you their answers. Ask them which method they prefer.
 ![A window asking whether the person being tested wants to complete their questionnaire via "Text link to complete on smarphone" or "Complete questionnaire verbally"]({% link assets/img/resources/conduct-and-submit-tests/test-questionnaire-method.png %})
-2. Follow the instructions for whichever option the person chooses.<br>
-**Text link to smartphone**
+2. Follow the instructions below for whichever option the person chooses.<br>
+**Text link to smartphone** <br>
 Select **Text link to complete on smartphone**. Make sure that the phone number that appears is correct and can receive text messages. (If the number is incorrect, [update the phone number in the person’s profile](% link _pages/resources/using-simplereport/manage-people-you-test/update-someones-profile.md %}), and start again from Step 1.) Then click the blue **Text link** button at the bottom right of the window.
 ![The same window, this time with the "Text link to smartphone" option selected and the person's phone number shown"]({% link assets/img/resources/conduct-and-submit-tests/smartphone-selected.png %})
 The person you’re testing should receive a text message with a link to the questionnaire. Instruct them to complete it and submit their responses immediately.<br>
-**Complete questionnaire verbally**
+**Complete questionnaire verbally** <br>
 Select Complete questionnaire verbally. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
 ![The bottom of the test questionnaire window, including the blue "Continue" button on the bottom right]({% link assets/img/resources/conduct-and-submit-tests/step-4.png %})
 5. The person’s name will appear on a card on the “Conduct Tests” page. You can continue with their test or, if you’re testing multiple people at once, you can repeat the previous steps for each of the people you’re testing.
