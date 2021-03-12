@@ -24,13 +24,9 @@ These all help to keep your account secure.
 ![An Okta page requesting a password, password question, and security image]({% link assets/img/resources/activate-your-user-account/step-2.png %}){: {: .maxw-mobile .margin-left-neg-5 }
 3. Click **Create My Account** at the bottom right of the page.
 ![The "Create My Account" button]({% link assets/img/resources/activate-your-user-account/step-3.png %})
-4. [Pick a multifactor authentication option](#multifactor-authentication-options), and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.<br>
+4. [Pick a multifactor authentication option](#multifactor-authentication-options), and click **Setup** below it. These authentication options, too, are meant to secure your account. For most users, SMS authentication is the easiest option, because it sends a text message to your phone.
 
-<div class="usa-alert usa-alert--info">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">If you choose biometric authentication, make sure that you’ll only log in to SimpleReport from the device you’re currently using. Biometric authentication may be difficult to use across multiple devices.</p>
-  </div>
-</div>
+If you choose biometric authentication, make sure that you’ll only log in to SimpleReport from the device you’re currently using. Biometric authentication may be difficult to use across multiple devices.
 
 At the bottom of this page, you can review instructions for setting up [SMS authentication and Google Authenticator/Okta Verify](#multifactor-authentication-options).
 ![An Okta page showing the four different multifactor authentication options: Okta Verify, Security Key or Biometric Authenticator, Google Authenticator, and SMS Authentication]({% link assets/img/resources/activate-your-user-account/step-4.png %})
