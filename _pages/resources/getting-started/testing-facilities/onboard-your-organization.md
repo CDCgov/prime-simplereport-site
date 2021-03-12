@@ -50,4 +50,4 @@ You can also learn [how to use SimpleReport]({% link _pages/resources/using-simp
 ## Start testing
 Once you've completed the steps above, you're ready to start using SimpleReport.
 
-If you want to [invite other staff members]({% link _pages/resources/using-simplereport/manage-users/invite-new-users.md %}) or [add more facilities](({% link _pages/resources/using-simplereport/manage-facility-info/add-a-facility.md %})), you can do so directly in SimpleReport.
+If you want to [invite other staff members]({% link _pages/resources/using-simplereport/manage-users/invite-new-users.md %}) or [add more facilities]({% link _pages/resources/using-simplereport/manage-facility-info/add-a-facility.md %}), you can do so directly in SimpleReport.
