@@ -64,8 +64,8 @@ resources:
         subsubnav:
           - page: About PRIME ReportStream
             url: /resources/getting-started/public-health-departments/about-prime-reportstream/
-          - page: What public health departments receive from the Data Hub
-            url: /resources/getting-started/public-health-departments/data-public-health-departments-receive/
+          # - page: What public health departments receive from the Data Hub
+          #   url: /resources/getting-started/public-health-departments/data-public-health-departments-receive/
   - title: Using SimpleReport
     url: /resources/using-simplereport/
     subnav:
