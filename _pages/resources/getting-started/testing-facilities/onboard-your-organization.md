@@ -30,7 +30,7 @@ Get started with a video introduction to SimpleReport.
 </div>
 
 ## Request access for your testing facility
-To get access, fill out the [SimpleReport facility access request form](https://airtable.com/shrP44AsyW1CYy05V). If you have multiple facilities, fill out the form separately for each facility. (If you have three facilities, you’ll fill out the form three times.)
+To get access, fill out the [SimpleReport facility access request form]({% link pages/forms/account-request-form.html %}). If you have multiple facilities, fill out the form separately for each facility. (If you have three facilities, you’ll fill out the form three times.)
 
 Make sure that the facility name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 
