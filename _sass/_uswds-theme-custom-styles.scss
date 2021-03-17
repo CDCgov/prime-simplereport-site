@@ -421,12 +421,6 @@ Typography
   text-decoration: none !important;
 }
 
-.grid-row {
-  @include at-media('tablet') {
-    padding: 0 5em;
-  }
-}
-
 .page-docs {
   .grid-row {
     @include at-media('tablet') {
@@ -921,4 +915,24 @@ Typography
   @include at-media('tablet') {
     margin-top: 0em;
   }
+}
+
+.page-form {
+  background-color: color('gray-2');
+
+  .page-container {
+    border-top: 1px solid color('base-lighter');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    align-self: center;
+  }
+}
+
+.usa-legend--large {
+  color: color(primary-darker);
+  font-weight: 500;
 }

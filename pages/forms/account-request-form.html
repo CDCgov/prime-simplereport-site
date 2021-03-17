@@ -1,0 +1,215 @@
+---
+title: "SimpleReport: Testing facility account request"
+description: Thanks for requesting access to SimpleReport. We need to collect a bit more information about your facility.
+permalink: /sign-up/
+layout: default
+return_top: "false"
+home_link: true
+class: page-form
+---
+
+<div class="maxw-mobile-lg margin-x-1 mobile-lg:margin-x-0 margin-top-8">
+  {% include home-link.html %}
+  <div class="usa-prose">
+    <h1 class="font-heading-2xl text-primary-darker">{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <p>
+      Fill out this form for locations that provide rapid COVID-19 testing,
+      including:
+    </p>
+    <ul>
+      <li>K-12 schools</li>
+      <li>
+        Congregate living settings (assisted living, long-term care facilities,
+        jails, etc.)
+      </li>
+      <li>Universities</li>
+      <li>Urgent care centers</li>
+      <li>Airports, and more</li>
+    </ul>
+    <p>
+      Required fields are marked with an asterisk ({% include required.html %}).
+    </p>
+  </div>
+</div>
+
+<div class="form-container maxw-mobile-lg margin-x-1 mobile-lg:margin-x-0">
+  <form
+    class="usa-form usa-form--large"
+    id="account-request-form"
+    name="account-request"
+  >
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4"
+    >
+      {% include forms/facility-administrator.html %}
+    </div>
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
+    >
+      {% include forms/testing-facility-information.html %}
+    </div>
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
+    >
+      {% include forms/ordering-provider.html %}
+    </div>
+    <div id="alert-api-error" class="usa-alert usa-alert--error display-none" role="alert">
+      <div class="usa-alert__body">
+        <h3 class="usa-alert__heading">Error</h3>
+        <p class="usa-alert__text">Failed to submit. Please try again.</p>
+      </div>
+    </div>
+    <button
+      id="form-submit-button"
+      type="button"
+      class="usa-button usa-button--big"
+      value="submit"
+      name="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+
+<script>
+  (function formLogic() {
+    // Define all fields on the form here
+    const stringFields = [
+      "first-name",
+      "last-name",
+      "email",
+      "work-phone-number",
+      "cell-phone-number",
+      "mailing-address1",
+      "apt-suite-other",
+      "apt-floor-suite-no",
+      "city",
+      "state",
+      "zip",
+      "county",
+      "organization-name",
+      "facility-name",
+      "clia-number",
+      "workflow",
+      "op-first-name",
+      "op-last-name",
+      "npi",
+      "op-phone-number",
+      "op-mailing-address1",
+      "op-apt-suite-other",
+      "op-apt-floor-suite-no",
+      "op-city",
+      "op-state",
+      "op-zip",
+      "op-county",
+    ];
+    const radioFields = [
+      "facility-type",
+      "records-test-results",
+      "process-time",
+      "submitting-results-time",
+    ];
+    const checkboxFields = ["browsers", "testing-devices", "access-devices"];
+
+    // If a non-required checkbox or radio group is added, this will need to change
+    const requiredElementGroups = radioFields.concat(checkboxFields);
+
+    // Get the button & form elements
+    const button = document.getElementById("form-submit-button");
+    const form = document.getElementById("account-request-form");
+
+    // Has submit ever been pressed?
+    let submitted = false;
+
+    /**
+     * The text inputs are handled with native HTML validation.
+     * The radios and checkboxes are all required and need manual validation here
+     */
+    function groupsAreValid(data) {
+      let valid = true;
+      requiredElementGroups.forEach((field) => {
+        const errorSpan = document.getElementById(`${field}-error-message`);
+        if (!data[field]) {
+          groupError = false;
+          errorSpan.className = "usa-error-message";
+        } else {
+          errorSpan.className = "usa-error-message display-none";
+        }
+      });
+
+      return valid;
+    }
+
+    /**
+     * Translate the form data from element values into JSON
+     */
+    function aggregateFormData() {
+      const data = {};
+      stringFields.forEach(
+        (field) =>
+          (data[field] = document.getElementsByName(field).item(0).value)
+      );
+      radioFields.forEach((field) => {
+        const radioElements = Array.from(document.getElementsByName(field))
+          .filter((e) => e.checked)
+          .map((e) => e.nextElementSibling.textContent);
+        data[field] = radioElements.length ? radioElements[0] : null;
+      });
+
+      checkboxFields.forEach(
+        (field) =>
+          (data[field] = Array.from(document.getElementsByName(field))
+            .filter((e) => e.checked)
+            .map((e) => e.nextElementSibling.textContent)
+            .join(", "))
+      );
+      return data;
+    }
+
+    /**
+     * Set up onChange handlers to clear validation styling on required groups
+     * after initial validation
+     */
+    requiredElementGroups.forEach((field) => {
+      Array.from(document.getElementsByName(field)).forEach(
+        (element) =>
+          (element.onchange = () => {
+            submitted && groupsAreValid(aggregateFormData());
+          })
+      );
+    });
+
+    /**
+     * Aggregate the form data; validate the form; submit
+     */
+    button.onclick = async () => {
+      submitted = true;
+      const data = aggregateFormData();
+
+      const formValid = form.reportValidity();
+      const groupsValid = groupsAreValid(data);
+
+      if (!formValid || !groupsValid) {
+        return;
+      }
+
+      try {
+        let response = await fetch("/api/account-request", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+        if (response.ok) {
+          window.location.replace("/sign-up/thanks");
+        } else {
+          throw("oh no");
+        }
+      } catch (error) {
+        document.getElementById("alert-api-error").className="usa-alert usa-alert--error";
+      }
+    };
+  })();
+</script>
