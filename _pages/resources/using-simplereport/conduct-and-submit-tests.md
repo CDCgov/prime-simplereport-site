@@ -25,7 +25,7 @@ Select **Text link to complete on smartphone**. Make sure that the phone number 
 ![The same window, this time with the "Text link to smartphone" option selected and the person's phone number shown"]({% link assets/img/resources/conduct-and-submit-tests/smartphone-selected.png %})
 The person you’re testing should receive a text message with a link to the questionnaire. Instruct them to complete it and submit their responses immediately. They’ll need to submit their responses before you submit their test result.<br>
 **Complete questionnaire verbally** <br>
-Select Complete questionnaire verbally. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
+Select **Complete questionnaire verbally**. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
 ![The bottom of the test questionnaire window, including the blue "Continue" button on the bottom right]({% link assets/img/resources/conduct-and-submit-tests/step-4.png %})
 5. The person’s name will appear on a card on the “Conduct Tests” page. You can continue with their test or, if you’re testing multiple people at once, you can repeat the previous steps for each of the people you’re testing.
 6. Collect the swab from the person you’re testing and prepare their sample.
