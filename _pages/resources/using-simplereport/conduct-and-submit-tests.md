@@ -23,7 +23,7 @@ If the person you’re looking for doesn’t appear in the search results, make 
 **Text link to smartphone** <br>
 Select **Text link to complete on smartphone**. Make sure that the phone number that appears is correct and can receive text messages. (If the number is incorrect, [update the phone number in the person’s profile](% link _pages/resources/using-simplereport/manage-people-you-test/update-someones-profile.md %}), and start again from Step 1.) Then click the blue **Text link** button at the bottom right of the window.
 ![The same window, this time with the "Text link to smartphone" option selected and the person's phone number shown"]({% link assets/img/resources/conduct-and-submit-tests/smartphone-selected.png %})
-The person you’re testing should receive a text message with a link to the questionnaire. Instruct them to complete it and submit their responses immediately.<br>
+The person you’re testing should receive a text message with a link to the questionnaire. Instruct them to complete it and submit their responses immediately. They’ll need to submit their responses before you submit their test result.<br>
 **Complete questionnaire verbally** <br>
 Select Complete questionnaire verbally. You can ask these questions now, or click **Continue** and come back to them later. Whenever you choose to answer the questions, you’ll need to complete them before you submit test results.
 ![The bottom of the test questionnaire window, including the blue "Continue" button on the bottom right]({% link assets/img/resources/conduct-and-submit-tests/step-4.png %})
