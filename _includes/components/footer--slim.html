@@ -83,23 +83,32 @@
 
         {% endif %}
       </div>
-      <div class="grid-row grid-gap-2">
-        <div class="tablet:flex-auto">
-          <a href='{% link pages/about-us.md %}'>About us</a><br>
-          <a href='{% link pages/tos.md %}'>Terms of service</a><br>
-          <a href="#">Accessibility</a><br>
+      <ul class="usa-identifier__required-links-list">
+        <li>
+          <a href='{% link pages/about-us.md %}'>About us</a>
+        </li>
+        <li>
+          <a href="https://www.cdc.gov/contact/accessibility.html">Accessibility</a>
+        </li>
+        <li>
           <a href='{% link _pages/resources/index.md %}'>Get resources</a>
-        </div>
-        <div class="tablet:flex-auto tablet:padding-left-4">
-          <a href="#">Freedom of Information Act (FOIA)</a><br>
-          <a href="#">Office of the Inspector General</a><br>
-          <a href="#">No FEAR Act Data</a>
-        </div>
-        <div class="tablet:flex-auto tablet:padding-left-4">
-            <a href="#">Privacy Policy</a><br>
-            <a href="#">Digital Analytics Program (DAP)</a>
-        </div>
-      </div>
+        </li>
+        <li>
+          <a href="https://www.cdc.gov/od/foia">FOIA requests</a>
+        </li>
+        <li>
+          <a href="https://www.cdc.gov/eeo/nofearact/index.htm">No FEAR Act data</a>
+        </li>
+        <li>
+          <a href="https://oig.hhs.gov/">Office of the Inspector General</a>
+        </li>
+        <li>
+          <a href="https://www.cdc.gov/other/privacy.html">Privacy policy</a>
+        </li>
+        <li>
+          <a href='{% link pages/tos.md %}'>Terms of service</a><br>
+        </li>
+      </ul>
 
       {% if footer.edit_page %}
       <div class="usa-footer-contact-links usa-width-one-half align-right">
