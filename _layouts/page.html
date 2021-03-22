@@ -29,15 +29,13 @@ main:
           </a>
         {% endunless %}
         {% if page.class contains "page-docs" %}
-          <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
+          <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-bottom-1">
             {% assign kicker = page.url | split: "/" | reverse %}
             {{ kicker[1] | replace: '-', ' ' }}
           </p>
         {% endif %}
         {% if page.title %}
-          <h1
-            {% unless page.class contains "page-docs" and page.home_link %}class="no-top-margin"{% endunless %}
-            {% if page.class contains "page-docs" %} class="margin-top-1"{% endif %}>
+          <h1 class="margin-top-0">
             {{ page.title }}
           </h1>
         {% endif %}
