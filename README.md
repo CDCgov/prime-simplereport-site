@@ -3,7 +3,6 @@
 The static website resources for https://simplereport.gov/
 
 ## Table of Contents
-
 - [Simple Report Public Website](#simple-report-public-website)
   - [Table of Contents](#table-of-contents)
   - [Setup](#setup)
@@ -12,7 +11,6 @@ The static website resources for https://simplereport.gov/
   - [Manually Trigger Deploy](#manually-trigger-deploy)
 
 ## Setup
-
 Install node packages
 `yarn install`
 
@@ -34,7 +32,6 @@ Serve site
 `yarn serve`
 
 ## Contributing
-
 1. make changes on a branch
 2. Open a PR and deploy branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`
 3. Link to deployed code in PR
@@ -43,27 +40,25 @@ Serve site
 6. Manually trigger a deploy of `main` to `prod`. See [Manually Trigger Deploy](#manually-trigger-deploy)
 
 ## Cloud Environments
-
-|   **Type**   |                **Static Site URL**                |              **Deployment**               |             **How to trigger**             |
-| :----------: | :-----------------------------------------------: | :---------------------------------------: | :----------------------------------------: |
-|     Prod     |             https://simplereport.gov              |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-|   Staging    |           https://stg.simplereport.gov            |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-|     Dev      |           https://dev.simplereport.gov            |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-|     Demo     |           https://demo.simplereport.gov           |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-|     Test     |           https://test.simplereport.gov           |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-|   Pentest    |         https://pentest.simplereport.gov          |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-|   Training   |         https://training.simplereport.gov         |        Automed on merge to `main`         | [Github Actions](#manually-trigger-deploy) |
-| github pages | https://cdcgov.github.io/prime-simplereport-site/ | Automed on merge to `main` and `gh-pages` |               `yarn deploy`                |
+**Type**|**Static Site URL**|**Deployment**|**How to trigger**
+:-----:|:-----:|:-----:|:-----:
+Prod|https://simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Staging|https://stg.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Dev|https://dev.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Demo|https://demo.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Test|https://test.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Pentest|https://pentest.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Training|https://training.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+github pages|https://cdcgov.github.io/prime-simplereport-site/|Automed on merge to `main` and `gh-pages`|`yarn deploy`
 
 ## Manually Trigger Deploy
 
 1. Navigate to the [Github Actions Tab](https://github.com/CDCgov/prime-simplereport-site/actions)
 2. Select the environment you want to deploy to from the workflows list. In this case we are selecting the `dev` environment
-   ![Select-dev](https://user-images.githubusercontent.com/53869143/108391209-78026280-71df-11eb-8cab-2d124f71627e.png)
-3. Click the "Run workflow" button, select the branch you want to deploy and click the green "Run workflow" button. In this case we are deploying the latest commit on `main` to `dev`
-4. ![select branch](https://user-images.githubusercontent.com/53869143/108391056-4c7f7800-71df-11eb-9d41-4c20fa5828e9.png)
-5. After the workflow is completed you can verify the changes are live by Checking the deployed commit hash. This is done my going to view-source:https://dev.simplereport.gov/ (or the url for the env you deployed to). Note the deployed commit hash will appear in a comment right before the closing body tag.
-
+![Select-dev](https://user-images.githubusercontent.com/53869143/108391209-78026280-71df-11eb-8cab-2d124f71627e.png)
+1. Click the "Run workflow" button, select the branch you want to deploy and click the green "Run workflow" button. In this case we are deploying the latest commit on `main` to `dev`
+2. ![select branch](https://user-images.githubusercontent.com/53869143/108391056-4c7f7800-71df-11eb-9d41-4c20fa5828e9.png)
+3. After the workflow is completed you can verify the changes are live by Checking the deployed commit hash. This is done my going to view-source:https://dev.simplereport.gov/ (or the url for the env you deployed to). Note the deployed commit hash will appear in a comment right before the closing body tag.
 ```
     <!-- 56799f6 -->
   </body>
