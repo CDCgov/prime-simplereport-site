@@ -12,7 +12,7 @@ The static website resources for https://simplereport.gov/
 
 ## Setup
 Install node packages
-`npm install`
+`yarn install`
 
 Set ruby to `2.6.0`
 
@@ -23,13 +23,13 @@ Install gems
 `bundle install`
 
 Run Setup
-`npm run setup`
+`yarn setup`
 
 Build/Watch sass in separate
-`npm run watch`
+`yarn watch`
 
 Serve site
-`npm run serve`
+`yarn serve`
 
 ## Contributing
 1. make changes on a branch
@@ -49,7 +49,7 @@ Demo|https://demo.simplereport.gov|Automed on merge to `main`|[Github Actions](#
 Test|https://test.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Pentest|https://pentest.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Training|https://training.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
-github pages|https://cdcgov.github.io/prime-simplereport-site/|Automed on merge to `main` and `gh-pages`|`npm run deploy`
+github pages|https://cdcgov.github.io/prime-simplereport-site/|Automed on merge to `main` and `gh-pages`|`yarn deploy`
 
 ## Manually Trigger Deploy
 
