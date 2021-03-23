@@ -69,18 +69,18 @@ sections:
         intro_p: Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
 ---
 
-<section class="usa-section-list usa-section">
+<section class="usa-section-list padding-top-10 margin-bottom-10">
   <div class="grid-container">
     <div class="grid-row section-title">
       <div class="section-title-line"></div>
       <h2>How it works</h2>
     </div>
-    <div class="grid-row grid-gap-small-btm section-columns">
-      <div class="grid-col-12">
+    <div class="grid-row">
+      <div class="grid-col display-flex flex-justify-center margin-top-2">
         <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
       </div>
       <div class="grid-col-12">
-        <div class="huge-header">
+        <div class="huge-header margin-top-3 tablet:margin-top-5">
           SimpleReport fits into your existing workflow.
         </div>
       </div>
@@ -90,62 +90,66 @@ sections:
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
-      <div class="tablet-lg:grid-col-5 grid-col-12">
-        <div class="medium-header">
-          No more repeat data entry
+      <div class="grid-row grid-gap">
+        <div class="tablet-lg:grid-col-5 grid-col-12">
+          <div class="medium-header">
+            No more repeat data entry
+          </div>
+          <div class="prose">
+            Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
+          </div>
         </div>
-        <div class="prose">
-          Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
-        </div>
-      </div>
-      <div class="tablet-lg-hide grid-col-7">
-        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
-      </div>
-      <div class="grid-col-12 gap-row-2"></div>
-      <div class="tablet-lg:grid-col-7 grid-col-12">
-        <img class="blue-bubble" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
-        <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
-      </div>
-      <div class="tablet-lg:grid-col-5 grid-col-12">
-        <div class="medium-header">
-          Reporting done for you
-        </div>
-        <div class="prose">
-          SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
+        <div class="tablet-lg-hide grid-col-7">
+          <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+          <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
         </div>
       </div>
-      <div class="grid-col-12 gap-row-3"></div>
+      <div class="grid-row grid-gap margin-top-card">
+        <div class="tablet-lg:grid-col-7 grid-col-12">
+          <img class="blue-bubble" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
+          <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
+        </div>
+        <div class="tablet-lg:grid-col-5 grid-col-12">
+          <div class="medium-header">
+            Reporting done for you
+          </div>
+          <div class="prose">
+            SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="usa-section-list usa-section blue-section">
+<section class="usa-section-list">
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
-  <div class="grid-container">
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
-        <div class="medium-header">
-          Free and created by the CDC
+  <div class="bg-accent-cool-lighter">
+    <div class="grid-container">
+      <div class="grid-row grid-gap grid-gap-small-btm section-columns">
+        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
+          <div class="medium-header font-heading-lg">
+            Free and created by the CDC
+          </div>
+          <div class="prose font-body-sm">
+            Developed for testing sites and public health departments, SimpleReport is 100% free.
+          </div>
         </div>
-        <div class="prose">
-          Developed for testing sites and public health departments, SimpleReport is 100% free.
+        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
+          <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
         </div>
-      </div>
-      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
-        <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
-      </div>
-      <div class="grid-col-12 gap-row-4"></div>
-      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
-        <div class="medium-header">
-          Safe and secure
+        <div class="grid-col-12 gap-row-4"></div>
+        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
+          <div class="medium-header font-heading-lg">
+            Safe and secure
+          </div>
+          <div class="prose font-body-sm">
+            Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
+          </div>
         </div>
-        <div class="prose">
-          Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
+        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
+          <img class="shield" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
         </div>
-      </div>
-      <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
-        <img class="shield" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
       </div>
     </div>
   </div>
@@ -154,21 +158,16 @@ sections:
 
 <section class="usa-section-list usa-section">
   <div class="grid-container">
-    <div class="grid-row section-title margin-top-8">
+    <div class="grid-row section-title">
       <div class="section-title-line"></div>
       <h2>Get started</h2>
     </div>
-    <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-      <div class="grid-col-12">
-        <div class="prose-f4">
-          <p>
-            Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
-          </p>
-          <br>
-          <a href="{% link pages/forms/account-request-form.html %}" class='usa-button usa-button--primary text-no-underline text-ink large-button'>Get started with SimpleReport</a>
-          <p>You can also check out <a class="usa-link" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
-        </div>
-      </div>
+    <div class="usa-prose prose-f4 margin-top-5">
+      <p>
+        Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
+      </p>
+      <a class="margin-top-5 usa-button usa-button--primary text-no-underline text-ink large-button text-normal" href="{% link pages/forms/account-request-form.html %}">Get started with SimpleReport</a>
+      <p>You can also check out <a class="usa-link" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
     </div>
   </div>
 </section>
