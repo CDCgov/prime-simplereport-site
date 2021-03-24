@@ -83,10 +83,10 @@ sections:
     </div>
     <div class="grid-row margin-top-5">
       <div class="display-flex flex-justify-end tablet:display-none">
-        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+        <img class="brown-bubble flex-align-self-start" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
-      <div class="grid-row grid-gap-6 display-flex">
+      <div class="grid-row grid-gap-4 display-flex">
         <div class="tablet:grid-col-5 grid-col-12 flex-align-self-end">
           <div class="medium-header margin-top-4 desktop:margin-top-0">
             No more repeat data entry
@@ -102,10 +102,10 @@ sections:
           </div>
         </div>
       </div>
-      <div class="grid-row grid-gap-6 margin-top-6 tablet:margin-top-card">
+      <div class="grid-row grid-gap-4 margin-top-6 tablet:margin-top-card">
         <div class="tablet-lg:grid-col-7 grid-col-12">
           <div class="display-flex">
-          <img class="blue-bubble" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
+          <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
           <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
           </div>
         </div>
@@ -124,7 +124,7 @@ sections:
 
 <section class="usa-section-list">
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
-  <div class="bg-accent-cool-lighter">
+  <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
     <div class="grid-container">
       <div class="grid-row grid-gap grid-gap-small-btm section-columns">
         <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
