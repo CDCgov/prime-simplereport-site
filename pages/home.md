@@ -82,7 +82,7 @@ sections:
       SimpleReport fits into your existing workflow.
     </div>
     <div class="grid-row margin-top-5">
-      <div class="display-flex tablet:display-none">
+      <div class="display-flex flex-justify-end tablet:display-none">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
