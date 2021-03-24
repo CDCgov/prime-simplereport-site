@@ -87,9 +87,10 @@ Typography
 }
 
 .usa-hero {
-  padding-top: 40px;
   background-image: none;
   padding-bottom: 3rem;
+  padding-top: units(4);
+
   @include at-media('desktop') {
     padding-bottom: 2rem;
   }
@@ -170,17 +171,15 @@ Typography
 }
 
 .usa-hero-placeholder {
+  margin-bottom: 1em;
+  margin-top: 1em;
   max-width: 540px;
   width: 100%;
   height: auto;
   z-index: 10;
-  // margin-top: 12em;
-  // margin-left: 1em;
-  // margin-top: 1em;
-  /*margin: 0 0 1em 1em;*/
-  padding-top: 2em;
-  @include at-media('tablet') {
-    margin: 1em 0 1em 1em;
+
+  @include at-media('desktop') {
+    margin-top: 6em;
     padding-top: 1em;
   }
 }
@@ -197,43 +196,43 @@ Typography
 }
 
 .usa-hero-subsection {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #1b1b1b;
-  padding-top: 1em;
-  // border: 1px solid #f00;
   padding-bottom: 1rem;
+
   @include at-media('tablet') {
     padding-bottom: 0;
   }
+
   @include at-media('desktop') {
     padding-top: 7em;
-    // padding-bottom: 15em;
-    // max-height: 180px;
   }
+
   p {
     max-width: 380px;
     color: #162e51;
   }
+
   @include at-media('desktop') {
     & > p {
       padding-top: 1em;
     }
   }
+
   ul {
     list-style: none;
     padding: 0;
+
     li {
+      font-weight: 400;
+
       &:before {
         content: '✓';
         display: inline-block;
         width: 16px;
-
       }
-
-      font-weight: 400;
     }
   }
 }
@@ -312,10 +311,10 @@ Typography
         padding-bottom: 40px;
       }
     }
+  }
 
-    .illustration-image {
-      max-width: 600px;
-    }
+  .illustration-image {
+    max-width: 600px;
   }
 }
 
@@ -760,43 +759,22 @@ Typography
   height: 82px;
 }
 
-.brown-bubble {
+.animation-1,
+.animation-2 {
   position: absolute;
-  top: -160px;
-  left: -30px;
-
-  @include at-media('tablet-lg') {
-    top: -175px;
-    left: 8px;
-  }
-}
-
-.animation-1 {
-  position: relative;
-
-  @include at-media('tablet-lg') {
-    top: -40px;
-  }
 }
 
 .blue-bubble {
-  position: absolute;
-  top: -120px;
+  padding-left: 18%;
+  padding-top: 5%;
+}
 
-  @include at-media('tablet-lg') {
-    top: 10px;
-    left: 65px;
-  }
+.animation-1 {
+  max-width: 316px;
 }
 
 .animation-2 {
-  position: relative;
-  top: -75px;
-
-  @include at-media('tablet-lg') {
-    top: -17px;
-    left: -50px;
-  }
+  max-width: 352px;
 }
 
 .mid-wave-top,
@@ -912,4 +890,10 @@ Typography
 
 .margin-top-card {
   margin-top: units('card');
+}
+
+.tablet\:margin-top-card {
+  @include at-media('tablet') {
+    margin-top: units('card') !important;
+  }
 }

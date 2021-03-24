@@ -69,48 +69,48 @@ sections:
         intro_p: Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
 ---
 
-<section class="usa-section-list padding-top-10 margin-bottom-10">
+<section class="usa-section-list padding-top-10 margin-bottom-6">
   <div class="grid-container">
     <div class="grid-row section-title">
       <div class="section-title-line"></div>
       <h2>How it works</h2>
     </div>
-    <div class="grid-row">
-      <div class="grid-col display-flex flex-justify-center margin-top-2">
-        <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
-      </div>
-      <div class="grid-col-12">
-        <div class="huge-header margin-top-3 tablet:margin-top-5">
-          SimpleReport fits into your existing workflow.
-        </div>
-      </div>
-      <div class="grid-col-12 gap-row">
-      </div>
-      <div class="grid-col-12 tablet-lg-show">
+    <div class="display-flex flex-justify-center margin-top-2">
+      <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
+    </div>
+    <div class="huge-header margin-top-3 tablet:margin-top-5">
+      SimpleReport fits into your existing workflow.
+    </div>
+    <div class="grid-row margin-top-5">
+      <div class="display-flex tablet:display-none">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+        <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
-      <div class="grid-row grid-gap">
-        <div class="tablet-lg:grid-col-5 grid-col-12">
-          <div class="medium-header">
+      <div class="grid-row grid-gap-6 display-flex">
+        <div class="tablet:grid-col-5 grid-col-12 flex-align-self-end">
+          <div class="medium-header margin-top-4 desktop:margin-top-0">
             No more repeat data entry
           </div>
           <div class="prose">
             Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
           </div>
         </div>
-        <div class="tablet-lg-hide grid-col-7">
-          <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-          <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+        <div class="display-none tablet:display-block grid-col-7">
+          <div class="display-flex flex-justify-end">
+            <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+            <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+          </div>
         </div>
       </div>
-      <div class="grid-row grid-gap margin-top-card">
+      <div class="grid-row grid-gap-6 margin-top-6 tablet:margin-top-card">
         <div class="tablet-lg:grid-col-7 grid-col-12">
+          <div class="display-flex">
           <img class="blue-bubble" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
           <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
+          </div>
         </div>
         <div class="tablet-lg:grid-col-5 grid-col-12">
-          <div class="medium-header">
+          <div class="medium-header margin-top-4 desktop:margin-top-0">
             Reporting done for you
           </div>
           <div class="prose">
