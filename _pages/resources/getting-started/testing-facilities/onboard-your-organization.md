@@ -58,13 +58,15 @@ You’ll receive an email with the subject line “SimpleReport access”, sent 
   </div>
 </div>
 
-Get started with a video introduction to SimpleReport.
+Learn how to use SimpleReport by:
+- Watching these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF)
+- Visiting our website on [how to use SimpleReport]({% link _pages/resources/using-simplereport/index.md %})
+
+Then, get started with a video introduction to SimpleReport.
 
 <div class="usa-embed-container">
   <iframe title="PRIME SimpleReport Introduction & Onboarding Guide" width="560" height="315" src="https://www.youtube.com/embed/3YsfDprX2aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-You can also learn [how to use SimpleReport]({% link _pages/resources/using-simplereport/index.md %}) on this website.
 
 ## Start testing
 Once you've completed the steps above, you're ready to start using SimpleReport.
