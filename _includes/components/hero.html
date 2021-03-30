@@ -30,8 +30,19 @@
               </a>
             </li>
             <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
-              <a href="{{ site.okta_url | xml_escape }}"
-              class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal padding-x-6">
+              <script>
+                function checkIe() {
+                    // if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
+                      if (true) {
+                    window.location.href = '{% link pages/unsupported-browser.md %}'
+                  } else {
+                    window.location.href = '{{ site.okta_url | xml_escape }}';
+                  }
+                }
+              </script>
+                <a href="#"
+                class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal padding-x-6"
+              onclick="javascript:checkIe()">
               Log in
             </a>
             </li>
@@ -87,6 +98,8 @@
   </div>
 
 </section>
+
+
 
 
 {% endif %}
