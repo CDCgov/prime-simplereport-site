@@ -35,11 +35,11 @@
                     if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
                     window.location.href = '{% link pages/unsupported-browser.html %}'
                   } else {
-                    window.location.href = '{{ site.okta_url | xml_escape }}';
+                    window.location.href = decodeURI('{{ site.okta_url }}');
                   }
                 }
               </script>
-              <a href="#"
+                <a href="#"
                 class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal padding-x-6"
                 onclick="javascript:checkIe()">
                 Log in
