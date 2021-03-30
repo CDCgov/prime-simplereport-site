@@ -78,9 +78,9 @@ return_top: 'false'
     <!-- <div class="display-flex flex-justify-center margin-top-2">
       <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
     </div> -->
-    <p class="font-heading-xl text-medium text-primary-darker margin-top-3 tablet:margin-top-5">
+    <h2 class="font-heading-xl text-medium text-primary-darker margin-top-3 tablet:margin-top-5">
       SimpleReport fits into your existing workflow.
-    </p>
+    </h2>
     <div class="grid-row margin-top-5">
       <div class="display-flex flex-justify-end tablet:display-none">
         <img class="brown-bubble flex-align-self-start" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
@@ -88,12 +88,12 @@ return_top: 'false'
       </div>
       <div class="grid-row grid-gap-6 display-flex">
         <div class="tablet:grid-col-5 grid-col-12 flex-align-self-end">
-          <div class="medium-header margin-top-4 desktop:margin-top-0">
+          <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             No more repeat data entry
-          </div>
-          <div class="prose">
+          </h3>
+          <p class="usa-intro line-height-sans-4">
             Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
-          </div>
+          </p>
         </div>
         <div class="display-none tablet:display-block grid-col-7">
           <div class="display-flex flex-justify-end">
@@ -110,12 +110,12 @@ return_top: 'false'
           </div>
         </div>
         <div class="tablet-lg:grid-col-5 grid-col-12">
-          <div class="medium-header margin-top-4 desktop:margin-top-0">
+          <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             Reporting done for you
-          </div>
-          <div class="prose">
+          </h3>
+          <p class="usa-intro line-height-sans-4">
             SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
-          </div>
+          </p>
         </div>
       </div>
     </div>
@@ -171,33 +171,28 @@ return_top: 'false'
   </div>
 </section>
 
-<section class="usa-section-list">
+<section>
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
   <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
     <div class="grid-container">
       <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
-          <div class="medium-header font-heading-lg">
+        <div class="tablet:grid-col usa-prose">
+          <img class="height-9" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
+          <h3 class="font-heading-lg text-primary-darker margin-top-2">
             Free and created by the CDC
-          </div>
-          <div class="prose font-body-sm">
+          </h3>
+          <div class="font-body-sm">
             Developed for testing sites and public health departments, SimpleReport is 100% free.
           </div>
         </div>
-        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
-          <img class="cdc-logo-large" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
-        </div>
-        <div class="grid-col-12 gap-row-4"></div>
-        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-5">
-          <div class="medium-header font-heading-lg">
+        <div class="tablet:grid-col usa-prose">
+          <img class="height-9" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
+          <h3 class="font-heading-lg text-primary-darker margin-top-2">
             Safe and secure
-          </div>
-          <div class="prose font-body-sm">
+          </h3>
+          <div class="font-body-sm">
             Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
           </div>
-        </div>
-        <div class="grid-col-12 tablet:grid-col-6 tablet-lg:grid-col-7 mobile-margin-top-2">
-          <img class="shield" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
         </div>
       </div>
     </div>
@@ -221,16 +216,12 @@ return_top: 'false'
 
 <section class="usa-section bg-primary usa-dark-background">
   <div class="grid-container">
-    <div class="section__title-line"></div>
-    <h2 class="section__heading text-white">Get started</h2>
-    <div class="section__title-line"></div>
-    <div class="usa-prose prose-f4 margin-top-5">
+    <div class="usa-prose">
       <p class="usa-intro text">
-        Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
+        Ready to simplify your COVID-19 reporting?
       </p>
-      <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink font-body-sm" href="{% link pages/forms/account-request-form.html %}">Get started with SimpleReport</a>
+      <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
       <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline font-body-sm" href="{% link pages/forms/account-request-form.html %}">Join the waitlist</a>
-      <p>You can also check out <a class="usa-link text-base-lighter hover:text-white" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
     </div>
   </div>
 </section>

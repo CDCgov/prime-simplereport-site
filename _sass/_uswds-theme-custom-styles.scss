@@ -799,15 +799,6 @@ Typography
   top: units(0.5);
 }
 
-.cdc-logo-large {
-  margin-left: 1em;
-  margin-top: 0.5em;
-}
-
-.shield {
-  margin-left: 3em;
-}
-
 .margin-top-8 {
   margin-top: 8em;
 }
@@ -908,4 +899,8 @@ Typography
   @include at-media('tablet') {
     margin-top: units('card') !important;
   }
+}
+
+.font-heading-3 {
+  font-size: units(3);
 }
