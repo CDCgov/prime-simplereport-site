@@ -73,56 +73,14 @@ return_top: 'false'
 <section class="margin-y-4 tablet:margin-y-8">
   <div class="grid-container">
     <div class="section__title-line"></div>
-    <h2 class="section__heading">What you need to know</h2>
-    <div class="section__title-line"></div>
-    <div class="usa-accordion margin-top-4">
-      <!-- Use the accurate heading level to maintain the document outline -->
-      <h3 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a1">
-          It’s simple to get started
-        </button>
-      </h3>
-      <div id="a1" class="usa-accordion__content usa-prose">
-        <p>Onboarding to SimpleReport is easy. All you need to do is request access, sign a few forms online, and verify your identity. Then you’re ready to test.</p>
-        <p>If you’re in a <a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
-      </div>
-      <h3 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a2">
-          All you need is a laptop or tablet with an internet connection
-        </button>
-      </h3>
-      <div id="a2" class="usa-accordion__content usa-prose">
-        <p>You won’t need to install an app or buy any fancy equipment. As long as you have a computer or tablet with an internet connection, you can use SimpleReport.</p>
-      </div>
-      <h3 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
-          aria-expanded="false"
-          aria-controls="a3">
-          SimpleReport satisfies state and local reporting requirements
-        </button>
-      </h3>
-      <div id="a3" class="usa-accordion__content usa-prose">
-        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements outside of state reporting, SimpleReport can send the data directly to local public health departments. If you're curious about particular reporting requirements, refer to the <a href="#">SimpleReport data catalog</a>.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="margin-y-4 tablet:margin-y-8">
-  <div class="grid-container">
-    <div class="section__title-line"></div>
     <h2 class="section__heading">How it works</h2>
     <div class="section__title-line"></div>
-    <div class="display-flex flex-justify-center margin-top-2">
+    <!-- <div class="display-flex flex-justify-center margin-top-2">
       <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
-    </div>
-    <div class="huge-header margin-top-3 tablet:margin-top-5">
+    </div> -->
+    <p class="font-heading-xl text-medium text-primary-darker margin-top-3 tablet:margin-top-5">
       SimpleReport fits into your existing workflow.
-    </div>
+    </p>
     <div class="grid-row margin-top-5">
       <div class="display-flex flex-justify-end tablet:display-none">
         <img class="brown-bubble flex-align-self-start" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
@@ -159,6 +117,48 @@ return_top: 'false'
             SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="margin-y-4 tablet:margin-y-8">
+  <div class="grid-container">
+    <div class="section__title-line"></div>
+    <h2 class="section__heading">What you need to know</h2>
+    <div class="section__title-line"></div>
+    <div class="usa-accordion margin-top-4">
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a1">
+          It’s simple to get started
+        </button>
+      </h3>
+      <div id="a1" class="usa-accordion__content usa-prose">
+        <p>Onboarding to SimpleReport is easy. All you need to do is request access, sign a few forms online, and verify your identity. Then you’re ready to test.</p>
+        <p>If you’re in a <a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
+      </div>
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a2">
+          All you need is a laptop or tablet with an internet connection
+        </button>
+      </h3>
+      <div id="a2" class="usa-accordion__content usa-prose">
+        <p>You won’t need to install an app or buy any fancy equipment. As long as you have a computer or tablet with an internet connection, you can use SimpleReport.</p>
+      </div>
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a3">
+          SimpleReport satisfies state and local reporting requirements
+        </button>
+      </h3>
+      <div id="a3" class="usa-accordion__content usa-prose">
+        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements outside of state reporting, SimpleReport can send the data directly to local public health departments. If you're curious about particular reporting requirements, refer to the <a href="#">SimpleReport data catalog</a>.</p>
       </div>
     </div>
   </div>
