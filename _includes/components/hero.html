@@ -32,8 +32,7 @@
             <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
               <script>
                 function checkIe() {
-                    // if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
-                      if (true) {
+                    if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
                     window.location.href = '{% link pages/unsupported-browser.md %}'
                   } else {
                     window.location.href = '{{ site.okta_url | xml_escape }}';

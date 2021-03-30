@@ -36,7 +36,6 @@
     "deploy-azure-prod": "./deploy.sh prod"
   },
   "dependencies": {
-    "gem": "^2.4.3",
     "gulp-watch": "^5.0.0",
     "jquery": "^3.5.1",
     "jslint": "^0.12.1",
