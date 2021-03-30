@@ -745,6 +745,10 @@ Typography
   color: #1b1b1b;
 }
 
+.text-center-important {
+  text-align: center !important;
+}
+
 .gap-row {
   height: 217px;
 }
@@ -798,7 +802,7 @@ Typography
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 75%;
 }
 
 .shield {
