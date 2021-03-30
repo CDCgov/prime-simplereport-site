@@ -33,7 +33,7 @@
               <script>
                 function checkIe() {
                     if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
-                    window.location.href = '{% link pages/unsupported-browser.md %}'
+                    window.location.href = '{% link pages/unsupported-browser.html %}'
                   } else {
                     window.location.href = '{{ site.okta_url | xml_escape }}';
                   }
@@ -97,9 +97,6 @@
   </div>
 
 </section>
-
-
-
 
 {% endif %}
 
