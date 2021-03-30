@@ -320,6 +320,22 @@ Typography
   }
 }
 
+.section__title-line {
+  border-top: 1px solid color("primary-light");
+  width: units(5);
+}
+
+.section__heading {
+  @include u-margin-y(4);
+  color: color("primary-darker");
+  font-size: units(3);
+  font-weight: font-weight("medium");
+}
+
+.usa-intro {
+  color: color("base-darker");
+  font-size: units(2.5);
+}
 
 .usa-section-list {
   background: white;
@@ -371,15 +387,6 @@ Typography
 
     font-weight: 700;
     font-size: 14px;
-  }
-
-  .usa-prose {
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 151.28%;
-    color: #162e51;
   }
 
   .prose-f4 {
@@ -588,7 +595,6 @@ Typography
 
 .usa-footer {
   .usa-footer__secondary-section {
-    margin-top: 40px;
     background-color: #162e51;
     color: white;
     padding-bottom: 5em;

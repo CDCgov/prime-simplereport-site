@@ -8,9 +8,9 @@ hero:
   # callout:
   #   alt: "Hero callout:"
   #   text: Bring attention to a current priority
-  # button:
-  #   href: /callout/
-  #   text: Call to action
+  button:
+    href: pages/forms/account-request-form.html
+    text: Sign up for free
   # link:
   #   text: Link to more about that priority
   #   href: /link/
@@ -67,14 +67,56 @@ sections:
           -
       - heading: Public health departments
         intro_p: Any public health department in the United States can use SimpleReport. SimpleReport is built to scale up and can connect you to thousands of testing sites, ensuring you get results through one tool, in the format that’s easiest for you.
+return_top: 'false'
 ---
 
-<section class="usa-section-list padding-top-10 margin-bottom-6">
+<section class="margin-y-4 tablet:margin-y-8">
   <div class="grid-container">
-    <div class="grid-row section-title">
-      <div class="section-title-line"></div>
-      <h2>How it works</h2>
+    <div class="section__title-line"></div>
+    <h2 class="section__heading">What you need to know</h2>
+    <div class="section__title-line"></div>
+    <div class="usa-accordion margin-top-4">
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a1">
+          It’s simple to get started
+        </button>
+      </h3>
+      <div id="a1" class="usa-accordion__content usa-prose">
+        <p>Onboarding to SimpleReport is easy. All you need to do is request access, sign a few forms online, and verify your identity. Then you’re ready to test.</p>
+        <p>If you’re in a <a href="#">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
+      </div>
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a2">
+          All you need is a laptop or tablet with an internet connection
+        </button>
+      </h3>
+      <div id="a2" class="usa-accordion__content usa-prose">
+        <p>You won’t need to install an app or buy any fancy equipment. As long as you have a computer or tablet with an internet connection, you can use SimpleReport.</p>
+      </div>
+      <h3 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a3">
+          SimpleReport satisfies state and local reporting requirements
+        </button>
+      </h3>
+      <div id="a3" class="usa-accordion__content usa-prose">
+        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements outside of state reporting, SimpleReport can send the data directly to local public health departments. If you're curious about particular reporting requirements, refer to the <a href="#">SimpleReport data catalog</a>.</p>
+      </div>
     </div>
+  </div>
+</section>
+
+<section class="margin-y-4 tablet:margin-y-8">
+  <div class="grid-container">
+    <div class="section__title-line"></div>
+    <h2 class="section__heading">How it works</h2>
+    <div class="section__title-line"></div>
     <div class="display-flex flex-justify-center margin-top-2">
       <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
     </div>
@@ -122,6 +164,13 @@ sections:
   </div>
 </section>
 
+<section class="margin-y-4 tablet:margin-y-8">
+  <div class="grid-container usa-prose">
+    <p class="usa-intro">Eager to try SimpleReport for yourself? Check out the SimpleReport demo. It’s a safe space where you can experiment and get comfortable with SimpleReport using fake data.</p>
+    <a class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
+  </div>
+</section>
+
 <section class="usa-section-list">
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
   <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
@@ -156,18 +205,32 @@ sections:
   <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="mid wave bottom">
 </section>
 
-<section class="usa-section-list usa-section">
+<section class="margin-y-4 tablet:margin-top-2 tablet:margin-bottom-8">
   <div class="grid-container">
-    <div class="grid-row section-title">
-      <div class="section-title-line"></div>
-      <h2>Get started</h2>
+    <div class="section__title-line"></div>
+    <h2 class="section__heading">Where you can use SimpleReport</h2>
+    <div class="section__title-line"></div>
+    <div class="usa-prose margin-top-4">
+      <p class="usa-intro">SimpleReport is available in many parts of the country now, and is expanding to new jurisdictions quickly.</p>
+      <img class="padding-x-10" src="{{ '/assets/img/home-map.jpg' | relative_url }}" alt="Map of supported jurisdictions">
+      <p><a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">Review the full list of supported jurisdictions</a></p>
+      <p>If you’re in a supported jurisdiction, you can <a href="{% link pages/forms/account-request-form.html %}">sign up now</a>. If you’re not, <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a> and we’ll let you know when SimpleReport comes to your area.</p>
     </div>
+  </div>
+</section>
+
+<section class="usa-section bg-primary usa-dark-background">
+  <div class="grid-container">
+    <div class="section__title-line"></div>
+    <h2 class="section__heading text-white">Get started</h2>
+    <div class="section__title-line"></div>
     <div class="usa-prose prose-f4 margin-top-5">
-      <p>
+      <p class="usa-intro text">
         Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
       </p>
-      <a class="margin-top-5 usa-button usa-button--primary text-no-underline text-ink large-button text-normal" href="{% link pages/forms/account-request-form.html %}">Get started with SimpleReport</a>
-      <p>You can also check out <a class="usa-link" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
+      <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink text-normal" href="{% link pages/forms/account-request-form.html %}">Get started with SimpleReport</a>
+      <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline text-normal" href="{% link pages/forms/account-request-form.html %}">Join the waitlist</a>
+      <p>You can also check out <a class="usa-link text-base-lighter hover:text-white" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
     </div>
   </div>
 </section>

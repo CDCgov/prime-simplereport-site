@@ -31,7 +31,7 @@
             </li>
             <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
               <a href="{{ site.okta_url | xml_escape }}"
-              class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal padding-x-6">
+              class="usa-button usa-button--outline usa-button--inverse text-no-underline text-normal padding-x-6">
               Log in
             </a>
             </li>
@@ -45,8 +45,8 @@
         </h2>
 
         {% if hero.button %}
-        <a class="usa-button"
-          href="{{ hero.button.href | relative_url }}">
+        <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2 text-normal"
+          href="{% link {{ hero.button.href }} %}">
           {{ hero.button.text }}
         </a>
         {% endif %}
@@ -66,13 +66,16 @@
           alt="{{ hero.placeholder.alt }}">
       </div>
       <div class="tablet:grid-col usa-hero-subsection">
-        <p>SimpleReport is a free tool that makes it easy for COVID-19 testing sites to record results. It works with any rapid point-of-care test so you can quickly report data to public health departments.</p>
+        <p>SimpleReport is a fast, free, and easy way for COVID-19 testing facilities to report results to public health departments. If you have a laptop or tablet with an internet connection, you can use SimpleReport.</p>
         <ul class="margin-left-1">
           <li>
-            Developed in partnership with the CDC
+            Easy to set up and use
           </li>
           <li>
             100% Free
+          </li>
+          <li>
+            Works with any rapid point-of-care test
           </li>
           <li>
             Maintains HIPAA standards
