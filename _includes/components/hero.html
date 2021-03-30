@@ -31,7 +31,7 @@
             </li>
             <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
               <a href="{{ site.okta_url | xml_escape }}"
-              class="usa-button usa-button--outline usa-button--inverse text-no-underline text-normal padding-x-6">
+              class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-6">
               Log in
             </a>
             </li>
@@ -45,7 +45,7 @@
         </h2>
 
         {% if hero.button %}
-        <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2 text-normal"
+        <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2"
           href="{% link {{ hero.button.href }} %}">
           {{ hero.button.text }}
         </a>

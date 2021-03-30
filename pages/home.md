@@ -86,7 +86,7 @@ return_top: 'false'
       </h3>
       <div id="a1" class="usa-accordion__content usa-prose">
         <p>Onboarding to SimpleReport is easy. All you need to do is request access, sign a few forms online, and verify your identity. Then you’re ready to test.</p>
-        <p>If you’re in a <a href="#">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
+        <p>If you’re in a <a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <h3 class="usa-accordion__heading">
         <button class="usa-accordion__button"
@@ -167,7 +167,7 @@ return_top: 'false'
 <section class="margin-y-4 tablet:margin-y-8">
   <div class="grid-container usa-prose">
     <p class="usa-intro">Eager to try SimpleReport for yourself? Check out the SimpleReport demo. It’s a safe space where you can experiment and get comfortable with SimpleReport using fake data.</p>
-    <a class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
+    <a class="usa-button usa-button--accent-cool text-no-underline text-ink" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
   </div>
 </section>
 
@@ -228,8 +228,8 @@ return_top: 'false'
       <p class="usa-intro text">
         Ready to simplify your COVID-19 reporting? Request a SimpleReport account today.
       </p>
-      <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink text-normal" href="{% link pages/forms/account-request-form.html %}">Get started with SimpleReport</a>
-      <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline text-normal" href="{% link pages/forms/account-request-form.html %}">Join the waitlist</a>
+      <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink font-body-sm" href="{% link pages/forms/account-request-form.html %}">Get started with SimpleReport</a>
+      <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline font-body-sm" href="{% link pages/forms/account-request-form.html %}">Join the waitlist</a>
       <p>You can also check out <a class="usa-link text-base-lighter hover:text-white" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">resources for SimpleReport</a>.</p>
     </div>
   </div>
