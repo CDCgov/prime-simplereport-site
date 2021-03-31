@@ -34,7 +34,7 @@ main:
             {{ kicker[1] | replace: '-', ' ' }}
           </p>
         {% endif %}
-        {% if page.title %}
+        {% if page.title and page.title_display != "false" %}
           <h1 class="margin-top-0">
             {{ page.title }}
           </h1>
