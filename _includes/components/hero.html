@@ -30,10 +30,20 @@
               </a>
             </li>
             <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
-              <a href="{{ site.okta_url | xml_escape }}"
-              class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-6">
-              Log in
-            </a>
+              <script>
+                function checkIe() {
+                    if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
+                    window.location.href = '{% link pages/unsupported-browser.html %}'
+                  } else {
+                    window.location.href = decodeURI('{{ site.okta_url }}');
+                  }
+                }
+              </script>
+              <a href="#"
+                class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-6"
+                onclick="javascript:checkIe()">
+                Log in
+              </a>
             </li>
           </ul>
         </nav>
@@ -90,7 +100,6 @@
   </div>
 
 </section>
-
 
 {% endif %}
 
