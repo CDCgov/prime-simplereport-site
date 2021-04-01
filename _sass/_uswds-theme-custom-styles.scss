@@ -899,3 +899,18 @@ Typography
     margin-top: units('card') !important;
   }
 }
+
+.step-line {
+  margin-left: 10px;
+  margin-top: 1px;;
+}
+
+// Utilities
+.margin-x-neg-4 {
+  margin-left: units("neg-4");
+  margin-right: units("neg-4");
+}
+
+.text-success {
+  color: color("success");
+}
