@@ -1,6 +1,6 @@
 ---
-title: "SimpleReport: Testing facility account request"
-description: Thanks for requesting access to SimpleReport. We need to collect a bit more information about your facility.
+title: Sign up
+description: Get access for your facility after completing just 2 steps.
 permalink: /sign-up/
 layout: default
 return_top: "false"
@@ -12,22 +12,40 @@ class: page-form
   {% include home-link.html %}
   <div class="usa-prose">
     <h1 class="font-heading-2xl text-primary-darker">{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
+    <p class="usa-intro">{{ page.description }}</p>
+    <div>
+      <div class="step-line position-absolute height-5 width-05 bg-base-light"></div>
+      <ul class="usa-icon-list margin-top-205">
+        <li class="usa-icon-list__item">
+          <div class="usa-icon-list__icon bg-primary circle-3 display-flex flex-justify-center flex-align-center">
+            <span class="text-white text-bold text-tabular font-ui-2xs">
+              1
+            </span>
+          </div>
+          <div class="usa-icon-list__content text-primary text-bold">
+            Submit sign-up form
+          </div>
+        </li>
+        <li class="usa-icon-list__item">
+          <div class="usa-icon-list__icon border-05 border-base-light circle-3 display-flex flex-justify-center flex-align-center">
+            <span class="text-tabular text-bold text-base-dark font-ui-2xs">
+              2
+            </span>
+          </div>
+          <div class="usa-icon-list__content">
+            Verify your identity
+          </div>
+        </li>
+      </ul>
+    </div>
     <p>
-      Fill out this form for locations that provide rapid COVID-19 testing,
-      including:
+      <a class="margin-top-205 display-flex flex-align-center line-height-sans-1" href="{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}">
+        <span>Learn more about the onboarding process.</span><svg class="usa-icon margin-left-05" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="/assets/uswds/img/sprite.svg#arrow_forward"></use>
+        </svg>
+      </a>
     </p>
-    <ul>
-      <li>K-12 schools</li>
-      <li>
-        Congregate living settings (assisted living, long-term care facilities,
-        jails, etc.)
-      </li>
-      <li>Universities</li>
-      <li>Urgent care centers</li>
-      <li>Airports, and more</li>
-    </ul>
-    <p>
+    <p class="margin-top-4">
       Required fields are marked with an asterisk ({% include required.html %}).
     </p>
   </div>
