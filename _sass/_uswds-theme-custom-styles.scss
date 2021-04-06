@@ -901,6 +901,21 @@ Typography
   }
 }
 
+.step-line {
+  margin-left: 10px;
+  margin-top: 1px;;
+}
+
+// Utilities
+.margin-x-neg-4 {
+  margin-left: units("neg-4");
+  margin-right: units("neg-4");
+}
+
+.text-success {
+  color: color("success");
+}
+
 .font-heading-3 {
   font-size: units(3);
 }
