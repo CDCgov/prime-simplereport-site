@@ -90,7 +90,7 @@ The testing lab and ordering facility are the same thing in SimpleReport, so you
 - Ordering facility's zip code (required)
 - Ordering facility's phone number (required)
 - Ordering facility's county (system-generated)
-- Ordering facility's email (optional)
+- Ordering facility's email (optional)<br>
 - Reporting facility’s name (required)
 - Reporting facility’s CLIA (required)
   - SimpleReport doesn’t enforce unique CLIAs
