@@ -324,6 +324,10 @@ Typography
   }
 }
 
+.usa-accordion__button svg {
+  fill: color("primary");
+}
+
 .section__title-line {
   border-top: 1px solid color("primary-light");
   width: units(5);
