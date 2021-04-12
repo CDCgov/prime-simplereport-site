@@ -219,7 +219,7 @@ return_top: 'false'
     <div class="grid-container">
       <div class="grid-row grid-gap grid-gap-small-btm section-columns">
         <div class="tablet:grid-col usa-prose">
-          <img class="height-9" src="{{ '/assets/img/cdc-logo-large.png' | relative_url }}" alt="cdc logo">
+          <img class="height-7" src="{{ '/assets/img/cdc-logo.svg' | relative_url }}" alt="cdc logo">
           <h3 class="font-heading-lg text-primary-darker margin-top-2">
             Free and created by the CDC
           </h3>
@@ -228,7 +228,7 @@ return_top: 'false'
           </div>
         </div>
         <div class="tablet:grid-col usa-prose">
-          <img class="height-9" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
+          <img class="height-7" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
           <h3 class="font-heading-lg text-primary-darker margin-top-2">
             Safe and secure
           </h3>
