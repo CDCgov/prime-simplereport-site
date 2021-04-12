@@ -21,10 +21,6 @@ Complete the following steps to start using SimpleReport:
     <label class="usa-checkbox__label" for="access">Request access for your testing facility</label>
   </div>
   <div class="usa-checkbox">
-    <input class="usa-checkbox__input" id="docusign" type="checkbox" name="docusign" value="docusign">
-    <label class="usa-checkbox__label" for="docusign">Complete DocuSign documents</label>
-  </div>
-  <div class="usa-checkbox">
     <input class="usa-checkbox__input" id="identity" type="checkbox" name="identity" value="identity">
     <label class="usa-checkbox__label" for="identity">Verify your identity</label>
   </div>
@@ -43,11 +39,8 @@ To get access, fill out the [SimpleReport facility access request form]({% link 
 
 Make sure that the facility name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 
-## Complete DocuSign documents
-Within a few days of completing the form, DocuSign will email you a document to review and sign. If you don’t get the document, check your spam folder for an email with the subject line “Access Request for SimpleReport”. If you still can’t find the email, [contact us for help]({% link _pages/resources/troubleshooting/contact-us-for-more-help.md %}).
-
 ## Verify your identity
-Once you’ve completed the DocuSign documents, we’ll schedule a video call to wrap up a few final pieces and get your facility access to SimpleReport.
+Once you’ve completed the facility access request form, we’ll schedule a video call to wrap up a few final pieces and get your facility access to SimpleReport.
 
 You’ll receive an email with the subject line “SimpleReport access”, sent from one of our HHS team members. The email will let you schedule a 15-minute video call, during which you’ll be asked to show a government-issued ID and a work ID.
 
