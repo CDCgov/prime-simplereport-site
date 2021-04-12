@@ -221,7 +221,7 @@ return_top: 'false'
         Ready to simplify your COVID-19 reporting?
       </p>
       <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
-      <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline font-body-sm" href="{% link pages/forms/account-request-form.html %}">Join the waitlist</a>
+      <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline font-body-sm" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
     </div>
   </div>
 </section>
