@@ -175,7 +175,7 @@ return_top: 'false'
   <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
     <div class="grid-container usa-prose">
       <p class="usa-intro">Eager to try SimpleReport for yourself? Check out the SimpleReport demo. It’s a safe space where you can experiment and get comfortable with SimpleReport using fake data.</p>
-      <a class="usa-button usa-button--accent-cool text-no-underline text-ink" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
+      <a class="usa-button text-no-underline text-white" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
     </div>
   </div>
   <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="mid wave bottom">
@@ -205,9 +205,9 @@ return_top: 'false'
         </h2>
         <p class="usa-intro">If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
-      <div class="margin-top-3">
-        <a class="usa-button usa-button--big text-no-underline font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
-        <a class="usa-button usa-button--big usa-button--outline text-no-underline font-body-sm margin-top-2 tablet:margin-top-0" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
+      <div class="margin-top-2">
+        <a class="usa-button text-no-underline font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
+        <a class="usa-button usa-button--outline text-no-underline font-body-sm margin-top-2 tablet:margin-top-0" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
       </div>
     </div>
   </div>
