@@ -209,7 +209,6 @@ return_top: 'false'
       <p class="usa-intro">SimpleReport is available in many parts of the country now, and is expanding to new jurisdictions quickly.</p>
       <img class="padding-x-10" src="{{ '/assets/img/home-map.jpg' | relative_url }}" alt="Map of supported jurisdictions">
       <p><a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">Review the full list of supported jurisdictions</a></p>
-      <p>If you’re in a supported jurisdiction, you can <a href="{% link pages/forms/account-request-form.html %}">sign up now</a>. If you’re not, <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a> and we’ll let you know when SimpleReport comes to your area.</p>
     </div>
   </div>
 </section>
@@ -220,6 +219,7 @@ return_top: 'false'
       <p class="usa-intro text">
         Ready to simplify your COVID-19 reporting?
       </p>
+      <p>If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
       <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
       <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline font-body-sm" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
     </div>
