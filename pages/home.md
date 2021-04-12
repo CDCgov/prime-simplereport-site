@@ -139,7 +139,7 @@ return_top: 'false'
         </button>
       </h3>
       <div id="a1" class="usa-accordion__content usa-prose text-primary-darker">
-        <p>Onboarding to SimpleReport is easy. All you need to do is request access, sign a few forms online, and verify your identity. Then you’re ready to test.</p>
+        <p>Onboarding to SimpleReport is easy. All you need to do is request access and verify your identity. Then you’re ready to test.</p>
         <p>If you’re in a <a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <h3 class="usa-accordion__heading">
