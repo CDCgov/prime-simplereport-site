@@ -130,18 +130,20 @@ return_top: 'false'
     <div class="usa-accordion margin-top-4">
       <!-- Use the accurate heading level to maintain the document outline -->
       <h3 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
+        <button 
+          class="usa-accordion__button font-ui-md text-medium text-primary-darker"
           aria-expanded="false"
           aria-controls="a1">
           It’s simple to get started
         </button>
       </h3>
-      <div id="a1" class="usa-accordion__content usa-prose">
+      <div id="a1" class="usa-accordion__content usa-prose text-primary-darker">
         <p>Onboarding to SimpleReport is easy. All you need to do is request access, sign a few forms online, and verify your identity. Then you’re ready to test.</p>
         <p>If you’re in a <a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <h3 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
+        <button 
+          class="usa-accordion__button font-ui-md text-medium text-primary-darker"
           aria-expanded="false"
           aria-controls="a2">
           All you need is a laptop or tablet with an internet connection
@@ -151,7 +153,8 @@ return_top: 'false'
         <p>You won’t need to install an app or buy any fancy equipment. As long as you have a computer or tablet with an internet connection, you can use SimpleReport.</p>
       </div>
       <h3 class="usa-accordion__heading">
-        <button class="usa-accordion__button"
+        <button 
+          class="usa-accordion__button font-ui-md text-medium text-primary-darker"
           aria-expanded="false"
           aria-controls="a3">
           SimpleReport satisfies state and local reporting requirements
@@ -216,10 +219,10 @@ return_top: 'false'
 <section class="usa-section bg-primary usa-dark-background">
   <div class="grid-container">
     <div class="usa-prose">
-      <p class="usa-intro text">
+      <h2 class="font-heading-lg text-white">
         Ready to simplify your COVID-19 reporting?
-      </p>
-      <p>If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
+      </h2>
+      <p class="usa-intro">If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
       <a class="usa-button usa-button--big usa-button--accent-cool margin-top-5 text-no-underline text-ink font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
       <a class="usa-button usa-button--big usa-button--outline usa-button--inverse margin-top-5 text-no-underline font-body-sm" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
     </div>
