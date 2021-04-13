@@ -87,7 +87,7 @@ return_top: 'false'
         <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
       <div class="grid-row grid-gap-6 display-flex">
-        <div class="tablet:grid-col-5 grid-col-12 flex-align-self-end">
+        <div class="tablet:grid-col-6 grid-col-12 flex-align-self-end">
           <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             No more repeat data entry
           </h3>
@@ -95,7 +95,7 @@ return_top: 'false'
             Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
           </p>
         </div>
-        <div class="display-none tablet:display-block grid-col-7">
+        <div class="display-none tablet:display-block grid-col-6">
           <div class="display-flex flex-justify-end">
             <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
             <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
@@ -103,13 +103,13 @@ return_top: 'false'
         </div>
       </div>
       <div class="grid-row grid-gap-6 margin-top-6 tablet:margin-top-card">
-        <div class="tablet-lg:grid-col-7 grid-col-12">
+        <div class="tablet-lg:grid-col-6 grid-col-12">
           <div class="display-flex">
           <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
           <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
           </div>
         </div>
-        <div class="tablet-lg:grid-col-5 grid-col-12">
+        <div class="tablet-lg:grid-col-6 grid-col-12">
           <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             Reporting done for you
           </h3>
@@ -127,7 +127,7 @@ return_top: 'false'
     <div class="section__title-line"></div>
     <h2 class="section__heading">What you need to know</h2>
     <div class="section__title-line"></div>
-    <div class="usa-accordion margin-top-4">
+    <div class="usa-accordion usa-accordion--bordered margin-top-4">
       <!-- Use the accurate heading level to maintain the document outline -->
       <h3 class="usa-accordion__heading">
         <button 

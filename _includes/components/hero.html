@@ -1,7 +1,7 @@
 {% include components/banner.html %}
 
 {% if hero %}
-<section class="usa-hero" aria-label="Introduction";>
+<section class="usa-hero padding-top-2" aria-label="Introduction";>
 
 <!-- <section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";> -->
   <div class="grid-container">
@@ -19,13 +19,13 @@
           <ul class="usa-list--unstyled display-flex flex-column mobile-lg:flex-row flex-align-center">
             <li>
               <a class="text-base-lighter
-               hover:text-white" href='{% link _pages/resources/index.md %}'>
+               hover:text-white text-no-underline" href='{% link _pages/resources/index.md %}'>
                 Get resources
               </a>
             </li>
             <li class="mobile-lg:margin-left-2">
               <a class="text-base-lighter
-              hover:text-white" href="{% link pages/forms/account-request-form.html %}">
+              hover:text-white text-no-underline" href="{% link pages/forms/account-request-form.html %}">
                 Request an account
               </a>
             </li>
@@ -40,14 +40,14 @@
                 }
               </script>
               <a href="#"
-                class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-6"
+                class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-5"
                 onclick="javascript:checkIe()">
                 Log in
               </a>
             </li>
           </ul>
         </nav>
-        <h1 class="margin-top-3 mobile-lg:margin-top-10">
+        <h1 class="margin-top-3 mobile-lg:margin-top-8">
           <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport logo">
         </h1>
         <h2>
@@ -76,7 +76,7 @@
           alt="{{ hero.placeholder.alt }}">
       </div>
       <div class="tablet:grid-col usa-hero-subsection">
-        <p>SimpleReport is a fast, free, and easy way for COVID-19 testing facilities to report results to public health departments. If you have a laptop or tablet with an internet connection, you can use SimpleReport.</p>
+        <p>SimpleReport is a fast, free, and easy way for COVID-19 testing facilities to report results to public health departments.</p>
         <ul class="margin-left-1">
           <li>
             Easy to set up and use

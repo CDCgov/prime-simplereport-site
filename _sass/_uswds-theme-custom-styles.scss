@@ -96,7 +96,7 @@ Typography
   padding-top: units(4);
 
   @include at-media('desktop') {
-    padding-bottom: 2rem;
+    padding-bottom: units(2);
   }
 }
 
@@ -125,7 +125,7 @@ Typography
   h1 {
     color: #97d4e9;
     margin-top: 3em;
-    margin-bottom: 1em;
+    margin-bottom: units(2);
   }
 
   @include at-media('desktop') {
@@ -192,7 +192,8 @@ Typography
   background: #e1f3f8;
   @include at-media('desktop') {
     padding-bottom: 160px;
-    background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
+    background: #e1f3f8 url('/assets/img/waves.svg') top -1px center no-repeat;
+    background-size: contain;
     /*uncomment for githubpages*/
     /*background-image: url('/assets/img/waves.svg'), url('/prime-simplereport-site/assets/img/waves.svg');*/
     max-height: 420px;
