@@ -102,7 +102,7 @@ return_top: 'false'
           </div>
         </div>
       </div>
-      <div class="grid-row grid-gap-6 margin-top-6 tablet:margin-top-card">
+      <div class="grid-row grid-gap-6 margin-top-6 tablet:margin-top-15">
         <div class="tablet-lg:grid-col-6 grid-col-12">
           <div class="display-flex">
           <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
