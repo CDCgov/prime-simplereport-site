@@ -183,15 +183,14 @@ Typography
   z-index: 10;
 
   @include at-media('desktop') {
-    margin-top: 6em;
-    padding-top: 1em;
+    margin-top: 66px;
   }
 }
 
 .container-blue {
   background: #e1f3f8;
   @include at-media('desktop') {
-    padding-bottom: 160px;
+    padding-bottom: units(1.5);
     background: #e1f3f8 url('/assets/img/waves.svg') top -1px center no-repeat;
     background-size: contain;
     /*uncomment for githubpages*/
@@ -212,20 +211,14 @@ Typography
   }
 
   @include at-media('desktop') {
-    padding-top: 7em;
+    padding-top: 5rem;
   }
 
   p {
     max-width: 380px;
     color: #162e51;
   }
-
-  @include at-media('desktop') {
-    & > p {
-      padding-top: 1em;
-    }
-  }
-
+  
   ul {
     list-style: none;
     padding: 0;
