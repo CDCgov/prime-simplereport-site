@@ -194,13 +194,12 @@ return_top: 'false'
   </div>
 </section>
 
-
 <section>
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
   <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
     <div class="grid-container">
       <div class="usa-prose">
-        <h2 class="font-heading-lg text-primary-darker">
+        <h2 class="font-heading-3 text-primary-darker">
           Ready to simplify your COVID-19 reporting?
         </h2>
         <p class="usa-intro">If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
@@ -220,18 +219,18 @@ return_top: 'false'
       <div class="grid-row grid-gap grid-gap-small-btm section-columns">
         <div class="tablet:grid-col usa-prose">
           <img class="height-7" src="{{ '/assets/img/cdc-logo.svg' | relative_url }}" alt="cdc logo">
-          <h3 class="font-heading-lg text-primary-darker margin-top-2">
+          <h2 class="font-heading-lg text-primary-darker margin-top-2">
             Free and created by the CDC
-          </h3>
+          </h2>
           <div class="font-body-sm">
             Developed for testing sites and public health departments, SimpleReport is 100% free.
           </div>
         </div>
         <div class="tablet:grid-col usa-prose">
           <img class="height-7" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
-          <h3 class="font-heading-lg text-primary-darker margin-top-2">
+          <h2 class="font-heading-lg text-primary-darker margin-top-2">
             Safe and secure
-          </h3>
+          </h2>
           <div class="font-body-sm">
             Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
           </div>
