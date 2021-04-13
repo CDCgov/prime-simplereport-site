@@ -44,6 +44,10 @@ Typography
   }
 }
 
+.usa-button {
+  font-weight: font-weight("medium");
+}
+
 .usa-intro {
   font-weight: $theme-font-weight-light;
 }
@@ -92,7 +96,7 @@ Typography
   padding-top: units(4);
 
   @include at-media('desktop') {
-    padding-bottom: 2rem;
+    padding-bottom: units(2);
   }
 }
 
@@ -121,7 +125,7 @@ Typography
   h1 {
     color: #97d4e9;
     margin-top: 3em;
-    margin-bottom: 1em;
+    margin-bottom: units(2);
   }
 
   @include at-media('desktop') {
@@ -179,19 +183,19 @@ Typography
   z-index: 10;
 
   @include at-media('desktop') {
-    margin-top: 6em;
-    padding-top: 1em;
+    margin-top: 66px;
   }
 }
 
 .container-blue {
   background: #e1f3f8;
   @include at-media('desktop') {
-    padding-bottom: 160px;
-    background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
+    padding-bottom: units(1.5);
+    background: #e1f3f8 url('/assets/img/waves.svg') top -1px center no-repeat;
+    background-size: contain;
     /*uncomment for githubpages*/
     /*background-image: url('/assets/img/waves.svg'), url('/prime-simplereport-site/assets/img/waves.svg');*/
-    max-height: 390px;
+    max-height: 420px;
   }
 }
 
@@ -207,20 +211,14 @@ Typography
   }
 
   @include at-media('desktop') {
-    padding-top: 7em;
+    padding-top: units(9);
   }
 
   p {
     max-width: 380px;
     color: #162e51;
   }
-
-  @include at-media('desktop') {
-    & > p {
-      padding-top: 1em;
-    }
-  }
-
+  
   ul {
     list-style: none;
     padding: 0;
@@ -320,6 +318,26 @@ Typography
   }
 }
 
+.usa-accordion__button svg {
+  fill: color("primary");
+}
+
+.section__title-line {
+  border-top: 1px solid color("primary-light");
+  width: units(5);
+}
+
+.section__heading {
+  @include u-margin-y(4);
+  color: color("primary-darker");
+  font-size: units(3);
+  font-weight: font-weight("medium");
+}
+
+.usa-intro {
+  color: color("base-darker");
+  font-size: units(2.5);
+}
 
 .usa-section-list {
   background: white;
@@ -371,15 +389,6 @@ Typography
 
     font-weight: 700;
     font-size: 14px;
-  }
-
-  .usa-prose {
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 151.28%;
-    color: #162e51;
   }
 
   .prose-f4 {
@@ -588,7 +597,6 @@ Typography
 
 .usa-footer {
   .usa-footer__secondary-section {
-    margin-top: 40px;
     background-color: #162e51;
     color: white;
     padding-bottom: 5em;
@@ -789,15 +797,6 @@ Typography
   top: units(0.5);
 }
 
-.cdc-logo-large {
-  margin-left: 1em;
-  margin-top: 0.5em;
-}
-
-.shield {
-  margin-left: 3em;
-}
-
 .margin-top-8 {
   margin-top: 8em;
 }
@@ -913,4 +912,8 @@ Typography
 
 .text-success {
   color: color("success");
+}
+
+.font-heading-3 {
+  font-size: units(3) !important;
 }
