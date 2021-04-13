@@ -211,7 +211,7 @@ Typography
   }
 
   @include at-media('desktop') {
-    padding-top: 5rem;
+    padding-top: units(9);
   }
 
   p {
