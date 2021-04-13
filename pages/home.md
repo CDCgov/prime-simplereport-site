@@ -83,22 +83,22 @@ return_top: 'false'
     </h2>
     <div class="grid-row margin-top-5">
       <div class="display-flex flex-justify-end tablet:display-none">
-        <img class="brown-bubble flex-align-self-start" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-        <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
       <div class="grid-row grid-gap-6 display-flex">
-        <div class="tablet:grid-col-6 grid-col-12 flex-align-self-end">
+        <div class="tablet:grid-col-6 grid-col-12 flex-align-self-center">
           <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             No more repeat data entry
           </h3>
-          <p class="usa-intro line-height-sans-4">
+          <p class="usa-intro line-height-sans-4 margin-bottom-0">
             Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
           </p>
         </div>
         <div class="display-none tablet:display-block grid-col-6">
           <div class="display-flex flex-justify-end">
             <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-            <img class="animation-1 flex-align-self-end" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+            <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ return_top: 'false'
           <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             Reporting done for you
           </h3>
-          <p class="usa-intro line-height-sans-4">
+          <p class="usa-intro line-height-sans-4 margin-bottom-0">
             SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
           </p>
         </div>
@@ -160,7 +160,7 @@ return_top: 'false'
           aria-expanded="false"
           aria-controls="a3">
           <svg class="height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M496 448H480v-32c0-17.67-14.33-32-32-32V192h-64v192h-96V192H224v192H128V192H64v192c-17.67 0-32 14.33-32 32v32H16C7.199 448 0 455.2 0 464v32C0 504.8 7.199 512 16 512h480c8.801 0 16-7.201 16-16v-32C512 455.2 504.8 448 496 448zM501.6 92.13l-234.4-90.07C264.3 .8958 259.2-.0039 256-.0039c-3.188 0-8.219 .8997-11.22 2.056L10.38 92.13C4.656 94.25 0 100.1 0 107.1V144C0 152.8 7.156 160 16 160h480C504.8 160 512 152.8 512 144V107.1C512 100.4 507.9 94.44 501.6 92.13z"/></svg>
-          <span>SimpleReport satisfies state and local reporting requirements</span>
+          <span>SimpleReport meets state and local reporting requirements</span>
         </button>
       </h3>
       <div id="a3" class="usa-accordion__content usa-prose">
