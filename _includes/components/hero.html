@@ -1,6 +1,6 @@
 {% if hero %}
 {% include components/banner.html %}
-<section class="usa-hero" aria-label="Introduction";>
+<section class="usa-hero padding-top-2" aria-label="Introduction";>
 
 <!-- <section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";> -->
   <div class="grid-container">
@@ -18,25 +18,35 @@
           <ul class="usa-list--unstyled display-flex flex-column mobile-lg:flex-row flex-align-center">
             <li>
               <a class="text-base-lighter
-               hover:text-white" href='{% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}'>
+               hover:text-white text-no-underline" href='{% link _pages/resources/index.md %}'>
                 Get resources
               </a>
             </li>
             <li class="mobile-lg:margin-left-2">
               <a class="text-base-lighter
-              hover:text-white" href="{% link pages/sign-up.md %}">
+              hover:text-white text-no-underline" href="{% link pages/forms/account-request-form.html %}">
                 Request an account
               </a>
             </li>
             <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
-              <a href="{{ site.okta_url | xml_escape }}"
-              class="usa-button usa-button--accent-cool text-no-underline text-ink text-normal padding-x-6">
-              Log in
-            </a>
+              <script>
+                function checkIe() {
+                    if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
+                    window.location.href = '{% link pages/unsupported-browser.html %}'
+                  } else {
+                    window.location.href = decodeURI('{{ site.okta_url }}');
+                  }
+                }
+              </script>
+              <a href="#"
+                class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-5"
+                onclick="javascript:checkIe()">
+                Log in
+              </a>
             </li>
           </ul>
         </nav>
-        <h1 class="margin-top-3 mobile-lg:margin-top-10">
+        <h1 class="margin-top-3 mobile-lg:margin-top-8">
           <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport logo">
         </h1>
         <h2>
@@ -44,8 +54,8 @@
         </h2>
 
         {% if hero.button %}
-        <a class="usa-button"
-          href="{{ hero.button.href | relative_url }}">
+        <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2"
+          href="{% link {{ hero.button.href }} %}">
           {{ hero.button.text }}
         </a>
         {% endif %}
@@ -58,20 +68,23 @@
 <section class="container-blue">
 
   <div class="grid-container usa-hero-placeholder-container">
-    <div class="grid-row">
+    <div class="grid-row grid-gap">
       <div class="tablet:grid-col hero-img-col mobile-display">
         <img class="usa-hero-placeholder"
           src="{% if hero.placeholder.external %}{{ hero.placeholder.src }}{% else %}{{ hero.placeholder.src | relative_url }}{% endif %}"
           alt="{{ hero.placeholder.alt }}">
       </div>
-      <div class="tablet:grid-col usa-hero-subsection">
-        <p>SimpleReport is a free tool that makes it easy for COVID-19 testing sites to record results. It works with any rapid point-of-care test so you can quickly report data to public health departments.</p>
-        <ul>
+      <div class="tablet:grid-col usa-hero-subsection usa-prose flex-align-self-center">
+        <p>SimpleReport is a fast, free, and easy way for COVID-19 testing facilities to report results to public health departments.</p>
+        <ul class="margin-left-1">
           <li>
-            Developed in partnership with the CDC
+            Easy to set up and use
           </li>
           <li>
-            100% Free
+            100% free
+          </li>
+          <li>
+            Works with any rapid point-of-care test
           </li>
           <li>
             Maintains HIPAA standards
@@ -86,7 +99,6 @@
   </div>
 
 </section>
-
 
 {% endif %}
 

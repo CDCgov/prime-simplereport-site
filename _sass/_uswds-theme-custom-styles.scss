@@ -44,8 +44,22 @@ Typography
   }
 }
 
+.usa-button {
+  font-weight: font-weight("medium");
+}
+
 .usa-intro {
   font-weight: $theme-font-weight-light;
+}
+
+.site-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-container {
+  flex: 1;
 }
 
 .page-home .usa-logo__text {
@@ -86,11 +100,12 @@ Typography
 }
 
 .usa-hero {
-  padding-top: 40px;
   background-image: none;
   padding-bottom: 3rem;
+  padding-top: units(4);
+
   @include at-media('desktop') {
-    padding-bottom: 2rem;
+    padding-bottom: units(2);
   }
 }
 
@@ -98,6 +113,7 @@ Typography
   background-color: none;
   max-width: none;
   padding: 0;
+
   h1,
   h2 {
     font-style: normal;
@@ -118,14 +134,17 @@ Typography
   h1 {
     color: #97d4e9;
     margin-top: 3em;
-    margin-bottom: 1em;
-
-    @include at-media('tablet') {
-      margin-left: -2em;
-    }
+    margin-bottom: units(2);
   }
+
   @include at-media('desktop') {
     margin-top: 0;
+  }
+
+  h2 {
+    @include at-media('tablet') {
+      margin-left: 2em;
+    }
   }
 }
 
@@ -170,70 +189,62 @@ Typography
 }
 
 .usa-hero-placeholder {
+  margin-bottom: 1em;
+  margin-top: 1em;
   max-width: 540px;
   width: 100%;
   height: auto;
   z-index: 10;
-  // margin-top: 12em;
-  // margin-left: 1em;
-  // margin-top: 1em;
-  /*margin: 0 0 1em 1em;*/
-  padding-top: 2em;
-  @include at-media('tablet') {
-    margin: 1em 0 1em 1em;
-    padding-top: 1em;
+
+  @include at-media('desktop') {
+    margin-top: 5.3vw;
   }
 }
 
 .container-blue {
   background: #e1f3f8;
   @include at-media('desktop') {
-    padding-bottom: 160px;
-    background: #e1f3f8 url('/assets/img/waves.svg') top center no-repeat;
+    padding-bottom: units(1.5);
+    background: #e1f3f8 url('/assets/img/waves.svg') top -1px center no-repeat;
+    background-size: contain;
     /*uncomment for githubpages*/
     /*background-image: url('/assets/img/waves.svg'), url('/prime-simplereport-site/assets/img/waves.svg');*/
-    max-height: 390px;
+    max-height: 420px;
   }
 }
 
 .usa-hero-subsection {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #1b1b1b;
-  padding-top: 1em;
-  // border: 1px solid #f00;
   padding-bottom: 1rem;
+
   @include at-media('tablet') {
     padding-bottom: 0;
   }
+
   @include at-media('desktop') {
-    padding-top: 7em;
-    // padding-bottom: 15em;
-    // max-height: 180px;
+    padding-top: 5.5vw;
   }
+
   p {
     max-width: 380px;
     color: #162e51;
   }
-  @include at-media('desktop') {
-    & > p {
-      padding-top: 1em;
-    }
-  }
+  
   ul {
     list-style: none;
     padding: 0;
+
     li {
+      font-weight: 400;
+
       &:before {
         content: '✓';
         display: inline-block;
         width: 16px;
-
       }
-
-      font-weight: 400;
     }
   }
 }
@@ -278,15 +289,15 @@ Typography
 // }
 
 .page-home {
-  .usa-section {
-    img {
-      margin-bottom: 24px;
-    }
+  .grid-container,
+  .usa-banner__inner,
+  .usa-banner__content {
+    max-width: 800px;
+  }
 
+  .usa-section {
     .usa-bullets {
       p {
-        /*margin: 0 auto 2em auto;*/
-
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
@@ -299,6 +310,7 @@ Typography
         }
       }
     }
+
     .usa-list {
       li {
 
@@ -312,8 +324,34 @@ Typography
       }
     }
   }
+
+  .illustration-image {
+    height: intrinsic;
+    max-width: 600px;
+    width: -webkit-fill-available;
+  }
 }
 
+.usa-accordion__button svg {
+  fill: color("primary");
+}
+
+.section__title-line {
+  border-top: 1px solid color("primary-light");
+  width: units(5);
+}
+
+.section__heading {
+  @include u-margin-y(4);
+  color: color("primary-darker");
+  font-size: units(3);
+  font-weight: font-weight("medium");
+}
+
+.usa-intro {
+  color: color("base-darker");
+  font-size: units(2.5);
+}
 
 .usa-section-list {
   background: white;
@@ -367,15 +405,6 @@ Typography
     font-size: 14px;
   }
 
-  .usa-prose {
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 151.28%;
-    color: #162e51;
-  }
-
   .prose-f4 {
 
     font-style: normal;
@@ -410,10 +439,6 @@ Typography
       padding-left: 5px;
     }
   }
-
-  .grid-row.grid-gap {
-    padding-bottom: 3em;
-  }
 }
 
 .grid-gap-small-btm {
@@ -423,12 +448,6 @@ Typography
 .cta-btn {
   color: #ffffff !important;
   text-decoration: none !important;
-}
-
-.grid-row {
-  @include at-media('tablet') {
-    padding: 0 5em;
-  }
 }
 
 .page-docs {
@@ -509,10 +528,6 @@ Typography
   margin-left: units(-5);
 }
 
-.illustration-image {
-  margin-bottom: 3em !important;
-}
-
 .usa-bullets {
 
   font-style: normal;
@@ -530,9 +545,7 @@ Typography
 }
 
 .blue-section {
-  background: #e1f3f8;
   color: white;
-  padding-top: 2em !important;
   margin-bottom: -5em;
   @include at-media('tablet') {
     margin-bottom: -9em;
@@ -561,7 +574,6 @@ Typography
   }
 
   .usa-prose {
-
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -581,17 +593,14 @@ Typography
   }
 
   .medium-header {
-
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
     color: #3d4551;
-    margin-bottom: 0.5em;
   }
 
   .prose {
-
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -608,7 +617,6 @@ Typography
 
 .usa-footer {
   .usa-footer__secondary-section {
-    margin-top: 40px;
     background-color: #162e51;
     color: white;
     padding-bottom: 5em;
@@ -686,10 +694,6 @@ Typography
   }
 }
 
-.no-top-margin {
-  margin-top: 0 !important;
-}
-
 .no-underline {
   text-decoration: none !important;
 }
@@ -728,7 +732,6 @@ Typography
 }
 
 .medium-header {
-
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -736,12 +739,11 @@ Typography
   color: #162e51;
 
   + .prose {
-    padding-top: 24px;
+    padding-top: 16px;
   }
 }
 
 .small-header {
-
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -749,7 +751,7 @@ Typography
   color: #000000;
 
   + .small-prose {
-    padding-top: 24px;
+    padding-top: 16px;
   }
 }
 
@@ -787,43 +789,22 @@ Typography
   height: 82px;
 }
 
-.brown-bubble {
+.animation-1,
+.animation-2 {
   position: absolute;
-  top: -160px;
-  left: -30px;
-
-  @include at-media('tablet-lg') {
-    top: -175px;
-    left: 8px;
-  }
-}
-
-.animation-1 {
-  position: relative;
-
-  @include at-media('tablet-lg') {
-    top: -40px;
-  }
 }
 
 .blue-bubble {
-  position: absolute;
-  top: -120px;
+  padding-left: 18%;
+  padding-top: 5%;
+}
 
-  @include at-media('tablet-lg') {
-    top: 10px;
-    left: 65px;
-  }
+.animation-1 {
+  max-width: 316px;
 }
 
 .animation-2 {
-  position: relative;
-  top: -75px;
-
-  @include at-media('tablet-lg') {
-    top: -17px;
-    left: -50px;
-  }
+  max-width: 352px;
 }
 
 .mid-wave-top,
@@ -833,32 +814,7 @@ Typography
 
 .mid-wave-top {
   position: relative;
-  top: -57px;
-  @include at-media('tablet') {
-    top: -80px;
-  }
-  @include at-media('tablet-lg') {
-    top: -94px;
-  }
-  @media screen and (min-width: 1200px) {
-    top: -120px;
-  }
-  @media screen and (min-width: 1600px) {
-    top: -150px;
-  }
-}
-
-.mid-wave-bottom {
-  margin-top: 2em;
-}
-
-.cdc-logo-large {
-  margin-left: 1em;
-  margin-top: 0.5em;
-}
-
-.shield {
-  margin-left: 3em;
+  top: units(0.5);
 }
 
 .margin-top-8 {
@@ -931,4 +887,53 @@ Typography
   @include at-media('tablet') {
     margin-top: 0em;
   }
+}
+
+.page-form {
+  background-color: color('gray-2');
+
+  .page-container {
+    border-top: 1px solid color('base-lighter');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    align-self: center;
+  }
+}
+
+.usa-legend--large {
+  color: color(primary-darker);
+  font-weight: 500;
+}
+
+.margin-top-card {
+  margin-top: units('card');
+}
+
+.tablet\:margin-top-card {
+  @include at-media('tablet') {
+    margin-top: units('card') !important;
+  }
+}
+
+.step-line {
+  margin-left: 10px;
+  margin-top: 1px;;
+}
+
+// Utilities
+.margin-x-neg-4 {
+  margin-left: units("neg-4");
+  margin-right: units("neg-4");
+}
+
+.text-success {
+  color: color("success");
+}
+
+.font-heading-3 {
+  font-size: units(3) !important;
 }

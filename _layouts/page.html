@@ -4,12 +4,14 @@ main:
   class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
 ---
 
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+
 <div class="usa-section">
   <div class="grid-container">
+    {% if page.class contains "page-docs" %}
     <div class="grid-row grid-gap flex-align-start">
-      {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+    {% endif %}
       {% if sidenav %}
-
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
           {% if page.class contains "page-docs" and page.home_link == true %}
             <a class='home-link display-block margin-bottom-2' href="{% link pages/home.md %}">
@@ -27,20 +29,20 @@ main:
           </a>
         {% endunless %}
         {% if page.class contains "page-docs" %}
-          <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs">
+          <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-bottom-1">
             {% assign kicker = page.url | split: "/" | reverse %}
             {{ kicker[1] | replace: '-', ' ' }}
           </p>
         {% endif %}
-        {% if page.title %}
-          <h1
-            {% unless page.class contains "page-docs" and page.home_link %}class="no-top-margin"{% endunless %}
-            {% if page.class contains "page-docs" %} class="margin-top-1"{% endif %}>
+        {% if page.title and page.title_display != "false" %}
+          <h1 class="margin-top-0">
             {{ page.title }}
           </h1>
         {% endif %}
         {{ content }}
       </main>
+    {% if page.class contains "page-docs" %}
     </div>
+    {% endif %}
   </div>
 </div>
