@@ -52,6 +52,16 @@ Typography
   font-weight: $theme-font-weight-light;
 }
 
+.site-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-container {
+  flex: 1;
+}
+
 .usa-logo__text {
   font-size: 40px;
 }
