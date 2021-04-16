@@ -183,7 +183,7 @@ Typography
   z-index: 10;
 
   @include at-media('desktop') {
-    margin-top: 66px;
+    margin-top: 5.3vw;
   }
 }
 
@@ -211,7 +211,7 @@ Typography
   }
 
   @include at-media('desktop') {
-    padding-top: units(9);
+    padding-top: 5.5vw;
   }
 
   p {
