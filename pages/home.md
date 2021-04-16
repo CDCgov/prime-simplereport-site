@@ -172,7 +172,7 @@ return_top: 'false'
 
 <section>
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
-  <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
+  <div class="bg-accent-cool-lighter padding-y-2 tablet:padding-y-0">
     <div class="grid-container usa-prose">
       <p class="usa-intro">Eager to try SimpleReport for yourself? Check out the SimpleReport demo. It’s a safe space where you can experiment and get comfortable with SimpleReport using fake data.</p>
       <a class="usa-button text-no-underline text-white" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
@@ -196,7 +196,7 @@ return_top: 'false'
 
 <section>
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
-  <div class="bg-accent-cool-lighter padding-top-4 tablet:padding-top-0">
+  <div class="bg-accent-cool-lighter padding-y-2 tablet:padding-y-0">
     <div class="grid-container">
       <div class="usa-prose">
         <h2 class="font-heading-3 text-primary-darker">
@@ -226,7 +226,7 @@ return_top: 'false'
             Developed for testing sites and public health departments, SimpleReport is 100% free.
           </div>
         </div>
-        <div class="tablet:grid-col usa-prose">
+        <div class="tablet:grid-col usa-prose margin-top-4 tablet:margin-top-0">
           <img class="height-7" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
           <h2 class="font-heading-lg text-primary-darker margin-top-2">
             Safe and secure
