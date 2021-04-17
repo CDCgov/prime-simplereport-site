@@ -787,14 +787,19 @@ Typography
 .blue-bubble {
   padding-left: 18%;
   padding-top: 5%;
+  width: 100%;
 }
 
 .animation-1 {
-  max-width: 316px;
+  width: 80%;
 }
 
 .animation-2 {
-  max-width: 352px;
+  width: 83%;
+  
+  @include at-media('tablet') {
+    width: 74%;
+  }
 }
 
 .mid-wave-top,

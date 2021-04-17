@@ -82,12 +82,12 @@ return_top: 'false'
       SimpleReport fits into your existing workflow.
     </h2>
     <div class="grid-row margin-top-5">
-      <div class="display-flex flex-justify-end tablet:display-none">
+      <div class="display-flex flex-justify-end flex-align-end tablet:display-none">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
-      <div class="grid-row grid-gap-6 display-flex">
-        <div class="tablet:grid-col-6 grid-col-12 flex-align-self-center">
+      <div class="grid-row tablet:grid-gap-6 display-flex">
+        <div class="tablet:grid-col-6 flex-align-self-center">
           <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             No more repeat data entry
           </h3>
@@ -96,20 +96,20 @@ return_top: 'false'
           </p>
         </div>
         <div class="display-none tablet:display-block grid-col-6">
-          <div class="display-flex flex-justify-end">
+          <div class="display-flex flex-justify-end flex-align-end">
             <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
             <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
           </div>
         </div>
       </div>
-      <div class="grid-row grid-gap-6 margin-top-6 tablet:margin-top-15">
-        <div class="tablet-lg:grid-col-6 grid-col-12">
+      <div class="grid-row tablet:grid-gap-6 margin-top-6 tablet:margin-top-15">
+        <div class="tablet:grid-col-6">
           <div class="display-flex">
           <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
           <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
           </div>
         </div>
-        <div class="tablet-lg:grid-col-6 grid-col-12">
+        <div class="tablet:grid-col-6">
           <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
             Reporting done for you
           </h3>
