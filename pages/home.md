@@ -82,7 +82,7 @@ return_top: 'false'
       SimpleReport fits into your existing workflow.
     </h2>
     <div class="grid-row margin-top-5">
-      <div class="display-flex flex-fill flex-justify-end flex-align-end tablet:display-none">
+      <div class="display-flex flex-justify-end flex-align-end tablet:display-none">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
       </div>
