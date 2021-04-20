@@ -33,7 +33,7 @@
     </div>
 
     <nav role="navigation" class="usa-nav">
-      <div class="usa-nav__inner">
+
         <button class="usa-nav__close">
           <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">
         </button>
@@ -87,7 +87,7 @@
             {% else %}
               {% if _section.text %}
                 <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
-                  <span>{{ _section.text }}test</span>
+                  <span>{{ _section.text }}</span>
                 </a>
               {% endif %}
             {% endif %}
@@ -156,7 +156,7 @@
 
 
         </div>
-      </div>
+
     </nav>
   {% if header.type == 'basic' or header.type == 'basic-mega' %}
     </div>

@@ -20,14 +20,14 @@ type: basic
 
 # Configuration for site header logo
 # If the logo is external add external: true
-# logo:
-#   src: /assets/img/SimpleReport.svg
-#   alt: SimpleReport
-  # external: true
+logo:
+  src: /assets/img/simple-report-logo-color.svg
+  alt: SimpleReport
+  external: true
 
 # this is a key into _data/navigation.yml
-# primary:
-#   links: primary
+primary:
+  links: primary
 
 # this is a key into _data/navigation.yml
 # secondary:
