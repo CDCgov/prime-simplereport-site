@@ -24,7 +24,7 @@ primary:
   href: /sign-up/
 - text: Sign in
   href: "#"
-  class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs
+  class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs margin-right-0
   onclick: "javascript:checkIe()"
   external: true
 

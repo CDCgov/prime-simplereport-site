@@ -120,8 +120,12 @@ Typography
         color: color("ink");
       }
     }
+  }
 
-    .usa-header .usa-button {
+  .usa-header .usa-button {
+    margin-top: units(2);
+
+    @include at-media("desktop") {
       $button-inverse-color: $theme-link-reverse-color;
       $button-inverse-hover-color: $theme-link-reverse-hover-color;
       $button-inverse-active-color: $theme-link-reverse-active-color;
@@ -129,6 +133,7 @@ Typography
       background-color: color("transparent");
       box-shadow: $button-stroke color("base-lighter");
       color: color($button-inverse-color);
+      margin-top: units(0.5);
 
       &:visited {
         color: color($button-inverse-color);
