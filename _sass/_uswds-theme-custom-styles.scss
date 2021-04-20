@@ -97,10 +97,6 @@ Typography
       margin-top: units(2);
     }
 
-    .usa-nav__primary-item:first-child {
-      display: none;
-    }
-
     .usa-nav__primary button {
       &[aria-expanded=false] {
         @include add-background-svg("usa-icons-bg/expand_more--white");
