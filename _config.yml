@@ -15,6 +15,13 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
 
+defaults:
+  -
+    scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
+
 exclude:
   - .jekyll-cache/
   - .sass-cache/
