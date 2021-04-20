@@ -1,5 +1,5 @@
 {% if hero %}
-{% include components/banner.html %}
+{% include header.html %}
 <section class="usa-hero padding-top-2" aria-label="Introduction";>
 
 <!-- <section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";> -->
@@ -14,30 +14,7 @@
           {{ hero.callout.text | default: hero.callout }}
         </h1>
         {% endif %} -->
-        <nav class="mobile-lg:float-right">
-          <ul class="usa-list--unstyled display-flex flex-column mobile-lg:flex-row flex-align-center">
-            <li>
-              <a class="text-base-lighter
-               hover:text-white text-no-underline" href='{% link _pages/resources/index.md %}'>
-                How it works
-              </a>
-            </li>
-            <li class="mobile-lg:margin-left-2">
-              <a class="text-base-lighter
-              hover:text-white text-no-underline" href="{% link pages/forms/account-request-form.html %}">
-                Request an account
-              </a>
-            </li>
-            <li class="width-full mobile-lg:width-auto margin-top-1 mobile-lg:margin-top-0 mobile-lg:margin-left-2">
-              <a href="#"
-                class="usa-button usa-button--outline usa-button--inverse text-no-underline padding-x-5"
-                onclick="javascript:checkIe()">
-                Sign in
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <h1 class="margin-top-3 mobile-lg:margin-top-8">
+        <h1 class="margin-top-3 mobile-lg:margin-top-1">
           <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport logo">
         </h1>
         <h2>

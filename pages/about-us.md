@@ -7,10 +7,10 @@ return_top: 'false'
 home_link: true
 ---
 
-<section class="usa-section-list usa-section padding-bottom-0">
+<section class="usa-section-list padding-bottom-0">
   <div class="grid-row section-title padding-left-0">
     <div class="section-title-line taller-section-title-line"></div>
-    <div class="huge-header">About Us</div>
+    <div class="huge-header">About us</div>
   </div>
 </section>
 

@@ -33,7 +33,7 @@
     </div>
 
     <nav role="navigation" class="usa-nav">
-      {% if header.type == 'extended' or header.type == 'extended-mega' %}  
+      {% if header.type == 'extended' or header.type == 'extended-mega' %}
       <div class="usa-nav__inner">
       {% endif %}
         <button class="usa-nav__close">
@@ -88,7 +88,11 @@
             {% endif %}
             {% else %}
               {% if _section.text %}
-                <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+                <a
+                  class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}"
+                  href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}"
+                  {% if _section.onclick %}onclick="{{ _section.onclick }}"{% endif %}
+                >
                   <span>{{ _section.text }}</span>
                 </a>
               {% endif %}
@@ -126,7 +130,7 @@
           {% endif %}
 
         </div>
-      {% if header.type == 'extended' or header.type == 'extended-mega' %}  
+      {% if header.type == 'extended' or header.type == 'extended-mega' %}
       </div>
       {% endif %}
     </nav>

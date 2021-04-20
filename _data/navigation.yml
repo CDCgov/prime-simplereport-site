@@ -23,8 +23,10 @@ primary:
 - text: Request an account
   href: /sign-up/
 - text: Sign in
-  href: /
+  href: "#"
   class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs
+  onclick: "javascript:checkIe()"
+  external: true
 
 secondary:
   - text: Log in
