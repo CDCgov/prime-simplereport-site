@@ -461,12 +461,6 @@ Typography
 }
 
 .page-docs {
-  #main-content {
-    @include at-media($theme-header-min-width) {
-      border-top: 1px solid color("base-lighter");
-    }
-  }
-
   .grid-row {
     @include at-media('tablet') {
       padding: 0;
