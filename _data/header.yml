@@ -23,7 +23,6 @@ type: basic
 logo:
   src: /assets/img/simple-report-logo-color.svg
   alt: SimpleReport
-  external: true
 
 # this is a key into _data/navigation.yml
 primary:
