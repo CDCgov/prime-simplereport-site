@@ -11,14 +11,18 @@ return_top: 'false'
 ## Where SimpleReport is live
 SimpleReport is currently live in these jurisdictions:
 - Arizona
+- California
 - Colorado
 - Florida
 - Guam
 - Louisiana
+- Montana
+- New Mexico
 - North Dakota
 - Ohio
 - Pennsylvania
 - Texas
+- Vermont
 
 If you're in one of these jurisdictions, you can [request access to SimpleReport]({% link _pages/resources/getting-started/testing-facilities/onboard-your-organization.md %}#request-access-for-your-testing-facility) and start onboarding right away.
 
