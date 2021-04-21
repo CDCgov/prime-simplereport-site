@@ -228,7 +228,7 @@ Typography
     max-width: 380px;
     color: #162e51;
   }
-  
+
   ul {
     list-style: none;
     padding: 0;
@@ -619,7 +619,7 @@ Typography
       max-width: 74px;
     }
 
-    h3.usa-footer__logo-heading {
+    .usa-footer__logo-heading {
 
       font-style: normal;
       font-weight: normal;
@@ -796,7 +796,7 @@ Typography
 
 .animation-2 {
   width: 83%;
-  
+
   @include at-media('tablet') {
     width: 74%;
   }
