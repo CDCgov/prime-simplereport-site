@@ -3,23 +3,24 @@ name: Run Lighthouse
 on:
   push:
     branches:
-    - gh-pages
-    - main
+      - gh-pages
+      - main
 jobs:
   validate-site:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Lighthouse CI Action
-      uses: treosh/lighthouse-ci-action@v2
-      with:
-        urls: |
-          https://cdcgov.github.io/prime-simplereport-site/
-          https://cdcgov.github.io/prime-simplereport-site/sign-up/
-        uploadArtifacts: false
-        configPath: ./lighthouse/lighthouserc.yml
-        runs: 1
+      - uses: actions/checkout@v2
+      - name: Lighthouse CI Action
+        uses: treosh/lighthouse-ci-action@v2
+        with:
+          urls: |
+            $SITE_URL/
+            $SITE_URL/sign-up/
+          uploadArtifacts: true
+          configPath: ./lighthouse/lighthouserc.yml
+          runs: 1
+        env:
+          SITE_URL: https://cdcgov.github.io/prime-simplereport-site
   # eslint:
   #   runs-on: ubuntu-latest
   #   steps:
@@ -37,12 +38,12 @@ jobs:
   rubocop:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.6
-    - name: Install rubocop
-      run: gem install rubocop
-    - name: Run rubocop
-      run: rubocop
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Install rubocop
+        run: gem install rubocop
+      - name: Run rubocop
+        run: rubocop
