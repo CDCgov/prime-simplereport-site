@@ -7,18 +7,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Set up Node
+        uses: actions/setup-node@v1
         with:
           node-version: "14"
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6
-      - name: Build site
+          bundler-cache: true
+      - name: Cache npm local files
+        uses: actions/cache@v2
+        with:
+          path: |
+            ./node_modules
+          key: npm-${{matrix.node}}-${{ hashFiles('yarn.lock', 'package.json') }}
+      - name: Install node modules
+        run: npm install
+      - name: Install ruby gems
         run: |
-          npm install
           gem install bundler
           bundle install
+      - name: Build site
+        run: |
           npm run setup
           npm run build
       - name: Serve site
