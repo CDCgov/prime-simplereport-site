@@ -16,6 +16,7 @@ SimpleReport is currently live in these jurisdictions:
 - Florida
 - Guam
 - Louisiana
+- Mississippi
 - Montana
 - New Mexico
 - North Dakota
