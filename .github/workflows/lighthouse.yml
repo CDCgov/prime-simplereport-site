@@ -1,0 +1,36 @@
+name: Lighthouse
+
+on: pull_request
+
+jobs:
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Build site
+        run: |
+          npm install
+          gem install bundler
+          bundle install
+          npm run setup
+          npm run build
+      - name: Serve site
+        run: bundle exec jekyll serve &
+      - name: Lighthouse CI Action
+        uses: treosh/lighthouse-ci-action@v7
+        with:
+          urls: |
+            $SITE_URL/
+            $SITE_URL/sign-up/
+          uploadArtifacts: true
+          configPath: ./lighthouse/lighthouserc.yml
+          runs: 1
+        env:
+          SITE_URL: http://localhost:4000

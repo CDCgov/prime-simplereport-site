@@ -1,0 +1,17 @@
+name: Rubocop
+
+on: pull_request
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Install rubocop
+        run: gem install rubocop
+      - name: Run rubocop
+        run: rubocop
