@@ -19,10 +19,13 @@ main:
 
       <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}">
         {% if page.class contains "page-docs" %}
-          <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-bottom-1">
-            {% assign kicker = page.url | split: "/" | reverse %}
-            {{ kicker[1] | replace: '-', ' ' }}
-          </p>
+          <div class="display-flex flex-justify">
+            <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-top-0 margin-bottom-1">
+              {% assign kicker = page.url | split: "/" | reverse %}
+              {{ kicker[1] | replace: '-', ' ' }}
+            </p>
+            {% include components/search.html %}
+          </div>
         {% endif %}
         {% if page.title and page.title_display != "false" %}
           <h1 class="margin-top-0">

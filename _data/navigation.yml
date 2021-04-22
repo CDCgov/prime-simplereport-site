@@ -24,10 +24,10 @@ primary:
       href: /resources/troubleshooting/
     - text: Staying connected
       href: /resources/staying-connected/
-- text: Create an account
+- text: Sign up
   href: /sign-up/
   class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs
-- text: Sign in
+- text: Log in
   href: "#"
   class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs margin-right-0
   onclick: "javascript:checkIe()"
