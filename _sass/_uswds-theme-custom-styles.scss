@@ -74,6 +74,22 @@ Typography
   border-bottom: none;
 }
 
+.site-body {
+  .usa-header {
+    .usa-button--outline {
+      color: color("primary");
+
+      &:hover {
+        color: color("primary-dark");
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
 .page-home {
   @include at-media("desktop") {
     .usa-header-container {
@@ -118,38 +134,53 @@ Typography
     }
   }
 
-  .usa-header .usa-button {
-    margin-top: units(2);
+  .usa-header {
+    .usa-button--outline {
+      @include at-media("desktop") {
+        $button-inverse-color: $theme-link-reverse-color;
+        $button-inverse-hover-color: $theme-link-reverse-hover-color;
+        $button-inverse-active-color: $theme-link-reverse-active-color;
 
-    @include at-media("desktop") {
-      $button-inverse-color: $theme-link-reverse-color;
-      $button-inverse-hover-color: $theme-link-reverse-hover-color;
-      $button-inverse-active-color: $theme-link-reverse-active-color;
-
-      background-color: color("transparent");
-      box-shadow: $button-stroke color("base-lighter");
-      color: color($button-inverse-color);
-      margin-top: units(0.5);
-
-      &:visited {
+        box-shadow: $button-stroke color("base-lighter");
         color: color($button-inverse-color);
-      }
 
-      &:hover {
-        background-color: color("transparent");
-        box-shadow: $button-stroke color($button-inverse-hover-color);
-        color: color($button-inverse-hover-color);
-      }
+        &:visited {
+          color: color($button-inverse-color);
+        }
 
-      &:active,
-      &.usa-button--active {
-        background-color: color("transparent");
-        box-shadow: $button-stroke color($button-inverse-active-color);
-        color: color($button-inverse-active-color);
+        &:hover {
+          box-shadow: $button-stroke color($button-inverse-hover-color);
+          color: color($button-inverse-hover-color);
+        }
+
+        &:active,
+        &.usa-button--active {
+          box-shadow: $button-stroke color($button-inverse-active-color);
+          color: color($button-inverse-active-color);
+        }
       }
     }
   }
 }
+
+.usa-header {
+  .usa-button {
+    margin-top: units(1);
+
+    @include at-media("desktop") {
+      margin-top: units(0.5);
+    }
+  }
+
+  .usa-button--outline {
+    margin-top: units(2);
+
+    @include at-media("desktop") {
+      margin-top: units(0.5);
+    }
+  }
+}
+
 
 .usa-hero {
   background-color: #162e51;
