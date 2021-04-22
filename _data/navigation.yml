@@ -18,7 +18,7 @@ primary:
   links:
     - text: Getting started
       href: /resources/getting-started/
-    - text: Features
+    - text: Using SimpleReport
       href: /resources/using-simplereport/
     - text: Troubleshooting
       href: /resources/troubleshooting/
