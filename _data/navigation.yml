@@ -7,36 +7,31 @@
 # For instance, if you have a "primary" navigation list here, you
 # can use that as your header's primary navigation by setting
 # `primary.links` to "primary":
-#
-# primary:
-#   links: primary
-#
+
 primary:
-  # - text: Log in
-  #   href: https://prime-eval.okta.com/oauth2/default/v1/authorize?client_id=0oa53ln2xltKTIOyF4h6&response_type=token&scope=openid&scope=pdi&redirect_uri=https://cdc.simplereport.org/dev/app
-  #   external: true
-  #   class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
-# - text: Documentation
-#   href: /docs/
-# - text: Navigation section
-#   links:
-#     - text: Demo link A
-#       href: /two/a/
-#     - text: Demo link B
-#       href: /two/b/
-#     - text: Demo link C
-#       href: /two/c/
-#     - text: Demo link D
-#       href: /two/a/
-#     - text: Demo link E
-#       href: /two/b/
-#     - text: Demo link F
-#       href: /two/c/
-# - text: Referenced section
-#   links: footer
-# - text: External link
-#   href: https://18f.gsa.gov
-#   external: true
+  links: primary
+
+primary:
+- text: About us
+  href: /about-us/
+- text: How it works
+  links:
+    - text: Getting started
+      href: /resources/getting-started/
+    - text: Using SimpleReport
+      href: /resources/using-simplereport/
+    - text: Troubleshooting
+      href: /resources/troubleshooting/
+    - text: Staying connected
+      href: /resources/staying-connected/
+- text: Sign up
+  href: /sign-up/
+  class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs
+- text: Log in
+  href: "#"
+  class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs margin-right-0
+  onclick: "javascript:checkIe()"
+  external: true
 
 secondary:
   - text: Log in
