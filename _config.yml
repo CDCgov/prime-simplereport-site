@@ -6,9 +6,9 @@ okta_url: https://hhs-prime.okta.com/oauth2/default/v1/authorize?client_id=0oa5a
 permalink: pretty
 
 collections:
-   pages:
-     output: true
-     permalink: /:path/
+  pages:
+    output: true
+    permalink: /:path/
 
 plugins:
   - jekyll-sitemap
@@ -40,3 +40,6 @@ exclude:
   - spec/
   - assets/js/uswds.js
   - webpack/
+  - e2e/
+  - tests_output/
+  - geckodriver.log

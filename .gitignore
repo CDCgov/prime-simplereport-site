@@ -19,3 +19,8 @@ assets/js/bundles/
 
 # IDE
 .idea
+
+geckodriver.log
+chromedriver.log
+yarn-error.log
+tests_output/

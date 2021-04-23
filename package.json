@@ -33,7 +33,10 @@
     "deploy-azure-training": "./deploy.sh training",
     "deploy-azure-demo": "./deploy.sh demo",
     "deploy-azure-stg": "./deploy.sh stg",
-    "deploy-azure-prod": "./deploy.sh prod"
+    "deploy-azure-prod": "./deploy.sh prod",
+    "e2e": "./e2e.sh default",
+    "e2e:chrome": "./e2e.sh chrome",
+    "e2e:brave": "./e2e.sh brave"
   },
   "dependencies": {
     "gulp-watch": "^5.0.0",
@@ -44,8 +47,12 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
+    "chromedriver": "^90.0.0",
+    "dayjs": "^1.10.4",
     "eslint": "^7.9.0",
     "eslint-plugin-frontmatter": "0.0.8",
+    "faker": "^5.5.3",
+    "geckodriver": "^1.22.3",
     "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
@@ -56,6 +63,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "lodash": "^4.17.20",
     "minimist": "1.2.5",
+    "nightwatch": "^1.6.3",
     "postcss": "^8.2.5",
     "postcss-csso": "^5.0.0",
     "postcss-uncss": "^0.17.0",

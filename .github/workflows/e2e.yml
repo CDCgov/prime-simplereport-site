@@ -1,0 +1,51 @@
+name: Run end-to-end tests
+
+on: pull_request
+
+env:
+  NODE_VERSION: 14
+  JAVA_VERSION: 11
+  FIREFOX_VERSION: latest
+  PROJECT_ROOT: /home/runner/work/prime-simplereport/prime-simplereport # Hardcoding this here because env.WORKSPACE_ROOT gets overridden by one of the steps downstream. We only need this for Sonar.
+  REACT_APP_QR_CODE_ENABLED: true
+  REACT_APP_TEST_TRIBAL_AFFILIATION_BYPASS: true
+  SIMPLE_REPORT_TWILIO_ENABLED: false
+  TWILIO_ACCOUNT_SID: ${{secrets.TWILIO_TEST_ACCOUNT_SID }}
+  TWILIO_AUTH_TOKEN: ${{secrets.TWILIO_TEST_AUTH_TOKEN }}
+  SIMPLE_REPORT_SENDGRID_ENABLED: false
+  SIMPLE_REPORT_SENDGRID_FROM_EMAIL: admin@simplereport.gov
+  SIMPLE_REPORT_SENDGRID_ACCOUNT_REQUEST_RECIPIENT: usds@cdc.gov
+
+defaults:
+  run:
+    working-directory: .
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+      - name: Cache npm local files
+        uses: actions/cache@v2
+        with:
+          path: |
+            ./node_modules
+          key: npm-${{matrix.node}}-${{ hashFiles('yarn.lock', 'package.json') }}
+      - name: Install node modules
+        run: npm install
+      - name: Setup site
+        run: |
+          npm run setup
+      - name: Serve site
+        run: bundle exec jekyll serve &
+      - name: Run nightwatch
+        run: npm run e2e
