@@ -31,6 +31,10 @@ Build/Watch sass in separate
 Serve site
 `yarn serve`
 
+## E2E Tests
+End to end tests are written with [Nightwatch.js](https://nightwatchjs.org/). Run the tests while the site is being served locally with:
+`yarn e2e`
+
 ## Contributing
 1. make changes on a branch
 2. Open a PR and deploy branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`

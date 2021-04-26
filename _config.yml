@@ -7,9 +7,9 @@ permalink: pretty
 search_site_handle: simplereport
 
 collections:
-   pages:
-     output: true
-     permalink: /:path/
+  pages:
+    output: true
+    permalink: /:path/
 
 plugins:
   - jekyll-sitemap
@@ -48,3 +48,6 @@ exclude:
   - spec/
   - assets/js/uswds.js
   - webpack/
+  - e2e/
+  - tests_output/
+  - geckodriver.log

@@ -101,6 +101,13 @@ class: page-form
         <p class="usa-alert__text">Failed to submit. Please try again.</p>
       </div>
     </div>
+    {% if site.e2e %}
+      <div class="usa-checkbox display-none">
+        <input class="usa-checkbox__input" id="test-submission" type="checkbox" name="test-submission"
+          value="test-submission">
+        <label class="usa-checkbox__label" for="test-submission">Submitting test data</label>
+      </div>
+    {% endif %}
     <button
       id="form-submit-button"
       type="button"
@@ -237,6 +244,14 @@ class: page-form
       if (!formValid || !groupsValid) {
         return;
       }
+
+      {% if site.e2e %}
+        const isTestSubmission = document.getElementById('test-submission').checked;
+        if (isTestSubmission) {
+          window.location.replace("/sign-up/thanks");
+          return;
+        }
+      {% endif %}
 
       try {
         let response = await fetch("/api/account-request", {
