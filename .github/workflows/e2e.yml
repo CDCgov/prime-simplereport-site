@@ -32,7 +32,7 @@ jobs:
         run: |
           npm run setup
       - name: Serve site
-        run: bundle exec jekyll serve &
+        run: npm run serve:e2e &
       - name: Setup firefox
         uses: browser-actions/setup-firefox@latest
         with:
