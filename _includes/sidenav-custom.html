@@ -14,8 +14,7 @@
             {% for entry in item.subnav %}
               {% assign title_slug = entry.page | slugify %}
               <li class="usa-sidenav__item">
-                <a class="display-flex flex-justify" href="{{ site.baseurl }}{{ entry.url }}"
-                  {% if page.url contains title_slug %} class="usa-current" {% endif %}>
+                <a class="{% if page.url contains title_slug %}usa-current{% endif %} display-flex flex-justify" href="{{ site.baseurl }}{{ entry.url }}">
                   <span>{{ entry.page }}</span>
                   {% if entry.subsubnav[0] %}
                     {% unless page.url contains title_slug %}
