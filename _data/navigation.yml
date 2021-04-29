@@ -22,8 +22,6 @@ primary:
       href: /resources/using-simplereport/
     - text: Troubleshooting
       href: /resources/troubleshooting/
-    - text: Staying connected
-      href: /resources/staying-connected/
 - text: Sign up
   href: /sign-up/
   class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs
