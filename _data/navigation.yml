@@ -59,6 +59,13 @@ resources:
             url: /resources/getting-started/public-health-departments/about-prime-reportstream/
           - page: SimpleReport data catalog
             url: /resources/getting-started/public-health-departments/simplereport-data-catalog/
+      - page: Staying connected
+        url: /resources/getting-started/staying-connected/
+        subsubnav:
+          - page: Join the SimpleReport Google Group
+            url: /resources/getting-started/staying-connected/join-the-simplereport-google-group/
+          - page: Check out Demo Day
+            url: /resources/getting-started/staying-connected/check-out-demo-day/
   - title: Using SimpleReport
     url: /resources/using-simplereport/
     subnav:
@@ -98,6 +105,13 @@ resources:
             url: /resources/using-simplereport/manage-facility-info/update-facility-settings/
           - page: Find supported jurisdictions
             url: /resources/using-simplereport/manage-facility-info/find-supported-jurisdictions/
+      - page: Staying connected
+        url: /resources/getting-started/staying-connected/
+        subsubnav:
+          - page: Join the SimpleReport Google Group
+            url: /resources/getting-started/staying-connected/join-the-simplereport-google-group/
+          - page: Check out Demo Day
+            url: /resources/getting-started/staying-connected/check-out-demo-day/
   - title: Troubleshooting
     url: /resources/troubleshooting/
     subnav:
@@ -107,13 +121,13 @@ resources:
         url: /resources/troubleshooting/troubleshoot-common-problems/
       - page: Contact us for more help
         url: /resources/troubleshooting/contact-us-for-more-help/
-  - title: Staying connected
-    url: /resources/staying-connected/
-    subnav:
-      - page: Join the SimpleReport Google Group
-        url: /resources/staying-connected/join-the-simplereport-google-group/
-      - page: Check out Demo Day
-        url: /resources/staying-connected/check-out-demo-day/
+      - page: Staying connected
+        url: /resources/getting-started/staying-connected/
+        subsubnav:
+          - page: Join the SimpleReport Google Group
+            url: /resources/getting-started/staying-connected/join-the-simplereport-google-group/
+          - page: Check out Demo Day
+            url: /resources/getting-started/staying-connected/check-out-demo-day/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.
