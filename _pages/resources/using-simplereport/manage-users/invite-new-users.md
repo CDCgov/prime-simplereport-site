@@ -20,4 +20,4 @@ To invite a new user:
 4. Enter the first name, last name, and email address of the person you want to invite, then click **Send invite**. They’ll receive an email with a link to sign up for a SimpleReport account.
 ![Fields for the user's first name, last name, and email address, along with the blue "Send invite" button]({% link assets/img/resources/invite-new-users/step-4.png %})
 5. New users will automatically be assigned the "Standard" access level, which allows them to conduct tests and manage results and profiles. Once you send the invite, you can change the user’s access level by following the instructions to [manage user permissions]({% link _pages/resources/using-simplereport/manage-users/manage-user-permissions.md %}).
-6. Once new users are registered, tell them to join the [USDS-CDC Google Group]({% link _pages/resources/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
+6. Once new users are registered, tell them to join the [USDS-CDC Google Group]({% link _pages/resources/getting-started/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
