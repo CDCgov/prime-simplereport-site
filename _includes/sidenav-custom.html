@@ -14,16 +14,23 @@
             {% for entry in item.subnav %}
               {% assign title_slug = entry.page | slugify %}
               <li class="usa-sidenav__item">
-                <a href="{{ site.baseurl }}{{ entry.url }}"
+                <a class="display-flex flex-justify" href="{{ site.baseurl }}{{ entry.url }}"
                   {% if page.url contains title_slug %} class="usa-current" {% endif %}>
-                  {{ entry.page }}
+                    <span>{{ entry.page }}</span>
+                    {% if entry.subsubnav[0] %}
+                      {% unless page.url contains title_slug %}
+                        <svg class="usa-icon flex-align-self-center" aria-hidden="true" role="img">
+                          <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
+                      {% endunless %}
+                    {% endif %}
                 </a>
                 {% if entry.subsubnav[0] and page.url contains title_slug %}
                   <ul class="usa-sidenav__sublist">
                   {% for subentry in entry.subsubnav %}
                     <li class="usa-sidenav__item">
                       <a href="{{ site.baseurl }}{{ subentry.url }}"
-                        {% if subentry.url ==page.url %} class="usa-current" {% endif %}>
+                        {% if subentry.url == page.url %} class="usa-current" {% endif %}>
                         {{ subentry.page }}
                       </a>
                     </li>
