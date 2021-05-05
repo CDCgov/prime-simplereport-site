@@ -4,37 +4,41 @@ main:
   class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
 ---
 
-{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav
+%}
 
 <div class="usa-section">
   <div class="grid-container">
     {% if page.class contains "page-docs" %}
     <div class="grid-row grid-gap flex-align-start">
-    {% endif %}
-      {% if sidenav %}
-        <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
-          {% include sidenav-custom.html %}
-        </div>
+      {% endif %} {% if sidenav %}
+      <div
+        class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}"
+      >
+        {% include sidenav-custom.html %}
+      </div>
       {% endif %}
 
-      <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}">
+      <main
+        class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}"
+      >
         {% if page.class contains "page-docs" %}
-          <div class="display-flex flex-justify">
-            <p class="text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-top-0 margin-bottom-1">
-              {% assign kicker = page.url | split: "/" | reverse %}
-              {{ kicker[1] | replace: '-', ' ' }}
-            </p>
-            {% include components/search.html %}
-          </div>
-        {% endif %}
-        {% if page.title and page.title_display != "false" %}
-          <h1 class="margin-top-0">
-            {{ page.title }}
-          </h1>
-        {% endif %}
-        {{ content }}
+        <div class="display-block tablet:display-flex flex-justify">
+          {% include components/search.html %}
+          <p
+            class="tablet:order-first text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-top-3 tablet:margin-top-0 margin-bottom-1"
+          >
+            {% assign kicker = page.url | split: "/" | reverse %} {{ kicker[1] |
+            replace: '-', ' ' }}
+          </p>
+        </div>
+        {% endif %} {% if page.title and page.title_display != "false" %}
+        <h1 class="margin-top-0">
+          {{ page.title }}
+        </h1>
+        {% endif %} {{ content }}
       </main>
-    {% if page.class contains "page-docs" %}
+      {% if page.class contains "page-docs" %}
     </div>
     {% endif %}
   </div>
