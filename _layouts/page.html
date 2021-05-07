@@ -10,6 +10,11 @@ main:
 <div class="usa-section">
   <div class="grid-container">
     {% if page.class contains "page-docs" %}
+    <div
+      class="display-block tablet:display-flex flex-justify margin-top-neg-3"
+    >
+      {% include components/search.html %} {% include breadcrumbs.html %}
+    </div>
     <div class="grid-row grid-gap flex-align-start">
       {% endif %} {% if sidenav %}
       <div
@@ -22,17 +27,7 @@ main:
       <main
         class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}"
       >
-        {% if page.class contains "page-docs" %}
-        <div class="display-block tablet:display-flex flex-justify">
-          {% include components/search.html %}
-          <p
-            class="tablet:order-first text-medium text-uppercase text-ls-1 line-height-sans-2 text-base-dark font-heading-3xs margin-top-3 tablet:margin-top-0 margin-bottom-1"
-          >
-            {% assign kicker = page.url | split: "/" | reverse %} {{ kicker[1] |
-            replace: '-', ' ' }}
-          </p>
-        </div>
-        {% endif %} {% if page.title and page.title_display != "false" %}
+        {% if page.title and page.title_display != "false" %}
         <h1 class="margin-top-0">
           {{ page.title }}
         </h1>
