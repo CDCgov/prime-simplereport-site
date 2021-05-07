@@ -15,7 +15,7 @@ const stringFields = [
   "organization-name",
   "facility-name",
   "clia-number",
-  "other-device",
+  "testing-device-other",
   "other-browser",
   "workflow",
   "op-first-name",
@@ -33,7 +33,7 @@ const validatedFields = ["email", "zip", "op-zip"];
 
 const radioFields = [
   "facility-type",
-  "default-testing-devices",
+  "default-testing-device",
   "records-test-results",
   "process-time",
   "submitting-results-time",
