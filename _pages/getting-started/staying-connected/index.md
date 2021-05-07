@@ -1,7 +1,7 @@
 ---
 title: Staying connected
 description:
-permalink: /resources/getting-started/staying-connected/
+permalink: /getting-started/staying-connected/
 layout: page
 class: page-docs
 sidenav: resources
@@ -11,4 +11,4 @@ return_top: 'false'
 
 In addition to the resources on this site, we’ve developed ways for you to stay up-to-date on SimpleReport and connect with other users.
 
-Start out by [joining the SimpleReport Google Group]({% link _pages/resources/getting-started/staying-connected/join-the-simplereport-google-group.md %}).
+Start out by [joining the SimpleReport Google Group]({% link _pages/getting-started/staying-connected/join-the-simplereport-google-group.md %}).

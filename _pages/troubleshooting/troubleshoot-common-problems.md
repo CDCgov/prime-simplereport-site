@@ -24,7 +24,7 @@ If you’re still having trouble, here are solutions for common issues.
     </button>
   </h2>
   <div id="a1" class="usa-accordion__content usa-prose">
-    <p>Try <a href="{% link _pages/resources/troubleshooting/reset-your-simplereport-password.md %}">resetting your password</a>. If that doesn’t solve the problem, ask an administrator about your account.</p>
+    <p>Try <a href="{% link _pages/troubleshooting/reset-your-simplereport-password.md %}">resetting your password</a>. If that doesn’t solve the problem, ask an administrator about your account.</p>
   </div>
   <!-- Use the accurate heading level to maintain the document outline -->
   <h2 class="usa-accordion__heading">
@@ -42,7 +42,7 @@ If you’re still having trouble, here are solutions for common issues.
     </button>
   </h2>
   <div id="a3" class="usa-accordion__content usa-prose" hidden="">
-    <p>Ask an administrator to double-check your access level. From their account, they can <a href="{% link _pages/resources/using-simplereport/manage-users/manage-user-permissions.md %}">change your access to SimpleReport</a>.</p>
+    <p>Ask an administrator to double-check your access level. From their account, they can <a href="{% link _pages/using-simplereport/manage-users/manage-user-permissions.md %}">change your access to SimpleReport</a>.</p>
   </div>
   <!-- Use the accurate heading level to maintain the document outline -->
   <h2 class="usa-accordion__heading">
@@ -58,13 +58,13 @@ If you’re still having trouble, here are solutions for common issues.
 </div>
 
 <!-- ## If you can't log in to SimpleReport
-Try [resetting your password]({% link _pages/resources/troubleshooting/reset-your-simplereport-password.md %}). If that doesn’t solve the problem, ask an administrator about your account.
+Try [resetting your password]({% link _pages/troubleshooting/reset-your-simplereport-password.md %}). If that doesn’t solve the problem, ask an administrator about your account.
 
 ## If the timer on someone’s card didn’t ring after 15 minutes
 Make sure that the volume on your device is on, and that you’re not connected to external speakers that might be turned off or muted.
 
 ## If you can’t access certain parts of SimpleReport
-Ask an administrator to double-check your access level. From their account, they can [change your access to SimpleReport]({% link _pages/resources/using-simplereport/manage-users/manage-user-permissions.md %}).
+Ask an administrator to double-check your access level. From their account, they can [change your access to SimpleReport]({% link _pages/using-simplereport/manage-users/manage-user-permissions.md %}).
 
 ## If your browser can’t run SimpleReport
 SimpleReport doesn’t support the following browsers:
@@ -72,4 +72,4 @@ SimpleReport doesn’t support the following browsers:
 
 For the best experience, use SimpleReport with Chrome or Safari. -->
 
-If you’re still having trouble after trying these steps, [contact us]({% link _pages/resources/troubleshooting/contact-us-for-more-help.md %}).
+If you’re still having trouble after trying these steps, [contact us]({% link _pages/troubleshooting/contact-us-for-more-help.md %}).

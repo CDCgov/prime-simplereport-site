@@ -53,7 +53,7 @@ You’ll receive an email with the subject line “SimpleReport access”, sent 
 
 Learn how to use SimpleReport by:
 - Watching these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF)
-- Visiting our website on [how to use SimpleReport]({% link _pages/resources/using-simplereport/index.md %})
+- Visiting our website on [how to use SimpleReport]({% link _pages/using-simplereport/index.md %})
 
 Then, get started with a video introduction to SimpleReport.
 
@@ -64,4 +64,4 @@ Then, get started with a video introduction to SimpleReport.
 ## Start testing
 Once you've completed the steps above, you're ready to start using SimpleReport.
 
-If you want to [invite other staff members]({% link _pages/resources/using-simplereport/manage-users/invite-new-users.md %}) or [add more facilities]({% link _pages/resources/using-simplereport/manage-facility-info/add-a-facility.md %}), you can do so directly in SimpleReport.
+If you want to [invite other staff members]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}) or [add more facilities]({% link _pages/using-simplereport/manage-facility-info/add-a-facility.md %}), you can do so directly in SimpleReport.

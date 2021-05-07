@@ -21,7 +21,7 @@ To update your facility information:
 ![SimpleReport’s top navigation, with the gear icon on the far right side selected]({% link assets/img/resources/update-facility-settings/step-1.png %})
 2. Beneath the SimpleReport logo at the top of the page, find the “Manage Organization” and “Manage Facilities” tabs. (Your organization is the umbrella for all of your facilities.) Click **Manage Facilities**.
 ![The “Manage Facilities” tab selected in SimpleReport]({% link assets/img/resources/update-facility-settings/step-2.png %})
-3. Click the name of the facility whose information you want to edit. (You can also [add a new facility]({% link _pages/resources/using-simplereport/manage-facility-info/add-a-facility.md %}).)
+3. Click the name of the facility whose information you want to edit. (You can also [add a new facility]({% link _pages/using-simplereport/manage-facility-info/add-a-facility.md %}).)
 ![The "Manage Facilities" page, with a list of all facilities in your organization]({% link assets/img/resources/update-facility-settings/step-3.png %})
 4. Edit the information that you want to change.<br class="margin-top-2"><br>
 If the testing devices your facility uses have changed, update your device information at the bottom of the page, on the “Manage devices” card. You can also indicate which device should be the facility’s default device for tests.

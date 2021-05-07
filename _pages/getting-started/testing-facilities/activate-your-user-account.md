@@ -10,7 +10,7 @@ return_top: 'false'
 
 SimpleReport uses a service called Okta to register users and create their accounts. Look for an email invitation from Okta to activate your user account.
 
-Once you’ve set up your account, you can [invite members of your team to SimpleReport]({% link _pages/resources/using-simplereport/manage-users/invite-new-users.md %}).
+Once you’ve set up your account, you can [invite members of your team to SimpleReport]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}).
 
 Once you receive the invitation, follow these steps:
 1. Click the green **Activate your SimpleReport Account** button. You’ll need to click the button within seven days of receiving the invitation, or else it will expire.
@@ -28,9 +28,9 @@ These all help to keep your account secure.
 ![An Okta page showing the four different multifactor authentication options: Okta Verify, Security Key or Biometric Authenticator, Google Authenticator, and SMS Authentication]({% link assets/img/resources/activate-your-user-account/step-4.png %})
 5. Click the **Finish** button at the bottom of the registration page. The page will confirm that you’ve successfully set up your multifactor authentication, and you’ll get a confirmation email, too.
 
-Now that you’re registered, [join the USDS-CDC Google Group]({% link _pages/resources/getting-started/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
+Now that you’re registered, [join the USDS-CDC Google Group]({% link _pages/getting-started/staying-connected/join-the-simplereport-google-group.md %}), which provides updates on SimpleReport.
 
-You can now [log in to SimpleReport]({% link _pages/resources/getting-started/testing-facilities/log-in-to-simplereport.md %}).
+You can now [log in to SimpleReport]({% link _pages/getting-started/testing-facilities/log-in-to-simplereport.md %}).
 
 ## Multifactor authentication options
 If you choose SMS or Google Authenticator/Okta Verify as your multifactor authentication, follow the instructions below to get set up.

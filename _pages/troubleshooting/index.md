@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 description:
-permalink: /resources/troubleshooting/
+permalink: /troubleshooting/
 layout: page
 class: page-docs
 sidenav: resources
