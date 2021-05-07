@@ -10,10 +10,10 @@ main:
 <div class="usa-section">
   <div class="grid-container">
     {% if page.class contains "page-docs" %}
-    <div
-      class="display-block tablet:display-flex flex-justify tablet:margin-top-neg-3 tablet:margin-bottom-2"
-    >
-      {% include components/search.html %} {% include breadcrumbs.html %}
+    <div class="display-block tablet:margin-top-neg-3 tablet:margin-bottom-2">
+      <div class="grid-row grid-gap mobile-lg:display-flex flex-justify">
+        {% include components/search.html %} {% include breadcrumbs.html %}
+      </div>
     </div>
     <div class="grid-row grid-gap flex-align-start">
       {% endif %} {% if sidenav %}
