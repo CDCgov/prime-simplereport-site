@@ -27,12 +27,12 @@ sitemap: false
         You’re on your way to simpler reporting!
       </h1>
       <h2 class="font-heading-lg text-primary-darker">
-        Next step: Check your email
+        Next step: Schedule identity verification
       </h2>
       <p>
-        We just sent an email to the address provided. It includes important
-        information about how to complete your SimpleReport identity
-        verification, required for all users.
+        The last step to get access to SimpleReport is
+        <a href="https://outlook.office365.com/owa/calendar/Helpdesk@HHSGOV.onmicrosoft.com/bookings/s/HOX7KgZruESJksIgC8qVxQ2">scheduling your identity verification</a>.
+        We’ve also sent the scheduling link and more details to <span id="email-address-display"></span>.
       </p>
       <p>
         Didn’t get the email? Check your spam folder then contact
@@ -82,3 +82,12 @@ sitemap: false
     </div>
   </div>
 </div>
+
+<script>
+  (function setEmailAddressText () {
+    const params = new URLSearchParams(document.location.search);
+    const emailAddress = params.get("email") || "the email address provided";
+    const emailAddressElement = document.getElementById("email-address-display");
+    emailAddressElement.innerText = emailAddress;
+  })();
+</script>

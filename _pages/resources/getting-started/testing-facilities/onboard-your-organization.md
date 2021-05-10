@@ -40,9 +40,7 @@ To get access, fill out the [SimpleReport facility access request form]({% link 
 Make sure that the facility name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 
 ## Verify your identity
-Once you’ve completed the facility access request form, we’ll schedule a video call to wrap up a few final pieces and get your facility access to SimpleReport.
-
-You’ll receive an email with the subject line “SimpleReport access”, sent from one of our HHS team members. The email will let you schedule a 15-minute video call, during which you’ll be asked to show a government-issued ID and a work ID.
+Once you’ve filled out the facility access request form, your testing facility administrator will do a short video call with a representative from the U.S. Department of Health and Human Services (HHS). You’ll be asked to show two forms of ID to verify your identity and get access to SimpleReport. (In addition to this list of [identification you can use](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity), we will also accept a work ID.)
 
 ## (optional) Get training
 <div class="usa-alert usa-alert--info">

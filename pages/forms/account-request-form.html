@@ -248,7 +248,7 @@ class: page-form
       {% if site.e2e %}
         const isTestSubmission = document.getElementById('test-submission').checked;
         if (isTestSubmission) {
-          window.location.replace("/sign-up/thanks");
+          window.location.replace("/sign-up/thanks?email=" + encodeURIComponent(data.email));
           return;
         }
       {% endif %}
@@ -262,7 +262,7 @@ class: page-form
           body: JSON.stringify(data),
         });
         if (response.ok) {
-          window.location.replace("/sign-up/thanks");
+          window.location.replace("/sign-up/thanks?email=" + encodeURIComponent(data.email));
         } else {
           throw "oh no";
         }
