@@ -89,6 +89,8 @@ using-simplereport:
         subsubnav:
           - page: Add a new person
             url: /using-simplereport/manage-people-you-test/add-a-new-person/
+          - page: Archive a person
+            url: /using-simplereport/manage-people-you-test/archive-a-person/
           - page: Update someone’s profile
             url: /using-simplereport/manage-people-you-test/update-someones-profile/
       - page: Manage users
