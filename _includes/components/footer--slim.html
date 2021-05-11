@@ -1,82 +1,102 @@
 {% if footer %}
 <footer class="usa-footer usa-footer--slim">
-
   {% if footer.last_updated %}
-    <div class="grid-container">
-      <p>Last updated: {{ page.last_modified_at | date: '%B %d, %Y at %I:%M %p' }}</p>
+  <div class="grid-container">
+    <p>
+      Last updated: {{ page.last_modified_at | date: '%B %d, %Y at %I:%M %p' }}
+    </p>
+  </div>
+  {% endif %} {% if footer.top %} {% if page.return_top != 'false' %}
+  <div class="grid-container usa-footer__return-to-top">
+    <div class="grid-row">
+      <a href="{{ footer.top.href | default: '#' }}"
+        >{{ footer.top.text | default: 'Return to top' }}</a
+      >
     </div>
-  {% endif %}
-
-  {% if footer.top %}
-    {% if page.return_top != 'false' %}
-      <div class="grid-container usa-footer__return-to-top">
-        <div class="grid-row">
-          <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
-        </div>
+  </div>
+  {% endif %} {% endif %} {% if footer.links %} {% assign footer_links =
+  site.data.navigation[footer.links] | default: footer.links %} {% assign _sizes
+  = 'whole half third fourth sixth' | split: ' ' %} {% assign _size =
+  footer_links.size | minus: 1 %} {% assign _size = _sizes[_size] | default:
+  'whole' %}
+  <div class="usa-footer__primary-section">
+    <div class="usa-footer__primary-container grid-row">
+      <div
+        class="{% if footer.contact.contact_links %}mobile-lg:grid-col-8{% endif %}"
+      >
+        <nav class="usa-footer__nav" aria-label="Footer navigation">
+          <ul class="grid-row grid-gap">
+            {% for _link in footer_links %}
+            <li
+              class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content"
+            >
+              <a
+                class="usa-footer__primary-link"
+                href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}"
+              >
+                {{ _link.text }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
       </div>
-    {% endif %}
-  {% endif %}
-  {% if footer.links %}
-    {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}
-    {% assign _sizes = 'whole half third fourth sixth' | split: ' ' %}
-    {% assign _size = footer_links.size | minus: 1 %}
-    {% assign _size = _sizes[_size] | default: 'whole' %}
-    <div class="usa-footer__primary-section">
-      <div class="usa-footer__primary-container grid-row">
-        <div class="{% if footer.contact.contact_links %}mobile-lg:grid-col-8{% endif %}">
-          <nav class="usa-footer__nav" aria-label="Footer navigation">
-            <ul class="grid-row grid-gap">
-              {% for _link in footer_links %}
-              <li class="mobile-lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
-                <a class="usa-footer__primary-link" href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
+      {% if footer.contact.contact_links %}
+      <div class="mobile-lg:grid-col-4">
+        <address class="usa-footer__address">
+          <div class="grid-row grid-gap">
+            {% assign contact_links = site.data.footer.contact.contact_links %}
+            {% for _link in contact_links %}
+            <div
+              class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto"
+            >
+              <div class="usa-footer__contact-info">
+                <a
+                  href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}"
+                >
                   {{ _link.text }}
                 </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </nav>
-        </div>
-      {% if footer.contact.contact_links %}
-        <div class="mobile-lg:grid-col-4">
-          <address class="usa-footer__address">
-            <div class="grid-row grid-gap">
-              {% assign contact_links = site.data.footer.contact.contact_links %}
-              {% for _link in contact_links %}
-                <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
-                  <div class="usa-footer__contact-info">
-                    <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
-                      {{ _link.text }}
-                    </a>
-                  </div>
-                </div>
-              {% endfor %}
+              </div>
             </div>
-          </address>
-        </div>
-      {% endif %}
+            {% endfor %}
+          </div>
+        </address>
       </div>
+      {% endif %}
     </div>
-  {% endif %}
-
-  {% if footer.logos or footer.edit_page %}
+  </div>
+  {% endif %} {% if footer.logos or footer.edit_page %}
   <div class="usa-footer__secondary-section">
     <div class="grid-container usa-identifier bg-transparent">
       <div class="usa-footer__logo grid-row grid-gap-2">
         {% if footer.logos %}
-          <div class="grid-col-auto">
-            {% for logo in footer.logos -%}
-              {% if logo.url %}
-                <a href="{{ logo.url }}">
-              {% endif %}
-              <img class="usa-footer__logo-img" src="{% if logo.external %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}" alt="{{ logo.alt }}"{% if logo.width %}width="{{ logo.width }}"{% endif %}{% if logo.height %}height="{{ logo.height }}"{% endif %}>
-              {% if logo.url %}
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        {% if footer.heading %}
+        <div class="grid-col-auto">
+          {% for logo in footer.logos -%} {% if logo.url %}
+          <a href="{{ logo.url }}">
+            {% endif %}
+            <img
+              class="usa-footer__logo-img"
+              src="{% if logo.external %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}"
+              alt="{{ logo.alt }}"
+              {%
+              if
+              logo.width
+              %}width="{{ logo.width }}"
+              {%
+              endif
+              %}{%
+              if
+              logo.height
+              %}height="{{ logo.height }}"
+              {%
+              endif
+              %}
+            />
+            {% if logo.url %}
+          </a>
+          {% endif %} {% endfor %}
+        </div>
+        {% endif %} {% if footer.heading %}
         <div class="tablet:grid-col-auto">
           <p class="usa-footer__logo-heading">{{ footer.heading }}</p>
         </div>
@@ -85,19 +105,23 @@
       </div>
       <ul class="usa-identifier__required-links-list">
         <li class="usa-identifier__required-links-item">
-          <a href='{% link pages/about-us.md %}'>About us</a>
+          <a href="{% link pages/about-us.md %}">About us</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="https://www.cdc.gov/contact/accessibility.html">Accessibility</a>
+          <a href="https://www.cdc.gov/contact/accessibility.html"
+            >Accessibility</a
+          >
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href='{% link _pages/resources/index.md %}'>Get resources</a>
+          <a href="{% link _pages/resources/index.md %}">Get resources</a>
         </li>
         <li class="usa-identifier__required-links-item">
           <a href="https://www.cdc.gov/od/foia">FOIA requests</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href="https://www.cdc.gov/eeo/nofearact/index.htm">No FEAR Act data</a>
+          <a href="https://www.cdc.gov/eeo/nofearact/index.htm"
+            >No FEAR Act data</a
+          >
         </li>
         <li class="usa-identifier__required-links-item">
           <a href="https://oig.hhs.gov/">Office of the Inspector General</a>
@@ -106,7 +130,7 @@
           <a href="https://www.cdc.gov/other/privacy.html">Privacy policy</a>
         </li>
         <li class="usa-identifier__required-links-item">
-          <a href='{% link pages/tos.md %}'>Terms of service</a><br>
+          <a href="{% link pages/tos.md %}">Terms of service</a><br />
         </li>
       </ul>
 
@@ -118,6 +142,5 @@
     </div>
   </div>
   {% endif %}
-
 </footer>
 {% endif %}
