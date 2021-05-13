@@ -17,11 +17,11 @@ primary:
 - text: How it works
   links:
     - text: Getting started
-      href: /resources/getting-started/
+      href: /getting-started/
     - text: Using SimpleReport
-      href: /resources/using-simplereport/
+      href: /using-simplereport/
     - text: Troubleshooting
-      href: /resources/troubleshooting/
+      href: /troubleshooting/
 - text: Sign up
   href: /sign-up/
   class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs
@@ -37,97 +37,103 @@ secondary:
     external: true
     class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
 
-resources:
+getting-started:
   - title: Getting started
-    url: /resources/getting-started/
+    url: /getting-started/
     subnav:
       - page: Testing facilities
-        url: /resources/getting-started/testing-facilities/onboard-your-organization/
+        url: /getting-started/testing-facilities/onboard-your-organization/
         subsubnav:
           - page: Onboard your organization
-            url: /resources/getting-started/testing-facilities/onboard-your-organization/
+            url: /getting-started/testing-facilities/onboard-your-organization/
           - page: Activate your user account
-            url: /resources/getting-started/testing-facilities/activate-your-user-account/
+            url: /getting-started/testing-facilities/activate-your-user-account/
           - page: Log in to SimpleReport
-            url: /resources/getting-started/testing-facilities/log-in-to-simplereport/
+            url: /getting-started/testing-facilities/log-in-to-simplereport/
           - page: Get training
-            url: /resources/getting-started/testing-facilities/get-training/
+            url: /getting-started/testing-facilities/get-training/
       - page: Public health departments
-        url: /resources/getting-started/public-health-departments/about-prime-reportstream/
+        url: /getting-started/public-health-departments/about-prime-reportstream/
         subsubnav:
           - page: About PRIME ReportStream
-            url: /resources/getting-started/public-health-departments/about-prime-reportstream/
+            url: /getting-started/public-health-departments/about-prime-reportstream/
           - page: SimpleReport data catalog
-            url: /resources/getting-started/public-health-departments/simplereport-data-catalog/
+            url: /getting-started/public-health-departments/simplereport-data-catalog/
       - page: Staying connected
-        url: /resources/getting-started/staying-connected/
+        url: /getting-started/staying-connected/
         subsubnav:
           - page: Join the SimpleReport Google Group
-            url: /resources/getting-started/staying-connected/join-the-simplereport-google-group/
+            url: /getting-started/staying-connected/join-the-simplereport-google-group/
           - page: Check out Demo Day
-            url: /resources/getting-started/staying-connected/check-out-demo-day/
+            url: /getting-started/staying-connected/check-out-demo-day/
+
+using-simplereport:
   - title: Using SimpleReport
-    url: /resources/using-simplereport/
+    url: /using-simplereport/
     subnav:
       - page: Select your testing facility
-        url: /resources/using-simplereport/select-your-testing-facility/
+        url: /using-simplereport/select-your-testing-facility/
       - page: Conduct and submit tests
-        url: /resources/using-simplereport/conduct-and-submit-tests/
+        url: /using-simplereport/conduct-and-submit-tests/
       - page: Manage results
-        url: /resources/using-simplereport/manage-results/review-results/
+        url: /using-simplereport/manage-results/review-results/
         subsubnav:
           - page: Review results
-            url: /resources/using-simplereport/manage-results/review-results/
+            url: /using-simplereport/manage-results/review-results/
           - page: Print someone’s test results
-            url: /resources/using-simplereport/manage-results/print-someones-test-results/
+            url: /using-simplereport/manage-results/print-someones-test-results/
           - page: Correct a previous test result
-            url: /resources/using-simplereport/manage-results/correct-a-previous-test-result/
+            url: /using-simplereport/manage-results/correct-a-previous-test-result/
       - page: Manage people you test
-        url: /resources/using-simplereport/manage-people-you-test/add-a-new-person/
+        url: /using-simplereport/manage-people-you-test/add-a-new-person/
         subsubnav:
           - page: Add a new person
-            url: /resources/using-simplereport/manage-people-you-test/add-a-new-person/
+            url: /using-simplereport/manage-people-you-test/add-a-new-person/
+          - page: Archive a person
+            url: /using-simplereport/manage-people-you-test/archive-a-person/
           - page: Update someone’s profile
-            url: /resources/using-simplereport/manage-people-you-test/update-someones-profile/
+            url: /using-simplereport/manage-people-you-test/update-someones-profile/
       - page: Manage users
-        url: /resources/using-simplereport/manage-users/manage-user-permissions/
+        url: /using-simplereport/manage-users/manage-user-permissions/
         subsubnav:
           - page: Manage user permissions
-            url: /resources/using-simplereport/manage-users/manage-user-permissions/
+            url: /using-simplereport/manage-users/manage-user-permissions/
           - page: Invite new users
-            url: /resources/using-simplereport/manage-users/invite-new-users/
+            url: /using-simplereport/manage-users/invite-new-users/
       - page: Manage facility info
-        url: /resources/using-simplereport/manage-facility-info/add-a-facility/
+        url: /using-simplereport/manage-facility-info/add-a-facility/
         subsubnav:
           - page: Add a facility
-            url: /resources/using-simplereport/manage-facility-info/add-a-facility/
+            url: /using-simplereport/manage-facility-info/add-a-facility/
           - page: Update facility settings
-            url: /resources/using-simplereport/manage-facility-info/update-facility-settings/
+            url: /using-simplereport/manage-facility-info/update-facility-settings/
           - page: Find supported jurisdictions
-            url: /resources/using-simplereport/manage-facility-info/find-supported-jurisdictions/
+            url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
       - page: Staying connected
-        url: /resources/getting-started/staying-connected/
+        url: /getting-started/staying-connected/
         subsubnav:
           - page: Join the SimpleReport Google Group
-            url: /resources/getting-started/staying-connected/join-the-simplereport-google-group/
+            url: /getting-started/staying-connected/join-the-simplereport-google-group/
           - page: Check out Demo Day
-            url: /resources/getting-started/staying-connected/check-out-demo-day/
+            url: /getting-started/staying-connected/check-out-demo-day/
+
+troubleshooting:
   - title: Troubleshooting
-    url: /resources/troubleshooting/
+    url: /troubleshooting/
     subnav:
       - page: Reset your SimpleReport password
-        url: /resources/troubleshooting/reset-your-simplereport-password/
+        url: /troubleshooting/reset-your-simplereport-password/
       - page: Troubleshoot common problems
-        url: /resources/troubleshooting/troubleshoot-common-problems/
+        url: /troubleshooting/troubleshoot-common-problems/
       - page: Contact us for more help
-        url: /resources/troubleshooting/contact-us-for-more-help/
+        url: /troubleshooting/contact-us-for-more-help/
       - page: Staying connected
-        url: /resources/getting-started/staying-connected/
+        url: /getting-started/staying-connected/
         subsubnav:
           - page: Join the SimpleReport Google Group
-            url: /resources/getting-started/staying-connected/join-the-simplereport-google-group/
+            url: /getting-started/staying-connected/join-the-simplereport-google-group/
           - page: Check out Demo Day
-            url: /resources/getting-started/staying-connected/check-out-demo-day/
+            url: /getting-started/staying-connected/check-out-demo-day/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.

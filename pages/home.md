@@ -130,7 +130,7 @@ return_top: 'false'
     <div class="usa-accordion usa-accordion--bordered margin-top-4">
       <!-- Use the accurate heading level to maintain the document outline -->
       <h3 class="usa-accordion__heading">
-        <button 
+        <button
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
           aria-controls="a1">
@@ -140,10 +140,10 @@ return_top: 'false'
       </h3>
       <div id="a1" class="usa-accordion__content usa-prose text-primary-darker">
         <p>Onboarding to SimpleReport is easy. All you need to do is request access and verify your identity. Then you’re ready to test.</p>
-        <p>If you’re in a <a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
+        <p>If you’re in a <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <h3 class="usa-accordion__heading">
-        <button 
+        <button
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
           aria-controls="a2">
@@ -155,7 +155,7 @@ return_top: 'false'
         <p>You won’t need to install an app or buy any fancy equipment. As long as you have a computer or tablet with an internet connection, you can use SimpleReport.</p>
       </div>
       <h3 class="usa-accordion__heading">
-        <button 
+        <button
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
           aria-controls="a3">
@@ -189,7 +189,7 @@ return_top: 'false'
     <div class="usa-prose margin-top-4">
       <p class="usa-intro">SimpleReport is available in many parts of the country now, and is expanding to new jurisdictions quickly.</p>
       <img class="margin-top-4 tablet:padding-x-15" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
-      <p><a href="{% link _pages/resources/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">Review the full list of supported jurisdictions</a></p>
+      <p><a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">Review the full list of supported jurisdictions</a></p>
     </div>
   </div>
 </section>
