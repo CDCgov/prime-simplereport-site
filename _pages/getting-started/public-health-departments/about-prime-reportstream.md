@@ -16,4 +16,4 @@ There are three main reasons for public health departments to use ReportStream:
 - **You’ll have to support fewer connections.** ReportStream’s model focuses on aggregating data from multiple sources and senders, which you’ll receive together in a single feed.
 - **You’ll get more complete, timely data.** ReportStream validates data from its senders and transfers it to you at your preferred frequency and in your preferred format.
 
-To have testing facilities in your jurisdiction send you data through SimpleReport, you need to connect to ReportStream. Learn more on the [ReportStream website] (https://reportstream.cdc.gov/). 
+To have testing facilities in your jurisdiction send you data through SimpleReport, you need to connect to ReportStream. Learn more on the [ReportStream website](https://reportstream.cdc.gov/). 
