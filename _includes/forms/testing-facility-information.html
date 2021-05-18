@@ -133,9 +133,9 @@
   </fieldset>
   <label class="usa-label" for="other-facility-type">*Other facility</label>
   <input class="usa-input" id="other-facility-type" name="other-facility" type="text">
-  <label class="usa-label" for="organization-name">What’s the name of your organization?</label>
+  <label class="usa-label" for="organization-name">What’s the name of your organization?  {% include required.html %}</label>
   <p class="usa-hint margin-top-1 font-body-2xs">If you have only one testing facility, then your organization name and facility name will be the same.</p>
-  <input class="usa-input" id="organization-name" name="organization-name" type="text" spellcheck="false">
+  <input class="usa-input" id="organization-name" name="organization-name" type="text" spellcheck="false" required>
   <label class="usa-label" for="facility-name">What’s the name of your testing facility? {% include required.html %}</label>
   <p class="usa-hint margin-top-1 font-body-2xs">We’ll report your data to the public health department using the name entered here. This name can’t be changed, so double-check that you’ve entered it correctly.</p>
   <p class="usa-hint font-body-2xs">If your organization has multiple testing facilities, submit a separate form for each one.</p>
