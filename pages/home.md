@@ -164,7 +164,7 @@ return_top: 'false'
         </button>
       </h3>
       <div id="a3" class="usa-accordion__content usa-prose">
-        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements outside of state reporting, SimpleReport can send the data directly to local public health departments. If you're curious about particular reporting requirements, refer to the <a href="#">SimpleReport data catalog</a>.</p>
+        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements outside of state reporting, SimpleReport can send the data directly to local public health departments. If you're curious about particular reporting requirements, refer to the <a href="{% link _pages/getting-started/public-health-departments/simplereport-data-catalog.md %}">SimpleReport data catalog</a>.</p>
       </div>
     </div>
   </div>
