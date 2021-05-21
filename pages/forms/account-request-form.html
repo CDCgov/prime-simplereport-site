@@ -261,15 +261,14 @@ class: page-form
       {% endif %}
 
       try {
-        const request = await fetch("/api/account-request", {
+        button.disabled = true;
+        const response = await fetch("/api/account-request", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(data),
         });
-        button.disabled = true;
-        const response = await request;
         if (response.ok) {
           window.location.replace("/sign-up/thanks?email=" + encodeURIComponent(data.email));
         } else {
