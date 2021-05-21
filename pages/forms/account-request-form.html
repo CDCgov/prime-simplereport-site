@@ -161,17 +161,49 @@ class: page-form
       "op-zip",
       "op-county",
     ];
-    const radioFields = [
-      "facility-type",
-      "default-testing-device",
-      "records-test-results",
-      "process-time",
-      "submitting-results-time",
+
+    // This array should be ordered by the way that these appear on the form;
+    // this way the .scrollIntoView works as-expected
+    const fieldGroups = [
+      {
+        id: "facility-type",
+        type: "radio"
+      },
+      {
+        id: "testing-devices",
+        type: "checkbox"
+      },
+      {
+        id: "default-testing-device",
+        type: "radio"
+      },
+      {
+        id: "access-devices",
+        type: "checkbox"
+      },
+      {
+        id: "browsers",
+        type: "checkbox"
+      },
+      {
+        id: "records-test-results",
+        type: "radio"
+      },
+      {
+        id: "process-time",
+        type: "radio"
+      },
+      {
+        id: "submitting-results-time",
+        type: "radio"
+      },
     ];
-    const checkboxFields = ["browsers", "testing-devices", "access-devices"];
+
+    const radioFields = fieldGroups.filter(e => e.type === 'radio').map(e => e.id);
+    const checkboxFields = fieldGroups.filter(e => e.type === 'checkbox').map(e => e.id);
 
     // If a non-required checkbox or radio group is added, this will need to change
-    const requiredElementGroups = radioFields.concat(checkboxFields);
+    const requiredElementGroups = fieldGroups.map(e => e.id);
 
     // Get the button & form elements
     const button = document.getElementById("form-submit-button");
@@ -278,7 +310,7 @@ class: page-form
         .filter((e) => e.checked)
         .map((e) => e.value);
       const selectedDefaultDeviceId = selectedDefaultDeviceIdArray && selectedDefaultDeviceIdArray.length ? selectedDefaultDeviceIdArray[0] : false;
-      if(!document.getElementById(selectedDefaultDeviceId).checked) {
+      if(selectedDefaultDeviceId && !document.getElementById(selectedDefaultDeviceId).checked) {
         defaultDeviceValid = false;
         const errorSpan = document.getElementById(`default-testing-device-error-message`);
         errorSpan.className = "usa-error-message";
