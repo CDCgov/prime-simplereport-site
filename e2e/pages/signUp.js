@@ -16,7 +16,7 @@ const stringFields = [
   "facility-name",
   "clia-number",
   "testing-device-other",
-  "other-browser",
+  "browsers-other",
   "workflow",
   "op-first-name",
   "op-last-name",
