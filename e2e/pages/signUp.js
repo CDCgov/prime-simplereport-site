@@ -11,7 +11,7 @@ const stringFields = [
   "state",
   "county",
   "facility-phone-number",
-  "other-facility",
+  "facility-type-other",
   "organization-name",
   "facility-name",
   "clia-number",
