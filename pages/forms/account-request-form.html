@@ -261,7 +261,7 @@ class: page-form
       {% endif %}
 
       try {
-        let response = await fetch("/api/account-request", {
+        const request = await fetch("/api/account-request", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
