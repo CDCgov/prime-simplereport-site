@@ -272,7 +272,22 @@ class: page-form
       const formValid = form.reportValidity();
       const groupsValid = groupsAreValid(data);
 
-      if (!formValid || !groupsValid) {
+      // Additionally validate that the default device type has been selected
+      let defaultDeviceValid = true;
+      const selectedDefaultDeviceIdArray = defaultDeviceRadios
+        .filter((e) => e.checked)
+        .map((e) => e.value);
+      const selectedDefaultDeviceId = selectedDefaultDeviceIdArray && selectedDefaultDeviceIdArray.length ? selectedDefaultDeviceIdArray[0] : false;
+      if(!document.getElementById(selectedDefaultDeviceId).checked) {
+        defaultDeviceValid = false;
+        const errorSpan = document.getElementById(`default-testing-device-error-message`);
+        errorSpan.className = "usa-error-message";
+        if(!firstErrorSeen) {
+          firstErrorSeen = errorSpan;
+        }
+      }
+
+      if (!formValid || !groupsValid || !defaultDeviceValid) {
         if(firstErrorSeen) {
           firstErrorSeen.scrollIntoView();
         }
@@ -288,7 +303,7 @@ class: page-form
       {% endif %}
 
       try {
-        let response = await fetch("http://localhost:8080/account-request", {
+        let response = await fetch("/api/account-request", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
