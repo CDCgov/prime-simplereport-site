@@ -177,6 +177,8 @@ class: page-form
     const button = document.getElementById("form-submit-button");
     const form = document.getElementById("account-request-form");
 
+    let firstErrorSeen;
+
     // Has submit ever been pressed?
     let submitted = false;
 
@@ -186,11 +188,15 @@ class: page-form
      */
     function groupsAreValid(data) {
       let valid = true;
+      firstErrorSeen = undefined;
       requiredElementGroups.forEach((field) => {
         const errorSpan = document.getElementById(`${field}-error-message`);
         if (!data[field]) {
-          groupError = false;
+          valid = false;
           errorSpan.className = "usa-error-message";
+          if(!firstErrorSeen) {
+            firstErrorSeen = errorSpan;
+          }
         } else {
           errorSpan.className = "usa-error-message display-none";
         }
@@ -239,6 +245,24 @@ class: page-form
     });
 
     /**
+     * Add default-adding behavior onto the device radio group
+     */
+     const defaultDeviceRadios = Array.from(document.getElementsByName("default-testing-device"));
+     defaultDeviceRadios.forEach(element => {
+        const existingChangeFn = element.onchange;
+        element.onchange = () => {
+         const selectedDefaultDeviceIdArray = defaultDeviceRadios
+           .filter((e) => e.checked)
+           .map((e) => e.value);
+          const selectedDefaultDeviceId = selectedDefaultDeviceIdArray && selectedDefaultDeviceIdArray.length ? selectedDefaultDeviceIdArray[0] : false;
+          if(selectedDefaultDeviceId) {
+            document.getElementById(selectedDefaultDeviceId).checked = true;
+          }
+          existingChangeFn();
+        }
+     });
+
+    /**
      * Aggregate the form data; validate the form; submit
      */
     button.onclick = async () => {
@@ -249,6 +273,9 @@ class: page-form
       const groupsValid = groupsAreValid(data);
 
       if (!formValid || !groupsValid) {
+        if(firstErrorSeen) {
+          firstErrorSeen.scrollIntoView();
+        }
         return;
       }
 
@@ -261,7 +288,7 @@ class: page-form
       {% endif %}
 
       try {
-        let response = await fetch("/api/account-request", {
+        let response = await fetch("http://localhost:8080/account-request", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
