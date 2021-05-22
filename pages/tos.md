@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-description: Terms of service
+description:
 permalink: /terms-of-service/
 layout: post
 home_link: true
