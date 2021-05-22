@@ -6,12 +6,12 @@ layout: post
 ---
 
 <p class="usa-intro">
-  Having issues with SimpleReport? You can find help here.
+  {{ page.description }}
 </p>
 
-{% assign card = "maxw-tablet border border-base-lighter padding-3 radius-md
-usa-prose" %} {% assign h2 = "font-ui-lg text-bold text-primary-darker" %} {%
-assign button = "usa-button text-white no-underline" %}
+{% assign card = "maxw-tablet border border-base-lighter padding-3 radius-md usa-prose margin-top-4" %}
+{% assign h2 = "font-ui-lg text-bold text-primary-darker" %}
+{% assign button = "usa-button text-white no-underline" %}
 
 <div class="{{ card }}">
   <h2 class="{{ h2 }}">
@@ -32,7 +32,7 @@ assign button = "usa-button text-white no-underline" %}
   </p>
 </div>
 
-<div class="{{ card }} margin-top-4">
+<div class="{{ card }}">
   <h2 class="{{ h2 }}">
     Problem logging in
   </h2>
@@ -49,7 +49,7 @@ assign button = "usa-button text-white no-underline" %}
   </p>
 </div>
 
-<div class="{{ card }} margin-top-4">
+<div class="{{ card }}">
   <h2 class="{{ h2 }}">
     Report other issue
   </h2>
