@@ -1,0 +1,67 @@
+---
+title: Support
+description: Having issues with SimpleReport? You can find help here.
+permalink: /support/
+layout: post
+---
+
+<p class="usa-intro">
+  Having issues with SimpleReport? You can find help here.
+</p>
+
+{% assign card = "maxw-tablet border border-base-lighter padding-3 radius-md
+usa-prose" %} {% assign h2 = "font-ui-lg text-bold text-primary-darker" %} {%
+assign button = "usa-button text-white no-underline" %}
+
+<div class="{{ card }}">
+  <h2 class="{{ h2 }}">
+    Something’s not working
+  </h2>
+  <p>
+    If you’ve found something that’s not working as expected or if you found a
+    bug in SimpleReport, you can email us a report and we’ll try to fix it as
+    soon as possible.
+  </p>
+  <p>Email: support@simplereport.gov</p>
+  <p>
+    <a
+      class="{{ button }}"
+      href="mailto:support@simplereport.gov?subject=Support [bug]"
+      >Report a bug</a
+    >
+  </p>
+</div>
+
+<div class="{{ card }} margin-top-4">
+  <h2 class="{{ h2 }}">
+    Problem logging in
+  </h2>
+  <p>
+    Have a problem logging in to SimpleReport or need to reset your password?
+    You can reset your password at the SimpleReport login.
+  </p>
+  <p>
+    <a
+      class="{{ button }}"
+      href="https://hhs-prime.okta.com/signin/forgot-password"
+      >Reset password</a
+    >
+  </p>
+</div>
+
+<div class="{{ card }} margin-top-4">
+  <h2 class="{{ h2 }}">
+    Report other issue
+  </h2>
+  <p>
+    If you’re having some other issue that doesn’t match the above categories,
+    you can email the SimpleReport support team directly.
+  </p>
+  <p>
+    <a
+      class="{{ button }}"
+      href="mailto:support@simplereport.gov?subject=Support [other]"
+      >Contact SimpleReport support</a
+    >
+  </p>
+</div>

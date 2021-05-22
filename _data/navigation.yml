@@ -22,6 +22,8 @@ primary:
       href: /using-simplereport/
     - text: Troubleshooting
       href: /troubleshooting/
+- text: Support
+  href: /support/
 - text: Sign up
   href: /sign-up/
   class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs
