@@ -12,6 +12,7 @@ home_link: true
     <div class="section-title-line taller-section-title-line"></div>
     <div class="huge-header">About us</div>
   </div>
+  <!-- Test: Submitting this line of code would be a bad idea! -->
 </section>
 
 ## SimpleReport
