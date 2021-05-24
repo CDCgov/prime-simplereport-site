@@ -1,0 +1,12 @@
+# Each line is a file pattern followed by one or more owners.
+
+# Order is important; the last matching pattern takes the most
+# precedence. When someone opens a pull request that only
+# modifies JS files, only the following people and not the global
+# owner(s) will be requested for a review (Note: we did not add a
+# global owner).
+*.js    @nickclyde @emmastephenson @timothybest-usds
+
+# The following people own any files in the pages/forms directory
+# at the root of the repository and any of its subdirectories.
+/pages/forms/ @nickclyde @emmastephenson @timothybest-usds
