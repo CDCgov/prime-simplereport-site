@@ -1,0 +1,13 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# Order is important; the last matching pattern takes the most
+# precedence. When someone opens a pull request that only
+# modifies JS files, only @js-owner and not the global
+# owner(s) will be requested for a review.
+*.js    @nickclyde @emmastephenson @timothybest-usds
+
+# In this example, @doctocat owns any files in the build/logs
+# directory at the root of the repository and any of its
+# subdirectories.
+/pages/forms/ @nickclyde @emmastephenson @timothybest-usds
