@@ -1,6 +1,6 @@
 ---
-title: Terms of Service – SimpleReport
-description: Terms of service
+title: Terms of Service
+description:
 permalink: /terms-of-service/
 layout: post
 home_link: true
@@ -80,11 +80,3 @@ CDC's failure to exercise or enforce any right or provision of these Terms shall
 
 ### Data Analytics and Monitoring Metrics
 While using the Application, certain general data analytics on the usage patterns and performance of the Application may be gathered and stored automatically to assist with design and development of the Application. This general usage data is not linked to an individual's identity but IP address and device information may be included. Transactions are audited and stored for site monitoring, performance, and troubleshooting and may be tied to the individual performing an activity. Any such data will be maintained consistent with applicable federal laws.
-
-
-
-
-
-
-
-
