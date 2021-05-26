@@ -7,7 +7,7 @@ sidenav: resources
 home_link: true
 return_top: 'false'
 ---
-
+test a change
 SimpleReport uses a service called Okta to register users and create their accounts. Look for an email invitation from Okta to activate your user account.
 
 Once you’ve set up your account, you can [invite members of your team to SimpleReport]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}).
