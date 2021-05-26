@@ -64,7 +64,7 @@ function signUp() {
   this.section.form.setValue(`@email`, "test@test.test");
   this.section.form.setValue(`@zip`, "12345");
   this.section.form.setValue(`@op-zip`, "12345");
-  [...radioFields, ...checkboxFields].forEach((element) => {
+  [...checkboxFields, ...radioFields].forEach((element) => {
     this.section.form.expect.element(`@${element}`).to.be.present;
     this.section.form.click(`[name="${element}"]+label`);
   });
