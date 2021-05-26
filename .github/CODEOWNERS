@@ -10,3 +10,6 @@
 # The following people own any files in the pages/forms directory
 # at the root of the repository and any of its subdirectories.
 /pages/forms/ @nickclyde @emmastephenson @timothybest-usds
+
+# The following people own any files in the _includes/forms directory
+/_includes/forms/ @nickclyde @emmastephenson @timothybest-usds
