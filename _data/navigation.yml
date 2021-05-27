@@ -64,8 +64,6 @@ getting-started:
       - page: Staying connected
         url: /getting-started/staying-connected/
         subsubnav:
-          - page: Join the SimpleReport Google Group
-            url: /getting-started/staying-connected/join-the-simplereport-google-group/
           - page: Check out Demo Day
             url: /getting-started/staying-connected/check-out-demo-day/
 
@@ -114,8 +112,6 @@ using-simplereport:
       - page: Staying connected
         url: /getting-started/staying-connected/
         subsubnav:
-          - page: Join the SimpleReport Google Group
-            url: /getting-started/staying-connected/join-the-simplereport-google-group/
           - page: Check out Demo Day
             url: /getting-started/staying-connected/check-out-demo-day/
 
@@ -132,8 +128,6 @@ troubleshooting:
       - page: Staying connected
         url: /getting-started/staying-connected/
         subsubnav:
-          - page: Join the SimpleReport Google Group
-            url: /getting-started/staying-connected/join-the-simplereport-google-group/
           - page: Check out Demo Day
             url: /getting-started/staying-connected/check-out-demo-day/
 
