@@ -63,9 +63,6 @@ getting-started:
             url: /getting-started/public-health-departments/simplereport-data-catalog/
       - page: Staying connected
         url: /getting-started/staying-connected/
-        subsubnav:
-          - page: Check out Demo Day
-            url: /getting-started/staying-connected/check-out-demo-day/
 
 using-simplereport:
   - title: Using SimpleReport
@@ -111,9 +108,6 @@ using-simplereport:
             url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
       - page: Staying connected
         url: /getting-started/staying-connected/
-        subsubnav:
-          - page: Check out Demo Day
-            url: /getting-started/staying-connected/check-out-demo-day/
 
 troubleshooting:
   - title: Troubleshooting
@@ -127,9 +121,6 @@ troubleshooting:
         url: /troubleshooting/contact-us-for-more-help/
       - page: Staying connected
         url: /getting-started/staying-connected/
-        subsubnav:
-          - page: Check out Demo Day
-            url: /getting-started/staying-connected/check-out-demo-day/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.
