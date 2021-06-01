@@ -73,8 +73,6 @@ using-simplereport:
       - page: Conduct and submit tests
         url: /using-simplereport/conduct-and-submit-tests/
         subsubnav:
-          - page: Conduct and submit tests
-            url: /using-simplereport/conduct-and-submit-tests/conduct-and-submit-tests/
           - page: New
             url: /using-simplereport/conduct-and-submit-tests/new/
       - page: Manage results

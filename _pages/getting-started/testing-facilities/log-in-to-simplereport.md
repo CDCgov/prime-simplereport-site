@@ -23,4 +23,4 @@ To log in:
    {: .list--alpha }
 4. If your organization has multiple testing facilities, select yours from the choices shown.
 
-Once you’ve successfully logged in, you can do a number of tasks, like [conduct a test]({% link _pages/using-simplereport/conduct-and-submit-tests/conduct-and-submit-tests.md %}) or [add a new person to SimpleReport]({% link _pages/using-simplereport/manage-people-you-test/add-a-new-person.md %}).
+Once you’ve successfully logged in, you can do a number of tasks, like [conduct a test]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}) or [add a new person to SimpleReport]({% link _pages/using-simplereport/manage-people-you-test/add-a-new-person.md %}).

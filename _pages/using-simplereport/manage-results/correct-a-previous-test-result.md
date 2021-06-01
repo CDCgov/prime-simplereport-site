@@ -24,4 +24,4 @@ To correct a previous test result:
 The result will be marked as an error, and will appear with a strike through it when you review it in the future.
 ![The table of test results with the test result struck through to indicate that it's been marked as an error.]({% link assets/img/resources/correct-a-previous-test-result/result.png %})
 
-To submit a corrected result, follow the instructions to [conduct and submit a test]({% link _pages/using-simplereport/conduct-and-submit-tests/conduct-and-submit-tests.md %}), and be sure to update the date and time of the test to reflect when the test originally occurred.
+To submit a corrected result, follow the instructions to [conduct and submit a test]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}), and be sure to update the date and time of the test to reflect when the test originally occurred.
