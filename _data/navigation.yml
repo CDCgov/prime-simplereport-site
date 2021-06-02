@@ -43,7 +43,7 @@ getting-started:
   - title: Getting started
     url: /getting-started/
     subnav:
-      - page: Testing facilities
+      - page: Organizations and testing facilities
         url: /getting-started/testing-facilities/onboard-your-organization/
         subsubnav:
           - page: Onboard your organization
