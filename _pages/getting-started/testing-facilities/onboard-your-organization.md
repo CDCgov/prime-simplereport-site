@@ -56,11 +56,6 @@ Learn how to use SimpleReport:
 - Watch these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF)
 - Check our our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %})
 
-## Start testing
-Once you've completed the steps above, you're ready to start using SimpleReport.
-
-If you want to [invite other staff members]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}) or [add more facilities]({% link _pages/using-simplereport/manage-facility-info/add-a-facility.md %}), you can do so directly in SimpleReport.
-
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
     <p class="usa-alert__text"> Add testing facilities and staff: Once you’re all set up in SimpleReport you can <a href="https://simplereport.gov/using-simplereport/manage-users/invite-new-users/">invite other staff members</a> or <a href="https://simplereport.gov/using-simplereport/manage-facility-info/add-a-facility/">add more facilities</a>.</p>
