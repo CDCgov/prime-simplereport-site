@@ -16,7 +16,6 @@ Only one person from an organization needs to request access to SimpleReport. Th
 
 Let’s get started.
 
-
 {: .usa-intro .margin-top-1}
 
 ## Onboarding checklist
