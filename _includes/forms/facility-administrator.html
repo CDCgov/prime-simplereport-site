@@ -1,14 +1,67 @@
 <fieldset class="usa-fieldset">
-  <legend class="usa-legend usa-legend--large">Facility administrator</legend>
-  <p>The administrator is responsible for making sure that appropriate staff members get access to SimpleReport.</p>
-  <label class="usa-label" for="fa-first-name">First name {% include required.html %}</label>
-  <input class="usa-input" id="fa-first-name" name="first-name" type="text" spellcheck="false" autocomplete="given-name" required>
-  <label class="usa-label" for="fa-last-name">Last name {% include required.html %}</label>
-  <input class="usa-input" id="fa-last-name" name="last-name" type="text" spellcheck="false" autocomplete="family-name" required>
-  <label class="usa-label" for="fa-email">Email address {% include required.html %}</label>
-  <input class="usa-input" id="fa-email" name="email" type="email" autocapitalize="off" autocorrect="off" required>
-  <label class="usa-label" for="fa-work-phone-number">Work phone number {% include required.html %}</label>
-  <input class="usa-input" id="fa-work-phone-number" name="work-phone-number" type="tel" autocomplete="tel" required>
+  <legend class="usa-legend usa-legend--large">
+    Organization administrator
+  </legend>
+  <p class="font-body-2xs">
+    Only one person from an organization needs to request access to
+    SimpleReport. This person — called the account administrator — can add
+    individual testing facilities after creating the organization account. The
+    administrator is responsible for making sure that appropriate staff members
+    and testing facilities within your network get access to SimpleReport.
+  </p>
+  <label class="usa-label" for="fa-first-name"
+    >First name {% include required.html %}</label
+  >
+  <input
+    class="usa-input"
+    id="fa-first-name"
+    name="first-name"
+    type="text"
+    spellcheck="false"
+    autocomplete="given-name"
+    required
+  />
+  <label class="usa-label" for="fa-last-name"
+    >Last name {% include required.html %}</label
+  >
+  <input
+    class="usa-input"
+    id="fa-last-name"
+    name="last-name"
+    type="text"
+    spellcheck="false"
+    autocomplete="family-name"
+    required
+  />
+  <label class="usa-label" for="fa-email"
+    >Email address {% include required.html %}</label
+  >
+  <input
+    class="usa-input"
+    id="fa-email"
+    name="email"
+    type="email"
+    autocapitalize="off"
+    autocorrect="off"
+    required
+  />
+  <label class="usa-label" for="fa-work-phone-number"
+    >Work phone number {% include required.html %}</label
+  >
+  <input
+    class="usa-input"
+    id="fa-work-phone-number"
+    name="work-phone-number"
+    type="tel"
+    autocomplete="tel"
+    required
+  />
   <label class="usa-label" for="fa-cell-phone-number">Cell phone number</label>
-  <input class="usa-input" id="fa-cell-phone-number" name="cell-phone-number" type="tel" autocomplete="tel">
+  <input
+    class="usa-input"
+    id="fa-cell-phone-number"
+    name="cell-phone-number"
+    type="tel"
+    autocomplete="tel"
+  />
 </fieldset>
