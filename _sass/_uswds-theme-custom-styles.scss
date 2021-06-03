@@ -998,3 +998,10 @@ Typography
     display: initial;
   }
 }
+
+.legend--md {
+  color: color("primary-darker");
+  font-size: font-size("ui", "lg");
+  font-weight: font-weight("medium");
+  margin-top: units(4);
+}

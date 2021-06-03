@@ -7,7 +7,7 @@
     <span
       class="usa-tooltip"
       data-position="top"
-      title="Testing facilities are individual locations or branches that are part of a bigger organization."
+      title="Individual locations that are part of a bigger organization."
       >testing facility?<svg
         class="usa-icon margin-left-2px"
         aria-hidden="true"
@@ -31,8 +31,8 @@
     spellcheck="false"
     required
   />
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend font-ui-lg text-medium text-primary-darker">
+  <fieldset class="usa-fieldset margin-top-4">
+    <legend class="legend--md">
       Testing facility contact information
     </legend>
     <label class="usa-label" for="street-address1">
@@ -218,6 +218,7 @@
       required
     />
   </fieldset>
+  <h3 class="legend--md">Testing facility type</h3>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend">
       What kind of testing facility do you work with? {% include required.html
@@ -228,6 +229,16 @@
       id="facility-type-error-message"
       >This field is required</span
     >
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="airport"
+        name="facility-type"
+        type="radio"
+        value="airport"
+      />
+      <label class="usa-radio__label" for="airport">Airport</label>
+    </div>
     <div class="usa-radio">
       <input
         class="usa-radio__input"
@@ -243,24 +254,24 @@
     <div class="usa-radio">
       <input
         class="usa-radio__input"
-        id="long-term-care-facility"
-        name="facility-type"
-        type="radio"
-        value="long-term-care-facility"
-      />
-      <label class="usa-radio__label" for="long-term-care-facility"
-        >Long term care facility</label
-      >
-    </div>
-    <div class="usa-radio">
-      <input
-        class="usa-radio__input"
         id="k-12-school"
         name="facility-type"
         type="radio"
         value="k-12-school"
       />
       <label class="usa-radio__label" for="k-12-school">K-12 school</label>
+    </div>
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="long-term-care-facility"
+        name="facility-type"
+        type="radio"
+        value="long-term-care-facility"
+      />
+      <label class="usa-radio__label" for="long-term-care-facility"
+        >Long-term care facility</label
+      >
     </div>
     <div class="usa-radio">
       <input
@@ -287,16 +298,6 @@
     <div class="usa-radio">
       <input
         class="usa-radio__input"
-        id="airport"
-        name="facility-type"
-        type="radio"
-        value="airport"
-      />
-      <label class="usa-radio__label" for="airport">Airport</label>
-    </div>
-    <div class="usa-radio">
-      <input
-        class="usa-radio__input"
         id="other-facility"
         name="facility-type"
         type="radio"
@@ -314,6 +315,7 @@
     name="facility-type-other"
     type="text"
   />
+  <h3 class="legend--md">CLIA certification</h3>
   <label class="usa-label" for="clia-number"
     >Clinical Laboratory Improvement Amendments (CLIA) number {% include
     required.html %}</label
@@ -325,6 +327,7 @@
     type="text"
     required
   />
+  <h3 class="legend--md">Testing workflow</h3>
   <fieldset class="usa-fieldset margin-top-3">
     <legend class="usa-legend usa-legend">
       Which device(s) do you use for COVID-19 rapid testing? {% include
