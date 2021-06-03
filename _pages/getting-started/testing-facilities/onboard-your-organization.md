@@ -18,6 +18,7 @@ Let’s get started.
 
 {: .usa-intro .margin-top-1}
 
+
 ## Onboarding checklist
 Complete the following steps to get access and learn how to use SimpleReport:
 
