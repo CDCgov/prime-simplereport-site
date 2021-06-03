@@ -993,4 +993,8 @@ Typography
   border-bottom: 1px dotted;
   border-color: color("primary");
   text-decoration: none;
+
+  > .usa-icon {
+    display: initial;
+  }
 }
