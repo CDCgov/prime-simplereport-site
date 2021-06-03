@@ -44,16 +44,16 @@ getting-started:
     url: /getting-started/
     subnav:
       - page: Organizations and testing facilities
-        url: /getting-started/testing-facilities/onboard-your-organization/
+        url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
         subsubnav:
           - page: Onboard your organization
-            url: /getting-started/testing-facilities/onboard-your-organization/
+            url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
           - page: Activate your user account
-            url: /getting-started/testing-facilities/activate-your-user-account/
+            url: /getting-started/organizations-and-testing-facilities/activate-your-user-account/
           - page: Log in to SimpleReport
-            url: /getting-started/testing-facilities/log-in-to-simplereport/
+            url: /getting-started/organizations-and-testing-facilities/log-in-to-simplereport/
           - page: Get training
-            url: /getting-started/testing-facilities/get-training/
+            url: /getting-started/organizations-and-testing-facilities/get-training/
       - page: Public health departments
         url: /getting-started/public-health-departments/about-prime-reportstream/
         subsubnav:

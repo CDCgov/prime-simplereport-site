@@ -31,8 +31,11 @@ sitemap: false
       </h2>
       <p>
         The last step to get access to SimpleReport is
-        <a href="https://outlook.office365.com/owa/calendar/Helpdesk@HHSGOV.onmicrosoft.com/bookings/s/HOX7KgZruESJksIgC8qVxQ2">scheduling your identity verification</a>.
-        We’ve also sent the scheduling link and more details to <span id="email-address-display"></span>.
+        <a
+          href="https://outlook.office365.com/owa/calendar/Helpdesk@HHSGOV.onmicrosoft.com/bookings/s/HOX7KgZruESJksIgC8qVxQ2"
+          >scheduling your identity verification</a
+        >. We’ve also sent the scheduling link and more details to
+        <span id="email-address-display"></span>.
       </p>
       <p>
         Didn’t get the email? Check your spam folder then contact
@@ -45,7 +48,7 @@ sitemap: false
         <p>
           <a
             class="display-flex flex-align-center line-height-sans-1"
-            href="{% link _pages/getting-started/testing-facilities/get-training.md %}"
+            href="{% link _pages/getting-started/organizations-and-testing-facilities/get-training.md %}"
           >
             <span>Watch training videos</span
             ><svg
@@ -84,10 +87,12 @@ sitemap: false
 </div>
 
 <script>
-  (function setEmailAddressText () {
+  (function setEmailAddressText() {
     const params = new URLSearchParams(document.location.search);
     const emailAddress = params.get("email") || "the email address provided";
-    const emailAddressElement = document.getElementById("email-address-display");
+    const emailAddressElement = document.getElementById(
+      "email-address-display"
+    );
     emailAddressElement.innerText = emailAddress;
   })();
 </script>
