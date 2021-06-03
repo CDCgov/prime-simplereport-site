@@ -989,6 +989,12 @@ Typography
   margin-left: -230px !important;
 }
 
+.tooltip--testing-facility {
+  + .usa-tooltip__body.is-set {
+    margin-left: -130px !important;
+  }
+}
+
 .usa-tooltip__trigger {
   border-bottom: 1px dotted;
   border-color: color("primary");
