@@ -8,7 +8,7 @@ home_link: true
 return_top: 'false'
 ---
 
-Once you’ve [logged in to SimpleReport]({% link _pages/getting-started/testing-facilities/log-in-to-simplereport.md %}), you can begin conducting tests and submitting results to your public health department:
+Once you’ve [logged in to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/log-in-to-simplereport.md %}), you can begin conducting tests and submitting results to your public health department:
 
 1. Make sure that you’re on the “Conduct Tests” page. It’s the page that appears once you’ve logged in and [picked the facility that you’re working at today]({% link _pages/using-simplereport/select-your-testing-facility.md %}) (if your organization has multiple facilities). You can also get to it by clicking **Conduct Tests** at the top of the page.
 ![The SimpleReport site with the "Conduct Tests" tab chosen in the top navigation]({% link assets/img/resources/conduct-and-submit-tests/step-1.png %})

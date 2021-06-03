@@ -46,20 +46,10 @@ Make sure that the organization name that you enter in the form is accurate, sin
 Once you’ve filled out the organization access request form, your administrator will schedule a short video call with a representative from the U.S. Department of Health and Human Services (HHS). You’ll be asked to show two forms of ID to verify your identity and get access to SimpleReport. (In addition to this list of [identification you can use](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity), we will also accept a work ID.)
 
 ## (optional) Get training
-<div class="usa-alert usa-alert--info">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">While you’re getting up to speed, you can also check out the <a href="https://training.simplereport.gov/app">SimpleReport training site</a> to explore and practice using the tool using sample data.</p>
-  </div>
-</div>
-
 Learn how to use SimpleReport:
+- Check out the <a href="https://training.simplereport.gov/app">SimpleReport training site</a> to practice using the tool using sample data.
 - Watch these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF)
 - Check our our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %})
-
-## Start testing
-Once you've completed the steps above, you're ready to start using SimpleReport.
-
-If you want to [invite other staff members]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}) or [add more facilities]({% link _pages/using-simplereport/manage-facility-info/add-a-facility.md %}), you can do so directly in SimpleReport.
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
