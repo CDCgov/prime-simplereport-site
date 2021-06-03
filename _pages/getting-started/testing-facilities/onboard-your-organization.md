@@ -18,7 +18,6 @@ Let’s get started.
 
 {: .usa-intro .margin-top-1}
 
-
 ## Onboarding checklist
 Complete the following steps to get access and learn how to use SimpleReport:
 
@@ -51,7 +50,6 @@ Learn how to use SimpleReport:
 - Check out the <a href="https://training.simplereport.gov/app">SimpleReport training site</a> to practice using the tool using sample data.
 - Watch these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF)
 - Check our our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %})
-
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
