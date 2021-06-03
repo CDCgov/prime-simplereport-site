@@ -26,7 +26,7 @@ Variables
 ----------------------------------------
 */
 
-$image-path: '/assets/img/';
+$image-path: "/assets/img/";
 
 /*
 ----------------------------------------
@@ -39,7 +39,9 @@ Typography
     @include typeset-link;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-weight: $theme-font-weight-medium;
   }
 }
@@ -114,11 +116,11 @@ Typography
     }
 
     .usa-nav__primary button {
-      &[aria-expanded=false] {
+      &[aria-expanded="false"] {
         @include add-background-svg("usa-icons-bg/expand_more--white");
       }
 
-      &[aria-expanded=true] {
+      &[aria-expanded="true"] {
         @include add-background-svg("usa-icons-bg/expand_less--white");
         -webkit-font-smoothing: auto;
       }
@@ -212,7 +214,7 @@ Typography
   padding-bottom: 3rem;
   padding-top: units(4);
 
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     padding-bottom: units(2);
   }
 }
@@ -245,12 +247,12 @@ Typography
     margin-bottom: units(2);
   }
 
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     margin-top: 0;
   }
 
   h2 {
-    @include at-media('tablet') {
+    @include at-media("tablet") {
       margin-left: 2em;
     }
   }
@@ -261,7 +263,7 @@ Typography
   font-weight: normal;
   margin-right: 0;
   margin-bottom: 0.5em;
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     width: 218px;
   }
 }
@@ -273,15 +275,15 @@ Typography
 }
 
 .usa-hero-placeholder-container {
-  @include at-media('desktop') {
+  @include at-media("desktop") {
   }
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     display: block;
     // margin-top: -10em;
   }
   .hero-img-col {
     /*display: none;*/
-    @include at-media('tablet-lg') {
+    @include at-media("tablet-lg") {
       display: block;
       // margin-top: -10em;
     }
@@ -296,7 +298,7 @@ Typography
   height: auto;
   z-index: 10;
 
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     margin-top: 5.3vw;
   }
 }
@@ -304,9 +306,9 @@ Typography
 .container-blue {
   background: #e1f3f8;
 
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     padding-bottom: units(1.5);
-    background: #e1f3f8 url('/assets/img/waves.svg') top -1px center no-repeat;
+    background: #e1f3f8 url("/assets/img/waves.svg") top -1px center no-repeat;
     background-size: contain;
     max-height: 420px;
   }
@@ -319,11 +321,11 @@ Typography
   color: #1b1b1b;
   padding-bottom: 1rem;
 
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     padding-bottom: 0;
   }
 
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     padding-top: 5.5vw;
   }
 
@@ -340,7 +342,7 @@ Typography
       font-weight: 400;
 
       &:before {
-        content: '✓';
+        content: "✓";
         display: inline-block;
         width: 16px;
       }
@@ -361,7 +363,7 @@ Typography
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
-        @include at-media('tablet') {
+        @include at-media("tablet") {
           margin-bottom: 0;
           font-size: 14px;
         }
@@ -373,7 +375,6 @@ Typography
 
     .usa-list {
       li {
-
         font-weight: 400;
       }
     }
@@ -442,7 +443,6 @@ Typography
   }
 
   h2 {
-
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -451,7 +451,6 @@ Typography
   }
 
   h3 {
-
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -460,13 +459,11 @@ Typography
     margin-bottom: 2em;
   }
   h4 {
-
     font-weight: 700;
     font-size: 14px;
   }
 
   .prose-f4 {
-
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -475,7 +472,6 @@ Typography
   }
 
   .number-header {
-
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -486,7 +482,6 @@ Typography
   }
 
   .usa-list {
-
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -512,7 +507,7 @@ Typography
 
 .page-docs {
   .grid-row {
-    @include at-media('tablet') {
+    @include at-media("tablet") {
       padding: 0;
     }
   }
@@ -521,21 +516,21 @@ Typography
     h1,
     h2,
     h3 {
-      color: color('primary-darker');
+      color: color("primary-darker");
     }
 
     .usa-button {
-      color: color('white');
+      color: color("white");
       text-decoration: none;
     }
   }
 
   .usa-layout-docs__main {
     img {
-      border: units(1px) solid color('base-lightest');
+      border: units(1px) solid color("base-lightest");
       display: block;
-      margin-bottom: units(2) !important;;
-      margin-top: units(2) !important;;
+      margin-bottom: units(2) !important;
+      margin-top: units(2) !important;
     }
 
     > ol {
@@ -544,9 +539,10 @@ Typography
       > li {
         @extend .usa-process-list__item;
 
-        > ul, > ol {
+        > ul,
+        > ol {
           &:first-child {
-            margin-top: units(.5);
+            margin-top: units(0.5);
           }
         }
       }
@@ -567,13 +563,13 @@ Typography
 }
 
 .tag--success {
-  background-color: color('green-cool-50v');
+  background-color: color("green-cool-50v");
 }
 
 .page-docs-img-sm {
   .usa-layout-docs__main {
     img {
-      max-width: units('card-lg');
+      max-width: units("card-lg");
     }
   }
 }
@@ -583,7 +579,6 @@ Typography
 }
 
 .usa-bullets {
-
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -593,7 +588,7 @@ Typography
 
 .usa-prose .usa-bullets {
   width: 100%;
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     max-width: 480px;
   }
 }
@@ -601,10 +596,10 @@ Typography
 .blue-section {
   color: white;
   margin-bottom: -5em;
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     margin-bottom: -9em;
   }
-  @include at-media('tablet-lg') {
+  @include at-media("tablet-lg") {
     margin-bottom: -10em;
   }
   @media screen and (min-width: 1300px) {
@@ -684,7 +679,6 @@ Typography
     }
 
     .usa-footer__logo-heading {
-
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -692,7 +686,7 @@ Typography
     }
 
     a {
-      color: color('base-lighter');
+      color: color("base-lighter");
 
       font-style: normal;
       font-weight: normal;
@@ -700,12 +694,12 @@ Typography
       line-height: 150%;
 
       &:hover {
-        color: color('white');
+        color: color("white");
       }
     }
   }
   .tos-right {
-    @include at-media('tablet') {
+    @include at-media("tablet") {
       text-align: right;
     }
   }
@@ -732,14 +726,14 @@ Typography
 
 .mobile-display {
   display: block;
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     display: none !important;
   }
 }
 
 .tablet-display {
   display: none;
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     display: block;
   }
 }
@@ -773,7 +767,6 @@ Typography
 }
 
 .huge-header {
-
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -806,7 +799,6 @@ Typography
 }
 
 .prose {
-
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -815,7 +807,6 @@ Typography
 }
 
 .small-prose {
-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -857,7 +848,7 @@ Typography
 .animation-2 {
   width: 83%;
 
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     width: 74%;
   }
 }
@@ -925,27 +916,27 @@ Typography
 
 .tablet-lg-hide {
   display: none;
-  @include at-media('tablet-lg') {
+  @include at-media("tablet-lg") {
     display: block;
   }
 }
 
 .tablet-lg-show {
   display: block;
-  @include at-media('tablet-lg') {
+  @include at-media("tablet-lg") {
     display: none;
   }
 }
 
 .mobile-margin-top-2 {
   margin-top: 2em;
-  @include at-media('tablet') {
+  @include at-media("tablet") {
     margin-top: 0em;
   }
 }
 
 .page-form {
-  background-color: color('gray-2');
+  background-color: color("gray-2");
 
   .page-container {
     display: flex;
@@ -964,18 +955,18 @@ Typography
 }
 
 .margin-top-card {
-  margin-top: units('card');
+  margin-top: units("card");
 }
 
 .tablet\:margin-top-card {
-  @include at-media('tablet') {
-    margin-top: units('card') !important;
+  @include at-media("tablet") {
+    margin-top: units("card") !important;
   }
 }
 
 .step-line {
   margin-left: 10px;
-  margin-top: 1px;;
+  margin-top: 1px;
 }
 
 // Utilities
@@ -990,4 +981,34 @@ Typography
 
 .font-heading-3 {
   font-size: units(3) !important;
+}
+
+.usa-tooltip__body.is-set {
+  font-size: 13px;
+  margin-top: -62px !important;
+  margin-left: -230px !important;
+}
+
+.tooltip--testing-facility {
+  + .usa-tooltip__body.is-set {
+    margin-left: -130px !important;
+  }
+}
+
+.usa-tooltip__trigger {
+  border-bottom: 1px dotted;
+  border-color: color("primary");
+  text-decoration: none;
+
+  > .usa-icon {
+    color: color("primary");
+    display: initial;
+  }
+}
+
+.legend--md {
+  color: color("primary-darker");
+  font-size: font-size("ui", "lg");
+  font-weight: font-weight("medium");
+  margin-top: units(4);
 }

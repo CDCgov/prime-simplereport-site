@@ -1,6 +1,6 @@
 ---
 title: Sign up
-description: Get access for your facility after completing just 2 steps.
+description: Get access for your organization after completing just 2 steps.
 permalink: /sign-up/
 layout: default
 return_top: "false"
@@ -15,6 +15,14 @@ class: page-form
   <div class="usa-prose">
     <h1 class="font-heading-2xl text-primary-darker">{{ page.title }}</h1>
     <p class="usa-intro">{{ page.description }}</p>
+    <p>
+      <a
+        class="margin-top-205 line-height-sans-1"
+        href="{% link _pages/getting-started/organizations-and-testing-facilities/onboard-your-organization.md %}"
+      >
+        Learn more about the onboarding process</a
+      >.
+    </p>
     <div>
       <div
         class="step-line position-absolute height-5 width-05 bg-base-light"
@@ -29,7 +37,7 @@ class: page-form
             </span>
           </div>
           <div class="usa-icon-list__content text-primary text-bold">
-            Submit sign-up form
+            Submit sign up form
           </div>
         </li>
         <li class="usa-icon-list__item">
@@ -46,22 +54,6 @@ class: page-form
         </li>
       </ul>
     </div>
-    <p>
-      <a
-        class="margin-top-205 display-flex flex-align-center line-height-sans-1"
-        href="{% link _pages/getting-started/organizations-and-testing-facilities/onboard-your-organization.md %}"
-      >
-        <span>Learn more about the onboarding process.</span
-        ><svg
-          class="usa-icon margin-left-05"
-          aria-hidden="true"
-          focusable="false"
-          role="img"
-        >
-          <use xlink:href="/assets/uswds/img/sprite.svg#arrow_forward"></use>
-        </svg>
-      </a>
-    </p>
     <p class="margin-top-4">
       Required fields are marked with an asterisk ({% include required.html %}).
     </p>
@@ -85,6 +77,11 @@ class: page-form
       class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
     >
       {% include forms/testing-facility-information.html %}
+    </div>
+    <div
+      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
+    >
+      {% include forms/testing-workflow.html %}
     </div>
     <div
       class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"

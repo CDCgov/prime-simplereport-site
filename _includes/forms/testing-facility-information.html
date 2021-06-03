@@ -1,21 +1,77 @@
-<fieldset class="usa-fieldset">
-  <label class="usa-label" for="facility-phone-number">Phone number {% include required.html %}</label>
-  <input class="usa-input" id="facility-phone-number" name="facility-phone-number" type="tel" autocomplete="tel" required>
-  <legend class="usa-legend usa-legend--large">Testing facility information</legend>
-  <fieldset class="usa-fieldset">
+<div class="usa-fieldset">
+  <h2 class="usa-legend usa-legend--large margin-y-0">
+    Testing facility information
+  </h2>
+  <label class="usa-label" for="facility-name"
+    >What’s the name of your
+    <span
+      class="usa-tooltip tooltip--testing-facility"
+      data-position="top"
+      title="Individual locations that are part of a bigger organization."
+      >testing facility?<svg
+        class="usa-icon margin-left-2px"
+        aria-hidden="true"
+        focusable="false"
+        role="img"
+      >
+        <use xlink:href="/assets/uswds/img/sprite.svg#info_outline"></use></svg
+    ></span>
+    {% include required.html %}</label
+  >
+  <p class="usa-hint margin-top-1 font-body-2xs">
+    List the name of just one testing facility here for now. If your
+    organization has multiple testing facilities or locations you can add them
+    after you create your account.
+  </p>
+  <input
+    class="usa-input"
+    id="facility-name"
+    name="facility-name"
+    type="text"
+    spellcheck="false"
+    required
+  />
+  <fieldset class="usa-fieldset margin-top-4">
+    <legend class="legend--md">
+      Testing facility contact information
+    </legend>
     <label class="usa-label" for="street-address1">
-    Street address <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
+      Street address
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr>
     </label>
-    <input class="usa-input" id="street-address1" name="street-address1" type="text" required="">
+    <input
+      class="usa-input"
+      id="street-address1"
+      name="street-address1"
+      type="text"
+      required=""
+    />
     <label class="usa-label" for="street-address2">
       Street address 2
     </label>
-    <input class="usa-input" id="street-address2" name="street-address2" type="text">
-    <label class="usa-label" for="city">City <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-    <input class="usa-input" id="city" name="city" type="text" required="">
-    <label class="usa-label" for="state" id="state-label">State <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <input
+      class="usa-input"
+      id="street-address2"
+      name="street-address2"
+      type="text"
+    />
+    <label class="usa-label" for="city"
+      >City
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
+    >
+    <input class="usa-input" id="city" name="city" type="text" required="" />
+    <label class="usa-label" for="state" id="state-label"
+      >State
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
+    >
     <div class="usa-combo-box" data-enhanced="true">
-      <select class="usa-select usa-sr-only usa-combo-box__select" id="" name="state" aria-hidden="true" tabindex="-1">
+      <select
+        class="usa-select usa-sr-only usa-combo-box__select"
+        id=""
+        name="state"
+        aria-hidden="true"
+        tabindex="-1"
+      >
         <option value="">- Select -</option>
         <option value="AL">AL - Alabama</option>
         <option value="AK">AK - Alaska</option>
@@ -81,243 +137,192 @@
         <option value="AE">AE - Armed Forces Middle East</option>
         <option value="AP">AP - Armed Forces Pacific</option>
       </select>
-      <input aria-owns="state--list" aria-autocomplete="list" aria-describedby="state--assistiveHint" aria-expanded="false" autocapitalize="off" autocomplete="off" id="state" class="usa-combo-box__input" type="text" role="combobox" required=""><span class="usa-combo-box__clear-input__wrapper" tabindex="-1">
-      <button type="button" class="usa-combo-box__clear-input" aria-label="Clear the select contents">&nbsp;</button>
-      </span><span class="usa-combo-box__input-button-separator">&nbsp;</span><span class="usa-combo-box__toggle-list__wrapper" tabindex="-1">
-      <button type="button" tabindex="-1" class="usa-combo-box__toggle-list" aria-label="Toggle the dropdown list">&nbsp;</button>
+      <input
+        aria-owns="state--list"
+        aria-autocomplete="list"
+        aria-describedby="state--assistiveHint"
+        aria-expanded="false"
+        autocapitalize="off"
+        autocomplete="off"
+        id="state"
+        class="usa-combo-box__input"
+        type="text"
+        role="combobox"
+        required=""
+      /><span class="usa-combo-box__clear-input__wrapper" tabindex="-1">
+        <button
+          type="button"
+          class="usa-combo-box__clear-input"
+          aria-label="Clear the select contents"
+        >
+          &nbsp;
+        </button> </span
+      ><span class="usa-combo-box__input-button-separator">&nbsp;</span
+      ><span class="usa-combo-box__toggle-list__wrapper" tabindex="-1">
+        <button
+          type="button"
+          tabindex="-1"
+          class="usa-combo-box__toggle-list"
+          aria-label="Toggle the dropdown list"
+        >
+          &nbsp;
+        </button>
       </span>
-      <ul tabindex="-1" id="state--list" class="usa-combo-box__list" role="listbox" aria-labelledby="state-label" hidden="">
-      </ul>
+      <ul
+        tabindex="-1"
+        id="state--list"
+        class="usa-combo-box__list"
+        role="listbox"
+        aria-labelledby="state-label"
+        hidden=""
+      ></ul>
       <div class="usa-combo-box__status usa-sr-only" role="status"></div>
       <span id="state--assistiveHint" class="usa-sr-only">
-      When autocomplete results are available use up and down arrows to review and enter to select.
-      Touch device users, explore by touch or with swipe gestures.
+        When autocomplete results are available use up and down arrows to review
+        and enter to select. Touch device users, explore by touch or with swipe
+        gestures.
       </span>
     </div>
-    <label class="usa-label" for="zip">ZIP code <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-    <input class="usa-input usa-input--medium" id="zip" name="zip" type="text" pattern="[\d]{5}(-[\d]{4})?" required="">
-    <label class="usa-label" for="county">County {% include required.html %}</label>
-    <input class="usa-input" id="county" name="county" type="text" spellcheck="false" required>
+    <label class="usa-label" for="zip"
+      >ZIP code
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
+    >
+    <input
+      class="usa-input usa-input--medium"
+      id="zip"
+      name="zip"
+      type="text"
+      pattern="[\d]{5}(-[\d]{4})?"
+      required=""
+    />
+    <label class="usa-label" for="county"
+      >County {% include required.html %}</label
+    >
+    <input
+      class="usa-input"
+      id="county"
+      name="county"
+      type="text"
+      spellcheck="false"
+      required
+    />
+    <label class="usa-label" for="facility-phone-number"
+      >Phone number {% include required.html %}</label
+    >
+    <input
+      class="usa-input"
+      id="facility-phone-number"
+      name="facility-phone-number"
+      type="tel"
+      autocomplete="tel"
+      required
+    />
   </fieldset>
+  <h3 class="legend--md">Testing facility type</h3>
   <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend">What kind of testing facility are you registering? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="facility-type-error-message">This field is required</span>
+    <legend class="usa-legend">
+      What kind of testing facility do you work with? {% include required.html
+      %}
+    </legend>
+    <span
+      class="usa-error-message display-none"
+      id="facility-type-error-message"
+      >This field is required</span
+    >
     <div class="usa-radio">
-      <input class="usa-radio__input" id="hospital-or-clinic" name="facility-type" type="radio" value="hospital-or-clinic">
-      <label class="usa-radio__label" for="hospital-or-clinic">Hospital or clinic</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="historical-douglass" name="facility-type" type="radio" value="frederick-douglass">
-      <label class="usa-radio__label" for="historical-douglass">Long term care facility</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="long-term-care-facility" name="facility-type" type="radio" value="long-term-care-facility">
-      <label class="usa-radio__label" for="long-term-care-facility">K-12 school</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="university" name="facility-type" type="radio" value="university">
-      <label class="usa-radio__label" for="university">University</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="urgent-care-center" name="facility-type" type="radio" value="urgent-care-center">
-      <label class="usa-radio__label" for="urgent-care-center">Urgent care center</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="airport" name="facility-type" type="radio" value="airport">
+      <input
+        class="usa-radio__input"
+        id="airport"
+        name="facility-type"
+        type="radio"
+        value="airport"
+      />
       <label class="usa-radio__label" for="airport">Airport</label>
     </div>
     <div class="usa-radio">
-      <input class="usa-radio__input" id="other-facility" name="facility-type" type="radio" value="other">
+      <input
+        class="usa-radio__input"
+        id="hospital-or-clinic"
+        name="facility-type"
+        type="radio"
+        value="hospital-or-clinic"
+      />
+      <label class="usa-radio__label" for="hospital-or-clinic"
+        >Hospital or clinic</label
+      >
+    </div>
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="k-12-school"
+        name="facility-type"
+        type="radio"
+        value="k-12-school"
+      />
+      <label class="usa-radio__label" for="k-12-school">K-12 school</label>
+    </div>
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="long-term-care-facility"
+        name="facility-type"
+        type="radio"
+        value="long-term-care-facility"
+      />
+      <label class="usa-radio__label" for="long-term-care-facility"
+        >Long-term care facility</label
+      >
+    </div>
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="university"
+        name="facility-type"
+        type="radio"
+        value="university"
+      />
+      <label class="usa-radio__label" for="university">University</label>
+    </div>
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="urgent-care-center"
+        name="facility-type"
+        type="radio"
+        value="urgent-care-center"
+      />
+      <label class="usa-radio__label" for="urgent-care-center"
+        >Urgent care center</label
+      >
+    </div>
+    <div class="usa-radio">
+      <input
+        class="usa-radio__input"
+        id="other-facility"
+        name="facility-type"
+        type="radio"
+        value="other"
+      />
       <label class="usa-radio__label" for="other-facility">Other*</label>
     </div>
   </fieldset>
   <label class="usa-label" for="facility-type-other">*Other facility</label>
-  <input class="usa-input" id="facility-type-other" name="facility-type-other" type="text">
-  <label class="usa-label" for="organization-name">What’s the name of your organization?  {% include required.html %}</label>
-  <p class="usa-hint margin-top-1 font-body-2xs">If you have only one testing facility, then your organization name and facility name will be the same.</p>
-  <input class="usa-input" id="organization-name" name="organization-name" type="text" spellcheck="false" required>
-  <label class="usa-label" for="facility-name">What’s the name of your testing facility? {% include required.html %}</label>
-  <p class="usa-hint margin-top-1 font-body-2xs">We’ll report your data to the public health department using the name entered here. This name can’t be changed, so double-check that you’ve entered it correctly.</p>
-  <p class="usa-hint font-body-2xs">If your organization has multiple testing facilities, submit a separate form for each one.</p>
-  <input class="usa-input" id="facility-name" name="facility-name" type="text" spellcheck="false" required>
-  <label class="usa-label" for="clia-number">Clinical Laboratory Improvement Amendments (CLIA) number {% include required.html %}</label>
-  <input class="usa-input" id="clia-number" name="clia-number" type="text" required>
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">Which device(s) do you use for COVID-19 rapid testing? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="testing-devices-error-message">This field is required</span>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="abbott-binaxnow-cards" type="checkbox" name="testing-devices" value="abbott-binaxnow-cards">
-      <label class="usa-checkbox__label" for="abbott-binaxnow-cards">Abbott BinaxNow</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="abbott-id-now" type="checkbox" name="testing-devices" value="abbott-id-now">
-      <label class="usa-checkbox__label" for="abbott-id-now">Abbott IDNow</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="access-bio-carestart" type="checkbox" name="testing-devices" value="access-bio-carestart">
-      <label class="usa-checkbox__label" for="access-bio-carestart">Access Bio CareStart</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="bd-veritor" type="checkbox" name="testing-devices" value="bd-veritor">
-      <label class="usa-checkbox__label" for="bd-veritor">BD Veritor</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="cuetm" type="checkbox" name="testing-devices" value="cuetm">
-      <label class="usa-checkbox__label" for="cuetm">Cue</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="lumiradx" type="checkbox" name="testing-devices" value="lumiradx">
-      <label class="usa-checkbox__label" for="lumiradx">LumiraDX</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="quidel-sofia" type="checkbox" name="testing-devices" value="quidel-sofia">
-      <label class="usa-checkbox__label" for="quidel-sofia">Quidel Sofia</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="quidel-sofia-2" type="checkbox" name="testing-devices" value="quidel-sofia-2">
-      <label class="usa-checkbox__label" for="quidel-sofia-2">Quidel Sofia 2</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="other-testing-device" type="checkbox" name="testing-devices" value="other">
-      <label class="usa-checkbox__label" for="other-testing-device">Other*</label>
-    </div>
-  </fieldset>
-  <label class="usa-label" for="other-testing-device-type">*Other device</label>
-  <input class="usa-input" id="other-testing-device-type" name="testing-device-other" type="text">
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">What’s the primary device you use for COVID-19 rapid testing? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="default-testing-device-error-message">The primary device must appear in the list of devices selected above</span>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-abbott-binaxnow-cards" type="radio" name="default-testing-device" value="abbott-binaxnow-cards">
-      <label class="usa-radio__label" for="default-abbott-binaxnow-cards">Abbott BinaxNow</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-abbott-id-now" type="radio" name="default-testing-device" value="abbott-id-now">
-      <label class="usa-radio__label" for="default-abbott-id-now">Abbott IDNow</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-access-bio-carestart" type="radio" name="default-testing-device" value="access-bio-carestart">
-      <label class="usa-radio__label" for="default-access-bio-carestart">Access Bio CareStart</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-bd-veritor" type="radio" name="default-testing-device" value="bd-veritor">
-      <label class="usa-radio__label" for="default-bd-veritor">BD Veritor</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-cuetm" type="radio" name="default-testing-device" value="cuetm">
-      <label class="usa-radio__label" for="default-cuetm">Cue</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-lumiradx" type="radio" name="default-testing-device" value="lumiradx">
-      <label class="usa-radio__label" for="default-lumiradx">LumiraDX</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-quidel-sofia" type="radio" name="default-testing-device" value="quidel-sofia">
-      <label class="usa-radio__label" for="default-quidel-sofia">Quidel Sofia</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="default-quidel-sofia-2" type="radio" name="default-testing-device" value="quidel-sofia-2">
-      <label class="usa-radio__label" for="default-quidel-sofia-2">Quidel Sofia 2</label>
-    </div>
-  </fieldset>
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">Which devices will you use to access SimpleReport? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="access-devices-error-message">This field is required</span>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="laptop-computer" type="checkbox" name="access-devices" value="laptop-computer">
-      <label class="usa-checkbox__label" for="laptop-computer">Laptop computer</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="desktop-computer" type="checkbox" name="access-devices" value="desktop-computer">
-      <label class="usa-checkbox__label" for="desktop-computer">Desktop computer</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="ipad-or-tablet" type="checkbox" name="access-devices" value="ipad-or-tablet">
-      <label class="usa-checkbox__label" for="ipad-or-tablet">iPad or tablet</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="smartphone" type="checkbox" name="access-devices" value="smartphone">
-      <label class="usa-checkbox__label" for="smartphone">Smartphone</label>
-    </div>
-  </fieldset>
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">Which web browsers do you use on those devices? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="browsers-error-message">This field is required</span>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="chrome" type="checkbox" name="browsers" value="chrome">
-      <label class="usa-checkbox__label" for="chrome">Chrome</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="firefox" type="checkbox" name="browsers" value="firefox">
-      <label class="usa-checkbox__label" for="firefox">Firefox</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="safari" type="checkbox" name="browsers" value="safari">
-      <label class="usa-checkbox__label" for="safari">Safari</label>
-    </div>
-    <div class="usa-checkbox">
-      <input class="usa-checkbox__input" id="other-browser" type="checkbox" name="browsers" value="other-browser">
-      <label class="usa-checkbox__label" for="other-browser">Other*</label>
-    </div>
-  </fieldset>
-  <label class="usa-label" for="browsers-other">*Other browser</label>
-  <input class="usa-input" id="browsers-other" name="browsers-other" type="text">
-  <label class="usa-label" for="workflow">Briefly describe your testing workflow.</label>
-  <textarea class="usa-textarea" id="workflow" name="workflow"></textarea>
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">In your testing process, does the person who checks people in also record test results? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="records-test-results-error-message">This field is required</span>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="records-test-results-yes" type="radio" name="records-test-results" value="yes">
-      <label class="usa-radio__label" for="records-test-results-yes">Yes</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="records-test-results-no" type="radio" name="records-test-results" value="no">
-      <label class="usa-radio__label" for="records-test-results-no">No</label>
-    </div>
-  </fieldset>
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">Approximately how long does the registration/check-in and testing process take for a single person? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="process-time-error-message">This field is required</span>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="less-than-15-mins" type="radio" name="process-time" value="less-than-15-mins">
-      <label class="usa-radio__label" for="less-than-15-mins">Less than 15 minutes</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="15-to-30-mins" type="radio" name="process-time" value="15-to-30-mins">
-      <label class="usa-radio__label" for="15-to-30-mins">15<span class="margin-x-1px">–</span>30 minutes</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="30-to-45-mins" type="radio" name="process-time" value="30-to-45-mins">
-      <label class="usa-radio__label" for="30-to-45-mins">30<span class="margin-x-1px">–</span>45 minutes</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="45-mins-to-1-hr" type="radio" name="process-time" value="45-mins-to-1-hr">
-      <label class="usa-radio__label" for="45-mins-to-1-hr">45 minutes to one hour</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="more-than-an-hr" type="radio" name="process-time" value="more-than-an-hr">
-      <label class="usa-radio__label" for="more-than-an-hr">More than an hour</label>
-    </div>
-  </fieldset>
-  <fieldset class="usa-fieldset margin-top-3">
-    <legend class="usa-legend usa-legend">Approximately how much time do you spend every day submitting results to your public health department? {% include required.html %}</legend>
-    <span class="usa-error-message display-none" id="submitting-results-time-error-message">This field is required</span>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="less-than-30-mins" type="radio" name="submitting-results-time" value="less-than-30-mins">
-      <label class="usa-radio__label" for="less-than-30-mins">Less than 30 minutes</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="30-mins-to-one-hr" type="radio" name="submitting-results-time" value="30-mins-to-one-hr">
-      <label class="usa-radio__label" for="30-mins-to-one-hr">30 minutes to one hour</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="1-to-2-hrs" type="radio" name="submitting-results-time" value="1-to-2-hrs">
-      <label class="usa-radio__label" for="1-to-2-hrs">1<span class="margin-x-1px">–</span>2 hours</label>
-    </div>
-    <div class="usa-radio">
-      <input class="usa-radio__input" id="more-than-2-hrs" type="radio" name="submitting-results-time" value="more-than-2-hrs">
-      <label class="usa-radio__label" for="more-than-2-hrs">More than 2 hours</label>
-    </div>
-  </fieldset>
-</fieldset>
+  <input
+    class="usa-input"
+    id="facility-type-other"
+    name="facility-type-other"
+    type="text"
+  />
+  <h3 class="legend--md">CLIA certification</h3>
+  <label class="usa-label" for="clia-number"
+    >Clinical Laboratory Improvement Amendments (CLIA) number {% include
+    required.html %}</label
+  >
+  <input
+    class="usa-input"
+    id="clia-number"
+    name="clia-number"
+    type="text"
+    required
+  />
+</div>
