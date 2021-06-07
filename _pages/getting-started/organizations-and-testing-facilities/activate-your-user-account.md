@@ -28,7 +28,7 @@ These all help to keep your account secure.
 ![An Okta page showing the four different multifactor authentication options: Okta Verify, Security Key or Biometric Authenticator, Google Authenticator, and SMS Authentication]({% link assets/img/resources/activate-your-user-account/step-4.png %})
 5. Click the **Finish** button at the bottom of the registration page. The page will confirm that you’ve successfully set up your multifactor authentication, and you’ll get a confirmation email, too.
 
-You can now [log in to SimpleReport]({% link _pages/getting-started/testing-facilities/log-in-to-simplereport.md %}).
+You can now [log in to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/log-in-to-simplereport.md %}).
 
 ## Multifactor authentication options
 If you choose SMS or Google Authenticator/Okta Verify as your multifactor authentication, follow the instructions below to get set up.

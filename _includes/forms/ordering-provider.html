@@ -1,28 +1,65 @@
 <fieldset class="usa-fieldset">
   <legend class="usa-legend usa-legend--large">Ordering provider</legend>
-  <p>This is the point of contact for the public health department, if they need to reach out. Some states (but not all) require information about your ordering provider.</p>
+  <p>
+    The ordering provider is a medical professional and point of contact for the
+    public health department, as needed. All states (except for North Dakota)
+    require ordering provider information.
+  </p>
   <label class="usa-label" for="op-first-name">First name</label>
-  <input class="usa-input" id="op-first-name" name="op-first-name" type="text" spellcheck="false">
+  <input
+    class="usa-input"
+    id="op-first-name"
+    name="op-first-name"
+    type="text"
+    spellcheck="false"
+  />
   <label class="usa-label" for="op-last-name">Last name</label>
-  <input class="usa-input" id="op-last-name" name="op-last-name" type="text" spellcheck="false">
+  <input
+    class="usa-input"
+    id="op-last-name"
+    name="op-last-name"
+    type="text"
+    spellcheck="false"
+  />
   <label class="usa-label" for="npi">National Provider Identifier (NPI)</label>
-  <input class="usa-input" id="npi" name="npi" type="text">
+  <input class="usa-input" id="npi" name="npi" type="text" />
   <label class="usa-label" for="op-phone-number">Phone number</label>
-  <input class="usa-input" id="op-phone-number" name="op-phone-number" type="tel">
+  <input
+    class="usa-input"
+    id="op-phone-number"
+    name="op-phone-number"
+    type="tel"
+  />
   <fieldset class="usa-fieldset">
     <label class="usa-label" for="op-street-address1">
       Street address
     </label>
-    <input class="usa-input" id="op-street-address1" name="op-street-address1" type="text">
+    <input
+      class="usa-input"
+      id="op-street-address1"
+      name="op-street-address1"
+      type="text"
+    />
     <label class="usa-label" for="op-street-address2">
       Street address 2
     </label>
-    <input class="usa-input" id="op-street-address2" name="op-street-address2" type="text">
+    <input
+      class="usa-input"
+      id="op-street-address2"
+      name="op-street-address2"
+      type="text"
+    />
     <label class="usa-label" for="op-city">City</label>
-    <input class="usa-input" id="op-city" name="op-city" type="text">
+    <input class="usa-input" id="op-city" name="op-city" type="text" />
     <label class="usa-label" for="op-state" id="op-state-label">State</label>
     <div class="usa-combo-box" data-enhanced="true">
-      <select class="usa-select usa-sr-only usa-combo-box__select" id="" name="op-state" aria-hidden="true" tabindex="-1">
+      <select
+        class="usa-select usa-sr-only usa-combo-box__select"
+        id=""
+        name="op-state"
+        aria-hidden="true"
+        tabindex="-1"
+      >
         <option value="">- Select -</option>
         <option value="AL">AL - Alabama</option>
         <option value="AK">AK - Alaska</option>
@@ -88,22 +125,66 @@
         <option value="AE">AE - Armed Forces Middle East</option>
         <option value="AP">AP - Armed Forces Pacific</option>
       </select>
-      <input aria-owns="op-state--list" aria-autocomplete="list" aria-describedby="op-state--assistiveHint" aria-expanded="false" autocapitalize="off" autocomplete="off" id="op-state" class="usa-combo-box__input" type="text" role="combobox"><span class="usa-combo-box__clear-input__wrapper" tabindex="-1">
-      <button type="button" class="usa-combo-box__clear-input" aria-label="Clear the select contents">&nbsp;</button>
-      </span><span class="usa-combo-box__input-button-separator">&nbsp;</span><span class="usa-combo-box__toggle-list__wrapper" tabindex="-1">
-      <button type="button" tabindex="-1" class="usa-combo-box__toggle-list" aria-label="Toggle the dropdown list">&nbsp;</button>
+      <input
+        aria-owns="op-state--list"
+        aria-autocomplete="list"
+        aria-describedby="op-state--assistiveHint"
+        aria-expanded="false"
+        autocapitalize="off"
+        autocomplete="off"
+        id="op-state"
+        class="usa-combo-box__input"
+        type="text"
+        role="combobox"
+      /><span class="usa-combo-box__clear-input__wrapper" tabindex="-1">
+        <button
+          type="button"
+          class="usa-combo-box__clear-input"
+          aria-label="Clear the select contents"
+        >
+          &nbsp;
+        </button> </span
+      ><span class="usa-combo-box__input-button-separator">&nbsp;</span
+      ><span class="usa-combo-box__toggle-list__wrapper" tabindex="-1">
+        <button
+          type="button"
+          tabindex="-1"
+          class="usa-combo-box__toggle-list"
+          aria-label="Toggle the dropdown list"
+        >
+          &nbsp;
+        </button>
       </span>
-      <ul tabindex="-1" id="op-state--list" class="usa-combo-box__list" role="listbox" aria-labelledby="op-state-label" hidden="">
-      </ul>
+      <ul
+        tabindex="-1"
+        id="op-state--list"
+        class="usa-combo-box__list"
+        role="listbox"
+        aria-labelledby="op-state-label"
+        hidden=""
+      ></ul>
       <div class="usa-combo-box__status usa-sr-only" role="status"></div>
       <span id="op-state--assistiveHint" class="usa-sr-only">
-      When autocomplete results are available use up and down arrows to review and enter to select.
-      Touch device users, explore by touch or with swipe gestures.
+        When autocomplete results are available use up and down arrows to review
+        and enter to select. Touch device users, explore by touch or with swipe
+        gestures.
       </span>
     </div>
     <label class="usa-label" for="op-zip">ZIP code</label>
-    <input class="usa-input usa-input--medium" id="op-zip" name="op-zip" type="text" pattern="[\d]{5}(-[\d]{4})?">
+    <input
+      class="usa-input usa-input--medium"
+      id="op-zip"
+      name="op-zip"
+      type="text"
+      pattern="[\d]{5}(-[\d]{4})?"
+    />
     <label class="usa-label" for="op-county">County</label>
-    <input class="usa-input" id="op-county" name="op-county" type="text" spellcheck="false">
+    <input
+      class="usa-input"
+      id="op-county"
+      name="op-county"
+      type="text"
+      spellcheck="false"
+    />
   </fieldset>
 </fieldset>
