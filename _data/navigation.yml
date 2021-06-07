@@ -73,8 +73,8 @@ using-simplereport:
       - page: Conduct and submit tests
         url: /using-simplereport/conduct-and-submit-tests/
         subsubnav:
-          - page: New
-            url: /using-simplereport/conduct-and-submit-tests/new/
+          - page: Backdate a test
+            url: /using-simplereport/conduct-and-submit-tests/backdate-a-test/
       - page: Manage results
         url: /using-simplereport/manage-results/review-results/
         subsubnav:
