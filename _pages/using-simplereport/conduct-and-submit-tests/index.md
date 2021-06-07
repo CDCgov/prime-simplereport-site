@@ -1,6 +1,7 @@
 ---
 title: Conduct and submit tests
 description:
+permalink: /using-simplereport/conduct-and-submit-tests/
 layout: page
 class: page-docs
 sidenav: resources
@@ -36,9 +37,9 @@ You can ask these test questions now, or click **Continue** and come back to the
 ![The device dropdown menu at the bottom left of the person's card]({% link assets/img/resources/conduct-and-submit-tests/step-8.png %})
 9. Once the test is complete, select the result of the test on the right side of the person’s card: either “Positive”, “Negative”, or “Inconclusive”.
 ![The three SARS-CoV-2 results options (“Positive”, “Negative”, or “Inconclusive”), shown on the person's card in SimpleReport]({% link assets/img/resources/conduct-and-submit-tests/step-9.png %})
-1.   Make sure that you’ve completed the test questionnaire. You can review the questions by clicking **Test questionnaire** on the card. A gray <span class="usa-tag">PENDING</span> tag means that some answers are still missing. A green <span class="usa-tag tag--success">COMPLETE</span> tag means that all questions are completed.<br>
+10. Make sure that you’ve completed the test questionnaire. You can review the questions by clicking **Test questionnaire** on the card. A gray <span class="usa-tag">PENDING</span> tag means that some answers are still missing. A green <span class="usa-tag tag--success">COMPLETE</span> tag means that all questions are completed.<br>
 You can submit the results without completing all of the questions, if the person being tested declines to answer them.
 ![The person's card with a gray "PENDING" tag beneath the "Test questionnaire" link]({% link assets/img/resources/conduct-and-submit-tests/step-10.png %})
-1.   Click **Submit**.
+11. Click **Submit**.
 
 You’ve successfully submitted the test result to your public health department. You’re all done. If you have the SimpleReport permissions to do so, you can also [review submitted results]({% link _pages/using-simplereport/manage-results/review-results.md %}).
