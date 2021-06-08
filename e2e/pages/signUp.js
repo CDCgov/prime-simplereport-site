@@ -85,12 +85,12 @@ function signUp() {
 
 function orderingProviderOptionalForNorthDakota() {
   fillAllFields.apply(this);
-  this.section.form.expect.element('@state').to.be.present;
+  this.section.form.expect.element("@state").to.be.present;
   this.section.form.setValue("@state", "NY");
-  this.section.form.expect.element('@npi').to.be.present;
+  this.section.form.expect.element("@npi").to.be.present;
   this.section.form.clearValue("@npi");
   this.section.form.click("@submitButton");
-  this.expect.section('@form').to.be.visible;
+  this.expect.section("@form").to.be.visible;
 
   this.section.form.setValue("@state", "ND");
   this.section.form.click("@submitButton");
