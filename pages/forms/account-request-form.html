@@ -308,7 +308,6 @@ class: page-form
     }
     function setOrderingProviderIsRequired() {
       Object.keys(opRequiredFields).forEach(field => {
-        console.info(`trying ${field}`);
         const input = document.getElementsByName(field).item(0);
         const label = document.querySelector(`label[for=${field}]`);
         const stateVal = state.value.toLowerCase();
@@ -330,8 +329,6 @@ class: page-form
     button.onclick = async () => {
       submitted = true;
       const data = aggregateFormData();
-      console.log(data);
-      console.log(state.value);
 
       const formValid = form.reportValidity();
       const groupsValid = groupsAreValid(data);
