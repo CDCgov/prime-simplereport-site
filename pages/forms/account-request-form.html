@@ -296,11 +296,42 @@ class: page-form
      });
 
     /**
+     * Make Ordering Provider's name, NPI & phone required - but only outside of ND
+     */
+    const facilityState = document.getElementsByName('state').item(0);
+    const requiredHtml = '{% include required.html %}';
+    const opRequiredFields = {
+      'op-first-name': 'First name',
+      'op-last-name': 'Last name',
+      'op-phone-number': 'Phone number',
+      'npi': 'National Provider Identifier (NPI)'
+    }
+    function setOrderingProviderIsRequired() {
+      Object.keys(opRequiredFields).forEach(field => {
+        console.info(`trying ${field}`);
+        const input = document.getElementsByName(field).item(0);
+        const label = document.querySelector(`label[for=${field}]`);
+        const stateVal = state.value.toLowerCase();
+        if(stateVal.includes('nd') || stateVal.includes('north dakota')) {
+          input.required = false;
+          label.innerHTML = opRequiredFields[field];
+        } else {
+          input.required = true;
+          label.innerHTML = opRequiredFields[field] + ' ' + requiredHtml;
+        }
+      });
+    }
+    state.onchange = setOrderingProviderIsRequired;
+    setOrderingProviderIsRequired(); // initialize! 
+
+    /**
      * Aggregate the form data; validate the form; submit
      */
     button.onclick = async () => {
       submitted = true;
       const data = aggregateFormData();
+      console.log(data);
+      console.log(state.value);
 
       const formValid = form.reportValidity();
       const groupsValid = groupsAreValid(data);

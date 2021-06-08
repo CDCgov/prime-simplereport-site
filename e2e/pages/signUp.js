@@ -54,7 +54,7 @@ allFields.forEach((field) => {
 });
 formElements.submitButton = "#form-submit-button";
 
-function signUp() {
+function fillAllFields() {
   this.expect.section("@app").to.be.visible;
   this.expect.section("@form").to.be.visible;
   stringFields.forEach((element) => {
@@ -73,6 +73,26 @@ function signUp() {
   this.api.execute(
     "document.getElementById('test-submission').checked = true;"
   );
+}
+
+function signUp() {
+  fillAllFields.apply(this);
+  this.section.form.click("@submitButton");
+  this.expect
+    .section("@app")
+    .to.contain.text("You’re on your way to simpler reporting!");
+}
+
+function orderingProviderOptionalForNorthDakota() {
+  fillAllFields.apply(this);
+  this.section.form.expect.element('@state').to.be.present;
+  this.section.form.setValue("@state", "NY");
+  this.section.form.expect.element('@npi').to.be.present;
+  this.section.form.clearValue("@npi");
+  this.section.form.click("@submitButton");
+  this.expect.section('@form').to.be.visible;
+
+  this.section.form.setValue("@state", "ND");
   this.section.form.click("@submitButton");
   this.expect
     .section("@app")
@@ -86,6 +106,7 @@ module.exports = {
   commands: [
     {
       signUp,
+      orderingProviderOptionalForNorthDakota,
     },
   ],
   sections: {
