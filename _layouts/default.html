@@ -10,6 +10,9 @@ main: foo, bar, qaz
     {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
+    {% if site.url != "https://simplereport.gov" %}
+      <meta name="robots" content="noindex nofollow">
+    {% endif %}
   </head>
   <body class="site-body {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 
