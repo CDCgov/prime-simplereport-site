@@ -307,10 +307,10 @@ class: page-form
       'npi': 'National Provider Identifier (NPI)'
     }
     function setOrderingProviderIsRequired() {
+      const stateVal = state.value.toLowerCase();
       Object.keys(opRequiredFields).forEach(field => {
         const input = document.getElementsByName(field).item(0);
         const label = document.querySelector(`label[for=${field}]`);
-        const stateVal = state.value.toLowerCase();
         if(stateVal.includes('nd') || stateVal.includes('north dakota')) {
           input.required = false;
           label.innerHTML = opRequiredFields[field];
