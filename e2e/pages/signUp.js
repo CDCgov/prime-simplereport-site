@@ -34,9 +34,6 @@ const validatedFields = ["email", "zip", "op-zip"];
 const radioFields = [
   "facility-type",
   "default-testing-device",
-  "records-test-results",
-  "process-time",
-  "submitting-results-time",
 ];
 
 const checkboxFields = ["browsers", "testing-devices", "access-devices"];
