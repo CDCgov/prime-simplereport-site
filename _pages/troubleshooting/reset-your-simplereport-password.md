@@ -5,7 +5,7 @@ layout: page
 class: page-docs page-docs-img-sm
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 To reset your password online, go to [hhs-prime.okta.com/signin/forgot-password](https://hhs-prime.okta.com/signin/forgot-password) and follow the instructions.

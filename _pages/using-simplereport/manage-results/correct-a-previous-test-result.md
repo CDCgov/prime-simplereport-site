@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 If something goes wrong with a test result, you can correct it in SimpleReport. The previous result will still be visible, but marked as an error and submitted to the public health department.

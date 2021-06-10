@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 If you use SimpleReport, or you're a public health department receiving data from SimpleReport, here’s what you can expect. SimpleReport captures all of the data needed to comply with the HHS [COVID-19 Lab Data Reporting guidance COVID-19 Lab Data Reporting guidance](https://www.hhs.gov/sites/default/files/hhs-guidance-implementation.pdf), including ask on order entry questions and a unique specimen ID.
