@@ -26,7 +26,7 @@ primary:
   href: /support/
 - text: Sign up
   href: /sign-up/
-  class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs
+  class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs desktop:margin-left-105
 - text: Log in
   href: "#"
   class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs margin-right-0
