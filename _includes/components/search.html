@@ -3,7 +3,12 @@
   action="https://search.usa.gov/search"
   id="search_form"
   method="get"
-  class="usa-search usa-search--small js-search-form mobile-lg:grid-col mobile-lg:width-tablet"
+  class="usa-search js-search-form
+    {% if page.search == "big" %}
+      usa-search--big maxw-mobile-lg
+    {% else %}
+      usa-search--small mobile-lg:grid-col mobile-lg:width-tablet
+    {% endif %}"
 >
   <input name="utf8" type="hidden" value="&#x2713;" />
   <input
@@ -22,7 +27,14 @@
       type="search"
     />
     <button class="usa-button" type="submit" name="commit">
-      <span class="usa-sr-only">Search</span>
+      <span class="
+        {% if page.search == "big" %}
+          usa-search__submit-text
+        {% else %}
+          usa-sr-only
+        {% endif %}"
+      >
+      Search</span>
     </button>
   </div>
 </form>
