@@ -9,7 +9,11 @@
   {% endif %} {% if footer.top %} {% if page.return_top != 'false' %}
   <div class="grid-container usa-footer__return-to-top">
     <div class="grid-row">
-      <a href="{{ footer.top.href | default: '#' }}"
+      <a
+      {% if page.class contains "page-docs" %}
+        class="grid-offset-3"
+      {% endif %}
+      href="{{ footer.top.href | default: '#' }}"
         >{{ footer.top.text | default: 'Return to top' }}</a
       >
     </div>
