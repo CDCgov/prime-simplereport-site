@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 A few tactics can resolve many issues that people have while using SimpleReport. Try these if you’re having trouble:

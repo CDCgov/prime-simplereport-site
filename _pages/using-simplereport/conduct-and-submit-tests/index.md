@@ -6,7 +6,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 Once you’ve [logged in to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/log-in-to-simplereport.md %}), you can begin conducting tests and submitting results to your public health department:

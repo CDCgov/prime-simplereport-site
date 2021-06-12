@@ -5,7 +5,7 @@ layout: page
 class: page-docs page-docs-img-sm
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 SimpleReport uses a service called Okta to register users and create their accounts. Look for an email invitation from Okta to activate your user account.

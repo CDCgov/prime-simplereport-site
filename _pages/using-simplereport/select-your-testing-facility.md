@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 If you work at multiple testing facilities, you’ll be asked which facility you’re working at that day each time you log in to SimpleReport. Just choose the facility where you’re working, and you’ll be ready to [conduct tests]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}).

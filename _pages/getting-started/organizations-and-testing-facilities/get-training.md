@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 As we continue improving SimpleReport, we’re adding more ways for you and your team to get comfortable using the tool.

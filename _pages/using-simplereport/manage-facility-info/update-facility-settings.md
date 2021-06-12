@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 You may need to change information about your facility, from the phone number to the ordering provider to the testing devices you use. Although this is possible, be careful: editing your information can cause problems with reporting to public health departments.

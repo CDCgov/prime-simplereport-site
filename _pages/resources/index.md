@@ -6,7 +6,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 Welcome to SimpleReport. We’ve put together a number of articles to help you get started and use SimpleReport, from activating your account to running tests and troubleshooting common issues.

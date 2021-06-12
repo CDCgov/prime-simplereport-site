@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 You can add a testing facility directly in SimpleReport. Before you add a new facility, make sure that it’s in [a jurisdiction that SimpleReport supports]({% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}).

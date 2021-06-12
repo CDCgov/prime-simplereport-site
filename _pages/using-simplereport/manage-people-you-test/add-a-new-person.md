@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 In order to report test results for someone, you’ll need to make sure that their information has been added to SimpleReport.

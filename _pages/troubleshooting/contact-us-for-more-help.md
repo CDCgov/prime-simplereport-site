@@ -5,7 +5,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 If you’ve already tried [troubleshooting techniques]({% link _pages/troubleshooting/troubleshoot-common-problems.md %}) and are still having problems with SimpleReport, please reach out to us.

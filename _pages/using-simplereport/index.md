@@ -6,7 +6,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 Once you’ve set up SimpleReport, you can begin using it in your daily work.

@@ -5,10 +5,10 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
-If you’re doing COVID-19 rapid testing, the first step is to request an account for your organization so you can start using SimpleReport. 
+If you’re doing COVID-19 rapid testing, the first step is to request an account for your organization so you can start using SimpleReport.
 
 Organizations are companies, institutions, school systems, and more that have multiple testing facilities as part of their network. For example, John Doe School District is the “organization” that includes Highland High School, Middleton Middle School, etc. Each individual school is considered a “testing facility” that must be connected to its parent organization in SimpleReport. If you don’t have a parent organization that’s ok —  you’ll just enter in your information a bit differently when you fill out our form.
 

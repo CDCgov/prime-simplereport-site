@@ -6,7 +6,7 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'false'
+return_top: 'true'
 ---
 
 In addition to the resources on this site, we’ve developed ways for you to stay up-to-date on SimpleReport and connect with other users.

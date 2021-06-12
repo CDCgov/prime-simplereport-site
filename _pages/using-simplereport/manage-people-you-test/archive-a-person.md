@@ -4,7 +4,7 @@ description:
 layout: page
 class: page-docs
 sidenav: resources
-return_top: 'false'
+return_top: 'true'
 ---
 
 Archiving a person removes them from your list of people. Because it's archived and not deleted, their record will still be accessible if it needs to be recovered later.
