@@ -149,8 +149,6 @@ class: page-form
       "facility-name",
       "clia-number",
       "testing-device-other",
-      "browsers-other",
-      "workflow",
       "op-first-name",
       "op-last-name",
       "npi",
@@ -177,14 +175,6 @@ class: page-form
       {
         id: "default-testing-device",
         type: "radio"
-      },
-      {
-        id: "access-devices",
-        type: "checkbox"
-      },
-      {
-        id: "browsers",
-        type: "checkbox"
       },
     ];
 
@@ -309,7 +299,7 @@ class: page-form
       });
     }
     state.onchange = setOrderingProviderIsRequired;
-    setOrderingProviderIsRequired(); // initialize! 
+    setOrderingProviderIsRequired(); // initialize!
 
     /**
      * Aggregate the form data; validate the form; submit
