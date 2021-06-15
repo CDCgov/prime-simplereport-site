@@ -997,13 +997,19 @@ Typography
 }
 
 .usa-tooltip__trigger {
-  border-bottom: 1px dotted;
-  border-color: color("primary");
-  text-decoration: none;
+  @include at-media("tablet") {
+    border-bottom: 1px dotted;
+    border-color: color("primary");
+    text-decoration: none;
+  }
 
-  > .usa-icon {
-    color: color("primary");
-    display: initial;
+  > svg {
+    display: none;
+
+    @include at-media("tablet") {
+      color: color("primary");
+      display: initial;
+    }
   }
 }
 
