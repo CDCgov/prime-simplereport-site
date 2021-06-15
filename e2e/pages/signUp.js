@@ -16,8 +16,6 @@ const stringFields = [
   "facility-name",
   "clia-number",
   "testing-device-other",
-  "browsers-other",
-  "workflow",
   "op-first-name",
   "op-last-name",
   "npi",
@@ -36,7 +34,7 @@ const radioFields = [
   "default-testing-device",
 ];
 
-const checkboxFields = ["browsers", "testing-devices", "access-devices"];
+const checkboxFields = ["testing-devices"];
 
 const allFields = [
   ...stringFields,
