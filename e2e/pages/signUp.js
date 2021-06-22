@@ -11,7 +11,6 @@ const stringFields = [
   "state",
   "county",
   "facility-phone-number",
-  "facility-type-other",
   "organization-name",
   "facility-name",
   "clia-number",
@@ -29,10 +28,7 @@ const stringFields = [
 
 const validatedFields = ["email", "zip", "op-zip"];
 
-const radioFields = [
-  "facility-type",
-  "default-testing-device",
-];
+const radioFields = ["organization-type", "default-testing-device"];
 
 const checkboxFields = ["testing-devices"];
 
