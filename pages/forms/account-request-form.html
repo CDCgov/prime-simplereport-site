@@ -1,6 +1,6 @@
 ---
-title: Sign up
-description: Get access for your organization after completing just 2 steps.
+title: Sign up for SimpleReport
+description: Get access for your organization in four steps
 permalink: /sign-up/
 layout: default
 return_top: "false"
@@ -14,15 +14,7 @@ class: page-form
   {% include home-link.html %}
   <div class="usa-prose">
     <h1 class="font-heading-2xl text-primary-darker">{{ page.title }}</h1>
-    <p class="usa-intro">{{ page.description }}</p>
-    <p>
-      <a
-        class="margin-top-205 line-height-sans-1"
-        href="{% link _pages/getting-started/organizations-and-testing-facilities/onboard-your-organization.md %}"
-      >
-        Learn more about the onboarding process</a
-      >.
-    </p>
+    <p class="usa-intro">{{ page.description }}:</p>
     <div>
       <div
         class="step-line position-absolute height-5 width-05 bg-base-light"
@@ -37,23 +29,50 @@ class: page-form
             </span>
           </div>
           <div class="usa-icon-list__content text-primary text-bold">
-            Submit sign up form
+            Enter your organization and testing facility information
+          </div>
+        </li><li class="usa-icon-list__item">
+          <div
+            class="usa-icon-list__icon border-05 border-base-light circle-3 display-flex flex-justify-center flex-align-center">
+            <span class="text-tabular text-bold text-base-dark font-ui-2xs">
+              2
+            </span>
+          </div>
+          <div class="usa-icon-list__content">
+            Enter your personal details
           </div>
         </li>
         <li class="usa-icon-list__item">
           <div
-            class="usa-icon-list__icon border-05 border-base-light circle-3 display-flex flex-justify-center flex-align-center"
-          >
+            class="usa-icon-list__icon border-05 border-base-light circle-3 display-flex flex-justify-center flex-align-center">
             <span class="text-tabular text-bold text-base-dark font-ui-2xs">
-              2
+              3
             </span>
           </div>
           <div class="usa-icon-list__content">
             Verify your identity
           </div>
         </li>
+        <li class="usa-icon-list__item">
+          <div
+            class="usa-icon-list__icon border-05 border-base-light circle-3 display-flex flex-justify-center flex-align-center">
+            <span class="text-tabular text-bold text-base-dark font-ui-2xs">
+              4
+            </span>
+          </div>
+          <div class="usa-icon-list__content">
+            Activate your account
+          </div>
+        </li>
       </ul>
     </div>
+    <p class="margin-top-4">      
+      Each organization should only sign up one time. After your organization profile is complete you can add additional users
+      and locations.
+    </p>
+    <p class="margin-top-4">
+      Not sure if your organization already has SimpleReport? Email <a href="mailto:support@simplereport.gov">support@simplereport.gov</a>.
+    </p>
     <p class="margin-top-4">
       Required fields are marked with an asterisk ({% include required.html %}).
     </p>
@@ -88,9 +107,9 @@ class: page-form
     >
       {% include forms/ordering-provider.html %}
     </div>
-    <p class="margin-bottom-0">
-      By submitting this form, you agree to our
-      <a href="{% link pages/tos.md %}">Terms of Service</a>.
+    <p class="usa-hint font-ui-2xs margin-bottom-0">
+      By selecting <strong>Continue</strong>, you agree to our
+      <a href="{% link pages/tos.md %}">terms of service</a>.
     </p>
     <div
       id="alert-api-error"
@@ -119,7 +138,7 @@ class: page-form
     <button
       id="form-submit-button"
       type="button"
-      class="usa-button usa-button--big"
+      class="usa-button usa-button--big width-full margin-top-1"
       value="submit"
       name="submit"
     >
@@ -342,7 +361,7 @@ class: page-form
 
       try {
         button.disabled = true;
-        const response = await fetch("/api/account-request", {
+        const response = await fetch("/api/organization-create", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -350,7 +369,8 @@ class: page-form
           body: JSON.stringify(data),
         });
         if (response.ok) {
-          window.location.replace("/sign-up/thanks?email=" + encodeURIComponent(data.email));
+          const { orgExternalId } = await response.json().catch(() => {orgExternalId: null});
+          window.location.replace("/app/sign-up/identity-verification?orgExternalId=" + encodeURIComponent(orgExternalId));
         } else {
           throw "oh no";
         }
