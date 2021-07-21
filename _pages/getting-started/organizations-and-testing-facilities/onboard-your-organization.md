@@ -43,7 +43,11 @@ To get access, fill out the [SimpleReport organization access request form]({% l
 Make sure that the organization name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 
 ## Verify your identity
-Once you’ve filled out the organization access request form, your administrator will schedule a short video call with a representative from the U.S. Department of Health and Human Services (HHS). You’ll be asked to show two forms of ID to verify your identity and get access to SimpleReport. (In addition to this list of [identification you can use](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity), we will also accept a work ID.)
+Once you’ve filled out the organization access request form, you'll answer identity verification questions online with our verification partner, Experian. This takes just a few minutes. 
+
+If Experian is unable to verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID to verify your identity. In addition to this list of [identification you can use](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity), we will also accept a work ID.
+
+Your SimpleReport account will be accessible after your identity is verified. You’ll simply activate and log in to your account.
 
 ## (optional) Get training
 Learn how to use SimpleReport:
