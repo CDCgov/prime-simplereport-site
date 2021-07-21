@@ -27,6 +27,7 @@ SimpleReport is currently live in these jurisdictions:
 - Texas
 - Vermont
 - Washington
+- Wyoming
 
 If you're in one of these jurisdictions, you can [request access to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/onboard-your-organization.md %}#request-access-for-your-testing-facility) and start onboarding right away.
 
