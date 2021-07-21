@@ -361,7 +361,7 @@ class: page-form
 
       try {
         button.disabled = true;
-        const response = await fetch("/api/organization-create", {
+        const response = await fetch("/api/account-request/organization-create", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
