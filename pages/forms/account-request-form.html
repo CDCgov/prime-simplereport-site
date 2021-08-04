@@ -71,22 +71,7 @@ class: page-form
     <div
       class="card border-2px border-base-lighter bg-white radius-lg margin-top-2 padding-4"
     >
-      {% include forms/facility-administrator.html %}
-    </div>
-    <div
-      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
-    >
-      {% include forms/testing-facility-information.html %}
-    </div>
-    <div
-      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
-    >
-      {% include forms/testing-workflow.html %}
-    </div>
-    <div
-      class="card border-2px border-base-lighter bg-white radius-lg padding-4 margin-top-4"
-    >
-      {% include forms/ordering-provider.html %}
+      {% include forms/organization.html %}
     </div>
     <p class="margin-bottom-0">
       By submitting this form, you agree to our
@@ -132,32 +117,12 @@ class: page-form
   (function formLogic() {
     // Define all fields on the form here
     const stringFields = [
+      "organization-name",
+      "state",
       "first-name",
       "last-name",
       "email",
       "work-phone-number",
-      "cell-phone-number",
-      "street-address1",
-      "street-address2",
-      "city",
-      "state",
-      "zip",
-      "county",
-      "facility-phone-number",
-      "organization-name",
-      "facility-name",
-      "clia-number",
-      "testing-device-other",
-      "op-first-name",
-      "op-last-name",
-      "npi",
-      "op-phone-number",
-      "op-street-address1",
-      "op-street-address2",
-      "op-city",
-      "op-state",
-      "op-zip",
-      "op-county",
     ];
 
     // This array should be ordered by the way that these appear on the form;
@@ -167,18 +132,9 @@ class: page-form
         id: "organization-type",
         type: "radio"
       },
-      {
-        id: "testing-devices",
-        type: "checkbox"
-      },
-      {
-        id: "default-testing-device",
-        type: "radio"
-      },
     ];
 
     const radioFields = fieldGroups.filter(e => e.type === 'radio').map(e => e.id);
-    const checkboxFields = fieldGroups.filter(e => e.type === 'checkbox').map(e => e.id);
 
     // If a non-required checkbox or radio group is added, this will need to change
     const requiredElementGroups = fieldGroups.map(e => e.id);
@@ -230,14 +186,6 @@ class: page-form
           .map((e) => e.nextElementSibling.textContent);
         data[field] = radioElements.length ? radioElements[0] : null;
       });
-
-      checkboxFields.forEach(
-        (field) =>
-          (data[field] = Array.from(document.getElementsByName(field))
-            .filter((e) => e.checked)
-            .map((e) => e.nextElementSibling.textContent)
-            .join(", "))
-      );
       return data;
     }
 
@@ -255,52 +203,6 @@ class: page-form
     });
 
     /**
-     * Add default-adding behavior onto the device radio group
-     */
-     const defaultDeviceRadios = Array.from(document.getElementsByName("default-testing-device"));
-     defaultDeviceRadios.forEach(element => {
-        const existingChangeFn = element.onchange;
-        element.onchange = () => {
-         const selectedDefaultDeviceIdArray = defaultDeviceRadios
-           .filter((e) => e.checked)
-           .map((e) => e.value);
-          const selectedDefaultDeviceId = selectedDefaultDeviceIdArray && selectedDefaultDeviceIdArray.length ? selectedDefaultDeviceIdArray[0] : false;
-          if(selectedDefaultDeviceId) {
-            document.getElementById(selectedDefaultDeviceId).checked = true;
-          }
-          existingChangeFn();
-        }
-     });
-
-    /**
-     * Make Ordering Provider's name, NPI & phone required - but not in ND
-     */
-    const facilityState = document.getElementsByName('state').item(0);
-    const requiredHtml = '{% include required.html %}';
-    const opRequiredFields = {
-      'op-first-name': 'First name',
-      'op-last-name': 'Last name',
-      'op-phone-number': 'Phone number',
-      'npi': 'National Provider Identifier (NPI)'
-    }
-    function setOrderingProviderIsRequired() {
-      const stateVal = state.value.toLowerCase();
-      Object.keys(opRequiredFields).forEach(field => {
-        const input = document.getElementsByName(field).item(0);
-        const label = document.querySelector(`label[for=${field}]`);
-        if(stateVal.includes('nd') || stateVal.includes('north dakota')) {
-          input.required = false;
-          label.innerHTML = opRequiredFields[field];
-        } else {
-          input.required = true;
-          label.innerHTML = opRequiredFields[field] + ' ' + requiredHtml;
-        }
-      });
-    }
-    state.onchange = setOrderingProviderIsRequired;
-    setOrderingProviderIsRequired(); // initialize!
-
-    /**
      * Aggregate the form data; validate the form; submit
      */
     button.onclick = async () => {
@@ -310,22 +212,7 @@ class: page-form
       const formValid = form.reportValidity();
       const groupsValid = groupsAreValid(data);
 
-      // Additionally validate that the default device type has been selected
-      let defaultDeviceValid = true;
-      const selectedDefaultDeviceIdArray = defaultDeviceRadios
-        .filter((e) => e.checked)
-        .map((e) => e.value);
-      const selectedDefaultDeviceId = selectedDefaultDeviceIdArray && selectedDefaultDeviceIdArray.length ? selectedDefaultDeviceIdArray[0] : false;
-      if(selectedDefaultDeviceId && !document.getElementById(selectedDefaultDeviceId).checked) {
-        defaultDeviceValid = false;
-        const errorSpan = document.getElementById(`default-testing-device-error-message`);
-        errorSpan.className = "usa-error-message";
-        if(!firstErrorSeen) {
-          firstErrorSeen = errorSpan;
-        }
-      }
-
-      if (!formValid || !groupsValid || !defaultDeviceValid) {
+      if (!formValid || !groupsValid) {
         if(firstErrorSeen) {
           firstErrorSeen.scrollIntoView();
         }
