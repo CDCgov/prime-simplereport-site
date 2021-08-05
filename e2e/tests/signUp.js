@@ -6,10 +6,4 @@ module.exports = {
       .navigate()
       .signUp();
   },
-  "2. Ordering provider conditionally required": (browser) => {
-    browser.page
-      .signUp()
-      .navigate()
-      .orderingProviderOptionalForNorthDakota();
-  },
 };
