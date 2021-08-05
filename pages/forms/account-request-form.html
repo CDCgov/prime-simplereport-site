@@ -75,7 +75,7 @@ class: page-form
     </div>
     <p class="margin-bottom-0">
       By submitting this form, you agree to our
-      <a href="{% link pages/tos.md %}">Terms of Service</a>.
+      <a href="{% link pages/tos.md %}">terms of service</a>.
     </p>
     <div
       id="alert-api-error"
@@ -183,7 +183,7 @@ class: page-form
       radioFields.forEach((field) => {
         const radioElements = Array.from(document.getElementsByName(field))
           .filter((e) => e.checked)
-          .map((e) => e.nextElementSibling.textContent);
+          .map((e) => e.value);
         data[field] = radioElements.length ? radioElements[0] : null;
       });
       return data;
