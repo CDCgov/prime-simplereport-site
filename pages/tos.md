@@ -6,6 +6,12 @@ layout: post
 home_link: true
 ---
 
+# US Government Information System
+
+You are accessing a US Government information system, which includes (1) this computer, (2) this computer network, (3) all computers connected to this network, and (4) all devices and storage media attached to this network or to a computer on this network. This information system is provided for US Government-authorized use only. Unauthorized or improper use of this system may result in disciplinary action, as well as civil and criminal penalties. By using this information system, you understand and consent to the following: You have no reasonable expectation of privacy regarding any communication or data transiting or stored on this information system. At any time, and for any lawful government purpose, the government may monitor, intercept, and search and seize any communication or data transiting or stored on this information system.  Any communication or data transiting or stored on this information system may be disclosed or used for any lawful Government purpose.
+
+# SimpleReport Terms of Service
+
 12/4/2020
 
 As a Testing Facility (Facility) or its user (Facility User) accessing or using SimpleReport (Application) provided by the Centers for Disease Control and Prevention (CDC) and the U.S. Department of Health and Human Services (HHS), in a CDC cloud environment ("CDC Platform"), you acknowledge and agree that you are solely responsible for and shall abide by these Terms of Service, as well as any relevant sections of [CDC's Privacy Policies](https://www.cdc.gov/other/information.html) (collectively, Terms).
