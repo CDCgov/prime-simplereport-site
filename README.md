@@ -5,16 +5,23 @@ The static website resources for https://simplereport.gov/
 ## Table of Contents
 - [Simple Report Public Website](#simple-report-public-website)
   - [Table of Contents](#table-of-contents)
+  - [Recommended Versions](#recommended-versions)
   - [Setup](#setup)
+  - [E2E Tests](#e2e-tests)
   - [Contributing](#contributing)
   - [Cloud Environments](#cloud-environments)
   - [Manually Trigger Deploy](#manually-trigger-deploy)
 
+## Recommended Versions
+
+| Software | Version | How to Configure |
+| :- | :- | :- |
+| Node | 14.x | Configure with `.nvmrc` using [nvm](https://github.com/nvm-sh/nvm) |
+| Ruby | 2.6.x | Configure with `.ruby-version` using [rbenv](https://github.com/rbenv/rbenv) |
+
 ## Setup
 Install node packages
 `yarn install`
-
-Set ruby to `2.6.0`
 
 Install bundler
 `gem install bundler`
