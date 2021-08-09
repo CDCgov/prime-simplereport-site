@@ -174,8 +174,8 @@ return_top: 'false'
   <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
   <div class="bg-accent-cool-lighter padding-y-2 tablet:padding-y-0">
     <div class="grid-container usa-prose">
-      <p class="usa-intro">Eager to try SimpleReport for yourself? Check out the SimpleReport demo. It’s a safe space where you can experiment and get comfortable with SimpleReport using fake data.</p>
-      <a class="usa-button text-no-underline text-white" href="https://training.simplereport.gov/app/queue?facility=adddb27d-3be3-48b7-b959-ea506fd92ce6">Go to the demo</a>
+      <p class="usa-intro">Check out the SimpleReport demo to try out features using sample data. See how SimpleReport could work for you.</p>
+      <a class="usa-button text-no-underline text-white" href="https://training.simplereport.gov/app">Go to the demo</a>
     </div>
   </div>
   <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="mid wave bottom">
