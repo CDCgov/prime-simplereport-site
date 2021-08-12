@@ -229,7 +229,7 @@ class: page-form
 
       try {
         button.disabled = true;
-        const response = await fetch("/api/account-request/organization-create-without-facility", {
+        const response = await fetch("/api/account-request/without-facility-with-emails", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
