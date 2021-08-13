@@ -31,6 +31,8 @@ function fillAllFields() {
     this.section.form.expect.element(`@${element}`).to.be.present;
     this.section.form.click(`[name="${element}"]+label`);
   });
+  this.section.form.click("#state");
+  this.section.form.click("#state--list--option-0");
   this.section.form.expect.element("@submitButton").to.be.visible;
   // check the hidden checkbox to skip backend submission
   this.api.execute(
