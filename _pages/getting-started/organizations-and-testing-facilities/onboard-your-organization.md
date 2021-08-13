@@ -45,7 +45,7 @@ Make sure that the organization name that you enter in the form is accurate, sin
 ## Verify your identity
 Once you’ve filled out the organization access request form, you'll answer identity verification questions online with our verification partner, Experian. This takes just a few minutes. 
 
-If Experian is unable to verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID to verify your identity. In addition to this list of [identification you can use](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity), we'll also accept a work ID.
+If Experian is unable to verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID to verify your identity. We recommend a driver's licence and a work ID, or you can use any of the [documents on this list](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity).
 
 Your SimpleReport account will be accessible after your identity is verified. You’ll simply activate and log in to your account.
 
