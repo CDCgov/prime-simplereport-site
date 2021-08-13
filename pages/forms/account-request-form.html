@@ -148,13 +148,55 @@ class: page-form
     // Has submit ever been pressed?
     let submitted = false;
 
+    // Constant for valid states
+    const VALID_STATES = [
+      "AL",
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GU",
+      "LA",
+      "MD",
+      "MA",
+      "MS",
+      "MT",
+      "NM",
+      "ND",
+      "OH",
+      "PA",
+      "TX",
+      "VT",
+      "WA",
+      "WY"
+    ];
+
+    function stateIsValid(state) {
+      const stateCode = state.substr(0,2);
+      const valid = VALID_STATES.indexOf(stateCode) > -1;
+      let errorSpan
+      if (!valid) {
+        if (stateCode === "") {
+          errorSpan = document.getElementById("state-required-error-message");
+        } else {
+          errorSpan = document.getElementById("state-invalid-error-message");
+          document.getElementById("state-required-error-message").className = "usa-error-message display-none"
+        }
+        firstErrorSeen = errorSpan;
+        errorSpan.className = "usa-error-message";
+      } else {
+        document.getElementById("state-required-error-message").className = "usa-error-message display-none";
+        document.getElementById("state-invalid-error-message").className = "usa-error-message display-none";
+      }
+      return valid;
+    }
+
     /**
      * The text inputs are handled with native HTML validation.
      * The radios and checkboxes are all required and need manual validation here
      */
     function groupsAreValid(data) {
       let valid = true;
-      firstErrorSeen = undefined;
       requiredElementGroups.forEach((field) => {
         const errorSpan = document.getElementById(`${field}-error-message`);
         if (!data[field]) {
@@ -210,9 +252,10 @@ class: page-form
       const data = aggregateFormData();
 
       const formValid = form.reportValidity();
+      const stateValid = stateIsValid(data.state);
       const groupsValid = groupsAreValid(data);
 
-      if (!formValid || !groupsValid) {
+      if (!formValid || !groupsValid || !stateValid) {
         if(firstErrorSeen) {
           firstErrorSeen.scrollIntoView();
         }

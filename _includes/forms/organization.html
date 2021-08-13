@@ -28,6 +28,10 @@
   />
   <label class="usa-label" for="state" id="state-label">Organization state
     <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <span class="usa-error-message display-none" id="state-required-error-message">This field is required</span>
+    <span class="usa-error-message display-none" id="state-invalid-error-message">SimpleReport is not yet available in your
+      state. For more information, see <a href="/using-simplereport/manage-facility-info/find-supported-jurisdictions">this
+        page</a>.</span>
   <div class="usa-combo-box" data-enhanced="true">
     <select class="usa-select usa-sr-only usa-combo-box__select" id="" name="state" aria-hidden="true" tabindex="-1">
       {% include forms/state-options.html %}
