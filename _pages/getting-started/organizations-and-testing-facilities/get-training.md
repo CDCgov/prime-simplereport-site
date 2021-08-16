@@ -8,9 +8,15 @@ home_link: true
 return_top: 'true'
 ---
 
-As we continue improving SimpleReport, we’re adding more ways for you and your team to get comfortable using the tool.
+Check out  our resources to get familiar with SimpleReport’s testing, reporting, and workflow features. 
 
-If you have questions about training for SimpleReport, contact [support@simplereport.gov](mailto:support@simplereport.gov).
+- Check out our [video introduction and onboarding guide](https://youtu.be/3YsfDprX2aw).
+- Practice using SimpleReport and take a look around on our [training site](https://training.simplereport.gov/app).
+- Have a look at our [resources page](https://simplereport.gov/resources).
+- Review our [K-12 schools guide](https://simplereport.gov/assets/resources/k12-guide.pdf).
+
+Still have a question? Visit our [support page](https://simplereport.gov/support/).
+
 
 ## Videos
 <div class="usa-embed-container">

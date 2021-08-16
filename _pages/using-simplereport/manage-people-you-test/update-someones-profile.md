@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-After you’ve added someone in SimpleReport, you may need to return and update their information.
+After you’ve added someone in SimpleReport, you may need to return and update their information, including adding or modifying the testing facilities where they'll be tested.
 
 To update someone's profile:
 
