@@ -7,7 +7,7 @@ return_top: 'false'
 home_link: true
 ---
 
-Our SimpleReport user guide is a downloadable PDF, created for printing out instructions on using SimpleReport.
+Our SimpleReport user guide is a downloadable PDF, created for printing out instructions for using SimpleReport.
 
 [SimpleReport user guide](/assets/resources/SimpleReport-user-guide.pdf) (PDF)
 
