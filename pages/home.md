@@ -114,7 +114,7 @@ return_top: 'false'
             Reporting done for you
           </h3>
           <p class="usa-intro line-height-sans-4 margin-bottom-0">
-            SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results for you the moment you record them — saving you time.
+            SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results the moment you record them — saving you time.
           </p>
         </div>
       </div>
@@ -187,9 +187,9 @@ return_top: 'false'
     <h2 class="section__heading">Where you can use SimpleReport</h2>
     <div class="section__title-line"></div>
     <div class="usa-prose margin-top-4">
-      <p class="usa-intro">SimpleReport is available in many parts of the country now, and is expanding to new jurisdictions quickly.</p>
+      <p class="usa-intro">SimpleReport is available in many parts of the country and is expanding to new jurisdictions quickly.</p>
       <img class="margin-top-4 tablet:padding-x-15" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
-      <p><a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">Review the full list of supported jurisdictions</a></p>
+      <p>View the <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">list of supported states and jurisdictions</a>.</p>
     </div>
   </div>
 </section>
