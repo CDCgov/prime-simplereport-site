@@ -187,7 +187,7 @@ return_top: 'false'
     <h2 class="section__heading">Where you can use SimpleReport</h2>
     <div class="section__title-line"></div>
     <div class="usa-prose margin-top-4">
-      <p class="usa-intro">SimpleReport is available in many parts of the country and is expanding to new jurisdictions quickly.</p>
+      <p class="usa-intro">SimpleReport is available in many parts of the country and is quickly expanding to new jurisdictions.</p>
       <img class="margin-top-4 tablet:padding-x-15" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
       <p>View the <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">list of supported states and jurisdictions</a>.</p>
     </div>
