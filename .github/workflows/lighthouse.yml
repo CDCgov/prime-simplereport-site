@@ -34,7 +34,6 @@ jobs:
         with:
           urls: |
             $SITE_URL/
-            $SITE_URL/sign-up/
           uploadArtifacts: true
           configPath: ./lighthouse/lighthouserc.yml
           runs: 1
