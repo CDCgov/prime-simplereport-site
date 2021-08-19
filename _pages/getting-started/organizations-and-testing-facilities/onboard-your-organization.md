@@ -38,7 +38,7 @@ Complete the following steps to get access and learn how to use SimpleReport:
 </fieldset>
 
 ## Request access for your organization
-To get access, fill out the [SimpleReport organization access request form]({% link pages/forms/account-request-form.html %}).
+To get access, fill out the [SimpleReport organization access request form](/app/sign-up).
 
 Make sure that the organization name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 

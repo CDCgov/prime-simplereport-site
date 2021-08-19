@@ -9,7 +9,7 @@ hero:
   #   alt: "Hero callout:"
   #   text: Bring attention to a current priority
   button:
-    href: pages/forms/account-request-form.html
+    href: /app/sign-up/
     text: Sign up for free
   # link:
   #   text: Link to more about that priority
@@ -205,7 +205,7 @@ return_top: 'false'
         <p class="usa-intro">If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <div class="margin-top-2">
-        <a class="usa-button text-no-underline font-body-sm" href="{% link pages/forms/account-request-form.html %}">Request a SimpleReport account</a>
+        <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Request a SimpleReport account</a>
         <a class="usa-button usa-button--outline text-no-underline font-body-sm margin-top-2 tablet:margin-top-0" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
       </div>
     </div>
