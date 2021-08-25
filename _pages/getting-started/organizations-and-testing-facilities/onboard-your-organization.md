@@ -43,7 +43,7 @@ To get access, fill out the [SimpleReport organization access request form](/app
 Make sure that the organization name that you enter in the form is accurate, since this is the name that SimpleReport will share with your public health department.
 
 ## Verify your identity
-Once you’ve filled out the organization access request form, you'll provide your personal contact information and answer identity verification questions online with our verification partner, Experian. This takes just a few minutes. 
+Once you’ve filled out the organization access request form, you'll provide your personal contact information and answer identity verification questions with our verification partner, Experian. This takes just a few minutes. 
 
 If Experian is unable to verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID to verify your identity. We recommend a driver's licence and a work ID, or you can use any of the [documents on this list](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity).
 
