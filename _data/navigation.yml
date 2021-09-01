@@ -12,16 +12,16 @@ primary:
   links: primary
 
 primary:
-- text: About us
-  href: /about-us/
+- text: Getting started
+  href: /getting-started/
 - text: How it works
   links:
-    - text: Getting started
-      href: /getting-started/
     - text: Using SimpleReport
       href: /using-simplereport/
-    - text: Troubleshooting
-      href: /troubleshooting/
+    - text: Training videos
+      href: https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF
+    - text: Demo site
+      href: https://training.simplereport.gov/app
     - text: For K-12 schools
       href: /assets/resources/k12-guide.pdf
     - text: User guide
