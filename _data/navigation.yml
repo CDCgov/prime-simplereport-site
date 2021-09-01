@@ -21,7 +21,7 @@ primary:
     - text: Training videos
       href: https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF
     - text: Demo site
-      href: https://training.simplereport.gov/app
+      href: https://demo.simplereport.gov/app
     - text: For K-12 schools
       href: /assets/resources/k12-guide.pdf
     - text: User guide
