@@ -2,9 +2,11 @@
 title: User guide
 description:
 permalink: /user-guide/
-layout: post
-return_top: 'false'
+layout: page
+class: page-docs
+sidenav: resources
 home_link: true
+return_top: 'false'
 ---
 
 Our SimpleReport user guide is a downloadable PDF, created for printing out instructions for using SimpleReport.
