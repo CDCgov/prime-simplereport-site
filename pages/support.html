@@ -1,55 +1,48 @@
 ---
-title: Support
-description: Having issues with SimpleReport? You can find help here.
 permalink: /support/
-layout: post
+layout: home
 ---
 
-{% assign card = "maxw-tablet border border-base-lighter padding-3 radius-md usa-prose margin-top-4" %}
-{% assign h2 = "font-ui-lg text-bold" %}
-{% assign button = "usa-button text-white no-underline" %}
-{% assign email_bug = "mailto:support@simplereport.gov?subject=[Feedback: Technical issue]" %}
-{% assign email_other = "mailto:support@simplereport.gov?subject=[Feedback: Other]" %}
-
-<div class="{{ card }}">
-  <h2 class="{{ h2 }}">
-    Something’s not working
-  </h2>
-  <p>
-    If you’ve experienced a technical issue or something’s not working
-    correctly, we’d like to fix it. Let us know about the problem at
-    <a href="{{ email_bug }}">support@simplereport.gov</a>.
-  </p>
-  <p>
-    <a class="{{ button }}" href="{{ email_bug }}">Report an issue</a>
-  </p>
-</div>
-
-<div class="{{ card }}">
-  <h2 class="{{ h2 }}">
-    Problems logging in
-  </h2>
-  <p>
-    Trouble logging in to SimpleReport or need to reset your password?
-  </p>
-  <p>
-    <a
-      class="{{ button }}"
-      href="https://hhs-prime.okta.com/signin/forgot-password"
-      >Reset password</a
-    >
-  </p>
-</div>
-
-<div class="{{ card }}">
-  <h2 class="{{ h2 }}">
-    Something else
-  </h2>
-  <p>
-    Need help with something else? Contact SimpleReport at
-    <a href="{{ email_other }}">support@simplereport.gov</a>.
-  </p>
-  <p>
-    <a class="{{ button }}" href="{{ email_other }}">Contact SimpleReport</a>
-  </p>
-</div>
+<section class="usa-hero support-page-hero" aria-label="Support" ;="">
+    <div class="display-flex flex-column flex-align-center">
+        <h1>
+            Support
+        </h1>
+        <h2>Find how-to articles, video tutorials, and more.</h2>
+        <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search js-search-form usa-search--small mobile-lg:grid-col mobile-lg:width-tablet">
+            <input name="utf8" type="hidden" value="✓">
+            <input id="affiliate" name="affiliate" type="hidden" value="simplereport">
+            <div role="search">
+                <label for="query" class="usa-sr-only">Search SimpleReport support</label>
+                <input autocomplete="off" class="usa-input usagov-search-autocomplete ui-autocomplete-input" id="query" name="query" type="search" placeholder="Search SimpleReport support">
+                <button class="usa-button" type="submit" name="commit">
+                    <span class="usa-sr-only">
+                        Search
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+<section class="support-page-section-1">
+    <div class="grid-container">
+        <h1>Get answers to common questions about SimpleReport</h1>
+        <ul class="usa-card-group">
+            <li class="tablet:grid-col-4 usa-card">
+                <div class="usa-card__container">
+                    <header class="usa-card__header">
+                        <h2 class="usa-card__heading">Account management</h2>
+                    </header>
+                    <div class="usa-card__body display-flex flex-column">
+                        <a href="">Reset your password</a>
+                        <a href="">Multi-factor authentication</a>
+                        <a href="">Manage users</a>
+                    </div>
+                    <div class="usa-card__footer">
+                        <button class="usa-button">Visit Florida Keys</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>

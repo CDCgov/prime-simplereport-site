@@ -1017,3 +1017,90 @@ Typography
   font-weight: font-weight("medium");
   margin-top: units(4);
 }
+
+.support-page-hero {
+  height: 502px;
+  padding: 0;
+
+  h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 140px;
+    margin-bottom: 23px;
+  }
+
+  h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 151.28%;
+    text-align: center;
+    color: #97D4EA;
+    margin-top: 0px;
+    margin-bottom: 39px;
+  }
+
+  .usa-search {
+    input {
+      max-width: none;
+      padding-left: 12.5px;
+      &::placeholder {
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #71767A;
+      }
+    }
+    input,button {
+      height: 51px;
+    }
+  }
+}
+
+.support-page-section-1 {
+  h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: #162E51;
+    margin-top: 80px;
+  }
+
+  .usa-card-group {
+    .usa-card__container {
+      border: 1px solid #DCDEE0;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+
+      header {
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        padding-bottom: 0;
+        margin-bottom: 24px;
+      }
+
+      .usa-card__body {
+        padding-top: 0;
+
+        a {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
