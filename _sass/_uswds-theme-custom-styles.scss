@@ -1074,9 +1074,13 @@ Typography
     line-height: 130%;
     color: #162E51;
     margin-top: 80px;
+    margin-bottom: 48px;
   }
 
   .usa-card-group {
+    gap: 35px;
+    margin-bottom: 48px;
+    
     .usa-card__container {
       border: 1px solid #DCDEE0;
       box-sizing: border-box;
@@ -1096,11 +1100,125 @@ Typography
 
       .usa-card__body {
         padding-top: 0;
+        height: 137px;
+        transition: height 0.5s linear;
+
+        &.expanded {
+          height: 182px;
+
+          &.tall {
+            height: 227px;
+          }
+        }
 
         a {
           margin-bottom: 20px;
         }
       }
+
+      .divider {
+        border: 1px solid #DCDEE0;
+        margin: 6px 1.5rem 0px 1.5rem;
+      }
+
+      .usa-card__footer {
+        padding-top: 20px;
+        .usa-icon {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 26px;
+          line-height: 130%;
+          text-align: right;
+          color: #0050D8;
+        }
+      }
     }
+  }
+}
+
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0s;
+}
+
+.support-page-section-2,.support-page-section-3,.support-page-section-4 {
+  height: 593px;
+  background: #E1F3F8;
+  padding-top: 140px;
+
+  .grid-col-5 {
+    padding-left: 66px;
+  }
+
+  h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: #162E51;
+  }
+
+  p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 151.28%;
+    color: #000000;
+  }
+
+  .usa-button {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 44px;
+  }
+}
+
+.support-page-section-3 {
+  height: 623px;
+  background-color: #FFFFFF;
+
+  .grid-col-6:first-of-type {
+    padding-right: 66px;
+  }
+}
+
+.support-page-section-4 {
+  height: 350px;
+  background: #97D4EA;
+  padding-top: 80px;
+
+  h1 {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #162E51;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 151.28%;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 48px;
+  }
+
+  .usa-button {
+    margin-top: 0;
   }
 }

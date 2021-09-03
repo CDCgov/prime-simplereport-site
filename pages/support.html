@@ -1,6 +1,7 @@
 ---
 permalink: /support/
 layout: home
+return_top: 'false'
 ---
 
 <section class="usa-hero support-page-hero" aria-label="Support" ;="">
@@ -28,21 +29,172 @@ layout: home
     <div class="grid-container">
         <h1>Get answers to common questions about SimpleReport</h1>
         <ul class="usa-card-group">
-            <li class="tablet:grid-col-4 usa-card">
+            <li class="tablet:grid-col-4 usa-card flex-3">
                 <div class="usa-card__container">
                     <header class="usa-card__header">
                         <h2 class="usa-card__heading">Account management</h2>
                     </header>
                     <div class="usa-card__body display-flex flex-column">
-                        <a href="">Reset your password</a>
-                        <a href="">Multi-factor authentication</a>
-                        <a href="">Manage users</a>
+                        <a href="/troubleshooting/reset-your-simplereport-password/">Reset your password</a>
+                        <a href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/#multifactor-authentication-options">Multi-factor authentication</a>
+                        <a href="/using-simplereport/manage-users/">Manage users</a>
+                        <a class="hidden-link display-none" href="/using-simplereport/manage-facility-info/">Manage facility info</a>
                     </div>
-                    <div class="usa-card__footer">
-                        <button class="usa-button">Visit Florida Keys</button>
+                    <div class="divider"></div>
+                    <div class="usa-card__footer grid-row">
+                        <span class="footer-text">More</span>
+                        <svg class="usa-icon margin-left-auto" aria-hidden="true" role="img">
+                            <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
+                    </div>
+                </div>
+            </li>
+            <li class="tablet:grid-col-4 usa-card flex-3">
+                <div class="usa-card__container">
+                    <header class="usa-card__header">
+                        <h2 class="usa-card__heading">Testing</h2>
+                    </header>
+                    <div class="usa-card__body display-flex flex-column">
+                        <a href="/using-simplereport/conduct-and-submit-tests/">Conduct and submit tests</a>
+                        <a href="/using-simplereport/manage-results/">Manage results</a>
+                        <a href="/using-simplereport/manage-people-you-test/">Manage people you test</a>
+                        <a class="hidden-link display-none" href="/using-simplereport/select-your-testing-facility/">Select your testing facility</a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="usa-card__footer grid-row">
+                        <span class="footer-text">More</span>
+                        <svg class="usa-icon margin-left-auto" aria-hidden="true" role="img">
+                            <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
+                    </div>
+                </div>
+            </li>
+            <li class="tablet:grid-col-4 usa-card flex-3">
+                <div class="usa-card__container">
+                    <header class="usa-card__header">
+                        <h2 class="usa-card__heading">Getting started</h2>
+                    </header>
+                    <div class="usa-card__body tall display-flex flex-column">
+                        <a href="/sign-up">Sign up</a>
+                        <a href="/using-simplereport/manage-facility-info/add-a-facility/">Add a testing facility</a>
+                        <a href="/using-simplereport/manage-facility-info/find-supported-jurisdictions/">Find supported jurisdictions</a>
+                        <a class="hidden-link display-none" href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/">Activate your user account</a>
+                        <a class="hidden-link display-none" href="/getting-started/organizations-and-testing-facilities/log-in-to-simplereport/">Log in</a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="usa-card__footer grid-row">
+                        <span class="footer-text">More</span>
+                        <svg class="usa-icon margin-left-auto" aria-hidden="true" role="img">
+                            <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
                     </div>
                 </div>
             </li>
         </ul>
     </div>
 </section>
+<section class="support-page-section-2">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col-7">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qVkeizogmeQ" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="grid-col-5">
+                <h1>SimpleReport training</h2>
+                <p>Video tutorials show you how to use SimpleReport.</p>
+                <a href="https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF" class="usa-button usa-button--big">Watch more videos</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="support-page-section-3">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="grid-col-6">
+                <h1>Try it out</h2>
+                <p>We’ve set up sample patients and tests for you to view. Try out features and see how SimpleReport could work for you, without creating an account.</p>
+                <a href="https://training.simplereport.gov/app"
+                    class="usa-button usa-button--big">Take a look around</a>
+            </div>
+            <div class="grid-col-6">
+                <img class="training-site-screenshot" src="{{ '/assets/img/training-site-screenshot.svg' | relative_url }}" alt="training site screenshot">
+            </div>
+        </div>
+    </div>
+</section><section class="support-page-section-4">
+    <div class="grid-container">
+        <div class="display-flex flex-column flex-align-center">
+            <h1>Get in touch</h2>
+            <p>We’re here to help.</p>
+            <a href="/contact-us" class="usa-button usa-button--big">Contact us</a>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Thanks Yong Wang: https://stackoverflow.com/a/61511955/5365414
+    function waitForElement(selector) {
+        return new Promise(resolve => {
+            if (document.querySelector(selector)) {
+                return resolve(document.querySelector(selector));
+            }
+
+            const observer = new MutationObserver(mutations => {
+                if (document.querySelector(selector)) {
+                    resolve(document.querySelector(selector));
+                    observer.disconnect();
+                }
+            });
+
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+    }
+    const animateCSS = (element, animation, prefix = 'animate__') =>
+        // We create a Promise and return it
+        new Promise((resolve, reject) => {
+            const animationName = `${prefix}${animation}`;
+
+            element.classList.add(`${prefix}animated`, animationName);
+
+            // When the animation ends, we clean the classes and resolve the Promise
+            function handleAnimationEnd(event) {
+                event.stopPropagation();
+                element.classList.remove(`${prefix}animated`, animationName);
+                if (animation === 'fadeOutUp') {
+                    element.classList.add('display-none');
+                }
+                resolve('Animation ended');
+            }
+
+            element.addEventListener('animationend', handleAnimationEnd, { once: true });
+        });
+    const toggleHiddenLinks = (footerElement) => {
+        const footerText = footerElement.querySelector('.footer-text');
+        const cardElement = footerElement.parentElement;
+        const bodyElement = cardElement.querySelector('.usa-card__body');
+        const hiddenLinks = cardElement.querySelectorAll('.hidden-link');
+        hiddenLinks.forEach(link => {
+            if (link.classList.contains('display-none')) {
+                link.classList.remove('display-none');
+                bodyElement.classList.add('expanded');
+                animateCSS(link, 'fadeInDown');
+                footerText.textContent = 'Less';
+            } else {
+                animateCSS(link, 'fadeOutUp');
+                bodyElement.classList.remove('expanded');
+                footerText.textContent = 'More';
+            }
+        });
+    }
+    waitForElement('.usa-card__footer').then(() => {
+        const cardFooters = document.getElementsByClassName('usa-card__footer');
+        for (let footer of cardFooters) {
+            footer.onclick = () => toggleHiddenLinks(footer);
+        }
+    });
+</script>
