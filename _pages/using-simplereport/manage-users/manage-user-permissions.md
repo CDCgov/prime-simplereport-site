@@ -18,11 +18,11 @@ To change permissions for a user:
 2. Beneath the SimpleReport logo at the top of the page, find the “Manage Organization”, “Manage Facilities”, and “Manage Users” tabs. Click **Manage Users**.
 ![The "Manage Users" tab selected in SimpleReport]({% link assets/img/resources/manage-user-permissions/step-2.png %})
 3. Under “Users”, click the user whose access you want to edit.<br>
-  There are three levels of access: “Admin”, “Standard”, and “Entry only”:
+  There are three levels of access: “Admin”, “Standard”, and “Testing only”:
   - **Admin** users have full permissions to conduct and report tests, manage results, manage people, and manage testing facility and user settings.
   - **Standard** users can conduct and report tests, manage results, and manage people. They can’t manage testing facility or user settings.
-  - **Entry only** users can only conduct and report tests.
+  - **Testing only** users can only conduct and report tests.
 4. Select the access level that you want to grant for this user, then click **Save changes**.
-![The three levels of access described above ("Admin", "Standard", and "Entry only") as access options for a particular user]({% link assets/img/resources/manage-user-permissions/step-4.png %})
+![The three levels of access described above ("Admin", "Standard", and "Testing only") as access options for a particular user]({% link assets/img/resources/manage-user-permissions/step-4.png %})
 
 The next time this user logs in to SimpleReport, they’ll have the level of access that you just set.
