@@ -1050,8 +1050,9 @@ Typography
     input {
       max-width: none;
       padding-left: 12.5px;
+      
       &::placeholder {
-        font-family: Public Sans;
+        font-family: Inter;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -1088,7 +1089,7 @@ Typography
       border-radius: 4px;
 
       header {
-        font-family: Public Sans;
+        font-family: Inter;
         font-style: normal;
         font-weight: bold;
         font-size: 22px;
@@ -1170,7 +1171,7 @@ Typography
   }
 
   .usa-button {
-    font-family: Public Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -1195,7 +1196,7 @@ Typography
   padding-top: 80px;
 
   h1 {
-    font-family: Public Sans;
+    font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
