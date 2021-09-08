@@ -1047,6 +1047,14 @@ Typography
   }
 
   .usa-search {
+    div[role="search"] {
+      margin: 0 15px;
+
+      @include at-media("tablet") {
+        margin: 0;
+      }
+    }
+
     input {
       max-width: none;
       padding-left: 12.5px;
@@ -1144,12 +1152,41 @@ Typography
 }
 
 .support-page-section-2,.support-page-section-3,.support-page-section-4 {
-  height: 593px;
+  height: 100%;
   background: #E1F3F8;
-  padding-top: 140px;
+  padding-top: 20px;
 
-  .grid-col-5 {
-    padding-left: 66px;
+  @include at-media("tablet") {
+    padding-top: 140px;
+    height: 593px;
+
+    .tablet\:grid-col-5 {
+      padding-left: 66px;
+    }
+
+    h1 {
+      margin-top: 22px;
+    }
+  }
+
+  .youtube-video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .youtube-video-container::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+  }
+
+  .youtube-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   h1 {
@@ -1177,16 +1214,42 @@ Typography
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
-    margin-top: 44px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    @include at-media("tablet") {
+      margin-top: 44px;
+    }
   }
 }
 
 .support-page-section-3 {
-  height: 623px;
   background-color: #FFFFFF;
 
-  .grid-col-6:first-of-type {
+  @include at-media("tablet") {
+    height: 623px;
+  }
+
+  .tablet\:grid-col-6:first-of-type {
     padding-right: 66px;
+  }
+
+  h1 {
+    margin-top: 0px;
+    @include at-media("tablet") {
+      margin-top: 22px;
+    }
+  }
+
+  .usa-button {
+    margin-bottom: 25px;
+  }
+
+  img {
+    max-width: 75%;
+    margin-bottom: 20px;
+    @include at-media("tablet") {
+      max-width: 100%;
+    }
   }
 }
 
