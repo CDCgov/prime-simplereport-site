@@ -1161,7 +1161,7 @@ Typography
     height: 593px;
 
     .tablet\:grid-col-5 {
-      padding-left: 66px;
+      padding-left: 50px;
     }
 
     h1 {
@@ -1230,7 +1230,10 @@ Typography
   }
 
   .tablet\:grid-col-6:first-of-type {
-    padding-right: 66px;
+    padding-right: 0px;
+    @include at-media("tablet") {
+      padding-right: 50px;
+    }
   }
 
   h1 {
