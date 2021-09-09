@@ -1,55 +1,203 @@
 ---
-title: Support
-description: Having issues with SimpleReport? You can find help here.
 permalink: /support/
-layout: post
+layout: home
+return_top: 'false'
 ---
 
-{% assign card = "maxw-tablet border border-base-lighter padding-3 radius-md usa-prose margin-top-4" %}
-{% assign h2 = "font-ui-lg text-bold" %}
-{% assign button = "usa-button text-white no-underline" %}
-{% assign email_bug = "mailto:support@simplereport.gov?subject=[Feedback: Technical issue]" %}
-{% assign email_other = "mailto:support@simplereport.gov?subject=[Feedback: Other]" %}
+<section class="usa-hero support-page-hero" aria-label="Support" ;="">
+    <div class="display-flex flex-column flex-align-center">
+        <h1>
+            Support
+        </h1>
+        <h2>Find how-to articles, video tutorials, and more.</h2>
+        <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search js-search-form usa-search--small mobile-lg:grid-col mobile-lg:width-tablet">
+            <input name="utf8" type="hidden" value="✓">
+            <input id="affiliate" name="affiliate" type="hidden" value="simplereport">
+            <div role="search">
+                <label for="query" class="usa-sr-only">Search SimpleReport support</label>
+                <input autocomplete="off" class="usa-input usagov-search-autocomplete ui-autocomplete-input" id="query" name="query" type="search" placeholder="Search SimpleReport support">
+                <button class="usa-button" type="submit" name="commit">
+                    <span class="usa-sr-only">
+                        Search
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+<section class="support-page-section-1">
+    <div class="grid-container">
+        <h1>Get answers to common questions about SimpleReport</h1>
+        <ul class="usa-card-group">
+            <li class="tablet:grid-col-4 usa-card flex-3">
+                <div class="usa-card__container">
+                    <header class="usa-card__header">
+                        <h2 class="usa-card__heading">Account management</h2>
+                    </header>
+                    <div class="usa-card__body display-flex flex-column">
+                        <a href="/using-simplereport/reset-your-simplereport-password/">Reset your password</a>
+                        <a href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/#multi-factor-authentication-options">Multi-factor authentication</a>
+                        <a href="/using-simplereport/manage-users/">Manage users</a>
+                        <a class="hidden-link display-none" href="/using-simplereport/manage-facility-info/">Manage facility info</a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="usa-card__footer grid-row">
+                        <span class="footer-text">More</span>
+                        <svg class="usa-icon margin-left-auto" aria-hidden="true" role="img">
+                            <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
+                    </div>
+                </div>
+            </li>
+            <li class="tablet:grid-col-4 usa-card flex-3">
+                <div class="usa-card__container">
+                    <header class="usa-card__header">
+                        <h2 class="usa-card__heading">Testing</h2>
+                    </header>
+                    <div class="usa-card__body display-flex flex-column">
+                        <a href="/using-simplereport/conduct-and-submit-tests/">Conduct and submit tests</a>
+                        <a href="/using-simplereport/manage-results/">Manage results</a>
+                        <a href="/using-simplereport/manage-people-you-test/">Manage people you test</a>
+                        <a class="hidden-link display-none" href="/using-simplereport/select-your-testing-facility/">Select your testing facility</a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="usa-card__footer grid-row">
+                        <span class="footer-text">More</span>
+                        <svg class="usa-icon margin-left-auto" aria-hidden="true" role="img">
+                            <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
+                    </div>
+                </div>
+            </li>
+            <li class="tablet:grid-col-4 usa-card flex-3">
+                <div class="usa-card__container">
+                    <header class="usa-card__header">
+                        <h2 class="usa-card__heading">Getting started</h2>
+                    </header>
+                    <div class="usa-card__body tall display-flex flex-column">
+                        <a href="/sign-up">Sign up</a>
+                        <a href="/using-simplereport/manage-facility-info/add-a-facility/">Add a testing facility</a>
+                        <a href="/using-simplereport/manage-facility-info/find-supported-jurisdictions/">Find supported jurisdictions</a>
+                        <a class="hidden-link display-none" href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/">Activate your user account</a>
+                        <a class="hidden-link display-none" href="/getting-started/organizations-and-testing-facilities/log-in-to-simplereport/">Log in</a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="usa-card__footer grid-row">
+                        <span class="footer-text">More</span>
+                        <svg class="usa-icon margin-left-auto" aria-hidden="true" role="img">
+                            <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
+                        </svg>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="support-page-section-2">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="tablet:grid-col-7 grid-col-12">
+                <div class="youtube-video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qVkeizogmeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="tablet:grid-col-5 grid-col-12">
+                <h1>SimpleReport training</h2>
+                <p>Video tutorials show you how to use SimpleReport.</p>
+                <a href="https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF" class="usa-button usa-button--big">Watch more videos</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="support-page-section-3">
+    <div class="grid-container">
+        <div class="grid-row">
+            <div class="tablet:grid-col-6 grid-col-12">
+                <h1>Try it out</h2>
+                <p>We’ve set up sample patients and tests for you to view. Try out features and see how SimpleReport could work for you, without creating an account.</p>
+                <a href="https://training.simplereport.gov/app"
+                    class="usa-button usa-button--big">Take a look around</a>
+            </div>
+            <div class="tablet:grid-col-6 grid-col-12">
+                <div class="display-flex flex-column flex-align-center">
+                    <img class="training-site-screenshot" src="{{ '/assets/img/training-site-screenshot.svg' | relative_url }}" alt="training site screenshot">
+                </div>
+            </div>
+        </div>
+    </div>
+</section><section class="support-page-section-4">
+    <div class="grid-container">
+        <div class="display-flex flex-column flex-align-center">
+            <h1>Get in touch</h2>
+            <p>We’re here to help.</p>
+            <a href="/contact-us" class="usa-button usa-button--big">Contact us</a>
+        </div>
+    </div>
+</section>
 
-<div class="{{ card }}">
-  <h2 class="{{ h2 }}">
-    Something’s not working
-  </h2>
-  <p>
-    If you’ve experienced a technical issue or something’s not working
-    correctly, we’d like to fix it. Let us know about the problem at
-    <a href="{{ email_bug }}">support@simplereport.gov</a>.
-  </p>
-  <p>
-    <a class="{{ button }}" href="{{ email_bug }}">Report an issue</a>
-  </p>
-</div>
+<script>
+    // Thanks Yong Wang: https://stackoverflow.com/a/61511955/5365414
+    function waitForElement(selector) {
+        return new Promise(resolve => {
+            if (document.querySelector(selector)) {
+                return resolve(document.querySelector(selector));
+            }
 
-<div class="{{ card }}">
-  <h2 class="{{ h2 }}">
-    Problems logging in
-  </h2>
-  <p>
-    Trouble logging in to SimpleReport or need to reset your password?
-  </p>
-  <p>
-    <a
-      class="{{ button }}"
-      href="https://hhs-prime.okta.com/signin/forgot-password"
-      >Reset password</a
-    >
-  </p>
-</div>
+            const observer = new MutationObserver(mutations => {
+                if (document.querySelector(selector)) {
+                    resolve(document.querySelector(selector));
+                    observer.disconnect();
+                }
+            });
 
-<div class="{{ card }}">
-  <h2 class="{{ h2 }}">
-    Something else
-  </h2>
-  <p>
-    Need help with something else? Contact SimpleReport at
-    <a href="{{ email_other }}">support@simplereport.gov</a>.
-  </p>
-  <p>
-    <a class="{{ button }}" href="{{ email_other }}">Contact SimpleReport</a>
-  </p>
-</div>
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+    }
+    const animateCSS = (element, animation, prefix = 'animate__') =>
+        // We create a Promise and return it
+        new Promise((resolve, reject) => {
+            const animationName = `${prefix}${animation}`;
+
+            element.classList.add(`${prefix}animated`, animationName);
+
+            // When the animation ends, we clean the classes and resolve the Promise
+            function handleAnimationEnd(event) {
+                event.stopPropagation();
+                element.classList.remove(`${prefix}animated`, animationName);
+                if (animation === 'fadeOutUp') {
+                    element.classList.add('display-none');
+                }
+                resolve('Animation ended');
+            }
+
+            element.addEventListener('animationend', handleAnimationEnd, { once: true });
+        });
+    const toggleHiddenLinks = (footerElement) => {
+        const footerText = footerElement.querySelector('.footer-text');
+        const cardElement = footerElement.parentElement;
+        const bodyElement = cardElement.querySelector('.usa-card__body');
+        const hiddenLinks = cardElement.querySelectorAll('.hidden-link');
+        hiddenLinks.forEach(link => {
+            if (link.classList.contains('display-none')) {
+                link.classList.remove('display-none');
+                bodyElement.classList.add('expanded');
+                animateCSS(link, 'fadeInDown');
+                footerText.textContent = 'Less';
+            } else {
+                animateCSS(link, 'fadeOutUp');
+                bodyElement.classList.remove('expanded');
+                footerText.textContent = 'More';
+            }
+        });
+    }
+    waitForElement('.usa-card__footer').then(() => {
+        const cardFooters = document.getElementsByClassName('usa-card__footer');
+        for (let footer of cardFooters) {
+            footer.onclick = () => toggleHiddenLinks(footer);
+        }
+    });
+</script>

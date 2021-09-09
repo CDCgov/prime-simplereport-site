@@ -1,0 +1,55 @@
+---
+title: Contact us
+description: Having issues with SimpleReport? You can find help here.
+permalink: /contact-us/
+layout: post
+---
+
+{% assign card = "maxw-tablet border border-base-lighter padding-3 radius-md usa-prose margin-top-4" %}
+{% assign h2 = "font-ui-lg text-bold" %}
+{% assign button = "usa-button text-white no-underline" %}
+{% assign email_bug = "mailto:support@simplereport.gov?subject=[Feedback: Technical issue]" %}
+{% assign email_other = "mailto:support@simplereport.gov?subject=[Feedback: Other]" %}
+
+<div class="{{ card }}">
+  <h2 class="{{ h2 }}">
+    Something’s not working
+  </h2>
+  <p>
+    If you’ve experienced a technical issue or something’s not working
+    correctly, we’d like to fix it. Let us know about the problem at
+    <a href="{{ email_bug }}">support@simplereport.gov</a>.
+  </p>
+  <p>
+    <a class="{{ button }}" href="{{ email_bug }}">Report an issue</a>
+  </p>
+</div>
+
+<div class="{{ card }}">
+  <h2 class="{{ h2 }}">
+    Problems logging in
+  </h2>
+  <p>
+    Trouble logging in to SimpleReport or need to reset your password?
+  </p>
+  <p>
+    <a
+      class="{{ button }}"
+      href="https://hhs-prime.okta.com/signin/forgot-password"
+      >Reset password</a
+    >
+  </p>
+</div>
+
+<div class="{{ card }}">
+  <h2 class="{{ h2 }}">
+    Something else
+  </h2>
+  <p>
+    Need help with something else? Contact SimpleReport at
+    <a href="{{ email_other }}">support@simplereport.gov</a>.
+  </p>
+  <p>
+    <a class="{{ button }}" href="{{ email_other }}">Contact SimpleReport</a>
+  </p>
+</div>
