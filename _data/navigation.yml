@@ -106,6 +106,8 @@ using-simplereport:
             url: /using-simplereport/manage-users/manage-user-permissions/
           - page: Invite new users
             url: /using-simplereport/manage-users/invite-new-users/
+          - page: Reactivate users
+            url: /using-simplereport/manage-users/reactivate-users/
       - page: Manage facility info
         url: /using-simplereport/manage-facility-info/add-a-facility/
         subsubnav:
