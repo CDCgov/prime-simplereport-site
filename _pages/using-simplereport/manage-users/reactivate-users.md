@@ -16,4 +16,5 @@ To reactivate a user:
 1. Find and click Manage users.
 ![The “Manage Users” tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-2.png %})
 1. Find the user that needs to be reactivated and click the Reactivate user button on their profile. Confirm reactivation.
+![The reactivate button]({% link assets/img/resources/reactivate-user-button.png %})
 
