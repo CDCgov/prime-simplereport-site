@@ -48,3 +48,21 @@
     }
   }
 </script>
+
+<!-- Script for getting current maintenance mode status -->
+<script type="text/javascript">
+  (async function getMaintenanceMode() {
+    const maintenance = await fetch("/maintenance.json");
+    try {
+      const maintenanceJSON = await maintenance.json();
+      if (maintenanceJSON.active) {
+        const banner = document.getElementById("maintenance-banner");
+        const message = banner.querySelector('.usa-alert__text span');
+        message.textContent = maintenanceJSON.message;
+        banner.classList.remove("display-none");
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  })();
+</script>
