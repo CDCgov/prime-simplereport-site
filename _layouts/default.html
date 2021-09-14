@@ -15,6 +15,16 @@ main: foo, bar, qaz
     {% endif %}
   </head>
   <body class="site-body {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
+    <section id="maintenance-banner" class="usa-site-alert usa-site-alert--emergency usa-site-alert--no-heading display-none" aria-label="Maintenance alert">
+      <div class="usa-alert">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            <strong>SimpleReport is currently experiencing an outage.</strong>
+            <span>We're working on getting this fixed as soon as possible.</span>
+          </p>
+        </div>
+      </div>
+    </section>
 
     {% include skipnav.html %}
     {% if page.path != "pages/home.md" %}
