@@ -38,13 +38,13 @@
                 <tbody>
                     <tr>
                         <td align="center" style="padding:12px 16px;border-radius:3px;background-color: #005ea2;">
-                            <a id="unlock-account-link" href="${unlockAccountLink}" style="text-decoration:none">
+                            <a id="unlock-account-link" href="${activationLink}" style="text-decoration:none">
                                 <span style="padding:12px 16px;text-align:center;cursor:pointer;color:#ffffff;font-size: 16px; font-weight: bold">Activate your account</span>
                             </a>
                         </td>
                     </tr>
                     <tr>
-                    <td align="center" style="font-size:11px;color:#555555">This link expires in ${f:formatTimeDiffDateNowInUserLocale(unlockAccountTokenExpirationDate)}.</td>
+                    <td align="center" style="font-size:11px;color:#555555">This link expires in ${f:formatTimeDiffHoursNowInUserLocale(org.activationTokenExpirationHours)} and can only be used one time.</td>
                     </tr>
                 </tbody>
                 </table> 
