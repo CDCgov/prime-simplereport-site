@@ -11,6 +11,7 @@ return_top: 'true'
 ## Where SimpleReport is live
 SimpleReport is currently live in these jurisdictions:
 - Alabama
+- Alaska
 - Arizona
 - California
 - Colorado
