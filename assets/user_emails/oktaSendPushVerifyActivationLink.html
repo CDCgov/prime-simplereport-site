@@ -1,0 +1,90 @@
+<!--EMAIL TEMPLATE FOR OKTA-->
+<!--LAST UPDATED VZ 8/19/21-->
+<body><!--REMOVE FOR OKTA-->
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+    </head>
+<!--BEGIN OKTA-->
+<style type="text/css">
+    a {color: #005ea2}
+</style>
+<div style="background-color:#f0f0f0;margin:0;padding:12px 0"> 
+  <table style="font-family:Public Sans Web, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:14px;color:#1B1B1B;width:98%;max-width:600px;float:none;margin:0 auto" border="0" cellpadding="0" cellspacing="0" valign="top" align="left">
+    <tbody>
+        <!-- SR logo -->
+      <tr bgcolor="#ffffff" align="middle">
+        <td style="padding-top:16px;padding-bottom:0px"><img src="https://simplereport.gov/assets/img/simplereport-logo-color-m-whitebg.png" height="57" /></td>
+      </tr>
+      <tr bgcolor="#ffffff">
+        <td> 
+          <table bgcolor="#ffffff" style="width:100%;line-height:20px;padding:32px;font-size:14px" cellpadding="0">
+            <tbody>
+                <!-- Welcome message -->
+              <tr>
+                <td style="vertical-align:bottom">Hi ${f:escapeHtml(user.firstName)},</td>
+              </tr>
+              <tr>
+                  <!-- First row of text -->
+                <td style="padding-top:24px">Your organization is using an app called Okta Verify Push for multi-factor authentication (MFA). MFA is a process that helps protect the security of your account when signing in to SimpleReport.</td>
+              </tr>
+              <tr>
+                <td style="padding-top:24px">Tap the button below from your mobile device to activate Okta Verify Push for your SimpleReport account.</td>
+            </tr>
+            <tr>
+                <td style="padding-top:24px;padding-bottom:24px">
+                    Your SimpleReport username is ${user.login}.
+                </td>
+            </tr>
+            <tr>
+                <td align="center"> 
+                <table border="0" cellpadding="0" cellspacing="0" valign="top">
+                <tbody>
+                    <tr>
+                        <td align="center" style="padding:12px 16px;border-radius:3px;background-color: #005ea2;">
+                            <a id="push-verify-activation-link" href="${pushVerifyActivationLink}" style="text-decoration:none">
+                                <span style="padding:12px 16px;text-align:center;cursor:pointer;color:#ffffff;font-size: 16px; font-weight: bold">Activate Okta Verify Push</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td align="center" style="font-size:11px;color:#555555">This link expires in ${expiryTimeString}.</td>
+                    </tr>
+                </tbody>
+                </table> 
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-top:24px">If you have issues accessing your account, you can <a href="https://www.simplereport.gov/using-simplereport/reset-your-simplereport-password/" style="color:#005ea2">reset your password</a> or visit our <a href="https://simplereport.gov/support/" style="color:#005ea2">Support page</a>.</td>
+            </tr>
+            <tr>
+                <td style="padding-top:24px">Thanks, 
+                <br /> SimpleReport Support
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-bottom:12px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td align="center" style="font-size:12px;padding-top:32px"> Download Okta Verify Push for iOS or Android: </td>
+              </tr>
+              <tr>
+                <td align="center" style="font-size:12px;padding:16px 0 32px 0"> <a href="https://itunes.apple.com/us/app/okta-mobile/id580709251"><img src="${baseURL}/assets/img/icons/enduser/AppleIcon_Active.png" height="20" /></a> &nbsp;&nbsp;&nbsp; <a href="https://play.google.com/store/apps/details?id=com.okta.android.mobile.oktamobile"><img src="${baseURL}/assets/img/icons/enduser/AndroidIcon_Active.png" height="20" /></a> </td>
+              </tr> 
+            <tr>
+                <td style="padding-top:12px;border-top:1px solid #ccc;font-size:11px;"><a href="https://simplereport.gov/terms-of-service/" style="color:#005ea2">SimpleReport terms of service</a></td>
+            </tr>
+            </tbody>
+          </table> 
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size:12px;padding:16px 0 30px;color:#999">This is an automatically generated message from <a href="https://simplereport.gov" style="color:#616161">SimpleReport</a>.</td>
+      </tr>
+    </tbody>
+  </table> 
+</div>
+
+<!--END OKTA-->
+</body><!--REMOVE FOR OKTA-->
