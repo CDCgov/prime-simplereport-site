@@ -50,7 +50,7 @@ Make sure the organization name that you enter in the form is accurate, since th
 As the organization administrator, you'll provide your personal contact information to help verify your identity.
 
 ## Verify your identity
-You'll answer identity verification questions with our verification partner, Experian. This takes just a few minutes. 
+You'll answer identity verification questions with our verification partner, Experian. This takes just a few minutes and doesn’t impact your credit score. 
 
 If Experian is unable to verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID to verify your identity. We recommend a driver's licence and a work ID, or you can use any of the [documents on this list](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity).
 
