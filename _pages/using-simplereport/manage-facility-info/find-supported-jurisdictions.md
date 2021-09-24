@@ -24,6 +24,7 @@ SimpleReport is currently live in these jurisdictions:
 - Minnesota
 - Mississippi
 - Montana
+- New Hampshire
 - New Jersey
 - New Mexico
 - North Dakota
