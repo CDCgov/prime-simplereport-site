@@ -158,6 +158,8 @@ user-guide:
             url: /using-simplereport/manage-users/manage-user-permissions/
           - page: Invite new users
             url: /using-simplereport/manage-users/invite-new-users/
+          - page: Reactivate users
+            url: /using-simplereport/manage-users/reactivate-users/
       - page: Manage facility info
         url: /using-simplereport/manage-facility-info/add-a-facility/
         subsubnav:
@@ -167,6 +169,8 @@ user-guide:
             url: /using-simplereport/manage-facility-info/update-facility-settings/
           - page: Find supported jurisdictions
             url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
+      - page: Reset your SimpleReport password
+        url: /using-simplereport/reset-your-simplereport-password/
 
 # Uncomment the 'links' sections below to use footer link columns
 # with the 'big' footer style.
