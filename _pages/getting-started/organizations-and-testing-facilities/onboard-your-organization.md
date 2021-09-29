@@ -60,7 +60,7 @@ Your SimpleReport account will be accessible after your identity is verified. Yo
 Learn how to use SimpleReport:
 - <a href="https://training.simplereport.gov/app">Practice using SimpleReport</a> with sample data, and get familar with different features. 
 - Watch these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF).
-- Check our our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %}).
+- Check out our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %}).
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
