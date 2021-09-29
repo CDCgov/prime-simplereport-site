@@ -94,7 +94,7 @@ Typography
 }
 
 .page-home {
-  @include at-media("desktop") {
+  @include at-media($theme-header-min-width) {
     .usa-header-container {
       background-color: color("primary-darker");
       border-bottom: none;
@@ -143,7 +143,7 @@ Typography
 
   .usa-header {
     .usa-button--outline {
-      @include at-media("desktop") {
+      @include at-media($theme-header-min-width) {
         $button-inverse-color: $theme-link-reverse-color;
         $button-inverse-hover-color: $theme-link-reverse-hover-color;
         $button-inverse-active-color: $theme-link-reverse-active-color;
@@ -174,7 +174,7 @@ Typography
   .usa-button {
     margin-top: units(1);
 
-    @include at-media("desktop") {
+    @include at-media($theme-header-min-width) {
       margin-top: units(0.5);
     }
   }
@@ -182,7 +182,7 @@ Typography
   .usa-button--outline {
     margin-top: units(2);
 
-    @include at-media("desktop") {
+    @include at-media($theme-header-min-width) {
       margin-top: units(0.5);
     }
   }
