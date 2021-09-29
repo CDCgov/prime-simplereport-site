@@ -58,7 +58,7 @@ Your SimpleReport account will be accessible after your identity is verified. Yo
 
 ## (optional) Get training
 Learn how to use SimpleReport:
-- Check out the <a href="https://training.simplereport.gov/app">SimpleReport training site</a> to practice using the tool using sample data.
+- <a href="https://training.simplereport.gov/app">Practice using SimpleReport</a> using sample data and get familar with different features. 
 - Watch these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF)
 - Check our our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %})
 
