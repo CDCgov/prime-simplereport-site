@@ -17,9 +17,8 @@ plugins:
   - jekyll-redirect-from
 
 defaults:
-  -
-    scope:
-      path: "assets/**/*.pdf"
+  - scope:
+      path: "assets/**"
     values:
       sitemap: false
 
