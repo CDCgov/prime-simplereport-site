@@ -8,12 +8,12 @@ home_link: true
 return_top: 'true'
 ---
 
-If you use SimpleReport, or you're a public health department receiving data from SimpleReport, here’s what you can expect. SimpleReport captures all of the data needed to comply with the HHS [COVID-19 Lab Data Reporting guidance](https://www.hhs.gov/sites/default/files/hhs-guidance-implementation.pdf), including ask on order entry questions and a unique specimen ID.
+If you use SimpleReport, or you're a public health department receiving data from SimpleReport, here’s what you can expect. SimpleReport captures all of the data needed to meet the requirements descdribed in the U.S. government's [COVID-19 Lab Data Reporting guidance](https://www.hhs.gov/sites/default/files/hhs-guidance-implementation.pdf), including ask on order entry questions and a unique specimen ID.
 
 SimpleReport sends test results to public health departments as HL7 2.5.1 ELR (electronic lab results) through ReportStream. View the full [ReportStream documentation [GitHub]](https://github.com/CDCgov/prime-data-hub/blob/production/prime-router/docs/schema_documentation/primedatainput-pdi-covid-19.md). You can also learn more on the [ReportStream website](https://reportstream.cdc.gov/).
 
-## Types of fields
-The categories below describe how data is created in SimpleReport:
+## Types of data fields
+Data created in SimpleReport falls into three categories:
 - **Required**: user must enter this data
 - **Optional**: users may enter this data, but are able to submit test results without completing it
 - **System-generated**: the SimpleReport system automatically creates this data
@@ -68,7 +68,7 @@ The categories below describe how data is created in SimpleReport:
 {% endcapture %}
 
 {% capture testing-lab-info %}
-SimpleReport collects facility information and organization information. A facility can belong to a parent organization, like a school district, chain of nursing homes, health system, or university.
+SimpleReport collects testing facility information and organization information. A testing facility can be part of a larger parent organization or company, like a school district, chain of nursing homes, health system, or university.
 
 The testing lab and ordering facility are the same thing in SimpleReport, so you’ll receive information about the same entity.
 
@@ -110,7 +110,7 @@ The testing lab and ordering facility are the same thing in SimpleReport, so you
 {% endcapture %}
 
 {% capture example-data %}
-The information below is all completely fake. It’s here to give you a sense of the information you’ll receive from SimpleReport. All required and system-generated fields appear in the example data below, but only some optional fields do.
+The sample data below is not real. It’s here to give you a sense of the information you’ll receive from SimpleReport. All required and system-generated fields appear in the example data below, but only some optional fields appear.
 
 ### Patient information
 #### Patient information
