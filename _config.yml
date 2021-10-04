@@ -21,6 +21,14 @@ defaults:
       path: "assets/**"
     values:
       sitemap: false
+  - scope:
+      path: "assets/resources/k12-guide.pdf"
+    values:
+      sitemap: true
+  - scope:
+      path: "assets/resources/SimpleReport-user-guide.pdf"
+    values:
+      sitemap: true
 
 exclude:
   - .jekyll-cache/
