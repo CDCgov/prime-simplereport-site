@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-If you use SimpleReport, or you're a public health department receiving data from SimpleReport, here’s what you can expect. SimpleReport captures all of the data needed to meet the requirements descdribed in the U.S. government's [COVID-19 Lab Data Reporting guidance](https://www.hhs.gov/sites/default/files/hhs-guidance-implementation.pdf), including ask on order entry questions and a unique specimen ID.
+If you use SimpleReport, or you're a public health department receiving data from SimpleReport, here’s what you can expect. SimpleReport captures all of the data needed to meet the requirements described in the U.S. government's [COVID-19 Lab Data Reporting guidance](https://www.hhs.gov/sites/default/files/hhs-guidance-implementation.pdf), including ask on order entry questions and a unique specimen ID.
 
 SimpleReport sends test results to public health departments as HL7 2.5.1 ELR (electronic lab results) through ReportStream. View the full [ReportStream documentation [GitHub]](https://github.com/CDCgov/prime-data-hub/blob/production/prime-router/docs/schema_documentation/primedatainput-pdi-covid-19.md). You can also learn more on the [ReportStream website](https://reportstream.cdc.gov/).
 
