@@ -23,5 +23,3 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Deploy static landing page
         run: npm run deploy-azure-dev
-      - name: Purge CDN
-        run: az cdn endpoint purge --resource-group prime-simple-report-dev --profile-name simple-report-dev --name simple-report-dev --content-paths "/*" --no-wait
