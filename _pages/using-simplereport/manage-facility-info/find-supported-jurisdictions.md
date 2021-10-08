@@ -29,6 +29,7 @@ SimpleReport is currently live in these jurisdictions:
 - New Mexico
 - North Dakota
 - Ohio
+- Oregon
 - Pennsylvania
 - Texas
 - Vermont
