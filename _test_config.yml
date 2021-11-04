@@ -1,2 +1,3 @@
 url: https://test.simplereport.gov
+app_url: https://test.simplereport.gov/app
 okta_url: https://hhs-prime.oktapreview.com/oauth2/default/v1/authorize?client_id=0oa1khettjHnj3EPT1d7&redirect_uri=https://test.simplereport.gov/app&response_type=token+id_token&scope=openid%20simple_report%20simple_report_test&nonce=thisisnotsafe&state=thisisbogus
