@@ -39,7 +39,7 @@ primary:
 
 secondary:
   - text: Log in
-    href: {{ site.okta_url }}
+    href: /app
     external: true
     class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
 
