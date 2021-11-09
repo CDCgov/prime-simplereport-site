@@ -35,10 +35,12 @@ primary:
   href: "#"
   class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs margin-right-0
   onclick: "javascript:checkIe()"
+  external: true
 
 secondary:
   - text: Log in
     href: /app
+    external: true
     class: usa-button usa-button--accent-cool text-no-underline text-ink wide-button
 
 getting-started:
