@@ -44,7 +44,7 @@
       if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
       window.location.href = '{% link pages/unsupported-browser.html %}'
     } else {
-      window.location.href = decodeURI('{{ site.okta_url }}');
+      window.location.href = decodeURI('{{ site.app_url }}');
     }
   }
 </script>
