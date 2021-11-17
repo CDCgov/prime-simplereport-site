@@ -29,6 +29,10 @@ defaults:
       path: "assets/resources/SimpleReport-user-guide.pdf"
     values:
       sitemap: true
+  - scope:
+      path: "assets/resources/Bulk_person_upload_guide.pdf"
+    values:
+      sitemap: true
 
 exclude:
   - .jekyll-cache/
