@@ -64,6 +64,6 @@ Learn how to use SimpleReport:
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <p class="usa-alert__text"> Add testing facilities and staff: Once you’re all set up in SimpleReport you can <a href="https://simplereport.gov/using-simplereport/manage-users/invite-new-users/">invite other staff members</a> or <a href="https://simplereport.gov/using-simplereport/manage-facility-info/add-a-facility/">add more facilities</a>.</p>
+    <p class="usa-alert__text"> Add testing facilities and staff: Once you’re all set up in SimpleReport you can <a href="https://www.simplereport.gov/using-simplereport/manage-users/invite-new-users/">invite other staff members</a> or <a href="https://www.simplereport.gov/using-simplereport/manage-facility-info/add-a-facility/">add more facilities</a>.</p>
   </div>
 </div>
