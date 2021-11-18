@@ -1,6 +1,6 @@
 # Simple Report Public Website
 
-The static website resources for https://simplereport.gov/
+The static website resources for https://www.simplereport.gov/
 
 ## Table of Contents
 - [Simple Report Public Website](#simple-report-public-website)
@@ -53,7 +53,7 @@ End to end tests are written with [Nightwatch.js](https://nightwatchjs.org/). Ru
 ## Cloud Environments
 **Type**|**Static Site URL**|**Deployment**|**How to trigger**
 :-----:|:-----:|:-----:|:-----:
-Prod|https://simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
+Prod|https://www.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Staging|https://stg.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Dev|https://dev.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Demo|https://demo.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)

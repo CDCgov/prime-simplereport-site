@@ -12,10 +12,10 @@ Check out  our resources to get familiar with SimpleReport’s testing, reportin
 
 - Check out our [video introduction and onboarding guide](https://youtu.be/3YsfDprX2aw).
 - Practice using SimpleReport and take a look around on our [demo site](https://training.simplereport.gov/app).
-- Have a look at our [resources pages](https://simplereport.gov/resources).
-- Review our [K-12 schools guide](https://simplereport.gov/assets/resources/k12-guide.pdf).
+- Have a look at our [resources pages](https://www.simplereport.gov/resources).
+- Review our [K-12 schools guide](https://www.simplereport.gov/assets/resources/k12-guide.pdf).
 
-Still have a question? Visit our [support page](https://simplereport.gov/support/).
+Still have a question? Visit our [support page](https://www.simplereport.gov/support/).
 
 
 ## Videos
