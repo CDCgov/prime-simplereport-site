@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://simplereport.gov/sitemap.xml
+Sitemap: https://www.simplereport.gov/sitemap.xml
