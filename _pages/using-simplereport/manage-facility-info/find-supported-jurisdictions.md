@@ -31,6 +31,7 @@ SimpleReport is currently live in these jurisdictions:
 - Ohio
 - Oregon
 - Pennsylvania
+- Tennessee
 - Texas
 - Vermont
 - Washington
