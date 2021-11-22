@@ -1,6 +1,6 @@
 ---
-title: Invite new users
-description:
+title: Add new users
+description: Create new SimpleReport accounts for staff and employees
 layout: page
 class: page-docs
 sidenav: resources
@@ -8,9 +8,9 @@ home_link: true
 return_top: 'true'
 ---
 
-Admins can invite new users directly in SimpleReport.
+Admins can give staff and employees SimpleReport access by adding them directly in SimpleReport.
 
-To invite a new user:
+To add a new user:
 1. Click the gear icon at the top right corner of the page.
 ![The "Manage Users" tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-1.png %})
 2. Beneath the SimpleReport logo at the top of the page, find the “Manage Organization”, “Manage Facilities”, and “Manage Users” tabs. Click **Manage Users**.
