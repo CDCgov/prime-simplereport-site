@@ -1,6 +1,6 @@
 ---
 title: Reactivate users
-description:
+description: Reactivate testing facility staff accounts in SimpleReport
 layout: page
 class: page-docs
 sidenav: resources
