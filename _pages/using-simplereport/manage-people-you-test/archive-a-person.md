@@ -1,6 +1,6 @@
 ---
 title: Archive a person
-description:
+description: Removing someone you tested from SimpleReport
 layout: page
 class: page-docs
 sidenav: resources
