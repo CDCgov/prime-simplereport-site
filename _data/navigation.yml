@@ -50,7 +50,7 @@ getting-started:
       - page: Organizations and testing facilities
         url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
         subsubnav:
-          - page: Onboard your organization
+          - page: How to sign up
             url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
           - page: Activate your user account
             url: /getting-started/organizations-and-testing-facilities/activate-your-user-account/
@@ -61,7 +61,7 @@ getting-started:
       - page: Public health departments
         url: /getting-started/public-health-departments/about-prime-reportstream/
         subsubnav:
-          - page: About PRIME ReportStream
+          - page: What is ReportStream?
             url: /getting-started/public-health-departments/about-prime-reportstream/
           - page: SimpleReport data catalog
             url: /getting-started/public-health-departments/simplereport-data-catalog/
