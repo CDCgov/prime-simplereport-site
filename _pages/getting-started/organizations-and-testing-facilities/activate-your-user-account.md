@@ -1,6 +1,6 @@
 ---
-title: Activate your user account
-description:
+title: Activate your organization or user account
+description: Activate your SimpleReport account and set up multi-factor authentication to begin COVID-19 testing and reporting.
 layout: page
 class: page-docs page-docs-img-sm
 sidenav: resources
@@ -8,9 +8,9 @@ home_link: true
 return_top: 'true'
 ---
 
-You’ll receive an email from SimpleReport asking you to activate your account. Once you’ve set up your account, you can [invite members of your team to SimpleReport]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}).
+You’ll receive an email from SimpleReport asking you to activate your account. If you’re an administrator, once you’ve set up your account, you can [invite members of your team to SimpleReport]({% link _pages/using-simplereport/manage-users/invite-new-users.md %}).
 
-Once you receive the email, follow these steps:
+Once you receive your account activation email, follow these steps:
 1. Click the green **Activate your SimpleReport Account** button. You’ll need to click the button within seven days of receiving the invitation, or else it will expire.
 ![Email from Okta with green "Activate your SimpleReport Account" button]({% link assets/img/resources/activate-your-user-account/step-1.png %}){: .maxw-mobile }
 2. On the page that appears, you’ll need to pick:
