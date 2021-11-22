@@ -1,6 +1,6 @@
 ---
 title: Print someone’s test results
-description:
+description: How to print COVID-19 test results from SimpleReport
 layout: page
 class: page-docs
 sidenav: resources
