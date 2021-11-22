@@ -115,7 +115,7 @@ using-simplereport:
             url: /using-simplereport/manage-facility-info/add-a-facility/
           - page: Update facility settings
             url: /using-simplereport/manage-facility-info/update-facility-settings/
-          - page: Find supported jurisdictions
+          - page: Where does SimpleReport work?
             url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
