@@ -1,6 +1,6 @@
 ---
 title: Add a testing facility or location
-description: Add a testing facility or location to your SimpleReport organization account
+meta: Add a testing facility or location to your SimpleReport organization account
 layout: page
 class: page-docs
 sidenav: resources

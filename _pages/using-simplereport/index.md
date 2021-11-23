@@ -1,6 +1,6 @@
 ---
 title: Using SimpleReport
-description: Step-by-step instructions on how to use SimpleReport
+meta: Step-by-step instructions on how to use SimpleReport
 permalink: /using-simplereport/
 layout: page
 class: page-docs

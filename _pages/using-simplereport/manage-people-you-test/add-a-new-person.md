@@ -1,6 +1,6 @@
 ---
 title: Add a new person
-description: How to test a new person in SimpleReport
+meta: How to test a new person in SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

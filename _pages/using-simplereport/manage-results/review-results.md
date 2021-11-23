@@ -1,6 +1,6 @@
 ---
 title: Review results
-description: How to view patient’s COVID-19 test results in SimpleReport
+meta: How to view patient’s COVID-19 test results in SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

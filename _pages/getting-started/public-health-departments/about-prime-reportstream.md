@@ -1,6 +1,6 @@
 ---
 title: What is ReportStream?
-description: How public health departments use ReportStream to get data from SimpleReport
+meta: How public health departments use ReportStream to get data from SimpleReport
 layout: page
 class: page-docs
 sidenav: resources
