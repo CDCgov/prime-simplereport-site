@@ -1,6 +1,6 @@
 ---
 title: Activate your organization or user account
-description: Activate your SimpleReport account and set up multi-factor authentication to begin COVID-19 testing and reporting.
+meta: Activate your SimpleReport account and set up multi-factor authentication to begin COVID-19 testing and reporting.
 layout: page
 class: page-docs page-docs-img-sm
 sidenav: resources
