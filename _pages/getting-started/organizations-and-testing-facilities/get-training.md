@@ -1,6 +1,6 @@
 ---
 title: Get training
-description:
+description: Training videos and resources that help you learn how to use SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

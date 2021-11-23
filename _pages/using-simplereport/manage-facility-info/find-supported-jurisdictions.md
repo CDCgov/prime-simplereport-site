@@ -1,6 +1,6 @@
 ---
-title: Find supported jurisdictions
-description:
+title: Where does SimpleReport work?
+description: Is SimpleReport in your state or territory?
 layout: page
 class: page-docs
 sidenav: resources
@@ -9,7 +9,8 @@ return_top: 'true'
 ---
 
 ## Where SimpleReport is live
-SimpleReport is currently live in these jurisdictions:
+If you're in one of these states or territories, review our instructions on [how to sign up for SimpleReport](/getting-started/organizations-and-testing-facilities/onboard-your-organization/) then get started.
+
 - Alabama
 - Alaska
 - Arizona
@@ -37,7 +38,9 @@ SimpleReport is currently live in these jurisdictions:
 - Washington
 - Wyoming
 
-If you're in one of these jurisdictions, you can [request access to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/onboard-your-organization.md %}#request-access-for-your-testing-facility) and start onboarding right away.
+## Where SimpleReport is coming soon
+- Delaware
+- Iowa
 
-## Other jurisdictions
-If you’re a facility or public health department not located in one of the jurisdictions listed above, [let us know you’re interested in SimpleReport]({% link pages/forms/waitlist-form.html %}).
+## Other states or locations
+If you’re a facility doing COVID-19 testing and reporting, or a public health department not located in one of the states or territories listed above, [let us know you’re interested in SimpleReport]({% link pages/forms/waitlist-form.html %}).

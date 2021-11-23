@@ -50,7 +50,7 @@ getting-started:
       - page: Organizations and testing facilities
         url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
         subsubnav:
-          - page: Onboard your organization
+          - page: How to sign up
             url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
           - page: Activate your user account
             url: /getting-started/organizations-and-testing-facilities/activate-your-user-account/
@@ -61,7 +61,7 @@ getting-started:
       - page: Public health departments
         url: /getting-started/public-health-departments/about-prime-reportstream/
         subsubnav:
-          - page: About PRIME ReportStream
+          - page: What is ReportStream?
             url: /getting-started/public-health-departments/about-prime-reportstream/
           - page: SimpleReport data catalog
             url: /getting-started/public-health-departments/simplereport-data-catalog/
@@ -104,7 +104,7 @@ using-simplereport:
         subsubnav:
           - page: Manage user permissions
             url: /using-simplereport/manage-users/manage-user-permissions/
-          - page: Invite new users
+          - page: Add new users
             url: /using-simplereport/manage-users/invite-new-users/
           - page: Reactivate users
             url: /using-simplereport/manage-users/reactivate-users/
@@ -115,7 +115,7 @@ using-simplereport:
             url: /using-simplereport/manage-facility-info/add-a-facility/
           - page: Update facility settings
             url: /using-simplereport/manage-facility-info/update-facility-settings/
-          - page: Find supported jurisdictions
+          - page: Where does SimpleReport work?
             url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/

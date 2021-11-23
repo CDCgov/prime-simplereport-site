@@ -1,6 +1,6 @@
 ---
-title: Update facility settings
-description:
+title: Update testing facility settings
+description: Update information about your testing site
 layout: page
 class: page-docs
 sidenav: resources

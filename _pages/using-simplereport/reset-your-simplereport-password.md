@@ -1,6 +1,6 @@
 ---
 title: Reset your SimpleReport password
-description:
+description: I forgot my SimpleReport password
 layout: page
 class: page-docs page-docs-img-sm
 sidenav: resources
@@ -8,9 +8,8 @@ home_link: true
 return_top: 'true'
 ---
 
-To reset your password online, go to [hhs-prime.okta.com/signin/forgot-password](https://hhs-prime.okta.com/signin/forgot-password) and follow the instructions.
+To reset your password you can follow these steps:
 
-Alternatively, you can follow these steps:
 1. Go to [SimpleReport.gov](simplereport.gov)
 2. Click **Log in** at the top right of the page.
 3. Click **Need help signing in?** at the bottom of the page.

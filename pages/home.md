@@ -1,5 +1,6 @@
 ---
 title: Home
+description: SimpleReport is a COVID-19 testing and reporting tool that sends results to your public health department.
 permalink: /
 layout: home
 class: page-home
@@ -139,8 +140,8 @@ return_top: 'false'
         </button>
       </h3>
       <div id="a1" class="usa-accordion__content usa-prose text-primary-darker">
-        <p>Onboarding to SimpleReport is easy. All you need to do is request access and verify your identity. Then you’re ready to test.</p>
-        <p>If you’re in a <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">supported jurisdiction</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
+        <p>Signing up for SimpleReport is easy. Only one person from each organization or workplace has to sign up and verify their identity. Then you’re ready to test.</p>
+        <p>If you’re in a <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">state or territory where we're already set up</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <h3 class="usa-accordion__heading">
         <button
@@ -164,7 +165,7 @@ return_top: 'false'
         </button>
       </h3>
       <div id="a3" class="usa-accordion__content usa-prose">
-        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements outside of state reporting, SimpleReport can send the data directly to local public health departments. If you're curious about particular reporting requirements, refer to the <a href="{% link _pages/getting-started/public-health-departments/simplereport-data-catalog.md %}">SimpleReport data catalog</a>.</p>
+        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements, SimpleReport can send the data directly to local public health departments too. If you're curious about particular reporting requirements, have a look at the <a href="{% link _pages/getting-started/public-health-departments/simplereport-data-catalog.md %}">SimpleReport data catalog</a>.</p>
       </div>
     </div>
   </div>
@@ -187,7 +188,7 @@ return_top: 'false'
     <h2 class="section__heading">Where you can use SimpleReport</h2>
     <div class="section__title-line"></div>
     <div class="usa-prose margin-top-4">
-      <p class="usa-intro">SimpleReport is available in many parts of the country and is quickly expanding to new jurisdictions.</p>
+      <p class="usa-intro">SimpleReport is available in many parts of the country and is quickly expanding to new states and territories.</p>
       <img class="margin-top-4 tablet:padding-x-15" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
       <p>View the <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">list of supported states and jurisdictions</a>.</p>
     </div>
@@ -202,10 +203,10 @@ return_top: 'false'
         <h2 class="font-heading-3 text-primary-darker">
           Ready to simplify your COVID-19 reporting?
         </h2>
-        <p class="usa-intro">If you’re in a supported jurisdiction, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
+        <p class="usa-intro">If you’re in a state or territory where SimpleReport is already set up, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <div class="margin-top-2">
-        <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Request a SimpleReport account</a>
+        <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Sign up for SimpleReport</a>
         <a class="usa-button usa-button--outline text-no-underline font-body-sm margin-top-2 tablet:margin-top-0" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
       </div>
     </div>

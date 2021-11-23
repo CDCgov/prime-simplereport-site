@@ -1,6 +1,6 @@
 ---
 title: User guide
-description:
+description: A printable version of SimpleReport instructions found on our website
 permalink: /user-guide/
 layout: page
 class: page-docs

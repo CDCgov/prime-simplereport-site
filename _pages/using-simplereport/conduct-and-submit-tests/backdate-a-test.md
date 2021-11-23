@@ -1,6 +1,6 @@
 ---
 title: Backdate a test
-description:
+description: How do you backdate COVID-19 test results in SimpleReport?
 layout: page
 class: page-docs
 sidenav: resources

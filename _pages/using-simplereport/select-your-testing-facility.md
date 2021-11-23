@@ -1,6 +1,6 @@
 ---
 title: Select your testing facility
-description:
+description: How to find the location where you’re doing COVID-19 testing
 layout: page
 class: page-docs
 sidenav: resources
@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-If you work at multiple testing facilities, you’ll be asked which facility you’re working at that day each time you log in to SimpleReport. Just choose the facility where you’re working, and you’ll be ready to [conduct tests]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}).
+If you work at multiple testing facilities or locations, you’ll be asked which facility you’re working at that day each time you log in to SimpleReport. Just choose the facility where you’re working, and you’ll be ready to [conduct tests]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}).
 ![Box asking the user to select which testing facility they're working at today]({% link assets/img/resources/select-your-testing-facility/intro.png %}){: .maxw-card-lg }
 
 You might have already chosen a testing facility, and need to change it. To switch between testing facilities after you’ve already chosen one:
