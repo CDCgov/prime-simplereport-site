@@ -9,6 +9,11 @@
 <meta name="description" content="{{ description }}">
 {% endif %}
 
+{% assign pagemeta = page.meta %}
+{% if pagemeta %}
+<meta name="pagemeta" content="{{ pagemeta }}">
+{% endif %}
+
 {% include favicon.html %}
 <script src="{{ site.baseurl }}/assets/js/uswds-init.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
