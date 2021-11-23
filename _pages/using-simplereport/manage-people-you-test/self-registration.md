@@ -1,6 +1,6 @@
 ---
 title: Self-registration
-description: How to set up patient self-registration for COVID-19 testing 
+meta: How to set up patient self-registration for COVID-19 testing 
 layout: page
 class: page-docs
 sidenav: resources

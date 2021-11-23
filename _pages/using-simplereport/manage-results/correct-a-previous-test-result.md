@@ -1,6 +1,6 @@
 ---
 title: Correct a previous test result
-description: How to make changes to COVID-19 test results in SimpleReport
+meta: How to make changes to COVID-19 test results in SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

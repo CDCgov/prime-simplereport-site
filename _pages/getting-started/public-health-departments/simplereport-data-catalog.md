@@ -1,6 +1,6 @@
 ---
 title: SimpleReport data catalog
-description: Types of data collected by SimpleReport and sent to public health departments
+meta: Types of data collected by SimpleReport and sent to public health departments
 layout: page
 class: page-docs
 sidenav: resources

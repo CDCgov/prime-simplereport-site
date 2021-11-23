@@ -1,6 +1,6 @@
 ---
 title: About us
-description: SimpleReport is a free COVID-19 testing and reporting app created by the CDC and the USDS
+meta: SimpleReport is a free COVID-19 testing and reporting app created by the CDC and the USDS
 permalink: /about-us/
 layout: post
 return_top: 'false'

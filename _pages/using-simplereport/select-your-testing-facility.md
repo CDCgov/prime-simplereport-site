@@ -1,6 +1,6 @@
 ---
 title: Select your testing facility
-description: How to find the location where you’re doing COVID-19 testing
+meta: How to find the location where you’re doing COVID-19 testing
 layout: page
 class: page-docs
 sidenav: resources

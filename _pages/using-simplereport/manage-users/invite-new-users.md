@@ -1,6 +1,6 @@
 ---
 title: Add new users
-description: Create new SimpleReport accounts for staff and employees
+meta: Create new SimpleReport accounts for staff and employees
 layout: page
 class: page-docs
 sidenav: resources

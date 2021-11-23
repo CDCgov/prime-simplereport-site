@@ -1,6 +1,6 @@
 ---
 title: How to sign up for SimpleReport
-description: How to set up a SimpleReport account for your organization, workplace, or company.
+meta: How to set up a SimpleReport account for your organization, workplace, or company.
 layout: page
 class: page-docs
 sidenav: resources

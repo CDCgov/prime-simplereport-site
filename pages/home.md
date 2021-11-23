@@ -1,6 +1,6 @@
 ---
 title: Home
-description: SimpleReport is a COVID-19 testing and reporting tool that sends results to your public health department.
+meta: SimpleReport is a COVID-19 testing and reporting tool that sends results to your public health department.
 permalink: /
 layout: home
 class: page-home
