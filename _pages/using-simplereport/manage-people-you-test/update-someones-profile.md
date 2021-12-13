@@ -1,6 +1,6 @@
 ---
 title: Update someone’s profile
-description: How to make changes to a patient’s profile in SimpleReport
+meta: How to make changes to a patient’s profile in SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

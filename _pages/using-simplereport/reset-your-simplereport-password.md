@@ -1,6 +1,6 @@
 ---
 title: Reset your SimpleReport password
-description: I forgot my SimpleReport password
+meta: I forgot my SimpleReport password
 layout: page
 class: page-docs page-docs-img-sm
 sidenav: resources

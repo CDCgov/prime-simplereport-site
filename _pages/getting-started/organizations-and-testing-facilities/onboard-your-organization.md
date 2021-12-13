@@ -1,6 +1,6 @@
 ---
 title: How to sign up for SimpleReport
-description: How to set up a SimpleReport account for your organization, workplace, or company.
+meta: How to set up a SimpleReport account for your organization, workplace, or company.
 layout: page
 class: page-docs
 sidenav: resources
@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-If you’re doing COVID-19 rapid testing, your first step is to choose just one person from your organization to sign up. They'll create a SimpleReport organization account and complete [identity verification](#verify-your-identity). This person —  called the account administrator — can add individual testing facilities after creating the account.
+If you’re doing COVID-19 rapid testing, your first step is to choose just one person to sign up for your organization account. They'll create the account and complete [identity verification](#verify-your-identity). This person —  called the account administrator — can add testing facilities and staff after creating the organization account.
 
 What's an organization? Organizations are companies, institutions, school systems, and more, that often have multiple testing facilities or locations as part of their network. For example, John Doe School District is the “organization” that includes Highland High School, Middleton Middle School, etc. Each individual school is considered a “testing facility” that must be connected to its parent organization in SimpleReport. If you don’t have a parent organization that’s ok —  you’ll just enter in your information a bit differently when you sign up.
 

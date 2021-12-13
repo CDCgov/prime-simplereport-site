@@ -1,6 +1,6 @@
 ---
 title: Manage user permissions
-description: Set staff and employee access in SimpleReport
+meta: Set staff and employee access in SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

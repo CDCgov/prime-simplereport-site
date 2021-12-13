@@ -1,6 +1,6 @@
 ---
 title: Log in to SimpleReport
-description: How to log in to SimpleReport
+meta: How to log in to SimpleReport
 layout: page
 class: page-docs
 sidenav: resources

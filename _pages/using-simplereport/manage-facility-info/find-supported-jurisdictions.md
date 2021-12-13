@@ -1,6 +1,6 @@
 ---
 title: Where does SimpleReport work?
-description: Is SimpleReport in your state or territory?
+meta: Is SimpleReport in your state or territory?
 layout: page
 class: page-docs
 sidenav: resources

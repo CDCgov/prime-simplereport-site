@@ -1,6 +1,6 @@
 ---
 title: Conduct and submit tests
-description: How to conduct and submit COVID-19 tests in SimpleReport
+meta: How to conduct and submit COVID-19 tests in SimpleReport
 permalink: /using-simplereport/conduct-and-submit-tests/
 layout: page
 class: page-docs

@@ -1,6 +1,6 @@
 ---
 title: Home
-description: SimpleReport is a COVID-19 testing and reporting tool that sends results to your public health department.
+meta: SimpleReport is a COVID-19 testing and reporting tool that sends results to your public health department.
 permalink: /
 layout: home
 class: page-home
@@ -203,10 +203,10 @@ return_top: 'false'
         <h2 class="font-heading-3 text-primary-darker">
           Ready to simplify your COVID-19 reporting?
         </h2>
-        <p class="usa-intro">If you’re in a state or territory where SimpleReport is already set up, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
+        <p class="usa-intro">If you’re in a location where SimpleReport is already set up, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <div class="margin-top-2">
-        <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Sign up for SimpleReport</a>
+        <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Sign up</a>
         <a class="usa-button usa-button--outline text-no-underline font-body-sm margin-top-2 tablet:margin-top-0" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
       </div>
     </div>
