@@ -17,7 +17,7 @@ Let’s get started.
 {: .usa-intro .margin-top-1}
 
 ## SimpleReport sign up checklist
-Organization administrators need to complete a few steps to sign up for a SimpleReport organization account. After that, we recommend taking a look at our resources to learn about how to use SimpleReport.
+Organization administrators need to complete a few steps to sign up for a SimpleReport organization account. After that, we recommend taking a look at our training resources to learn how to use SimpleReport.
 
 <fieldset class="usa-fieldset">
   <legend class="usa-legend usa-sr-only">Onboarding checklist</legend>
