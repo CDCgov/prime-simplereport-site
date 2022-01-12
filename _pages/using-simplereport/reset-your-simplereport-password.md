@@ -21,7 +21,7 @@ To reset your password you can follow these steps:
 ![The "Answer" field for your security question, along with the "Reset Password" button]({% link assets/img/resources/reset-your-simplereport-password/step-7.png %})
 8. Enter a new password in both the “New password” and “Repeat password” fields, then click **Reset Password**.
 ![The "New password" and "Repeat password" fields, along with the "Reset Password" button]({% link assets/img/resources/reset-your-simplereport-password/step-8.png %})
-9. You’ll need to use the multifactor authentication option that you set up when you registered your account. Here’s an example of what you’ll need to do if you set up SMS authentication:
+9. You’ll need to use the multi-factor authentication option that you set up when you registered your account. Here’s an example of what you’ll need to do if you set up SMS authentication:
    1. Click the gray **Send code** button to have the verification code sent to your phone. (Make sure to click the button, or else the code won’t get sent.)
    ![The "Send code" button]({% link assets/img/resources/reset-your-simplereport-password/step-9a.png %})
    1. Once you receive the text, enter the code in the “Enter Code” field.
