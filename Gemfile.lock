@@ -21,7 +21,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    ffi (1.13.1)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     html-pipeline (2.14.0)
       activesupport (>= 2)
