@@ -100,7 +100,7 @@ using-simplereport:
           - page: Update someone’s profile
             url: /using-simplereport/manage-people-you-test/update-someones-profile/
       - page: Manage users
-        url: /using-simplereport/manage-users/manage-user-permissions/
+        url: /using-simplereport/manage-users/invite-new-users/
         subsubnav:
           - page: Add new user
             url: /using-simplereport/manage-users/invite-new-users/
