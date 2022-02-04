@@ -60,7 +60,7 @@ Data created in SimpleReport falls into three categories:
 - Is the patient symptomatic for this disease? (optional)
     - If yes, list symptoms
     - Illness onset date
-- Is the patient pregnant?
+- Is the patient pregnant? (optional)
 {% endcapture %}
 
 {% capture test-information %}
