@@ -20,9 +20,14 @@ Data created in SimpleReport falls into three categories:
 
 {% capture patient-information %}
 ### Patient information
-- Patient’s last name (required)
 - Patient’s first name (required)
 - Patient’s middle name (optional)
+- Patient’s last name (required)
+- Patient's role (optional)
+  -Example: student, staff/employee, resident, visitor
+- Patient's facility (required)
+  - Selected from organization's facilities
+- Patient's preferred language (optional)
 - Patient’s date of birth (required)
 - Patient address (required)
   - SimpleReport standardizes addresses:
@@ -32,18 +37,26 @@ Data created in SimpleReport falls into three categories:
     - Patient’s state (required)
     - Patient’s zip code (required)
 - Patient’s phone number (required)
-- Patient’s sex (optional)
-- Patient’s ethnicity (optional)
-- Patient’s race (optional)
-- Patient’s email (optional)
-- Patient’s role (optional)
-  - Example: student, staff, resident, visitor
+- Patient's email (optional)
+- Patient’s sex assigned at birth (required)
+  - Female
+  - Male
+  - Other
+  - Prefer not to answer
+- Patient’s race (required)
+  - American Indian/Alaskan Native
+  - Asian
+  - Black/African American
+  - Native Hawaiian/other Pacific Islander
+  - White
+  - Other
+  - Prefer not to answer
+- Patient’s ethnicity (required)
+- Patient's tribal affiliation (optional)
+- Is the patient a resident of a congregate living setting? (required)
+- Is the patient employed in healthcare? (required)
 
 ### Ask on order entry
-- Is the patient employed in healthcare? (required)
-- Is the patient a resident of a congregate setting? (required)
-- Is this the patient’s first test for COVID-19? (optional)
-  - If not, when was the last test, what was the test type, and - what was the result?
 - Is the patient symptomatic for this disease? (optional)
     - If yes, list symptoms
     - Illness onset date
