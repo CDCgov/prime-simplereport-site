@@ -16,5 +16,5 @@ To edit user information:
 2. Find and click on the "Manage users" tab.
 ![The “Manage Users” tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-2.png %})
 3. Select **Edit name** or **Edit email** and confirm your changes.
-![Edit user name and edit user email buttons]({% link assets/img/resources/edit-user-info.jpg.jpg %})
+![Edit user name and edit user email buttons]({% link assets/img/resources/edit-user-info.jpg %})
 
