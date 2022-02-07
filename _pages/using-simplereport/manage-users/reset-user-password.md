@@ -12,6 +12,6 @@ Organization admins can reset passwords for staff or employees (users) in Simple
 
 To reset a user password:
 
-1. Click the gear icon at the top right corner of the page.
-2. Find and click "Manage users".
-3. Select **Send password reset email**, and confirm.
+1. Click the gear icon at the top right corner of the page. ![The gear icon selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-1.png %})
+2. Find and click "Manage users". ![The “Manage Users” tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-2.png %})
+3. Select **Send password reset email**, and confirm. ![Send password button]({% link assets/img/resources/reset-user-password.jpg %})
