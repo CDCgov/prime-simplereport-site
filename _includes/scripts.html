@@ -57,7 +57,9 @@
       const maintenanceJSON = await maintenance.json();
       if (maintenanceJSON.active) {
         const banner = document.getElementById("maintenance-banner");
+        const header = banner.querySelector('.usa-alert__text strong');
         const message = banner.querySelector('.usa-alert__text span');
+        message.textContent = maintenanceJSON.header || "SimpleReport alert: ";
         message.textContent = maintenanceJSON.message;
         banner.classList.remove("display-none");
       }
