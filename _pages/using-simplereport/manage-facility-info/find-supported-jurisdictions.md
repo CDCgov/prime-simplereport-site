@@ -19,6 +19,7 @@ If you're in one of these states or territories, review our instructions on [how
 - Florida
 - Guam
 - Illinois
+- Iowa
 - Louisiana
 - Maryland
 - Massachusetts
@@ -40,7 +41,6 @@ If you're in one of these states or territories, review our instructions on [how
 
 ## Where SimpleReport is coming soon
 - Delaware
-- Iowa
 
 ## Other states or locations
 If you’re a facility doing COVID-19 testing and reporting, or a public health department not located in one of the states or territories listed above, [let us know you’re interested in SimpleReport]({% link pages/forms/waitlist-form.html %}).
