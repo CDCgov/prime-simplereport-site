@@ -84,7 +84,7 @@ using-simplereport:
         subsubnav:
           - page: Review results
             url: /using-simplereport/manage-results/review-results/
-          - page: Print someone’s test results
+          - page: Send someone’s test result
             url: /using-simplereport/manage-results/print-someones-test-results/
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
@@ -142,7 +142,7 @@ user-guide:
         subsubnav:
           - page: Review results
             url: /using-simplereport/manage-results/review-results/
-          - page: Print someone’s test results
+          - page: Send someone’s test result
             url: /using-simplereport/manage-results/print-someones-test-results/
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
