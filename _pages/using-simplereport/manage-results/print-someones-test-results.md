@@ -1,6 +1,6 @@
 ---
 title: Send someone’s test result
-meta: How to text, email, or print a patient's COVID-19 test results from SimpleReport
+meta: How to text, email, or print a patient's COVID-19 test result from SimpleReport
 layout: page
 class: page-docs
 sidenav: resources
