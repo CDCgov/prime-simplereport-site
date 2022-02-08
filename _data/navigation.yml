@@ -86,6 +86,8 @@ using-simplereport:
             url: /using-simplereport/manage-results/review-results/
           - page: Send someone’s test result
             url: /using-simplereport/manage-results/print-someones-test-results/
+          - page: Download test results
+            url: /using-simplereport/manage-results/download-test-results/
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
       - page: Manage people you test
