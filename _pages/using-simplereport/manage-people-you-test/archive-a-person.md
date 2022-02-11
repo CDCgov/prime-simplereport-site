@@ -7,7 +7,7 @@ sidenav: resources
 return_top: 'true'
 ---
 
-Archiving a person removes them from your list of people. Because it's archived and not deleted, their record will still be accessible if it needs to be recovered later.
+Archiving a person removes them from your list of people. Because it's archived and not deleted, their record will still be accessible if it needs to be recovered later. (To unarchive a person, you’ll need to contact SimpleReport support.)
 
 To archive a person:
 1. Click **People** at the top of the page. ![SimpleReport's top navigation, with the "People" tab selected]({% link assets/img/resources/add-a-new-person/step-1.png %})
