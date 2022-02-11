@@ -17,5 +17,5 @@ To send or resend someone’s test result:
 3. Find the result that you want to send, and go all the way to the right of the page. Under the “Actions” column, click the three dots in the same row as the result that you want to send.
 ![A table of test results in SimpleReport, showing the three dots icon under the "Actions" column]({% link assets/img/resources/print-someones-test-results/step-3.png %})
 4. Select the option you want then select **Print result**, **Email result**, or **Text result**.
-![The dropdown menu that appears after you click the three dots icon, with the "Print result" item selected]({% link assets/img/resources/print-someones-test-results/step-4.png %})
+![The dropdown menu that appears after you click the three dots icon]({% link assets/img/resources/print-someones-test-results/send-patient-result.jpg %})
 5. A preview of the test result will appear. Select the option you want and follow the instructions to print, email, or text the result.
