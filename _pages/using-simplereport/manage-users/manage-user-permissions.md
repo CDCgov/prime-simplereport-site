@@ -24,7 +24,7 @@ To change permissions for a user:
 - **Standard** users can conduct and report tests, manage test results, and manage patient profiles. They can’t manage testing facility or user (staff) settings.
 - **Testing only** users can only conduct and report tests.
 
-4. Select the access level that you want to grant for this user, then click **Save changes**.
+4. Select the access level that you want to give this user, then click **Save changes**.
    ![The three levels of access described above ("Admin", "Standard", and "Testing only")]({% link assets/img/resources/manage-user-permissions/set-user-permissions.jpg %})
 
 The next time this user logs in to SimpleReport, they’ll have the level of access that you just set.

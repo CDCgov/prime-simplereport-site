@@ -24,7 +24,7 @@ Data created in SimpleReport falls into three categories:
 - Patient’s middle name (optional)
 - Patient’s last name (required)
 - Patient's role (optional)
-  -Example: student, staff/employee, resident, visitor
+  - Example: student, staff/employee, resident, visitor
 - Patient's facility (required)
   - Selected from organization's facilities
 - Patient's preferred language (optional)
