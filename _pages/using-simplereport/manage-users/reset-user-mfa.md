@@ -15,4 +15,3 @@ To reset a user MFA:
 1. Click the gear icon at the top right corner of the page. ![The gear icon selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-1.png %})
 2. Find and click “Manage users”. ![The “Manage Users” tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-2.png %})
 3. Find and click on the correct user from the list, select **Reset MFA**, then confirm. ![Reset MFA button]({% link assets/img/resources/reset-MFA.jpg %})
-
