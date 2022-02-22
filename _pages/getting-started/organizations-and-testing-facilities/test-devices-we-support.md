@@ -8,9 +8,9 @@ home_link: true
 return_top: "true"
 ---
 
-SimpleReport is able to report results for a variety of diagnostic tests, also known as test devices, test kits, or just tests. The list below includes test devices currently in use, all of which are approved by the Centers for Disease Control (CDC).
+SimpleReport submits results to public health departments for a variety of diagnostic tests — also known as test devices, test kits, or just tests. The list below includes test devices currently supported by SimpleReport and approved by the Centers for Disease Control (CDC).
 
-Don’t see the test device you’re using? [Your organization administrator can update your facility settings](https://www.simplereport.gov/using-simplereport/manage-facility-info/update-facility-settings) by adding a new test device, or by deleting ones you aren’t using anymore. SimpleReport regularly adds new devices, so if you’re an admin and don’t see the device you're using in your facility settings, [contact support](https://www.simplereport.gov/contact-us) and request to add a new device.
+Don’t see the test device you’re using? [Your organization administrator can update your facility settings](https://www.simplereport.gov/using-simplereport/manage-facility-info/update-facility-settings) by adding a new test device, or by deleting any you aren’t using anymore. SimpleReport regularly adds new test devices, so if you’re an admin and don’t see the one you're using in your facility settings, [contact support](https://www.simplereport.gov/contact-us) and request to add a new device.
 
 - 3B BlackBio TRUPCR SARS-CoV2
 - Abbott Alinity M (RT-PCR)
