@@ -5,10 +5,13 @@ layout: page
 class: page-docs
 sidenav: resources
 home_link: true
-return_top: 'true'
+return_top: "true"
+redirect_from:
+  - /using-simplereport/manage-facility-info/find-supported-jurisdictions/
 ---
 
 ## Where SimpleReport is live
+
 If you're in one of these states or territories, review our instructions on [how to sign up for SimpleReport](/getting-started/organizations-and-testing-facilities/onboard-your-organization/) then get started.
 
 - Alabama
@@ -40,7 +43,9 @@ If you're in one of these states or territories, review our instructions on [how
 - Wyoming
 
 ## Where SimpleReport is coming soon
+
 - Delaware
 
 ## Other states or locations
+
 If you’re a facility doing COVID-19 testing and reporting, or a public health department not located in one of the states or territories listed above, [let us know you’re interested in SimpleReport]({% link pages/forms/waitlist-form.html %}).
