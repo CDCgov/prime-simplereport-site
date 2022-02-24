@@ -96,7 +96,7 @@ using-simplereport:
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
       - page: Manage people you test
-        url: /using-simplereport/manage-people-you-test/add-a-new-person/
+        url: /using-simplereport/manage-people-you-test/self-registration/
         subsubnav:
           - page: Self-registration
             url: /using-simplereport/manage-people-you-test/self-registration/
