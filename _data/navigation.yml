@@ -52,12 +52,17 @@ getting-started:
         subsubnav:
           - page: How to sign up
             url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
+          - page: Where does SimpleReport work?
+            url: /getting-started/organizations-and-testing-facilities/where-does-simplereport-work/
+          - page: Test devices we support
+            url: /getting-started/organizations-and-testing-facilities/test-devices-we-support/
           - page: Activate your user account
             url: /getting-started/organizations-and-testing-facilities/activate-your-user-account/
           - page: Log in to SimpleReport
             url: /getting-started/organizations-and-testing-facilities/log-in-to-simplereport/
           - page: Get training
             url: /getting-started/organizations-and-testing-facilities/get-training/
+          
       - page: Public health departments
         url: /getting-started/public-health-departments/about-prime-reportstream/
         subsubnav:
@@ -84,12 +89,14 @@ using-simplereport:
         subsubnav:
           - page: Review results
             url: /using-simplereport/manage-results/review-results/
-          - page: Print someone’s test results
+          - page: Send someone’s test result
             url: /using-simplereport/manage-results/print-someones-test-results/
+          - page: Download test results
+            url: /using-simplereport/manage-results/download-test-results/
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
       - page: Manage people you test
-        url: /using-simplereport/manage-people-you-test/add-a-new-person/
+        url: /using-simplereport/manage-people-you-test/self-registration/
         subsubnav:
           - page: Self-registration
             url: /using-simplereport/manage-people-you-test/self-registration/
@@ -100,13 +107,19 @@ using-simplereport:
           - page: Update someone’s profile
             url: /using-simplereport/manage-people-you-test/update-someones-profile/
       - page: Manage users
-        url: /using-simplereport/manage-users/manage-user-permissions/
+        url: /using-simplereport/manage-users/invite-new-users/
         subsubnav:
+          - page: Add new user
+            url: /using-simplereport/manage-users/invite-new-users/
           - page: Manage user permissions
             url: /using-simplereport/manage-users/manage-user-permissions/
-          - page: Add new users
-            url: /using-simplereport/manage-users/invite-new-users/
-          - page: Reactivate users
+          - page: Edit user information
+            url: /using-simplereport/manage-users/edit-user-information/
+          - page: Reset user password
+            url: /using-simplereport/manage-users/reset-user-password/
+          - page: Reset user MFA
+            url: /using-simplereport/manage-users/reset-user-mfa/
+          - page: Reactivate user
             url: /using-simplereport/manage-users/reactivate-users/
       - page: Manage facility info
         url: /using-simplereport/manage-facility-info/add-a-facility/
@@ -115,8 +128,6 @@ using-simplereport:
             url: /using-simplereport/manage-facility-info/add-a-facility/
           - page: Update facility settings
             url: /using-simplereport/manage-facility-info/update-facility-settings/
-          - page: Where does SimpleReport work?
-            url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
 
@@ -136,7 +147,7 @@ user-guide:
         subsubnav:
           - page: Review results
             url: /using-simplereport/manage-results/review-results/
-          - page: Print someone’s test results
+          - page: Send someone’s test result
             url: /using-simplereport/manage-results/print-someones-test-results/
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
@@ -167,8 +178,6 @@ user-guide:
             url: /using-simplereport/manage-facility-info/add-a-facility/
           - page: Update facility settings
             url: /using-simplereport/manage-facility-info/update-facility-settings/
-          - page: Find supported jurisdictions
-            url: /using-simplereport/manage-facility-info/find-supported-jurisdictions/
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
 

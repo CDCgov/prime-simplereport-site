@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-If something goes wrong with a test result, you can correct it in SimpleReport. The previous result will still be visible, but marked as an error and submitted to the public health department.
+If something goes wrong with a test result, you can correct it in SimpleReport. The previous result will still be visible, but marked as an error and submitted to the public health department. Make sure to also submit a new, corrected test result (backdated to the original test date) after completing the steps here.
 
 To correct a previous test result:
 1. Click **Results** at the top of the page.
@@ -24,4 +24,4 @@ To correct a previous test result:
 The result will be marked as an error, and will appear with a strike through it when you review it in the future.
 ![The table of test results with the test result struck through to indicate that it's been marked as an error.]({% link assets/img/resources/correct-a-previous-test-result/result.png %})
 
-To submit a corrected result, follow the instructions to [conduct and submit a test]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}), and be sure to update the date and time of the test to reflect when the first test originally occurred (you may need to backdate it).
+To submit a new, corrected result to replace the one now marked as an error, follow the instructions to [conduct and submit a test]({% link _pages/using-simplereport/conduct-and-submit-tests/index.md %}), and be sure to update the date and time of the test to reflect when the first test originally occurred (you may need to backdate it).

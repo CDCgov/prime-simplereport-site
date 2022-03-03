@@ -141,7 +141,7 @@ return_top: 'false'
       </h3>
       <div id="a1" class="usa-accordion__content usa-prose text-primary-darker">
         <p>Signing up for SimpleReport is easy. Only one person from each organization or workplace has to sign up and verify their identity. Then you’re ready to test.</p>
-        <p>If you’re in a <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">state or territory where we're already set up</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
+        <p>If you’re in a <a href="{% link _pages/getting-started/organizations-and-testing-facilities/where-does-simplereport-work.md %}">state or territory where we're already set up</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
       </div>
       <h3 class="usa-accordion__heading">
         <button
@@ -190,7 +190,7 @@ return_top: 'false'
     <div class="usa-prose margin-top-4">
       <p class="usa-intro">SimpleReport is available in many parts of the country and is quickly expanding to new states and territories.</p>
       <img class="margin-top-4 tablet:padding-x-15" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
-      <p>View the <a href="{% link _pages/using-simplereport/manage-facility-info/find-supported-jurisdictions.md %}">list of supported states and jurisdictions</a>.</p>
+      <p>View the <a href="{% link _pages/getting-started/organizations-and-testing-facilities/where-does-simplereport-work.md %}">list of supported states and jurisdictions</a>.</p>
     </div>
   </div>
 </section>
