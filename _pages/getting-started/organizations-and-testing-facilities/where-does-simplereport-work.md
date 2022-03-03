@@ -19,6 +19,7 @@ If you're in one of these states or territories, review our instructions on [how
 - Arizona
 - California
 - Colorado
+- Delaware
 - Florida
 - Guam
 - Illinois
@@ -44,7 +45,8 @@ If you're in one of these states or territories, review our instructions on [how
 
 ## Where SimpleReport is coming soon
 
-- Delaware
+- Idaho
+- Nevada
 
 ## Other states or locations
 
