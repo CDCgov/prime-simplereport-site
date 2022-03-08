@@ -1316,12 +1316,11 @@ Typography
   margin: auto;
 }
 
-.whats-new-card-container > .whats-new-card {
+.whats-new-card:first-child {
   margin-top: 6rem;
 }
-
-.whats-new-card-container > .whats-new-card ~ .whats-new-card {
-  margin-top: 0;
+.whats-new-card:nth-child(5) {
+  margin-bottom: 4.5rem;
 }
 
 .whats-new-card {
@@ -1337,10 +1336,10 @@ Typography
   content: "";
   position: absolute;
   width: 100%;
-  bottom: -5px;
+  bottom: -8px;
   z-index: -1;
   transform: scale(0.95);
-  box-shadow: 0 0 15px 4px #0b0b0b33;
+  box-shadow: 0 0 20px 4px #00000033;
 }
 
 .whats-new-textbox {
@@ -1367,4 +1366,19 @@ Typography
 
 .whats-new-blurb {
   line-height: 162%;
+}
+
+.feature_url {
+  text-decoration: none;
+  color: #000000;
+}
+
+.feature_url:hover {
+  text-decoration: underline;
+  color: color($theme-link-color);
+  cursor: pointer;
+}
+
+.whats-new-pagination {
+  margin-bottom: 6rem;
 }

@@ -3,10 +3,17 @@
   <img class="whats-new-image" src="{{feature.image-path}}" />
   <div class="whats-new-textbox">
     <div class="whats-new-text-content">
-      <h2 class="whats-new-title">{{feature.title}}</h2>
+      <a href="{{feature.url | relative_url}}" class="feature_url"
+        ><h2 class="whats-new-title">{{feature.title}}</h2></a
+      >
       <p class="whats-new-blurb">{{feature.blurb}}</p>
     </div>
 
-    <p class="whats-new-datestamp">{{feature.date-of-change}}</p>
+    <p class="whats-new-datestamp">
+      {% assign d = feature.date | date: "%d" | plus:'0' %} {{feature.date |
+      date: "%B" }} {% case d %} {% when 1 or 21 or 31 %}{{ d }}st {% when 2 or
+      22 %}{{ d }}nd {% when 3 or 23 %}{{ d }}rd {% else %}{{ d }}th {% endcase
+      %}, {{ feature.date | date: "%Y" }}
+    </p>
   </div>
 </div>

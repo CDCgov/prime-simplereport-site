@@ -10,11 +10,27 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  whats-new:
+    output: true
+    sort_by: date
+    permalink: /:path/
 
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
   - jekyll-redirect-from
+  - jekyll-paginate-v2
+
+# used within the What's New page to paginate new features
+pagination:
+  enabled: true
+  per_page: 5
+  collection: "whats-new"
+  permalink: "/:num/"
+  title: " - whats-new :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
 
 defaults:
   - scope:

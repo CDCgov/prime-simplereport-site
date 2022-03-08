@@ -5,65 +5,55 @@ main: foo, bar, qaz
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
-    {% include meta.html %}
-    {% include styles.html %}
-    {% if site.google_analytics_ua or site.dap_agency %}
-      {% include analytics.html %}
-    {% endif %}
-    {% if site.url != "https://www.simplereport.gov" %}
-      <meta name="robots" content="noindex nofollow">
+    {% include meta.html %} {% include styles.html %} {% if
+    site.google_analytics_ua or site.dap_agency %} {% include analytics.html %}
+    {% endif %} {% if site.url != "https://www.simplereport.gov" %}
+    <meta name="robots" content="noindex nofollow" />
     {% endif %}
   </head>
-  <body class="site-body {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
-    <section id="maintenance-banner" class="usa-site-alert usa-site-alert--emergency usa-site-alert--no-heading display-none" aria-label="Maintenance alert">
+  <body
+    class="site-body {{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}"
+  >
+    <section
+      id="maintenance-banner"
+      class="usa-site-alert usa-site-alert--emergency usa-site-alert--no-heading display-none"
+      aria-label="Maintenance alert"
+    >
       <div class="usa-alert">
         <div class="usa-alert__body">
           <p class="usa-alert__text">
             <strong>SimpleReport is currently experiencing an outage.</strong>
-            <span>We're working on getting this fixed as soon as possible.</span>
+            <span
+              >We're working on getting this fixed as soon as possible.</span
+            >
           </p>
         </div>
       </div>
     </section>
 
-    {% include skipnav.html %}
-    {% if page.path != "pages/home.md" %}
-      {% include header.html %}
-    {% endif %}
-
-    {% assign hero = page.hero %}
-    {% include components/hero.html %}
-
-    {% if page.tagline and page.intro %}
+    {% include skipnav.html %} {% if page.path != "pages/home.md" %} {% include
+    header.html %} {% endif %} {% assign hero = page.hero %} {% include
+    components/hero.html %} {% if page.tagline and page.intro %}
     <section class="grid-container usa-section">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">{{ page.tagline }}</h2>
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
+            {{ page.tagline }}
+          </h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {{ page.intro | markdownify }}
         </div>
       </div>
     </section>
-    {% endif %}
-
-    {% capture _graphics %}
-      {% include graphic-list.html graphics=page.graphics %}
-    {% endcapture %}
-
-    {% if page.graphics_position != 'after' %}
-      {{ _graphics }}
-    {% endif %}
-    <div class="page-container" id='main-content'>
+    {% endif %} {% capture _graphics %} {% include graphic-list.html
+    graphics=page.graphics %} {% endcapture %} {% if page.graphics_position !=
+    'after' %} {{ _graphics }} {% endif %}
+    <div class="page-container" id="main-content">
       {{ content }}
     </div>
-    {% if page.graphics_position == 'after' %}
-      {{ _graphics }}
-    {% endif %}
-
-    {% include footer.html %}
-
-    {% include scripts.html %}
+    {% if page.graphics_position == 'after' %} {{ _graphics }} {% endif %} {%
+    include footer.html %} {% include scripts.html %}
     <!-- {{ site.data['hash'] }} -->
   </body>
 </html>
