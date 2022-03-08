@@ -1299,7 +1299,15 @@ Typography
 
 .whats-new-banner-container,
 .whats-new-card-container {
-  margin-left: 12.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@include at-media("tablet-lg") {
+  .whats-new-banner-container,
+  .whats-new-card-container {
+    margin-left: 12.5rem;
+  }
 }
 
 .whats-new-banner-container {
@@ -1317,19 +1325,34 @@ Typography
 }
 
 .whats-new-card:first-child {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .whats-new-card:nth-child(5) {
-  margin-bottom: 4.5rem;
+  margin-bottom: 2.25rem;
 }
 
+@include at-media("tablet-lg") {
+  .whats-new-card:first-child {
+    margin-top: 6rem;
+  }
+  .whats-new-card:nth-child(5) {
+    margin-bottom: 4.5rem;
+  }
+}
 .whats-new-card {
   border: 1px solid #dddee0;
   border-radius: 3px;
   display: flex;
   position: relative;
-  width: 85%;
   margin-bottom: 3rem;
+  flex-direction: column;
+}
+
+@include at-media("tablet-lg") {
+  .whats-new-card {
+    max-width: 50rem;
+    flex-direction: row;
+  }
 }
 
 .card-shadow:after {
@@ -1343,10 +1366,18 @@ Typography
 }
 
 .whats-new-textbox {
-  padding: 2rem 3.5rem;
+  padding: 1.5rem 2rem;
+  max-width: 21rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@include at-media("tablet-lg") {
+  .whats-new-textbox {
+    padding: 2rem 3.5rem;
+    max-width: none;
+  }
 }
 
 .whats-new-datestamp {
@@ -1380,5 +1411,10 @@ Typography
 }
 
 .whats-new-pagination {
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
+}
+@include at-media("tablet-lg") {
+  .whats-new-pagination {
+    margin-bottom: 6rem;
+  }
 }
