@@ -1,0 +1,19 @@
+---
+layout: default
+main:
+  class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
+---
+
+<div class="whats-new-banner">
+  <div class="whats-new-banner-container">
+    <h1 class="whats-new-page-title">
+      {{ page.title }}
+    </h1>
+    <p class="whats-new-intro">
+      {{ page.meta }}
+    </p>
+  </div>
+</div>
+<main class="whats-new-card-container">
+  {% include feature-cards.html features = page.features %}
+</main>

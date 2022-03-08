@@ -130,6 +130,8 @@ using-simplereport:
             url: /using-simplereport/manage-facility-info/update-facility-settings/
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
+      - page: What's new
+        url: /using-simplereport/whats-new/
 
 user-guide:
   - title: User guide

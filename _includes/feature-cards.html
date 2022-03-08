@@ -1,0 +1,3 @@
+{% assign features = include.features | map: "feature" %} {% for feature_obj in
+features %} {% assign feature = feature_obj[0] %} {% include
+components/feature-card.html feature = feature %} {% endfor %}

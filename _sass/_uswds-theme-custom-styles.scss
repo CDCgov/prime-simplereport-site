@@ -1029,7 +1029,7 @@ Typography
     font-size: 64px;
     line-height: 130%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 140px;
     margin-bottom: 23px;
   }
@@ -1041,7 +1041,7 @@ Typography
     font-size: 24px;
     line-height: 151.28%;
     text-align: center;
-    color: #97D4EA;
+    color: #97d4ea;
     margin-top: 0px;
     margin-bottom: 39px;
   }
@@ -1058,17 +1058,18 @@ Typography
     input {
       max-width: none;
       padding-left: 12.5px;
-      
+
       &::placeholder {
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 19px;
-        color: #71767A;
+        color: #71767a;
       }
     }
-    input,button {
+    input,
+    button {
       height: 51px;
     }
   }
@@ -1081,7 +1082,7 @@ Typography
     font-weight: 500;
     font-size: 32px;
     line-height: 130%;
-    color: #162E51;
+    color: #162e51;
     margin-top: 80px;
     margin-bottom: 48px;
   }
@@ -1089,9 +1090,9 @@ Typography
   .usa-card-group {
     gap: 35px;
     margin-bottom: 48px;
-    
+
     .usa-card__container {
-      border: 1px solid #DCDEE0;
+      border: 1px solid #dcdee0;
       box-sizing: border-box;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
@@ -1126,7 +1127,7 @@ Typography
       }
 
       .divider {
-        border: 1px solid #DCDEE0;
+        border: 1px solid #dcdee0;
         margin: 6px 1.5rem 0px 1.5rem;
       }
 
@@ -1139,7 +1140,7 @@ Typography
           font-size: 26px;
           line-height: 130%;
           text-align: right;
-          color: #0050D8;
+          color: #0050d8;
         }
       }
     }
@@ -1151,9 +1152,11 @@ Typography
   --animate-delay: 0s;
 }
 
-.support-page-section-2,.support-page-section-3,.support-page-section-4 {
+.support-page-section-2,
+.support-page-section-3,
+.support-page-section-4 {
   height: 100%;
-  background: #E1F3F8;
+  background: #e1f3f8;
   padding-top: 20px;
 
   @include at-media("tablet") {
@@ -1195,7 +1198,7 @@ Typography
     font-weight: 500;
     font-size: 32px;
     line-height: 130%;
-    color: #162E51;
+    color: #162e51;
   }
 
   p {
@@ -1213,7 +1216,7 @@ Typography
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 10px;
     margin-bottom: 20px;
     @include at-media("tablet") {
@@ -1223,7 +1226,7 @@ Typography
 }
 
 .support-page-section-3 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
   @include at-media("tablet") {
     height: 623px;
@@ -1258,7 +1261,7 @@ Typography
 
 .support-page-section-4 {
   height: 350px;
-  background: #97D4EA;
+  background: #97d4ea;
   padding-top: 80px;
 
   h1 {
@@ -1268,7 +1271,7 @@ Typography
     font-size: 32px;
     line-height: 130%;
     text-align: center;
-    color: #162E51;
+    color: #162e51;
     margin-top: 0;
     margin-bottom: 24px;
   }
@@ -1288,4 +1291,80 @@ Typography
   .usa-button {
     margin-top: 0;
   }
+}
+
+.whats-new-banner {
+  background-color: color("primary-darker");
+}
+
+.whats-new-banner-container,
+.whats-new-card-container {
+  margin-left: 12.5rem;
+}
+
+.whats-new-banner-container {
+  padding: 3.5rem 0;
+}
+.whats-new-page-title {
+  color: white;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.whats-new-intro {
+  color: color("accent-cool-light");
+  margin: auto;
+}
+
+.whats-new-card-container > .whats-new-card {
+  margin-top: 6rem;
+}
+
+.whats-new-card-container > .whats-new-card ~ .whats-new-card {
+  margin-top: 0;
+}
+
+.whats-new-card {
+  border: 1px solid #dddee0;
+  border-radius: 3px;
+  display: flex;
+  position: relative;
+  width: 85%;
+  margin-bottom: 3rem;
+}
+
+.card-shadow:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -5px;
+  z-index: -1;
+  transform: scale(0.95);
+  box-shadow: 0 0 15px 4px #0b0b0b33;
+}
+
+.whats-new-textbox {
+  padding: 2rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whats-new-datestamp {
+  color: #71767a;
+  font-size: 0.875rem;
+  margin: 0;
+}
+.whats-new-image {
+  width: 21rem;
+  height: 20rem;
+}
+.whats-new-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.whats-new-blurb {
+  line-height: 162%;
 }
