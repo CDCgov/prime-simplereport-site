@@ -1297,16 +1297,18 @@ Typography
   background-color: color("primary-darker");
 }
 
-.whats-new-banner-container,
 .whats-new-card-container {
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
+.whats-new-card-container > * {
+  margin: auto;
+}
+
 @include at-media("tablet-lg") {
-  .whats-new-banner-container,
-  .whats-new-card-container {
-    margin-left: 12.5rem;
+  .whats-new-banner-container {
+    margin-left: 15rem;
   }
 }
 
@@ -1388,6 +1390,7 @@ Typography
 .whats-new-image {
   width: 21rem;
   height: 20rem;
+  background-color: #f0f0ef;
 }
 .whats-new-title {
   margin-top: 0;
@@ -1417,4 +1420,8 @@ Typography
   .whats-new-pagination {
     margin-bottom: 6rem;
   }
+}
+
+.hide {
+  display: none;
 }
