@@ -23,6 +23,7 @@ If you're in one of these states or territories, review our instructions on [how
 - Florida
 - Guam
 - Illinois
+- Idaho
 - Iowa
 - Louisiana
 - Maryland
@@ -45,7 +46,6 @@ If you're in one of these states or territories, review our instructions on [how
 
 ## Where SimpleReport is coming soon
 
-- Idaho
 - Nevada
 
 ## Other states or locations
