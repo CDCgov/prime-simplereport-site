@@ -1306,24 +1306,21 @@ Typography
   margin: auto;
 }
 
-@include at-media("tablet-lg") {
-  .whats-new-banner-container {
-    margin-left: 15rem;
-  }
-}
-
 .whats-new-banner-container {
-  padding: 3.5rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 2rem;
+  max-width: 64rem;
+  margin: auto;
 }
 .whats-new-page-title {
   color: white;
-  margin: auto;
   padding-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 .whats-new-intro {
   color: color("accent-cool-light");
-  margin: auto;
 }
 
 .whats-new-card:first-child {
@@ -1333,7 +1330,7 @@ Typography
   margin-bottom: 2.25rem;
 }
 
-@include at-media("tablet-lg") {
+@include at-media("desktop") {
   .whats-new-card:first-child {
     margin-top: 6rem;
   }
@@ -1348,9 +1345,10 @@ Typography
   position: relative;
   margin-bottom: 3rem;
   flex-direction: column;
+  max-width: 21rem;
 }
 
-@include at-media("tablet-lg") {
+@include at-media("tablet") {
   .whats-new-card {
     max-width: 50rem;
     flex-direction: row;
@@ -1375,7 +1373,7 @@ Typography
   justify-content: space-between;
 }
 
-@include at-media("tablet-lg") {
+@include at-media("desktop") {
   .whats-new-textbox {
     padding: 2rem 3.5rem;
     max-width: none;
@@ -1416,7 +1414,7 @@ Typography
 .whats-new-pagination {
   margin-bottom: 2rem;
 }
-@include at-media("tablet-lg") {
+@include at-media("desktop") {
   .whats-new-pagination {
     margin-bottom: 6rem;
   }
