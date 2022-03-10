@@ -18,6 +18,7 @@ Don’t see the test device you’re using? [Your organization administrator can
 - Abbott ID NOW (NAAT)
 - Access Bio CareStart (Antigen)
 - Accula SARS-CoV2 Rapid PCR Test (RT-PCR)
+- Aptima SARS-CoV-2 Assay (RT-PCR)
 - Atila iAMP COVID-19 Detection Kit (RT-PCR)
 - BD Veritor SARS-CoV-2 Plus System (Antigen)
 - BD Veritor System for Rapid Detection of SARS-CoV-2 & Flu A+B - (Antigen)
