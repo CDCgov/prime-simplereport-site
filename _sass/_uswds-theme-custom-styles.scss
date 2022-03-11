@@ -1302,7 +1302,27 @@ Typography
   margin-right: 2rem;
 }
 
-.whats-new-card-container > * {
+.breadcrumb-container {
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+  max-width: 64rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@include at-media("desktop") {
+  .breadcrumb-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.breadcrumb-container > nav {
+  // uswds override
+  padding-bottom: 0;
+}
+
+.whats-new-card-container > div {
   margin: auto;
 }
 
