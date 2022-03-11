@@ -1323,7 +1323,8 @@ Typography
 }
 
 .whats-new-card-container > div {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .whats-new-banner-container {
@@ -1343,18 +1344,18 @@ Typography
   color: color("accent-cool-light");
 }
 
-.whats-new-card:first-child {
+.whats-new-card:first-of-type {
   margin-top: 3rem;
 }
-.whats-new-card:nth-child(5) {
+.whats-new-card:last-of-type {
   margin-bottom: 2.25rem;
 }
 
 @include at-media("desktop") {
-  .whats-new-card:first-child {
+  .whats-new-card:first-of-type {
     margin-top: 6rem;
   }
-  .whats-new-card:nth-child(5) {
+  .whats-new-card:last-of-type {
     margin-bottom: 4.5rem;
   }
 }
