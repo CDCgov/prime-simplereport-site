@@ -1,0 +1,11 @@
+---
+title: Test feature
+meta: Testing feature through GitHub UI
+layout: post
+class: page-docs
+return_top: "false"
+home_link: true
+date: 2022-03-01
+image-path: /assets/img/resources/whats-new/orange_waves.jpg
+blurb: Testing addition works within the GitHub UI per instructions
+---
