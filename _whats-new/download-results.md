@@ -1,6 +1,6 @@
 ---
 title: Download results
-meta: Download results
+meta: Page introducing the "download results" feature
 layout: post
 class: page-docs
 return_top: "false"

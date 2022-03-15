@@ -1,6 +1,6 @@
 ---
 title: Send results over text or email
-meta: Send results via text or email
+meta: age introducing the "send results over text or email" feature
 layout: post
 class: page-docs
 return_top: "false"
