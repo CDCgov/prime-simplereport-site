@@ -189,7 +189,7 @@ return_top: 'false'
     <div class="section__title-line"></div>
     <div class="usa-prose margin-top-4">
       <p class="usa-intro">SimpleReport is available in many parts of the country and is quickly expanding to new states and territories.</p>
-      <img class="margin-top-4 tablet:padding-x-15" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
+      <img class="margin-top-4" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
       <p>View the <a href="{% link _pages/getting-started/organizations-and-testing-facilities/where-does-simplereport-work.md %}">list of supported states and jurisdictions</a>.</p>
     </div>
   </div>
