@@ -4,7 +4,8 @@ main:
   class: usa-layout-docs usa-layout-docs__main desktop:grid-col-9 usa-prose
 ---
 
-{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav
+%}
 
 <div class="usa-section">
   <div class="grid-container">
@@ -27,16 +28,14 @@ main:
         class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}"
       >
         {% if page.title and page.title_display != "false" %}
-          <h1 class="margin-top-0 text-primary-darker">
-            {{ page.title }}
-          </h1>
-          {% if page.description %}
-            <p class="usa-intro">
-              {{ page.description }}
-            </p>
-          {% endif %}
-        {% endif %}
-        {{ content }}
+        <h1 class="margin-top-0 text-primary-darker">
+          {{ page.title }}
+        </h1>
+        {% if page.description %}
+        <p class="usa-intro">
+          {{ page.description }}
+        </p>
+        {% endif %} {% endif %} {{ content }}
       </main>
       {% if page.class contains "page-docs" %}
     </div>

@@ -1,0 +1,76 @@
+---
+pagination:
+  enabled: true
+  collection: whats-new
+layout: default
+return_top: "false"
+title: New features
+permalink: /using-simplereport/new-features
+---
+
+<div class="whats-new-banner">
+  <div class="whats-new-banner-container">
+    <h1 class="whats-new-page-title">
+      New features
+    </h1>
+    <p class="whats-new-intro">
+      Check out what's new in SimpleReport
+    </p>
+  </div>
+</div>
+
+<main class="whats-new-card-container">
+  <div class="breadcrumb-container">
+    {% include breadcrumbs.html %}
+  </div>
+  {% for post in paginator.posts %} {% include components/feature-card.html
+  feature = post%} {% endfor %}
+
+  <nav aria-label="Pagination" class="usa-pagination whats-new-pagination">
+    <ul class="usa-pagination__list">
+      {% if paginator.page != 1 %}
+
+      <li class="usa-pagination__item usa-pagination__arrow">
+        <a
+          href="{{paginator.previous_page_path}}"
+          class="usa-pagination__link usa-pagination__previous-page"
+          aria-label="Previous page"
+        >
+          <svg class="usa-icon" aria-hidden="true" role="img">
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#navigate_before"
+            ></use>
+          </svg>
+
+          <span class="usa-pagination__link-text"> Previous </span>
+        </a>
+      </li>
+      {% endif %} {% for page_num in (1..paginator.total_pages )%}
+      <li class="usa-pagination__item usa-pagination__page-no">
+        <a
+          href="{% if page_num == 1 %} /using-simplereport/whats-new/ {% else %} /using-simplereport/whats-new/{{page_num}}/{% endif %}"
+          class="usa-pagination__button {% if page_num == paginator.page %} usa-current {% endif %}"
+          aria-label="Page {{page_num}}"
+          aria-current=" {% if page_num == paginator.page %} current {% endif %}"
+        >
+          {{page_num}}
+        </a>
+      </li>
+      {% endfor %} {% if paginator.page != paginator.total_pages %}
+      <li class="usa-pagination__item usa-pagination__arrow">
+        <a
+          href="{{paginator.next_page_path}}"
+          class="usa-pagination__link usa-pagination__next-page"
+          aria-label="Next page"
+        >
+          <span class="usa-pagination__link-text"> Next </span>
+
+          <svg class="usa-icon" aria-hidden="true" role="img">
+            <use xlink:href="/assets/uswds/img/sprite.svg#navigate_next"></use>
+          </svg>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </nav>
+</main>

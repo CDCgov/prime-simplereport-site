@@ -1,0 +1,17 @@
+{% assign feature = include.feature %}
+<div class="whats-new-card">
+  <img class="whats-new-image" src="{{feature.image-path}}" />
+  <div class="whats-new-textbox">
+    <div class="whats-new-text-content">
+      <!-- <a href="{{feature.url | relative_url}}" class="feature_url"> -->
+      <h2 class="whats-new-title">{{feature.title}}</h2>
+      <!-- </a> -->
+      <p class="whats-new-blurb">{{feature.blurb}}</p>
+    </div>
+
+    <p class="whats-new-datestamp">
+      {% assign d = feature.date | date: "%d" | plus:'0' %} {{feature.date |
+      date: "%B" }} {{d}}, {{ feature.date | date: "%Y" }}
+    </p>
+  </div>
+</div>
