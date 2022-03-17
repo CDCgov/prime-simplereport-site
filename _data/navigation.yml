@@ -131,7 +131,7 @@ using-simplereport:
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
       - page: What's new
-        url: /using-simplereport/whats-new/
+        url: /using-simplereport/new-features/
 
 user-guide:
   - title: User guide
