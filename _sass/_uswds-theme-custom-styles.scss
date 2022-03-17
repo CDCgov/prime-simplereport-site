@@ -1370,6 +1370,7 @@ Typography
   margin-bottom: 3rem;
   flex-direction: column;
   max-width: 21rem;
+  box-shadow: 0 31px 44px -30px rgb(0 0 0 / 30%);
 }
 
 @include at-media("tablet") {
@@ -1379,19 +1380,8 @@ Typography
   }
 }
 
-.card-shadow:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  bottom: -8px;
-  z-index: -1;
-  transform: scale(0.95);
-  box-shadow: 0 0 15px 5px rgb(0, 0, 0, 0.2);
-}
-
 .whats-new-textbox {
   padding: 1.5rem 2rem;
-  max-width: 21rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
