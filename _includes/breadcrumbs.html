@@ -15,8 +15,13 @@
       <a
         class="usa-breadcrumb__link"
         href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}"
-        >{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a
       >
+        {% assign crumb_array = crumb | remove:'.html' | split: "-" %} {%
+        capture titlecase %} {% for word in crumb_array %} {% if forloop.first%}
+        {{ word | capitalize }} {% elsif word == "simplereport" %} SimpleReport
+        {% else %} {{word}} {% endif %} {% endfor %}{% endcapture %} {{
+        titlecase }}
+      </a>
     </li>
     {% endif %} {% endfor %}
   </ol>
