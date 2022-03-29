@@ -20,6 +20,10 @@ assets/js/bundles/
 # IDE
 .idea
 
+# local versioning files
+.bundle
+.tool-versions
+
 geckodriver.log
 chromedriver.log
 yarn-error.log
