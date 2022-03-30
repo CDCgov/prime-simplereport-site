@@ -3,9 +3,9 @@
   <img class="whats-new-image" src="{{feature.image-path}}" />
   <div class="whats-new-textbox">
     <div class="whats-new-text-content">
-      {% if feature.link_to_feature %}
+      {% if feature.link_to_learn_more %}
       <a
-        href="{{feature.link_to_feature}}"
+        href="{{feature.link_to_learn_more}}"
         target="__blank"
         class="feature_url"
       >
@@ -23,9 +23,9 @@
         date: "%B" }} {{d}}, {{ feature.date | date: "%Y" }}
       </p>
 
-      {% if feature.link_to_feature %}
+      {% if feature.link_to_learn_more %}
       <a
-        href="{{feature.link_to_feature}}"
+        href="{{feature.link_to_learn_more}}"
         target="__blank"
         class="feature_url"
       >
