@@ -1421,6 +1421,7 @@ Typography
 
 .feature_url:hover {
   cursor: pointer;
+  color: color($theme-link-hover-color);
 }
 
 .whats-new-pagination {
