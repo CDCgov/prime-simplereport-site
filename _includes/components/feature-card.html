@@ -17,9 +17,21 @@
       <p class="whats-new-blurb">{{feature.blurb}}</p>
     </div>
 
-    <p class="whats-new-datestamp">
-      {% assign d = feature.date | date: "%d" | plus:'0' %} {{feature.date |
-      date: "%B" }} {{d}}, {{ feature.date | date: "%Y" }}
-    </p>
+    <div class="card-footer-container">
+      <p class="whats-new-datestamp">
+        {% assign d = feature.date | date: "%d" | plus:'0' %} {{feature.date |
+        date: "%B" }} {{d}}, {{ feature.date | date: "%Y" }}
+      </p>
+
+      {% if feature.link_to_feature %}
+      <a
+        href="{{feature.link_to_feature}}"
+        target="__blank"
+        class="feature_url"
+      >
+        Learn more
+      </a>
+      {% endif %}
+    </div>
   </div>
 </div>

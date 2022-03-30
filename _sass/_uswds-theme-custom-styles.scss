@@ -1415,12 +1415,13 @@ Typography
 }
 
 .feature_url {
-  text-decoration: underline;
+  text-decoration: none;
   color: color($theme-link-color);
 }
 
 .feature_url:hover {
   cursor: pointer;
+  text-decoration: underline;
   color: color($theme-link-hover-color);
 }
 
@@ -1435,4 +1436,9 @@ Typography
 
 .hide {
   display: none;
+}
+
+.card-footer-container {
+  display: flex;
+  justify-content: space-between;
 }
