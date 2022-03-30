@@ -4,7 +4,11 @@
   <div class="whats-new-textbox">
     <div class="whats-new-text-content">
       {% if feature.link_to_feature %}
-      <a href="{{feature.link_to_feature}}" class="feature_url">
+      <a
+        href="{{feature.link_to_feature}}"
+        target="__blank"
+        class="feature_url"
+      >
         <h2 class="whats-new-title">{{feature.title}}</h2>
       </a>
       {% else %}
