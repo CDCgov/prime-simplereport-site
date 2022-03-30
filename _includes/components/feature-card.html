@@ -3,9 +3,13 @@
   <img class="whats-new-image" src="{{feature.image-path}}" />
   <div class="whats-new-textbox">
     <div class="whats-new-text-content">
-      <!-- <a href="{{feature.url | relative_url}}" class="feature_url"> -->
+      {% if feature.link_to_feature %}
+      <a href="{{feature.link_to_feature}}" class="feature_url">
+        <h2 class="whats-new-title">{{feature.title}}</h2>
+      </a>
+      {% else %}
       <h2 class="whats-new-title">{{feature.title}}</h2>
-      <!-- </a> -->
+      {% endif %}
       <p class="whats-new-blurb">{{feature.blurb}}</p>
     </div>
 

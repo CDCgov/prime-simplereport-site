@@ -1415,13 +1415,11 @@ Typography
 }
 
 .feature_url {
-  text-decoration: none;
-  color: #000000;
+  text-decoration: underline;
+  color: color($theme-link-color);
 }
 
 .feature_url:hover {
-  text-decoration: underline;
-  color: color($theme-link-color);
   cursor: pointer;
 }
 
