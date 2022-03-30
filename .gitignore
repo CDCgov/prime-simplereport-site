@@ -20,6 +20,9 @@ assets/js/bundles/
 # IDE
 .idea
 
+.tool-versions
+.bundle/
+
 geckodriver.log
 chromedriver.log
 yarn-error.log
