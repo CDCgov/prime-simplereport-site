@@ -1417,6 +1417,7 @@ Typography
 .feature_url {
   text-decoration: none;
   color: color($theme-link-color);
+  font-weight: bold;
 }
 
 .feature_url:hover {
