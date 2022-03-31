@@ -1,6 +1,5 @@
 ---
 title: [Name of new feature]
-meta: [Alt text description of page available for screen readers]
 layout: post
 class: page-docs
 return_top: "false"
