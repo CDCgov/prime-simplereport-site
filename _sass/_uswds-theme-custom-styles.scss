@@ -1416,13 +1416,14 @@ Typography
 
 .feature_url {
   text-decoration: none;
-  color: #000000;
+  color: color($theme-link-color);
+  font-weight: bold;
 }
 
 .feature_url:hover {
-  text-decoration: underline;
-  color: color($theme-link-color);
   cursor: pointer;
+  text-decoration: underline;
+  color: color($theme-link-hover-color);
 }
 
 .whats-new-pagination {
@@ -1436,4 +1437,9 @@ Typography
 
 .hide {
   display: none;
+}
+
+.card-footer-container {
+  display: flex;
+  justify-content: space-between;
 }

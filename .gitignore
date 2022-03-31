@@ -20,8 +20,9 @@ assets/js/bundles/
 # IDE
 .idea
 
+# local versioning files
+.bundle
 .tool-versions
-.bundle/
 
 geckodriver.log
 chromedriver.log

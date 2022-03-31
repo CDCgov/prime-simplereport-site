@@ -3,15 +3,35 @@
   <img class="whats-new-image" src="{{feature.image-path}}" />
   <div class="whats-new-textbox">
     <div class="whats-new-text-content">
-      <!-- <a href="{{feature.url | relative_url}}" class="feature_url"> -->
+      {% if feature.link_to_learn_more %}
+      <a
+        href="{{feature.link_to_learn_more}}"
+        target="__blank"
+        class="feature_url"
+      >
+        <h2 class="whats-new-title">{{feature.title}}</h2>
+      </a>
+      {% else %}
       <h2 class="whats-new-title">{{feature.title}}</h2>
-      <!-- </a> -->
+      {% endif %}
       <p class="whats-new-blurb">{{feature.blurb}}</p>
     </div>
 
-    <p class="whats-new-datestamp">
-      {% assign d = feature.date | date: "%d" | plus:'0' %} {{feature.date |
-      date: "%B" }} {{d}}, {{ feature.date | date: "%Y" }}
-    </p>
+    <div class="card-footer-container">
+      <p class="whats-new-datestamp">
+        {% assign d = feature.date | date: "%d" | plus:'0' %} {{feature.date |
+        date: "%B" }} {{d}}, {{ feature.date | date: "%Y" }}
+      </p>
+
+      {% if feature.link_to_learn_more %}
+      <a
+        href="{{feature.link_to_learn_more}}"
+        target="__blank"
+        class="feature_url"
+      >
+        Learn more
+      </a>
+      {% endif %}
+    </div>
   </div>
 </div>
