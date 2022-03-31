@@ -4,7 +4,6 @@ layout: post
 class: page-docs
 return_top: "false"
 home_link: true
-link_to_learn_more: /using-simplereport/manage-results/download-test-results/
 date: 2022-01-10
 link_to_learn_more: /using-simplereport/manage-results/print-someones-test-results/
 image-path: /assets/img/resources/whats-new/send_results.jpg
