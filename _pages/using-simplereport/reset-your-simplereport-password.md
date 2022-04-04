@@ -31,3 +31,9 @@ To reset your password you can follow these steps:
 10. Once you’ve finished verifying, the Okta page will appear. Click **Simple Report**.
     ![An Okta screen showing a card you can click to go to SimpleReport]({% link assets/img/resources/reset-your-simplereport-password/step-10.png %}){: .maxw-full }
 11. You’ll be sent back to the SimpleReport landing page. Click **Log in** at the top right corner of the page, which should automatically log you back in to SimpleReport.
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <p class="usa-alert__text">If you’re still having trouble changing your password, SimpleReport admins can also <a href="https://www.simplereport.gov/using-simplereport/manage-users/reset-user-password/">reset user passwords</a> for testing facility employees and staff.</p>
+  </div>
+</div>
