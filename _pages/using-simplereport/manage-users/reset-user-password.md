@@ -8,7 +8,7 @@ home_link: true
 return_top: "true"
 ---
 
-Organization admins can reset passwords for staff or employees (users) in SimpleReport. If you don’t have admin privileges, talk to an admin about upgrading permissions on your account.
+Organization admins can reset passwords for staff or employees (users) in SimpleReport. If you don’t have admin privileges, talk to an admin about upgrading permissions on your account. (You can also <a href="https://www.simplereport.gov/using-simplereport/reset-your-simplereport-password/">reset your own password</a>.)
 
 To reset a user password:
 
