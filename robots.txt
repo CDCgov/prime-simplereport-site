@@ -1,2 +1,3 @@
 User-Agent: *
 Sitemap: https://www.simplereport.gov/sitemap.xml
+Disallow: /assets/resources/SimpleReport-user-guide.pdf
