@@ -1,19 +1,19 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title }}</title>
+<title>
+  {% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title }}
+</title>
 
-{% assign description = page.description | default: site.description %}
-{% if description %}
-<meta name="description" content="{{ description }}">
-{% endif %}
-
-{% assign pagemeta = page.meta %}
-{% if pagemeta %}
-<meta name="pagemeta" content="{{ pagemeta }}">
-{% endif %}
-
-{% include favicon.html %}
+{% assign description = page.description | default: site.description %} {% if
+description %}
+<meta name="description" content="{{ description }}" />
+{% endif %} {% assign pagemeta = page.meta %} {% if pagemeta %}
+<meta name="pagemeta" content="{{ pagemeta }}" />
+{% endif %} {% include favicon.html %}
 <script src="{{ site.baseurl }}/assets/js/uswds-init.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
