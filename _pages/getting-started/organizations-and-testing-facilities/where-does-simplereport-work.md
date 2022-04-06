@@ -31,6 +31,7 @@ If you're in one of these states or territories, review our instructions on [how
 - Minnesota
 - Mississippi
 - Montana
+- Nevada
 - New Hampshire
 - New Jersey
 - New Mexico
@@ -46,8 +47,7 @@ If you're in one of these states or territories, review our instructions on [how
 
 ## Where SimpleReport is coming soon
 
-- Idaho
-- Nevada
+- Indiana
 - New York
 
 ## Other states or locations
