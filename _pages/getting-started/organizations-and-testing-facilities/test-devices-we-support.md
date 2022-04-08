@@ -23,6 +23,7 @@ Don’t see the test device you’re using? [Your organization administrator can
 - BD Veritor SARS-CoV-2 Plus System (Antigen)
 - BD Veritor System for Rapid Detection of SARS-CoV-2 & Flu A+B - (Antigen)
 - Bio-Rad SARS-CoV-2 ddPCR Test
+- BioFire Respiratory Panel RP2.1-EZ (S-PCR)
 - BioFire Torch RP 2.1 (RT-PCR)
 - CareStart COVID-19 (Antigen)
 - CDC Influenza SARS-CoV-2 Multiplex Assay (RT-PCR)
