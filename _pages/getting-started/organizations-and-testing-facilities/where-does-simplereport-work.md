@@ -50,6 +50,7 @@ If you're in one of these states or territories, review our instructions on [how
 - Indiana
 - New York
 - North Carolina
+- Oklahoma
 
 ## Other states or locations
 
