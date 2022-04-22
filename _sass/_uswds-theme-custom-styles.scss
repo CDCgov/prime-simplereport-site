@@ -1443,3 +1443,13 @@ Typography
   display: flex;
   justify-content: space-between;
 }
+
+@media (min-width: 40em) {
+  .usa-nav__primary span::after {
+    background-color: white;
+  }
+
+  .page-home .usa-nav__primary {
+    background-image: none !important;
+  }
+}
