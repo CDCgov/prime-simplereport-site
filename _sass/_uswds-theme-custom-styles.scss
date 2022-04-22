@@ -1446,7 +1446,7 @@ Typography
 
 @media (min-width: 40em) {
   .usa-nav__primary button span::after {
-    background-color: white;
+    background-color: white !important;
   }
 
   .page-home .usa-nav__primary button {
