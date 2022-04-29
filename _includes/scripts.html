@@ -1,53 +1,50 @@
-{% assign _scripts = '' | split: '' %} {% assign _async_marker =
-'uswds_async=false' %} {% assign _site_scripts = site.scripts %} {% unless
-_site_scripts -%} {% assign _uswds_js = '/assets/js/uswds.min.js' | append: '?'
-| append: _async_marker %} {% assign _site_scripts = '' | split: '' | push:
-_uswds_js %} {% if site.anchor_js_targets %} {% assign _anchor_js =
-'/assets/js/vendor/anchor.min.js' %} {% assign _main_js = '/assets/js/main.js'
-%} {% assign _site_scripts = _site_scripts | push: _anchor_js | push: _main_js
-%} {% endif %} {% endunless %} {% assign _scripts = _scripts | push:
-_site_scripts | push: layout.scripts | push: page.scripts | uniq %} {% for
-_script in _scripts %} {% assign _src = _script.src | default: _script %} {% if
-_src %}
-<script
-  src="{{ _src | replace: _async_marker, '' | relative_url }}"
-  {%
-  if
-  _script.async
-  or
-  _src
-  contains
-  _async_marker
-  %}
-  async{%
-  endif
-  %}
-></script>
-{% endif %} {% endfor %} {% if site.search_site_handle %}
+{% assign _scripts = '' | split: '' %}
+{% assign _async_marker = 'uswds_async=false' %}
+{% assign _site_scripts = site.scripts %}
+{% unless _site_scripts -%}
+  {% assign _uswds_js = '/assets/js/uswds.min.js' | append: '?' | append: _async_marker %}
+  {% assign _site_scripts = '' | split: ''
+    | push: _uswds_js %}
+    {% if site.anchor_js_targets %}
+      {% assign _anchor_js = '/assets/js/vendor/anchor.min.js' %}
+      {% assign _main_js = '/assets/js/main.js' %}
+      {% assign _site_scripts = _site_scripts
+        | push: _anchor_js
+        | push: _main_js %}
+    {% endif %}
+{% endunless %}
+{% assign _scripts = _scripts
+  | push: _site_scripts
+  | push: layout.scripts
+  | push: page.scripts
+  | uniq %}
+{% for _script in _scripts %}
+  {% assign _src = _script.src | default: _script %}
+    {% if _src %}
+      <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
+    {% endif %}
+{% endfor %}
+
+{% if site.search_site_handle %}
 <script type="text/javascript">
-  //<![CDATA[
-  var usasearch_config = { siteHandle: "{{ site.search_site_handle }}" };
+//<![CDATA[
+      var usasearch_config = { siteHandle:"{{ site.search_site_handle }}" };
 
-  var script = document.createElement("script");
-  script.type = "text/javascript";
-  script.src = "//search.usa.gov/javascripts/remote.loader.js";
-  document.getElementsByTagName("head")[0].appendChild(script);
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
 
-  //]]>
+//]]>
 </script>
-{% endif %} {% if site.touchpoints %}
-<script
-  src="https://touchpoints.app.cloud.gov/touchpoints/2a6e9509.js"
-  async
-></script>
 {% endif %}
 
 <script>
   function checkIe() {
-    if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
-      window.location.href = "{% link pages/unsupported-browser.html %}";
+      if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
+      window.location.href = '{% link pages/unsupported-browser.html %}'
     } else {
-      window.location.href = "/app";
+      window.location.href = '/app';
     }
   }
 </script>
@@ -60,8 +57,8 @@ _src %}
       const maintenanceJSON = await maintenance.json();
       if (maintenanceJSON.active) {
         const banner = document.getElementById("maintenance-banner");
-        const header = banner.querySelector(".usa-alert__text strong");
-        const message = banner.querySelector(".usa-alert__text span");
+        const header = banner.querySelector('.usa-alert__text strong');
+        const message = banner.querySelector('.usa-alert__text span');
         header.textContent = maintenanceJSON.header || "SimpleReport alert: ";
         message.textContent = maintenanceJSON.message;
         banner.classList.remove("display-none");
