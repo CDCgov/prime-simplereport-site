@@ -1452,14 +1452,4 @@ Typography
   .page-home .usa-nav__primary button {
     background-image: none !important;
   }
-
-  @supports ((-webkit-mask: url()) or (mask: url())) {
-    // touchpoints banners had icons in the before pseudo element .
-    // when they shouldn't have removing them so that only the solid
-    // colors are there.
-    .wrapper .usa-alert::before {
-      -webkit-mask: none !important;
-      mask: none !important;
-    }
-  }
 }
