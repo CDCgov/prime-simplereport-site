@@ -52,8 +52,13 @@ main: foo, bar, qaz
     <div class="page-container" id="main-content">
       {{ content }}
     </div>
+          {%if site.touchpoints%}
+          <a id="touchpoints-button">Custom button</a>
+          {% endif %}
     {% if page.graphics_position == 'after' %} {{ _graphics }} {% endif %} {%
     include footer.html %} {% include scripts.html %}
     <!-- {{ site.data['hash'] }} -->
+
+
   </body>
 </html>
