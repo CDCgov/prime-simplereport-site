@@ -1,3 +1,8 @@
+
+/**
+ * Script taken from our touchpoints configuration here: https://touchpoints.app.cloud.gov/touchpoints/2a6e9509.js
+ */
+
 // Form components are namespaced under 'fba' = 'Feedback Analytics'
 'use strict';
 
