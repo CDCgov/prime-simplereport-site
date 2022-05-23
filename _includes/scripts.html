@@ -119,7 +119,16 @@ _src %}
         });
       },
       loadCss: function () {
-        d.head.innerHTML += '<style>' + this.css + '</style>';
+        var formCss = document.createElement("style");
+        formCss.type = "text/css";
+
+        if (formCss.styleSheet) {
+          // This is required for IE8 and below.
+          formCss.styleSheet.cssText = css;
+        } else {
+          formCss.appendChild(document.createTextNode(css));
+        }
+        d.getElementsByTagName("head")[0].appendChild(formCss);
       },
       loadHtml: function () {
 
