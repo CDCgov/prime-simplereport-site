@@ -124,9 +124,9 @@ _src %}
 
         if (formCss.styleSheet) {
           // This is required for IE8 and below.
-          formCss.styleSheet.cssText = css;
+          formCss.styleSheet.cssText = this.css;
         } else {
-          formCss.appendChild(document.createTextNode(css));
+          formCss.appendChild(document.createTextNode(this.css));
         }
         d.getElementsByTagName("head")[0].appendChild(formCss);
       },
