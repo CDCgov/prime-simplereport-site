@@ -48,6 +48,7 @@ If you're in one of these states or territories, review our instructions on [how
 ## Where SimpleReport is coming soon
 
 - Indiana
+- Missouri
 - New York
 - North Carolina
 - Oklahoma
