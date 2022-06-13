@@ -10,7 +10,7 @@ return_top: "true"
 
 To reset your password you can follow these steps:
 
-1. Go to [SimpleReport.gov](simplereport.gov)
+1. Go to [SimpleReport.gov](https://www.simplereport.gov/)
 2. Click **Log in** at the top right of the page.
 3. Click **Need help signing in?** at the bottom of the page.
 4. Click **Forgot password**.
