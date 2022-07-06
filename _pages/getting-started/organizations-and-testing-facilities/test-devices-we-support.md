@@ -13,7 +13,7 @@ SimpleReport submits results to public health departments for a variety of diagn
 Don’t see the test device you’re using? [Your organization administrator can update your facility settings](https://www.simplereport.gov/using-simplereport/manage-facility-info/update-facility-settings) by adding a new test device, or by deleting any you aren’t using anymore. SimpleReport regularly adds new test devices, so if you’re an admin and don’t see the one you're using in your facility settings, [contact support](https://www.simplereport.gov/contact-us) and request to add a new device.
 
 - 3B BlackBio TRUPCR SARS-CoV2
-- Abbott Alinity M (RT-PCR)
+- Abbott Alinity M (RT-PCR)\*
 - Abbott BinaxNOW (Antigen)
 - Abbott ID NOW (NAAT)
 - Access Bio CareStart (Antigen)
@@ -21,12 +21,12 @@ Don’t see the test device you’re using? [Your organization administrator can
 - Aptima SARS-CoV-2 Assay (RT-PCR)
 - Atila iAMP COVID-19 Detection Kit (RT-PCR)
 - BD Veritor SARS-CoV-2 Plus System (Antigen)
-- BD Veritor System for Rapid Detection of SARS-CoV-2 & Flu A+B - (Antigen)
+- BD Veritor System for Rapid Detection of SARS-CoV-2 & Flu A+B - (Antigen)\*
 - Bio-Rad SARS-CoV-2 ddPCR Test
 - BioFire Respiratory Panel RP2.1-EZ (S-PCR)
 - BioFire Torch RP 2.1 (RT-PCR)
 - CareStart COVID-19 (Antigen)
-- CDC Influenza SARS-CoV-2 Multiplex Assay (RT-PCR)
+- CDC Influenza SARS-CoV-2 Multiplex Assay (RT-PCR)\*
 - Celltrion DiaTrust (Antigen)
 - Cepheid Xpert Xpress (RT-PCR)
 - CLINITEST Rapid Self-Test (Antigen)
@@ -61,9 +61,11 @@ Don’t see the test device you’re using? [Your organization administrator can
 - RightSign COVID-19 IgG/IgM Rapid Test Cassette (LFIA)
 - Roche Cobas Liat (RT-PCR)
 - Sienna-Clarity Rapid Test Cassette (Antigen)
-- Sofia SARS FIA (Antigen)
+- Sofia SARS FIA (Antigen)\*
 - SPERA COVID-19 Ag (Antigen)
 - Talis One COVID-19 Test System (NAAT)
 - TaqPath COVID-19 Combo Kit
 - TaqPath RNase P Combo Kit 2.0 QuantStudio 7 (PCR)
 - Visby Point of Care Test (RT-PCR)
+
+Items with an asterisk (\*) are multiplex devices, meaning they test for COVID-19, influenza A, and influenza B.
