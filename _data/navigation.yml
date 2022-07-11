@@ -128,6 +128,11 @@ using-simplereport:
             url: /using-simplereport/manage-facility-info/add-a-facility/
           - page: Update facility settings
             url: /using-simplereport/manage-facility-info/update-facility-settings/
+      - page: Test for other diseases
+        url: /using-simplereport/test-for-other-diseases/influenza/
+        subsubnav:
+          - page: Influenza A and B
+            url: /using-simplereport/test-for-other-diseases/influenza/            
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
       - page: What's new
