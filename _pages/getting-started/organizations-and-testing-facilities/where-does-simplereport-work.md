@@ -31,6 +31,7 @@ If you're in one of these states or territories, review our instructions on [how
 - Massachusetts
 - Minnesota
 - Mississippi
+- Missouri
 - Montana
 - Nevada
 - New Hampshire
