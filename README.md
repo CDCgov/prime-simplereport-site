@@ -17,7 +17,7 @@ The static website resources for https://www.simplereport.gov/
 | Software | Version | How to Configure |
 | :- | :- | :- |
 | Node | 14.x | Configure with `.nvmrc` using [nvm](https://github.com/nvm-sh/nvm) |
-| Ruby | 2.6.x | Configure with `.ruby-version` using [rbenv](https://github.com/rbenv/rbenv) |
+| Ruby | 2.7.x | Configure with `.ruby-version` using [rbenv](https://github.com/rbenv/rbenv) |
 
 ## Setup
 Install node packages
