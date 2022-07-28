@@ -78,7 +78,8 @@
     "yargs": "16.0.3"
   },
   "resolutions": {
-    "chokidar": "3.5.3",
-    "glob-parent": "^5.1.2"
+    "chokidar": "^3.5.3",
+    "glob-parent": "^5.1.2",
+    "braces": "^3.0.2"
   }
 }
