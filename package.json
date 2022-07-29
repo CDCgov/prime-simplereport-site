@@ -43,7 +43,7 @@
     "gulp-watch": "^5.0.0",
     "jquery": "^3.5.1",
     "jslint": "^0.12.1",
-    "minimist": "1.2.5",
+    "minimist": "1.2.6",
     "url-search-params-polyfill": "^8.1.0"
   },
   "devDependencies": {
@@ -63,7 +63,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "lodash": "^4.17.20",
-    "minimist": "1.2.5",
+    "minimist": "1.2.6",
     "nightwatch": "^1.6.3",
     "postcss": "^8.2.5",
     "postcss-csso": "^5.0.0",
@@ -76,5 +76,10 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "yargs": "16.0.3"
+  },
+  "resolutions": {
+    "chokidar": "^3.5.3",
+    "glob-parent": "^5.1.2",
+    "braces": "^3.0.2"
   }
 }
