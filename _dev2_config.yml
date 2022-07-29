@@ -1,2 +1,2 @@
 url: https://dev2.simplereport.gov
-okta_url: https://hhs-prime.oktapreview.com/oauth2/default/v1/authorize?client_id=0oa3ii5dwmasAsCww1d7&redirect_uri=https://dev2.simplereport.gov/app&response_type=token+id_token&scope=openid%20simple_report%20simple_report_dev&nonce=thisisnotsafe&state=thisisbogus
+okta_url: https://hhs-prime.oktapreview.com/oauth2/default/v1/authorize?client_id=0oa3ii5dwmasAsCww1d7&redirect_uri=https://dev2.simplereport.gov/app&response_type=token+id_token&scope=openid%20simple_report%20simple_report_dev2&nonce=thisisnotsafe&state=thisisbogus
