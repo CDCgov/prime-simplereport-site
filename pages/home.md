@@ -85,7 +85,7 @@ return_top: 'false'
     <div class="grid-row margin-top-5">
       <div class="display-flex flex-justify-end flex-align-end tablet:display-none">
         <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="search by patient name">
       </div>
       <div class="grid-row tablet:grid-gap-6 display-flex">
         <div class="tablet:grid-col-6 flex-align-self-center">
@@ -99,7 +99,7 @@ return_top: 'false'
         <div class="display-none tablet:display-block grid-col-6">
           <div class="display-flex flex-justify-end flex-align-end">
             <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
-            <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="animation 1">
+            <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="search by patient name">
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@ return_top: 'false'
         <div class="tablet:grid-col-6">
           <div class="display-flex">
           <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
-          <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="animation 2">
+          <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="submit test result">
           </div>
         </div>
         <div class="tablet:grid-col-6">
