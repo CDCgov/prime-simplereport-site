@@ -13,7 +13,7 @@ Admins can give staff and employees SimpleReport access by adding them directly 
 To add a new user:
 
 1. Click the gear icon at the top right corner of the page.
-   ![The "Manage Users" tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-1.png %})
+   ![Settings tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-1.png %})
 2. Beneath the SimpleReport logo at the top of the page, find the “Manage Organization”, “Manage Facilities”, and “Manage Users” tabs. Click **Manage Users**.
    ![The “Manage Users” tab selected in SimpleReport]({% link assets/img/resources/invite-new-users/step-2.png %})
 3. Under “Users”, click **+ New user** in the top right corner.
