@@ -1,6 +1,5 @@
 /**
  * Script taken from our touchpoints configuration here: https://touchpoints.app.cloud.gov/touchpoints/2a6e9509.js
- * NOTE: When updating script ensure sr-touchpoints.js works as intended
  */
 
 // Form components are namespaced under 'fba' = 'Feedback Analytics'
