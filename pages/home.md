@@ -98,7 +98,7 @@ return_top: 'false'
         </div>
         <div class="display-none tablet:display-block grid-col-6">
           <div class="display-flex flex-justify-end flex-align-end">
-            <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+            <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="">
             <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="search by patient name">
           </div>
         </div>
@@ -106,7 +106,7 @@ return_top: 'false'
       <div class="grid-row tablet:grid-gap-6 margin-top-6 tablet:margin-top-15">
         <div class="tablet:grid-col-6">
           <div class="display-flex">
-          <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="blue bubble">
+          <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="">
           <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="submit test result">
           </div>
         </div>
