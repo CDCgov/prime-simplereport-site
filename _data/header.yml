@@ -22,7 +22,7 @@ type: basic
 # If the logo is external add external: true
 logo:
   src: /assets/img/simple-report-logo-color.svg
-  alt: SimpleReport
+  alt: SimpleReport logo
 
 # this is a key into _data/navigation.yml
 primary:
