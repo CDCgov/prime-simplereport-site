@@ -230,7 +230,8 @@ Typography
   padding: 0;
 
   h1,
-  h2 {
+  h2,
+  span {
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -256,10 +257,15 @@ Typography
     margin-top: 0;
   }
 
-  h2 {
+  h2,
+  span {
     @include at-media("tablet") {
       margin-left: 2em;
     }
+  }
+
+  span{
+    display: block;
   }
 }
 
