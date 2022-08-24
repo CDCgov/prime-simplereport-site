@@ -70,4 +70,7 @@ function initCustomTouchpointsJS() {
   attachModalToggleListener();
 }
 
-initCustomTouchpointsJS();
+// need to wait for everything to load otherwise this will not work in Firefox
+window.addEventListener("load", function () {
+  initCustomTouchpointsJS();
+});
