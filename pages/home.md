@@ -4,18 +4,60 @@ meta: SimpleReport is a COVID-19 testing and reporting tool that sends results t
 permalink: /
 layout: home
 class: page-home
-hero:
-  image: ''
-  button:
-    href: /app/sign-up/
-    text: Sign up for free
-  content: A better way to report COVID-19 rapid tests
-  placeholder:
-    src: /assets/img/project-images/test-queue-horiz.png
-    alt: simplereport displayed on a tablet
-  vector: false
 return_top: 'false'
 ---
+<section class="usa-hero padding-top-2" aria-label="Introduction">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col usa-hero__callout">
+        <h1 class="margin-top-3 mobile-lg:margin-top-1">
+          <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport">
+        </h1>
+        <span>
+          A better way to report COVID-19 rapid tests
+        </span>
+        <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2"
+          href="/app/sign-up">
+          Sign up for free
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-blue">
+  <div class="grid-container usa-hero-placeholder-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col hero-img-col mobile-display">
+        <img class="usa-hero-placeholder"
+          src="{{ '/assets/img/project-images/test-queue-horiz.png' | relative_url }}"
+          alt="simplereport displayed on a tablet">
+      </div>
+      <div class="tablet:grid-col usa-hero-subsection usa-prose flex-align-self-center">
+        <p>SimpleReport is a fast, free, and easy way for COVID-19 testing facilities to report results to public health departments.</p>
+        <ul class="margin-left-1">
+          <li>
+            Easy to set up and use
+          </li>
+          <li>
+            100% free
+          </li>
+          <li>
+            Works with any rapid point-of-care test
+          </li>
+          <li>
+            Maintains HIPAA standards
+          </li>
+        </ul>
+      </div>
+      <div class="tablet:grid-col hero-img-col tablet-display">
+        <img class="usa-hero-placeholder"
+          src="{{ '/assets/img/project-images/test-queue-horiz.png' | relative_url }}"
+          alt="simplereport displayed on a tablet">
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="margin-y-4 tablet:margin-y-8">
   <div class="grid-container">
