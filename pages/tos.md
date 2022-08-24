@@ -21,8 +21,8 @@ SimpleReport is a free tool that makes it easy for facilities such as health car
 
 - **User**: An individual whose personal data is being reported via Simple Report (Individual User), or an individual authorized to act on behalf of the Entity under these Terms (Entity User or Entity Administrator). Simple Report will only designate one User from the Entity as the Entity Administrator. Entity Administrators will have more detailed identity verification than general Entity Users. Once the Entity Administrator has their identity verified, the Entity Administrator can add other general Entity Users or Individual Users to the Application. All roles are referred to as “User” for the purposes of these Terms, unless otherwise indicated.
 
-### Data Rights and Usage
-#### Accounts/Registration
+### Data rights and usage
+#### Accounts/registration
 
 ##### For entity users
 If you are using the Application on behalf of an Entity as either an Entity Administrator or Entity User, you represent and warrant that you have authority to bind that Entity to the Terms and by accepting the Terms, you are doing so on behalf of that Entity (and all references to “you” in the Terms refer to you and that Entity). 
