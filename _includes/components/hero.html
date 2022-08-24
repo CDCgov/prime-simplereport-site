@@ -2,18 +2,9 @@
 {% include header.html %}
 <section class="usa-hero padding-top-2" aria-label="Introduction";>
 
-<!-- <section class="usa-hero"{% if hero.image %} style="background-image: url({{site.baseurl}}{{ hero.image }})"{% endif %} aria-label="Introduction";> -->
   <div class="grid-container">
     <div class="grid-row">
       <div class="grid-col usa-hero__callout">
-        <!-- {% if hero.callout %}
-        <h1 class="usa-hero__heading">
-          {% if hero.callout.alt %}
-          <span class="usa-hero__heading--alt">{{ hero.callout.alt }}</span>
-          {% endif %}
-          {{ hero.callout.text | default: hero.callout }}
-        </h1>
-        {% endif %} -->
         <h1 class="margin-top-3 mobile-lg:margin-top-1">
           <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport">
         </h1>
@@ -69,12 +60,4 @@
 </section>
 
 {% endif %}
-
-<!-- {% if hero.vector %}
-<img class="usa-hero-wave-top"
-  src="{{ '/assets/img/wave-top.svg' | relative_url }}"
-  alt="">
-<img class="usa-hero-wave-bottom" src="{{ '/assets/img/wave-bottom.svg' | relative_url }}" alt="">
-<div class="under-wave"></div>
-{% endif %} -->
 {% endif %}
