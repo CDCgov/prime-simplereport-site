@@ -31,9 +31,7 @@ main: foo, bar, qaz
       </div>
     </section>
 
-    {% include skipnav.html %} {% if page.path != "pages/home.md" %} {% include
-    header.html %} {% endif %} {% assign hero = page.hero %} {% include
-    components/hero.html %} {% if page.tagline and page.intro %}
+    {% include skipnav.html %} {% include header.html %} {% if page.tagline and page.intro %}
     <section class="grid-container usa-section">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
@@ -49,9 +47,11 @@ main: foo, bar, qaz
     {% endif %} {% capture _graphics %} {% include graphic-list.html
     graphics=page.graphics %} {% endcapture %} {% if page.graphics_position !=
     'after' %} {{ _graphics }} {% endif %}
-    <div class="page-container" id="main-content">
-      {{ content }}
-    </div>
+    <main>
+      <div class="page-container" id="main-content">
+       {{ content }}
+      </div>
+    </main>
     {% if page.graphics_position == 'after' %} {{ _graphics }} {% endif %} {%
     include footer.html %} {% include scripts.html %}
     <!-- {{ site.data['hash'] }} -->
