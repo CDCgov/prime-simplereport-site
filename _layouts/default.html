@@ -47,11 +47,9 @@ main: foo, bar, qaz
     {% endif %} {% capture _graphics %} {% include graphic-list.html
     graphics=page.graphics %} {% endcapture %} {% if page.graphics_position !=
     'after' %} {{ _graphics }} {% endif %}
-    <main>
-      <div class="page-container" id="main-content">
-       {{ content }}
-      </div>
-    </main>
+    <div class="page-container" id="main-content">
+     {{ content }}
+    </div>
     {% if page.graphics_position == 'after' %} {{ _graphics }} {% endif %} {%
     include footer.html %} {% include scripts.html %}
     <!-- {{ site.data['hash'] }} -->

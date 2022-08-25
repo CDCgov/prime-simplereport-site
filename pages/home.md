@@ -6,6 +6,7 @@ layout: home
 class: page-home
 return_top: 'false'
 ---
+<main>
 <section class="usa-hero padding-top-2" aria-label="Introduction">
   <div class="grid-container">
     <div class="grid-row">
@@ -228,3 +229,4 @@ return_top: 'false'
     </div>
   </div>
 </section>
+</main>
