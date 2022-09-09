@@ -38,6 +38,7 @@ If you're in one of these states or territories, review our instructions on [how
 - New Jersey
 - New Mexico
 - North Dakota
+- New York
 - Ohio
 - Oregon
 - Pennsylvania
