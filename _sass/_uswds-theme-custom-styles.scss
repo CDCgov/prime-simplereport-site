@@ -264,7 +264,7 @@ Typography
     }
   }
 
-  span{
+  span {
     display: block;
   }
 }
@@ -1467,5 +1467,16 @@ Typography
       -webkit-mask: none !important;
       mask: none !important;
     }
+  }
+}
+
+.training-transcript-link {
+  display: block;
+  color: red;
+  margin-top: 12px;
+
+  > .link-svg {
+    height: 1rem;
+    vertical-align: middle;
   }
 }
