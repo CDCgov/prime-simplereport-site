@@ -1,6 +1,6 @@
 ---
 title: SimpleReport Getting Started Video Transcript
-description: Audio and visual descriptions for the video offering an overview of SimpleReport
+description: 
 permalink: /getting-started-video-transcript/
 layout: post
 home_link: false
