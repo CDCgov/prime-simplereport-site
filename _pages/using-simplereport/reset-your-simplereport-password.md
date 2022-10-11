@@ -13,6 +13,7 @@ To reset your password you can follow these steps:
 1. Go to [SimpleReport.gov](https://www.simplereport.gov/)
 2. Click **Log in** at the top right of the page.
 3. Click **Need help signing in?** at the bottom of the page.
+   ![The "Sign in" Okta page with the "Need help signing in?" link]({% link assets/img/resources/reset-your-simplereport-password/step-3.png %})
 4. Click **Forgot password**.
 5. Enter your email address, then click the blue **Reset via Email** button.
    ![The "Reset Password" Okta page with the "Email or Username" field and "Reset via Email" button]({% link assets/img/resources/reset-your-simplereport-password/step-5.png %})
