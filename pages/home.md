@@ -73,7 +73,7 @@ return_top: 'false'
     </h2>
     <div class="grid-row margin-top-5">
       <div class="display-flex flex-justify-end flex-align-end tablet:display-none">
-        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="brown bubble">
+        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="">
         <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="search by patient name">
       </div>
       <div class="grid-row tablet:grid-gap-6 display-flex">
