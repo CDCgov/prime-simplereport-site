@@ -185,7 +185,7 @@ return_top: 'false'
 </section>
 
 <section>
-  <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="mid wave top">
+  <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="">
   <div class="bg-accent-cool-lighter padding-y-2 tablet:padding-y-0">
     <div class="grid-container">
       <div class="usa-prose">
@@ -200,7 +200,7 @@ return_top: 'false'
       </div>
     </div>
   </div>
-  <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="mid wave bottom">
+  <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="">
 </section>
 
 <section class="usa-section padding-top-0">
