@@ -21,7 +21,6 @@
               class="usa-logo-img width-15 desktop:width-card-lg"
               src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
               alt="{{ header.logo.alt }}">
-            <h1 class='usa-sr-only'>{{header.logo.alt}}</h1>
           {% else %}
           <em class="usa-logo__text">
             {{ header.title | default: site.title }}
