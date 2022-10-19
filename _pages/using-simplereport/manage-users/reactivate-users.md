@@ -8,7 +8,7 @@ home_link: true
 return_top: "true"
 ---
 
-SimpleReport deactivates users after 60 days without logging in. Organization admins can reactivate users in SimpleReport.
+SimpleReport deactivates users after 60 days without logging in. Organization admins can reactivate users in SimpleReport. (If you’re looking for help with your password, learn how to [reset it on your own](https://www.simplereport.gov/using-simplereport/reset-your-simplereport-password).)
 
 To reactivate a user:
 
