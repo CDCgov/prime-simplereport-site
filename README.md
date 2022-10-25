@@ -7,17 +7,15 @@ The static website resources for https://www.simplereport.gov/
   - [Table of Contents](#table-of-contents)
   - [Recommended Versions](#recommended-versions)
   - [Setup](#setup)
-  - [E2E Tests](#e2e-tests)
   - [Contributing](#contributing)
   - [Cloud Environments](#cloud-environments)
-  - [Manually Trigger Deploy](#manually-trigger-deploy)
 
 ## Recommended Versions
 
 | Software | Version | How to Configure |
 | :- | :- | :- |
-| Node | 14.x | Configure with `.nvmrc` using [nvm](https://github.com/nvm-sh/nvm) |
-| Ruby | 2.7.x | Configure with `.ruby-version` using [rbenv](https://github.com/rbenv/rbenv) |
+| Node | 14.x | Configure with `.nvmrc` using [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) or [nvm](https://github.com/nvm-sh/nvm) |
+| Ruby | 2.7.x | Configure with `.ruby-version` using [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) or [rbenv](https://github.com/rbenv/rbenv) |
 
 ## Setup
 Install node packages
