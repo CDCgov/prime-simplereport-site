@@ -1,5 +1,5 @@
 ---
-title: Review results
+title: Review test results
 meta: How to view patient’s COVID-19 test results in SimpleReport
 layout: page
 class: page-docs
@@ -8,10 +8,13 @@ home_link: true
 return_top: 'true'
 ---
 
-If you work for a testing facility, here's how to find your patient's COVID-19 results:
+If you work for a testing facility and submit tests one by one, you can find your patients’ COVID-19 results using these steps.
+
+If you upload results in bulk, visit your [upload history]({% link _pages/using-simplereport/manage-results/see-upload-history.md %}) instead. Results you submit to SimpleReport through a spreadsheet do not appear as individual entries in the Results page.
+
 1. Click Results at the top of the page.
 ![SimpleReport's top navigation, with the "Results" tab selected]({% link assets/img/resources/review-results/step-1.png %})
-2. A table of results from your testing facility will appear showing all results from the past 48 hours. To show older results, you can always click the blue **See all results** button at the bottom of the page.
+2. A table of results from your testing facility will appear showing all results from the past 48 hours. To show older results, you can always click the blue **See all results** button at the bottom of the page. Note: This does not include results uploaded to SimpleReport with a spreadsheet.
 
 If there’s a problem with any result, you can [mark it as an error]({% link _pages/using-simplereport/manage-results/correct-a-previous-test-result.md %}).
 
