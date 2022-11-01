@@ -91,14 +91,16 @@ using-simplereport:
       - page: Manage results
         url: /using-simplereport/manage-results/review-results/
         subsubnav:
-          - page: Review results
-            url: /using-simplereport/manage-results/review-results/
+          - page: Review test results
+            url: /using-simplereport/manage-results/review-test-results/
           - page: Send someone’s test result
             url: /using-simplereport/manage-results/print-someones-test-results/
           - page: Download test results
             url: /using-simplereport/manage-results/download-test-results/
           - page: Correct a previous test result
             url: /using-simplereport/manage-results/correct-a-previous-test-result/
+          - page: See upload history
+            url: /using-simplereport/manage-results/see-upload-history/
       - page: Manage people you test
         url: /using-simplereport/manage-people-you-test/self-registration/
         subsubnav:
