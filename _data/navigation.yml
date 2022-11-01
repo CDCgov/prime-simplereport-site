@@ -79,9 +79,13 @@ using-simplereport:
     subnav:
       - page: Select your testing facility
         url: /using-simplereport/select-your-testing-facility/
-      - page: Conduct and submit tests
-        url: /using-simplereport/conduct-and-submit-tests/
+      - page: Report test results
+        url: /using-simplereport/report-test-results/
         subsubnav:
+          - page: Conduct and submit tests
+            url: /using-simplereport/report-test-results/conduct-and-submit-tests/
+          - page: Bulk upload results
+            url: /using-simplereport/report-test-results/bulk-upload-results/
           - page: Backdate a test
             url: /using-simplereport/conduct-and-submit-tests/backdate-a-test/
       - page: Manage results
