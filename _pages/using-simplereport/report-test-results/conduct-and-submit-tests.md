@@ -1,7 +1,7 @@
 ---
 title: Conduct and submit tests
 meta: How to conduct and submit COVID-19 tests in SimpleReport
-permalink: /using-simplereport/conduct-and-submit-tests/
+permalink: /using-simplereport/report-test-results/conduct-and-submit-tests/
 layout: page
 class: page-docs
 sidenav: resources
@@ -9,7 +9,7 @@ home_link: true
 return_top: "true"
 ---
 
-Once you’ve [logged in to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/log-in-to-simplereport.md %}), you can begin conducting tests and submitting results to your public health department:
+Once you’ve [logged in to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/log-in-to-simplereport.md %}), you can begin conducting tests and submitting results to your public health department. You also have the option to [upload results in bulk]({% link _pages/using-simplereport/report-test-results/bulk-upload-results.md %}).
 
 1. Make sure that you’re on the “Conduct tests” page. It’s the page that appears once you’ve logged in and [picked the facility where you’re working today]({% link _pages/using-simplereport/select-your-testing-facility.md %}). You can also get to it by clicking **Conduct tests** at the top of the page.
    ![The SimpleReport site with the "Conduct Tests" tab chosen in the top navigation]({% link assets/img/resources/conduct-and-submit-tests/step-1.png %})
