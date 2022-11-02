@@ -192,7 +192,7 @@ return_top: 'false'
         <h2 class="font-heading-3 text-primary-darker">
           Ready to simplify your COVID-19 reporting?
         </h2>
-        <p class="usa-intro">If you’re in a location where SimpleReport is already set up, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
+        <p class="usa-intro">If report to a location where SimpleReport is already set up, you can sign up now. If not, join the waitlist and we’ll let you know when SimpleReport is available to you.</p>
       </div>
       <div class="margin-top-2">
         <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Sign up</a>
