@@ -37,4 +37,4 @@ Once you’ve [logged in to SimpleReport]({% link _pages/getting-started/organiz
    ![The person's card with a gray "PENDING" tag beneath the "Test questionnaire" link]({% link assets/img/resources/conduct-and-submit-tests/step-10.png %})
 1. Click **Submit**.
 
-You’ve successfully submitted the test result to your public health department. You’re all done. If you have the SimpleReport permissions to do so, you can also [review submitted results]({% link _pages/using-simplereport/manage-results/review-results.md %}).
+You’ve successfully submitted the test result to your public health department. You’re all done. If you have the SimpleReport permissions to do so, you can also [review submitted results]({% link _pages/using-simplereport/manage-results/review-test-results.md %}).
