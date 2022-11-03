@@ -12,7 +12,7 @@ redirect_from:
 
 ## Where SimpleReport is live
 
-If you're in one of these states or territories, review our instructions on [how to sign up for SimpleReport](/getting-started/organizations-and-testing-facilities/onboard-your-organization/) then get started.
+If you report to one of these states or territories, review our instructions on [how to sign up for SimpleReport](/getting-started/organizations-and-testing-facilities/onboard-your-organization/) then get started.
 
 - Alabama
 - Alaska
