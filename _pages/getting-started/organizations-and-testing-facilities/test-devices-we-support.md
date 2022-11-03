@@ -12,6 +12,8 @@ SimpleReport submits results to public health departments for a variety of diagn
 
 Don’t see the test device you’re using? [Your organization administrator can update your facility settings](https://www.simplereport.gov/using-simplereport/manage-facility-info/update-facility-settings) by adding a new test device, or by deleting any you aren’t using anymore. SimpleReport regularly adds new test devices, so if you’re an admin and don’t see the one you're using in your facility settings, [contact support](https://www.simplereport.gov/contact-us) and request to add a new device.
 
+Note: If you plan to [upload test results using a spreadsheet]({% link _pages/using-simplereport/report-test-results/bulk-upload-results.md %}), you can include any CDC-approved device, even if it’s not on this list.
+
 - 3B BlackBio TRUPCR SARS-CoV2
 - Abbott Alinity M (RT-PCR)\*
 - Abbott BinaxNOW (Antigen)
