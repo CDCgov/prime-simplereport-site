@@ -1,7 +1,7 @@
 ---
 title: Bulk upload results
 meta: How to report COVID-19 tests in bulk on SimpleReport using a CSV file
-permalink: /using-simplereport/report-test-results/bulk-upload-results
+permalink: /using-simplereport/report-test-results/bulk-upload-results/
 layout: page
 class: page-docs
 sidenav: resources
