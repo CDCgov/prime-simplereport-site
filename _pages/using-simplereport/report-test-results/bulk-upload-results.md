@@ -11,7 +11,7 @@ return_top: "true"
 
 Once you [log in to SimpleReport]({% link _pages/getting-started/organizations-and-testing-facilities/log-in-to-simplereport.md %}), you can start using it to report results to your public health department. You have the option to [submit tests one-by-one]({% link _pages/using-simplereport/report-test-results/conduct-and-submit-tests.md %}) using a simple form, or you can upload results in bulk using a spreadsheet.
 
-##About the upload feature
+## About the upload feature
 
 SimpleReport’s bulk results uploader lets you report multiple test results at once using a CSV file. When you submit your results, the uploader tool verifies the data, then sends your results to the relevant state and/or local health department(s).  
 
@@ -19,7 +19,7 @@ The results uploader is connected with [all states partnered with SimpleReport](
 
 The SimpleReport data template is a blend of test data requirements from the Department of Health and Human Services, along with other public health jurisdictions. Following SimpleReport formatting requirements ensures that your data will be accepted by any state, tribal, local, or territorial health department partnered with SimpleReport. Learn more about the data template on the [guide in the training site](https://training.simplereport.gov/app/results/upload/submit/guide?facility=04d1db52-1d42-4e89-a6d3-307734c867c2), or follow instructions below to find it on your SimpleReport account.
 
-##How to upload results
+## How to upload results
 
 To upload your results on SimpleReport using a CSV file: 
 
