@@ -30,7 +30,7 @@ To upload your results on SimpleReport using a CSV file:
 1. Click on the link to visit the “spreadsheet upload guide.” This contains important information about how to format your results CSV. You can also “download the spreadsheet template” to see example data.
 ![The SimpleReport bulk results uploader first steps]({% link assets/img/resources/bulk-upload-results/download-resources.png %})
 1. Follow the guide closely to match the headers and data in your spreadsheet to the SimpleReport requirements. Any formatting mismatches will result in errors when you upload your spreadsheet. 
-1. Once you format your data, make sure to save it as a CSV. 
+1. Once you format your data, make sure to save your spreadsheet in CSV format. If your file is larger than 50 MB or 10,000 rows, you need to separate it into multiple spreadsheets.   
 1. Drag your CSV file into the upload box, or click **choose from folder** to select it from your computer browser. 
 ![The SimpleReport bulk results upload box]({% link assets/img/resources/bulk-upload-results/select-file.png %})
 1. Click the **Upload your CSV** button. 
