@@ -8,9 +8,13 @@ home_link: true
 return_top: 'true'
 ---
 
-If you’re doing COVID-19 rapid testing, your first step is to choose just one person to sign up for your organization account. They'll create the account and complete [identity verification](#verify-your-identity). This person —  called the account administrator — can add testing facilities and staff after creating the organization account.
+If you’re doing COVID-19 testing, your first step is to choose just one person to sign up for your organization account. They'll create the account and complete [identity verification](#verify-your-identity). This person —  called the account administrator — can add testing facilities and staff after creating the organization account.
 
-What's an organization? Organizations are companies, institutions, school systems, and more, that often have multiple testing facilities or locations as part of their network. For example, John Doe School District is the “organization” that includes Highland High School, Middleton Middle School, etc. Each individual school is considered a “testing facility” that must be connected to its parent organization in SimpleReport. If you don’t have a parent organization that’s ok —  you’ll just enter in your information a bit differently when you sign up.
+## Organizations and facilities
+
+What's an organization? Organizations are companies, institutions, school systems, and more, that often have multiple testing facilities or locations as part of their network. For example, John Doe School District is the “organization” that includes Highland High School, Middleton Middle School, etc. 
+
+Each individual school is considered a “testing facility” that must be connected to its parent organization in SimpleReport. If you don’t have a parent organization that’s ok —  you’ll just enter in your information a bit differently when you sign up.
 
 Let’s get started.
 
@@ -50,7 +54,7 @@ As the organization administrator, you'll provide your personal contact informat
 ## Verify your identity
 You'll answer identity verification questions with our verification partner, Experian. This takes just a few minutes and doesn’t impact your credit score. 
 
-If Experian can't verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID. We recommend a driver's licence and a work ID, or you can use any of the [documents on this list](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity).
+If Experian can't verify your identity, you’ll need to schedule a separate video call. During the call, you’ll be asked to show two forms of ID. We recommend a driver's license and a work ID, or you can use any of the [documents on this list](https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274/120-acceptable-documents-for-verifying-employment-authorization-and-identity).
 
 Your SimpleReport account will be accessible after your identity is verified. You’ll simply activate and log in to your account.
 
