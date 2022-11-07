@@ -40,6 +40,7 @@ If you're in one of these states or territories, review our instructions on [how
 - North Dakota
 - New York
 - Ohio
+- Oklahoma
 - Oregon
 - Pennsylvania
 - Rhode Island
@@ -51,9 +52,7 @@ If you're in one of these states or territories, review our instructions on [how
 
 ## Where SimpleReport is coming soon
 
-- Missouri
 - North Carolina
-- Oklahoma
 
 ## Other states or locations
 
