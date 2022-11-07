@@ -15,7 +15,7 @@ return_top: 'false'
           <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport">
         </h1>
         <span>
-          A better way to report COVID-19 rapid tests
+          A better way to report COVID-19 tests
         </span>
         <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2"
           href="/app/sign-up">
@@ -35,7 +35,7 @@ return_top: 'false'
           alt="simplereport displayed on a tablet">
       </div>
       <div class="tablet:grid-col usa-hero-subsection usa-prose flex-align-self-center">
-        <p>SimpleReport is a fast, free, and easy way for COVID-19 testing facilities to report results to public health departments.</p>
+        <p>SimpleReport is a fast, free, and easy way for your organization to report results to public health departments.</p>
         <ul class="margin-left-1">
           <li>
             Easy to set up and use
@@ -44,7 +44,7 @@ return_top: 'false'
             100% free
           </li>
           <li>
-            Works with any rapid point-of-care test
+            Works with any diagnostic test
           </li>
           <li>
             Maintains HIPAA standards
@@ -82,7 +82,7 @@ return_top: 'false'
             No more repeat data entry
           </h3>
           <p class="usa-intro line-height-sans-4 margin-bottom-0">
-            Skip re-entering the same data every time you report. Just pull up a name, enter the test result, and submit. It’s that easy.
+            Skip re-entering the same data every time you report. Just pull up a name and click a few buttons, or upload a spreadsheet. It’s that easy.
           </p>
         </div>
         <div class="display-none tablet:display-block grid-col-6">
@@ -192,7 +192,7 @@ return_top: 'false'
         <h2 class="font-heading-3 text-primary-darker">
           Ready to simplify your COVID-19 reporting?
         </h2>
-        <p class="usa-intro">If you’re in a location where SimpleReport is already set up, you can sign up now. If you’re not, join the waitlist and we’ll let you know when SimpleReport comes to your area.</p>
+        <p class="usa-intro">If you report to a location where SimpleReport is already set up, you can sign up now. If not, join the waitlist and we’ll let you know when SimpleReport is available to you.</p>
       </div>
       <div class="margin-top-2">
         <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Sign up</a>
