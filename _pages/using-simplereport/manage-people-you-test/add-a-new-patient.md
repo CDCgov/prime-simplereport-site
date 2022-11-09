@@ -14,7 +14,7 @@ You can find out if they’ve already been added by searching for their name in 
 
 To add someone new:
 1. Click **Patient** at the top of the page.
-![SimpleReport's top navigation, with the "Patient" tab selected]({% link assets/img/resources/add-a-new-person/step-1.png %})
+![SimpleReport's top navigation, with the "Patient" tab selected]({% link assets/img/resources/add-a-new-person/patient-navigation.png %})
 1. Click the **+ Add patient** button on the right side of the page
 ![The user's mouse hovering over the "+ Add patient" button toward the top right of the page]({% link assets/img/resources/add-a-new-person/add-patient-button.png %})
 3. Enter the person’s information on the “Add new patient” page that appears. There are a few types of information to enter for the new patient, and some are marked as optional. Please refer to your public health department requirements to make sure you complete all required information. Questions include:
