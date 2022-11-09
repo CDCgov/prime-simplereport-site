@@ -12,11 +12,11 @@ After you’ve added someone in SimpleReport, you may need to return and update 
 
 To update someone's profile:
 
-1. Click **People** at the top of the page.
-![The SimpleReport site with the "People" tab chosen in the top navigation]({% link assets/img/resources/update-someones-profile/step-1.png %})
-2. Click on the name of the person whose profile you want to update.
+1. Click **Patient** at the top of the page.
+![The SimpleReport site with the "People" tab chosen in the top navigation]({% link assets/img/resources/add-a-new-person/patient-navigation.png %})
+2. Click on the name of the patient whose profile you want to update.
 ![The mouse hovering over someone's name on the SimpleReport "Page" page]({% link assets/img/resources/update-someones-profile/step-2.png %})
-3. A page with all of the person’s information will appear. Add or edit whichever information you need to update.
+3. A page with all of the patient’s information will appear. Add or edit whichever information you need to update.
 4. Click the blue **Save changes** button at either the top right or bottom left of the page. (The button will be gray until you’ve made a change.)
 
-You’ll be sent back to the “People” page, and a green box will appear at the bottom of the page to confirm that SimpleReport has saved your update. You’re all done.
+You’ll be sent back to the “Patient” page, and a green box will appear at the bottom of the page to confirm that SimpleReport has saved your update. You’re all done.
