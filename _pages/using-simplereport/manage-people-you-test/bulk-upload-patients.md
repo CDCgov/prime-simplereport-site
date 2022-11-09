@@ -68,7 +68,7 @@ Note: If you want to add certain patients to specific facilities in your organiz
     <td style="font-weight: 600;">date_of_birth</td>
     <td style="font-weight: 600;">Yes</td>
     <td>MM/DD/YYYY or M/D/YYYY</td>
-    <td>Yes: 07/01/1993<br>Yes: 7/1/1993<br>No:7/1/93</td>
+        <td><strong>✓ Yes: </strong><i>07/01/1993</i><br><strong>✓ Yes: </strong><i>7/1/1993</i><br><strong>✕ No:</strong> <i>7/1/93</i></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">biological_sex</td>
@@ -110,7 +110,7 @@ Note: If you want to add certain patients to specific facilities in your organiz
     <td style="font-weight: 600;">state</td>
     <td style="font-weight: 600;">Yes</td>
     <td>Any 2-character state or US/Canada territory code</td>
-    <td>Yes: CA<br>No: Arkansas</td>
+    <td><strong>✓ Yes: </strong><i>CA</i><br><strong>✕ No:</strong> <i>Arkansas</i></td>
   </tr>
   <tr>
     <td>country</td>
@@ -122,13 +122,13 @@ Note: If you want to add certain patients to specific facilities in your organiz
     <td style="font-weight: 600;">zip_code</td>
     <td style="font-weight: 600;">Yes</td>
     <td>00000 or 00000-0000</td>
-    <td>Yes: 53421<br>Yes: 53421-7890</td>
+    <td><strong>✓ Yes: </strong><i>53421</i><br><strong>✓ Yes: </strong><i>53421-7890</i></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">phone_number</td>
     <td style="font-weight: 600;">Yes</td>
     <td>000-000-0000</td>
-    <td>Yes: 123-456-7890<br>No: (123) 456-7890</td>
+    <td><strong>✓ Yes: </strong><i>123-456-7890</i><br><strong>✕ No:</strong> <i>(123) 456-7890</i></td>
   </tr>
   <tr>
     <td>phone_number_type</td>
@@ -137,16 +137,16 @@ Note: If you want to add certain patients to specific facilities in your organiz
     <td></td>
   </tr>
   <tr>
-    <td style="font-weight: 600;">employed_in_healthcare</td>
+    <td style="font-weight: 600;">employed_in_<br>healthcare</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or </code>No</code</li><li><code>Unk</code> or </code>Unknown</code</li></ul></td>
-    <td>Yes: 123-456-7890<br>No: (123) 456-7890</td>
+    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code</li><li><code>Unk</code> or <code>Unknown</code</li></ul></td>
+    <td></td>
   </tr>
   <tr>
-    <td style="font-weight: 600;">resident_congregate_setting</td>
+    <td style="font-weight: 600;">resident_congregate_<br>setting</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or </code>No</code</li><li><code>Unk</code> or </code>Unknown</code</li></ul></td>
-    <td>Yes: 123-456-7890<br>No: (123) 456-7890</td>
+    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code</li><li><code>Unk</code> or <code>Unknown</code</li></ul></td>
+    <td></td>
   </tr>
    <tr>
     <td>role</td>
@@ -157,6 +157,3 @@ Note: If you want to add certain patients to specific facilities in your organiz
 </tbody></table>
 
 ## Uploading your patient CSV
-
-To upload your patient spreadsheet to SimpleReport, follow these steps:
-
