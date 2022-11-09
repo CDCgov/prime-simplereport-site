@@ -20,8 +20,6 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
 - Include values in all required fields, following guidance below
 - Leave out text in cells for optional fields you don’t want to include (for example, don’t write “N/A” in a field)
 
-Note: If you want to add certain patients to specific facilities in your organization, create a separate spreadsheet for each facility (for example, if you work for a school district, you can create a file for each school that includes the relevant students and staff). If you want to add the same patients across facilities, you can create one spreadsheet and upload patients to all facilities in your organization.  
-
 ### Data elements
 
 <table class="usa-table usa-table--borderless">
@@ -31,7 +29,7 @@ Note: If you want to add certain patients to specific facilities in your organiz
     <th>Format</th>
      <th>Notes</th>
   </tr></thead>
-  <tbody style="vertical-align: top;">
+  <tbody style="vertical-align: top; font-size= .9em;">
   <tr>
     <td style="font-weight: 600;">last_name</td>
     <td style="font-weight: 600;">Yes</td>
@@ -131,7 +129,7 @@ Note: If you want to add certain patients to specific facilities in your organiz
     <td><strong>✓ Yes: </strong><i>123-456-7890</i><br><strong>✕ No:</strong> <i>(123) 456-7890</i></td>
   </tr>
   <tr>
-    <td>phone_number_type</td>
+    <td>phone_number_<br>type</td>
     <td></td>
     <td>If including, select from one of these values:<br><ul><li><code>Mobile</code></li><li><code>Landline</code></li></ul></td>
     <td></td>
@@ -139,13 +137,13 @@ Note: If you want to add certain patients to specific facilities in your organiz
   <tr>
     <td style="font-weight: 600;">employed_in_<br>healthcare</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code</li><li><code>Unk</code> or <code>Unknown</code</li></ul></td>
+    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code></li><li><code>Unk</code> or <code>Unknown</code></li></ul></td>
     <td></td>
   </tr>
   <tr>
-    <td style="font-weight: 600;">resident_congregate_<br>setting</td>
+    <td style="font-weight: 600;">resident_<br>congregate_<br>setting</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code</li><li><code>Unk</code> or <code>Unknown</code</li></ul></td>
+    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code></li><li><code>Unk</code> or <code>Unknown</code></li></ul></td>
     <td></td>
   </tr>
    <tr>
@@ -157,3 +155,5 @@ Note: If you want to add certain patients to specific facilities in your organiz
 </tbody></table>
 
 ## Uploading your patient CSV
+
+Note: If you want to add certain patients to specific facilities in your organization, create a separate spreadsheet for each facility (for example, if you work for a school district, you can create a file for each school that includes the relevant students and staff). If you want to add the same patients across facilities, you can create one spreadsheet and upload patients to all facilities in your organization.  
