@@ -1082,7 +1082,7 @@ Typography
 }
 
 .support-page-section-1 {
-  h1 {
+  h2 {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -1173,7 +1173,7 @@ Typography
       padding-left: 50px;
     }
 
-    h1 {
+    h2 {
       margin-top: 22px;
     }
   }
@@ -1198,7 +1198,7 @@ Typography
     height: 100%;
   }
 
-  h1 {
+  h2 {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -1245,7 +1245,7 @@ Typography
     }
   }
 
-  h1 {
+  h2 {
     margin-top: 0px;
     @include at-media("tablet") {
       margin-top: 22px;
@@ -1270,7 +1270,7 @@ Typography
   background: #97d4ea;
   padding-top: 80px;
 
-  h1 {
+  h2 {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
