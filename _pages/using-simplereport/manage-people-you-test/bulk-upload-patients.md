@@ -65,8 +65,8 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
    <tr>
     <td style="font-weight: 600;">date_of_birth</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>MM/DD/YYYY or M/D/YYYY</td>
-        <td><strong>✓ Yes: </strong><i>07/01/1993</i><br><strong>✓ Yes: </strong><i>7/1/1993</i><br><strong>✕ No:</strong> <i>7/1/93</i></td>
+    <td>MM/DD/YYYY, M/D/YYYY, MM/DD/YY, or M/D/YY</td>
+        <td><strong>✓ Yes: </strong><i>07/01/1993</i><br><strong>✓ Yes: </strong><i>7/1/1993</i><br><strong>✓ Yes:</strong> <i>7/1/93</i></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">biological_sex</td>
@@ -156,4 +156,15 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
 
 ## Uploading your patient CSV
 
-Note: If you want to add certain patients to specific facilities in your organization, create a separate spreadsheet for each facility (for example, if you work for a school district, you can create a file for each school that includes the relevant students and staff). If you want to add the same patients across facilities, you can create one spreadsheet and upload patients to all facilities in your organization.  
+To upload your patient spreadsheet to SimpleReport, follow these steps:
+
+1. Make sure the patient data in your spreadsheet matches the formatting requirements above. SimpleReport will validate your data when you upload the CSV, and any errors will prevent you from successfully submitting results (you’ll have the chance to fix errors and resubmit). 
+2. When you’re ready to upload your spreadsheet, click **Patients** at the top of the page.
+3. Click the **Add patients** button at the top right of the screen. From the dropdown menu that appears, select **Import from spreadsheet**. 
+4. If you’ve already formatted your data, skip to the second step on this page. To add the patients in your spreadsheet to a single facility, select “One facility.” To add the patients to all facilities in your organization, select “All facilities.” You can’t select a subset of facilities in your organization. <br/><br/>If you want to add certain patients to specific facilities in your organization, create a separate spreadsheet for each facility (for example, if you work for a school district, you can create a file for each school that includes the relevant students and staff).
+5. Drag your CSV file into the upload box, or choose it from your computer browser. Once the right file is selected, click **Upload CSV file**. 
+6. SimpleReport will check to make sure your data is in the correct format. If the data is incorrect, SimpleReport will show an error message, with guidance below about what you need to fix.
+7. (If you get errors) Following the error message guidance, edit your spreadsheet and save it again. Try uploading it again (step 5). 
+
+Once SimpleReport confirms that your data is properly formatted, it will process and add the patients. This can take up to 10 minutes or more. The process will continue even if you leave SimpleReport, and we’ll send an email to alert you when it’s done. 
+Once you get an email confirming the upload is complete, you can view and report test results for the new patients on SimpleReport.  
