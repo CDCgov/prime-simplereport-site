@@ -81,7 +81,7 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td style="font-weight: 600;">date_of_birth</td>
     <td style="font-weight: 600;">Yes</td>
     <td>MM/DD/YYYY, M/D/YYYY, MM/DD/YY, or M/D/YY</td>
-        <td><strong>✓ Yes: </strong><i>07/01/1993</i><br><strong>✓ Yes: </strong><i>7/1/1993</i><br><strong>✓ Yes:</strong> <i>7/1/93</i></td>
+        <td><strong>Yes: </strong><i>07/01/1993</i><br><strong>Yes: </strong><i>7/1/1993</i><br><strong>Yes:</strong> <i>7/1/93</i></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">biological_sex</td>
@@ -123,7 +123,7 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td style="font-weight: 600;">state</td>
     <td style="font-weight: 600;">Yes</td>
     <td>Any 2-character state or US/Canada territory code</td>
-    <td><strong>✓ Yes: </strong><i>CA</i><br><strong>✕ No:</strong> <i>Arkansas</i></td>
+    <td><strong>Yes: </strong><i>CA</i><br><strong>No:</strong> <i>Arkansas</i></td>
   </tr>
   <tr>
     <td>country</td>
@@ -135,13 +135,13 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td style="font-weight: 600;">zip_code</td>
     <td style="font-weight: 600;">Yes</td>
     <td>00000 or 00000-0000</td>
-    <td><strong>✓ Yes: </strong><i>53421</i><br><strong>✓ Yes: </strong><i>53421-7890</i></td>
+    <td><strong>Yes: </strong><i>53421</i><br><strong>Yes: </strong><i>53421-7890</i></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">phone_number</td>
     <td style="font-weight: 600;">Yes</td>
     <td>000-000-0000</td>
-    <td><strong>✓ Yes: </strong><i>123-456-7890</i><br><strong>✕ No:</strong> <i>(123) 456-7890</i></td>
+    <td><strong>Yes: </strong><i>123-456-7890</i><br><strong>No:</strong> <i>(123) 456-7890</i></td>
   </tr>
   <tr>
     <td>phone_number_<br>type</td>
