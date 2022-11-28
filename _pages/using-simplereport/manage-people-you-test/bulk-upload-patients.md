@@ -16,7 +16,7 @@ This page guides you through the bulk upload process, including how to format yo
 
 To upload your patient spreadsheet to SimpleReport, follow these steps:
 
-1. Make sure the patient data in your spreadsheet matches the formatting requirements below. SimpleReport will validate your data when you upload the CSV, and any errors will prevent you from successfully submitting results (you’ll have the chance to fix errors and resubmit). 
+1. Make sure the patient data in your spreadsheet matches the [formatting requirements below](#preparing-your-spreadsheet-data). SimpleReport will validate your data when you upload the CSV, and any errors will prevent you from successfully submitting results (you’ll have the chance to fix errors and resubmit). 
 2. When you’re ready to upload your spreadsheet, click **Patients** at the top of the page.
 ![SimpleReport's top navigation, with the "People" tab selected]({% link assets/img/resources/bulk-upload-patients/patient-navigation.png %})
 4. Click the **Add patients** button at the top right of the screen. From the dropdown menu that appears, select **Import from spreadsheet**. 
