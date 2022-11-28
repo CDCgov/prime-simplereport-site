@@ -18,7 +18,7 @@ To upload your patient spreadsheet to SimpleReport, follow these steps:
 
 1. Make sure the patient data in your spreadsheet matches the formatting requirements below. SimpleReport will validate your data when you upload the CSV, and any errors will prevent you from successfully submitting results (you’ll have the chance to fix errors and resubmit). 
 2. When you’re ready to upload your spreadsheet, click **Patients** at the top of the page.
-![SimpleReport's top navigation, with the "People" tab selected]({% link assets/img/resources/add-a-new-person/step-1.png %})
+![SimpleReport's top navigation, with the "People" tab selected]({% link assets/img/resources/bulk-upload-patients/patient-navigation.png %})
 4. Click the **Add patients** button at the top right of the screen. From the dropdown menu that appears, select **Import from spreadsheet**. 
 ![The user's mouse hovering over the "Add patients" button toward the top right of the page]({% link assets/img/resources/bulk-upload-patients/import-from-spreadsheet.png %})
 6. If you’ve already formatted your data, skip to the second step on this page. To add the patients in your spreadsheet to a single facility, select “One facility.” To add the patients to all facilities in your organization, select “All facilities.” You can’t select a subset of facilities in your organization. <br/><br/>If you want to add certain patients to specific facilities in your organization, create a separate spreadsheet for each facility (for example, if you work for a school district, you can create a file for each school that includes the relevant students and staff).
