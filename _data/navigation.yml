@@ -102,10 +102,10 @@ using-simplereport:
           - page: See upload history
             url: /using-simplereport/manage-results/see-upload-history/
       - page: Manage people you test
-        url: /using-simplereport/manage-people-you-test/add-a-new-person/
+        url: /using-simplereport/manage-people-you-test/add-a-new-patient/
         subsubnav:
-          - page: Add a new person
-            url: /using-simplereport/manage-people-you-test/add-a-new-person/
+          - page: Add a new patient
+            url: /using-simplereport/manage-people-you-test/add-a-new-patient/
           - page: Bulk upload patients
             url: /using-simplereport/manage-people-you-test/bulk-upload-patients/
           - page: Self-registration

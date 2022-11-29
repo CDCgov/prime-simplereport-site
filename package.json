@@ -65,7 +65,7 @@
     "eslint": "^7.9.0",
     "eslint-plugin-frontmatter": "0.0.8",
     "faker": "^5.5.3",
-    "geckodriver": "^1.22.3",
+    "geckodriver": "^3.2.0",
     "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
