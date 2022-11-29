@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-To report results for patients in SimpleReport, you first need to add their information to the system. You can [add people individually]({% link _pages/using-simplereport/manage-people-you-test/add-a-new-person.md %}), ask them to [register themselves]({% link _pages/using-simplereport/manage-people-you-test/self-registration.md %}), or upload multiple people at once using a spreadsheet.
+To report results for patients in SimpleReport, you first need to add their information to the system. You can [add patients individually]({% link _pages/using-simplereport/manage-people-you-test/add-a-new-person.md %}), ask them to [register themselves]({% link _pages/using-simplereport/manage-people-you-test/self-registration.md %}), or upload multiple patients at once using a spreadsheet.
 
 This page guides you through the bulk upload process, including how to format your spreadsheet and how to upload it.
 
