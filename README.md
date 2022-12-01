@@ -38,7 +38,7 @@ Serve site
 
 ## Contributing
 1. make changes on a branch
-2. Open a PR and deploy branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`
+2. Open a PR and deploy the branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`
 3. Link to deployed code in PR
 4. Ensure all checks are passing, get at least one code review, and that changes work as expected in the cloud env
 5. Merge PR into `main` make sure changes are deployed and working in [demo](https://demo.simplereport.gov)
