@@ -62,7 +62,7 @@
     "autoprefixer": "^10.2.4",
     "chromedriver": "^90.0.0",
     "dayjs": "^1.10.4",
-    "eslint": "^7.9.0",
+    "eslint": "^8.29.0",
     "eslint-plugin-frontmatter": "0.0.8",
     "faker": "^5.5.3",
     "geckodriver": "^3.2.0",
