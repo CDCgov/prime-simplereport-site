@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "14"
       - name: Set up Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
       - uses: azure/login@v1
