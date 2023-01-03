@@ -47,6 +47,7 @@
     "deploy-azure-demo": "./deploy.sh demo",
     "deploy-azure-stg": "./deploy.sh stg",
     "deploy-azure-prod": "./deploy.sh prod",
+    "docker:bundle:install": "docker run -ti -v $(pwd):/apps alpine/bundle:latest bundle install",
     "e2e": "./e2e.sh default",
     "e2e:chrome": "./e2e.sh chrome",
     "e2e:brave": "./e2e.sh brave"
