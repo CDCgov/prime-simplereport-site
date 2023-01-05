@@ -10,3 +10,4 @@ gem 'jekyll-paginate-v2'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'rspec'
+gem "webrick", "~> 1.7"
