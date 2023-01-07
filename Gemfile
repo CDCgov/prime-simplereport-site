@@ -9,4 +9,4 @@ gem 'jekyll-last-modified-at'
 gem 'jekyll-paginate-v2'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
-gem "webrick", "~> 1.7"
+gem 'webrick', '~> 1.7'
