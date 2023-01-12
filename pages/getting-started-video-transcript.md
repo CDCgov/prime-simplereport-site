@@ -6,7 +6,7 @@ layout: post
 home_link: false
 ---
 
-**Source:** ["SimpleReport Getting Started - Training Overview"](www.youtube.com/watch?v=qVkeizogmeQ)
+**Source:** ["SimpleReport Getting Started - Training Overview"](https://www.youtube.com/watch?v=qVkeizogmeQ)
 
 0:00 → 0:30  
 (The Centers for Disease Control and Prevention (CDC) logo next to the U.S. Digital Service logo, followed by large text reading “SimpleReport Training Overview.”)

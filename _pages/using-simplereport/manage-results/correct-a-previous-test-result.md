@@ -13,7 +13,7 @@ If something goes wrong with a test result, you can correct it in SimpleReport. 
 To correct a previous test result:
 1. Click **Results** at the top of the page.
 ![SimpleReport's top navigation, with the "Results" tab selected]({% link assets/img/resources/correct-a-previous-test-result/step-1.png %})
-2. A table of results from your testing facility will appear showing all results from the past 48 hours. To show older results, you can always click the blue **See all results** button at the bottom of the page.
+2. A table of results from your testing facility will appear showing the most recent 20 results. Click through pages to see older results, or you can filter at the top for patient name, date range, test result, role, and testing facility.
 3. Find the result in the table, and go all the way to the right of the page. Under the “Actions” column, click the three dots in the same row as the result that you want to correct.
 ![A table of test results in SimpleReport, showing the three dots icon under the "Actions" column]({% link assets/img/resources/correct-a-previous-test-result/step-3.png %})
 4. Click **Mark as error**.
