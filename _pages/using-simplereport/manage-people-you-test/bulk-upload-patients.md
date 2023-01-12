@@ -148,8 +148,8 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td><strong>Yes: </strong><i>123-456-7890</i><br><strong>No:</strong> <i>(123) 456-7890</i></td>
   </tr>
   <tr>
-    <td>phone_number_<br>type</td>
-    <td></td>
+    <td style="font-weight: 600;">phone_number_<br>type</td>
+    <td style="font-weight: 600;">Yes</td>
     <td>If including, select from one of these values:<br><ul><li><code>Mobile</code></li><li><code>Landline</code></li></ul></td>
     <td></td>
   </tr>
