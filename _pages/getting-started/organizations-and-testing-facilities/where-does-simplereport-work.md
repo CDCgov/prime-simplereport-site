@@ -52,8 +52,8 @@ If you report to one of these states or territories, review our instructions on 
 
 ## Where SimpleReport is coming soon
 
-- North Carolina
 - Hawaii
+- North Carolina
  
 ## Other states or locations
 
