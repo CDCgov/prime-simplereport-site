@@ -15,7 +15,7 @@ The static website resources for https://www.simplereport.gov/
 | Software | Version | How to Configure |
 | :- | :- | :- |
 | Node | 14.x | Configure with `.nvmrc` using [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) or [nvm](https://github.com/nvm-sh/nvm) |
-| Ruby | 2.7.x | Configure with `.ruby-version` using [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) or [rbenv](https://github.com/rbenv/rbenv) |
+| Ruby | 3.1.x | Configure with `.ruby-version` using [asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) or [rbenv](https://github.com/rbenv/rbenv) |
 
 ## Setup
 Install node packages
@@ -38,7 +38,7 @@ Serve site
 
 ## Contributing
 1. make changes on a branch
-2. Open a PR and deploy branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`
+2. Open a PR and deploy the branch to a non prod env (staging, test, pentest or github pages). Note this environment will be overridden on merges to `main`
 3. Link to deployed code in PR
 4. Ensure all checks are passing, get at least one code review, and that changes work as expected in the cloud env
 5. Merge PR into `main` make sure changes are deployed and working in [demo](https://demo.simplereport.gov)
