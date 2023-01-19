@@ -106,9 +106,11 @@ using-simplereport:
         subsubnav:
           - page: Add a new patient
             url: /using-simplereport/manage-people-you-test/add-a-new-patient/
+          - page: Bulk upload patients
+            url: /using-simplereport/manage-people-you-test/bulk-upload-patients/
           - page: Self-registration
             url: /using-simplereport/manage-people-you-test/self-registration/
-          - page: Archive a patient
+          - page: Archive a person
             url: /using-simplereport/manage-people-you-test/archive-a-person/
           - page: Update someone’s profile
             url: /using-simplereport/manage-people-you-test/update-someones-profile/
