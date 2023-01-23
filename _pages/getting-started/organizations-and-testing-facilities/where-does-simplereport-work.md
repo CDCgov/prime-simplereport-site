@@ -46,6 +46,7 @@ If you report to one of these states or territories, review our instructions on 
 - Rhode Island
 - Tennessee
 - Texas
+- Utah
 - Vermont
 - Washington
 - Wyoming
