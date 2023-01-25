@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
-    "chromedriver": "^90.0.0",
+    "chromedriver": "^109.0.0",
     "dayjs": "^1.10.4",
     "eslint": "^8.30.0",
     "eslint-plugin-frontmatter": "0.0.8",
