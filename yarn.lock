@@ -5805,10 +5805,10 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
-postcss-csso@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-csso/-/postcss-csso-5.0.0.tgz#e2e2cce06608900a1d11f298693da1b4e45d8b8c"
-  integrity sha512-Y4PfUrVhg6CBLB9EUrHDI8zrSxZusxCPIfojrnKYBYgtBZI/89/WNTsRbsq0g3N7FqLotdy39qy9fdlCsKvWbg==
+postcss-csso@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-csso/-/postcss-csso-5.0.1.tgz#023175280a4a8ff916d7763d3543c1fe55ed67a8"
+  integrity sha512-TI99uhhJK2L5IQXPuyNcT3XV9bffSvDPmNpHi5f+tBq+R/01ucgLsUCcTDcVNqKMxO28klI6NwgjrHrM99x9KA==
   dependencies:
     csso "^4.0.2"
 
