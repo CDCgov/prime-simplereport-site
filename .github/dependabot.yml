@@ -9,7 +9,7 @@ updates:
       interval: "weekly"
     reviewers:
       - "simplereport-staticsitereviewers"
-      - "alixmx"
+      - "alismx"
 
   - package-ecosystem: "npm"
     directory: "/"
@@ -18,7 +18,7 @@ updates:
       interval: "weekly"
     reviewers:
       - "simplereport-staticsitereviewers"
-      - "alixmx"
+      - "alismx"
 
   - package-ecosystem: "bundler"
     directory: "/"
@@ -27,4 +27,4 @@ updates:
       interval: "weekly"
     reviewers:
       - "simplereport-staticsitereviewers"
-      - "alixmx"
+      - "alismx"
