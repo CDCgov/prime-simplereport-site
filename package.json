@@ -56,7 +56,7 @@
     "gulp-watch": "^5.0.0",
     "jquery": "^3.5.1",
     "jslint": "^0.12.1",
-    "minimist": "1.2.6",
+    "minimist": "1.2.7",
     "url-search-params-polyfill": "^8.1.0"
   },
   "devDependencies": {
@@ -76,7 +76,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "lodash": "^4.17.20",
-    "minimist": "1.2.6",
+    "minimist": "1.2.7",
     "nightwatch": "^2.6.10",
     "postcss": "^8.2.5",
     "postcss-csso": "^5.0.0",
