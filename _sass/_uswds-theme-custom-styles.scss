@@ -1473,9 +1473,22 @@ Typography
 .training-transcript-link {
   display: block;
   margin-top: 12px;
+}
 
-  > .link-svg {
-    height: 1rem;
-    vertical-align: middle;
-  }
+.link-svg {
+  height: 1rem;
+}
+
+.external-site-disclaimer-link {
+  text-decoration: none !important;
+}
+
+.external-site-disclaimer-link svg {
+  height: 1rem;
+  color: color($theme-link-color);
+}
+
+.external-site-disclaimer-link-alt svg {
+  height: 1rem;
+  color: white;
 }
