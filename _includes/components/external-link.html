@@ -1,10 +1,10 @@
 {% assign link_href = include.link_href %} {% assign link_text =
-include.link_text %} {% assign link_class = include.link_class %} {% capture
+include.link_text %} {% assign link_class = include.link_class %} {% assign link_alt = include.link_alt %} {% capture
 span %}
 <span>
   <a href="{{link_href}}" class="{% if link_class %}{{link_class}}{%endif%}">
     {{ link_text }}
-    <a class="external-site-disclaimer-link" target="_blank" href="/disclaimer">
+    <a class="{% if link_alt %}external-site-disclaimer-link-alt{% else %}external-site-disclaimer-link{%endif%}" target="_blank" href="/exit-link-disclaimer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="24"

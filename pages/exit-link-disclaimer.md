@@ -1,13 +1,11 @@
 ---
-title: Disclaimer
+title: Exit notification/disclaimer policy
 meta: Disclaimer for links out to external sites.
-permalink: /exit-disclaimer/
+permalink: /exit-link-disclaimer/
 layout: post
 return_top: "false"
 home_link: true
 ---
-
-# Exit notification/disclaimer policy
 
 **Links with this icon (<img
     src="/assets/uswds/img/usa-icons/launch.svg"
