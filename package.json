@@ -88,7 +88,7 @@
     "uswds": "^2.13.3",
     "uswds-gulp": "github:uswds/uswds-gulp",
     "webpack": "^5.75.0",
-    "webpack-cli": "^4.0.0",
+    "webpack-cli": "^5.0.1",
     "yargs": "16.0.3"
   },
   "resolutions": {
