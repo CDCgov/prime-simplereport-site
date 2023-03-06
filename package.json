@@ -64,7 +64,7 @@
     "chromedriver": "^109.0.0",
     "dayjs": "^1.10.4",
     "del": "^6.0.0",
-    "eslint": "^8.34.0",
+    "eslint": "^8.35.0",
     "eslint-plugin-frontmatter": "0.0.8",
     "faker": "^6.6.6",
     "geckodriver": "^3.2.0",
