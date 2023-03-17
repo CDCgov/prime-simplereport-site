@@ -142,6 +142,12 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td><strong>Yes: </strong><i>53421</i><br><strong>Yes: </strong><i>53421-7890</i></td>
   </tr>
   <tr>
+    <td>email</td>
+    <td></td>
+    <td>Any</td>
+    <td></td>
+  </tr>
+  <tr>
     <td style="font-weight: 600;">phone_number</td>
     <td style="font-weight: 600;">Yes</td>
     <td>000-000-0000</td>
