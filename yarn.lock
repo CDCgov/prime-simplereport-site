@@ -4630,10 +4630,10 @@ nightwatch-axe-verbose@^2.1.0:
   dependencies:
     axe-core "^4.6.3"
 
-nightwatch@^2.6.10:
-  version "2.6.13"
-  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-2.6.13.tgz#432ccd8aa0f9f78070b7d067084110bb7d0a3f73"
-  integrity sha512-b0ENRXXBNLPnjyi4rDrL20Vh/LMwH6wYe0zTNvInKtt4HgxdS5oUB7Hcbj1eckgHBqbVb9J+p3M2J8T18SXoVA==
+nightwatch@^2.6.18:
+  version "2.6.18"
+  resolved "https://registry.yarnpkg.com/nightwatch/-/nightwatch-2.6.18.tgz#ef347f4708efc68189897a10e7752899397c79eb"
+  integrity sha512-9HYmIE3R8havlWcbj9CY1xdVODUKgxQwOlAbxOHPMoQXSG3R3X7Az+uDA8vUVpeYKDAhtuy7Y09RzpwdTrdwGQ==
   dependencies:
     "@nightwatch/chai" "5.0.2"
     "@nightwatch/html-reporter-template" "0.1.4"
