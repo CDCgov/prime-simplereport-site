@@ -144,8 +144,8 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td>email</td>
     <td></td>
-    <td>Any</td>
-    <td></td>
+    <td>Email address</td>
+    <td><strong>Yes: </strong><i>janedoe@example.com</i></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">phone_number</td>
