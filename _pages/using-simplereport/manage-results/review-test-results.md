@@ -20,6 +20,6 @@ If there’s a problem with any result, you can [mark it as an error]({% link _p
 
 <div class="usa-alert usa-alert--info">
   <div class="usa-alert__body">
-    <p class="usa-alert__text"> If you’re a patient who recently got tested, please contact the facility directly for your <a href="https://www.simplereport.gov/covid-19-results/">COVID-19 test results.</a></p>
+    <p class="usa-alert__text"> If you’re a patient who recently got tested, please contact the facility directly for your <a href="https://www.simplereport.gov/covid-19-results/">COVID-19 test results</a>.</p>
   </div>
 </div>
