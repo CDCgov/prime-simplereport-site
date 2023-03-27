@@ -89,7 +89,7 @@
     "uswds-gulp": "github:uswds/uswds-gulp",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "yargs": "16.0.3"
+    "yargs": "17.7.1"
   },
   "resolutions": {
     "chokidar": "^3.5.3",
