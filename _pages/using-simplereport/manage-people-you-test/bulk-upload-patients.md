@@ -114,7 +114,7 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
         <li>
           <code>ASKU</code>
           or
-          <code>Ask but unknown</code>
+          <code>Ask, but unknown</code>
         </li>
         <li>
           <code>UNK</code>
