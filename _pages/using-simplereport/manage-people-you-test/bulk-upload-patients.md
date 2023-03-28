@@ -78,7 +78,51 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td style="font-weight: 600;">race</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from these values:<br><ul><li><code>American Indian or Alaska Native</code></li><li><code>Asian</code></li><li><code>Black or African American</code></li><li><code>Native Hawaiian or other Pacific Islander</code></li><li><code>White</code></li><li><code>Other</code></li><li><code>Unknown</code></li><li><code>Ask but unknown</code></li></ul></td>
+    <td>Select from these values:
+      <br>
+      <ul>
+        <li>
+          <code>1002-5</code>
+          or
+          <code>American Indian or Alaska Native</code>
+        </li>
+        <li>
+          <code>2028-9</code>
+          or
+          <code>Asian</code>
+        </li>
+        <li>
+          <code>2054-5</code>
+          or
+          <code>Black or African American</code>
+        </li>
+        <li>
+          <code>2076-8</code>
+          or
+          <code>Native Hawaiian or other Pacific Islander</code>
+        </li>
+        <li>
+          <code>2106-3</code>
+          or
+          <code>White</code>
+        </li>
+        <li>
+          <code>2131-1</code>
+          or
+          <code>Other</code>
+        </li>
+        <li>
+          <code>ASKU</code>
+          or
+          <code>Ask, but unknown</code>
+        </li>
+        <li>
+          <code>UNK</code>
+          or
+          <code>Unknown</code>
+        </li>
+      </ul>
+    </td>
     <td></td>
   </tr>
    <tr>
@@ -90,13 +134,66 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td style="font-weight: 600;">biological_sex</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from these values:<br><ul><li><code>Male</code></li><li><code>Female</code></li><li><code>Other</code></li><li><code>Ambiguous</code></li><li><code>Unknown</code></li><li><code>Not applicable</code></li></ul></td>
+    <td>Select from these values:
+      <br>
+      <ul>
+        <li>
+          <code>M</code>
+          or
+          <code>Male</code>
+        </li>
+        <li>
+          <code>F</code>
+          or
+          <code>Female</code>
+        </li>
+        <li>
+          <code>O</code>
+          or
+          <code>Other</code>
+        </li>
+        <li>
+          <code>U</code>
+          or
+          <code>Unknown</code>
+        </li>
+        <li>
+          <code>A</code>
+          or
+          <code>Ambiguous</code>
+        </li>
+        <li>
+          <code>N</code>
+          or
+          <code>Not applicable</code>
+        </li>
+      </ul>
+    </td>
     <td></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">ethnicity</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from these values:<br><ul><li><code>Hispanic or Latino</code></li><li><code>Not Hispanic or Latino</code></li><li><code>Unknown</code></li></ul></td>
+    <td>Select from these values:
+      <br>
+      <ul>
+        <li>
+          <code>2135-2</code>
+          or
+          <code>Hispanic or Latino</code>
+        </li>
+        <li>
+          <code>2186-5</code>
+          or
+          <code>Not Hispanic or Latino</code>
+        </li>
+        <li>
+          <code>UNK</code>
+          or
+          <code>Unknown</code>
+        </li>
+      </ul>
+    </td>
     <td></td>
   </tr>
   <tr>
@@ -162,13 +259,51 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td style="font-weight: 600;">employed_in_<br>healthcare</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code></li><li><code>Unk</code> or <code>Unknown</code></li></ul></td>
+    <td>Select from one of these values:
+      <br>
+      <ul>
+        <li>
+          <code>Y</code>
+          or
+          <code>YES</code>
+        </li>
+        <li>
+          <code>N</code>
+          or
+          <code>NO</code>
+        </li>
+        <li>
+          <code>U</code>
+          or
+          <code>UNK</code>
+        </li>
+      </ul>
+    </td>
     <td></td>
   </tr>
   <tr>
     <td style="font-weight: 600;">resident_<br>congregate_<br>setting</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Select from one of these values:<br><ul><li><code>Y</code> or <code>Yes</code></li><li><code>N</code> or <code>No</code></li><li><code>Unk</code> or <code>Unknown</code></li></ul></td>
+    <td>Select from one of these values:
+      <br>
+      <ul>
+        <li>
+          <code>Y</code>
+          or
+          <code>YES</code>
+        </li>
+        <li>
+          <code>N</code>
+          or
+          <code>NO</code>
+        </li>
+        <li>
+          <code>U</code>
+          or
+          <code>UNK</code>
+        </li>
+      </ul>
+    </td>
     <td></td>
   </tr>
    <tr>
