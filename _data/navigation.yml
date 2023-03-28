@@ -110,7 +110,7 @@ using-simplereport:
             url: /using-simplereport/manage-people-you-test/bulk-upload-patients/
           - page: Self-registration
             url: /using-simplereport/manage-people-you-test/self-registration/
-          - page: Archive a person
+          - page: Archive a patient
             url: /using-simplereport/manage-people-you-test/archive-a-person/
           - page: Update someone’s profile
             url: /using-simplereport/manage-people-you-test/update-someones-profile/
