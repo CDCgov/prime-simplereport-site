@@ -13,12 +13,10 @@ You’ll receive an email from SimpleReport asking you to activate your account.
 Once you receive your account activation email, follow these steps:
 1. Click the **Activate your SimpleReport Account** button. You’ll need to click the button within seven days of receiving the email, or else it will expire.
 ![Email from Okta with green "Activate your SimpleReport Account" button]({% link assets/img/resources/activate-your-user-account/step-1.png %}){: .maxw-mobile }
-2. On the page that appears, you’ll need to pick:
+2. To help keep your account secure, you need to pick:
   - A secure password
   - A forgot password question
-  - A security image
-<br>
-These all help to keep your account secure.
+  - A security image <br>
 ![An Okta page requesting a password, password question, and security image]({% link assets/img/resources/activate-your-user-account/step-2.png %}){: {: .maxw-mobile .margin-left-neg-5 }
 3. Click **Create My Account** at the bottom right of the page.
 ![The "Create My Account" button]({% link assets/img/resources/activate-your-user-account/step-3.png %})
