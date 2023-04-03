@@ -30,8 +30,8 @@ Organization administrators need to complete a few steps to sign up for a Simple
     <label class="usa-checkbox__label" for="access">Fill out your organization information</label>
   </div>
   <div class="usa-checkbox">
-    <input class="usa-checkbox__input" id="access" type="checkbox" name="access" value="access">
-    <label class="usa-checkbox__label" for="access">Enter your personal contact details</label>
+    <input class="usa-checkbox__input" id="personal_details" type="checkbox" name="access" value="access">
+    <label class="usa-checkbox__label" for="personal_details">Enter your personal contact details</label>
   </div>
   <div class="usa-checkbox">
     <input class="usa-checkbox__input" id="identity" type="checkbox" name="identity" value="identity">
