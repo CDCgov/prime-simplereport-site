@@ -1,0 +1,23 @@
+name: Check Link Continuity (Action Only)
+
+on:
+  workflow_dispatch: # because sometimes you just want to force a branch to have tests run
+  pull_request:
+    branches:
+      - "**"
+  push:
+    branches:
+      - main
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
