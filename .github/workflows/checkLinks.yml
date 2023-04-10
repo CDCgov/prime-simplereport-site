@@ -17,7 +17,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1.6.1
         with:
           # Check SimpleReport
-          args: 'https://simplereport.gov'
+          args: "--verbose --no-progress 'https://simplereport.gov'"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
