@@ -8,4 +8,6 @@
 .*page\.email.*
 .*github_info.*
 .*user_emails.*
-.*includes\/components.*
+.*_includes/components.*
+.*link\.href.*
+.*%7B%25%20link%20pages.*
