@@ -15,3 +15,5 @@
 .*email_bug.*
 .*email_other.*
 .*forloop\.index.*
+.*paginator\..*
+.*link%20_pages.*
