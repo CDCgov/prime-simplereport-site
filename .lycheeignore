@@ -9,5 +9,9 @@
 .*github_info.*
 .*user_emails.*
 .*_includes/components.*
+.*_includes/breadcrumbs.*
 .*link\.href.*
 .*%7B%25%20link%20pages.*
+.*email_bug.*
+.*email_other.*
+.*forloop\.index.*
