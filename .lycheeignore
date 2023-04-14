@@ -1,4 +1,9 @@
 .*relative_url.*
 .*baseURL.*
 .*baseurl.*
+.*baseUrl.*
 .*footer\.top\.href.*
+.*link_href.*
+.*feature\.link_to_learn_more.*
+.*page\.email.*
+.*github_info.*
