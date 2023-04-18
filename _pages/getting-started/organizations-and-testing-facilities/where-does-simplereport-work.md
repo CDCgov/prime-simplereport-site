@@ -26,7 +26,6 @@ If you report to one of these states or territories, review our instructions on 
 - Idaho
 - Indiana
 - Iowa
-- Kansas
 - Louisiana
 - Maryland
 - Massachusetts
