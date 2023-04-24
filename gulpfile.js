@@ -35,8 +35,11 @@ PATHS
 ----------------------------------------
 */
 
+uswds.settings.version = 2;
+
 // Project Sass source directory
 const PROJECT_SASS_SRC = "./_sass";
+uswds.paths.src.projectSass = PROJECT_SASS_SRC;
 
 // Images destination
 const IMG_DEST = "./assets/uswds/img";
