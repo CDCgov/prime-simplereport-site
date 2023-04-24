@@ -20,7 +20,7 @@ const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass")(require("sass"));
 const sourcemaps = require("gulp-sourcemaps");
-const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const uswds = require("@uswds/compile");
 
 sass.compiler = require("sass");
 
