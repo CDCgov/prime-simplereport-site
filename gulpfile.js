@@ -20,7 +20,7 @@ const postcss = require("gulp-postcss");
 const replace = require("gulp-replace");
 const sass = require("gulp-sass")(require("sass"));
 const sourcemaps = require("gulp-sourcemaps");
-const uswds = require("./node_modules/uswds-gulp/config/uswds");
+const uswds = require("@uswds/compile");
 
 sass.compiler = require("sass");
 
@@ -35,8 +35,11 @@ PATHS
 ----------------------------------------
 */
 
+uswds.settings.version = 2;
+
 // Project Sass source directory
 const PROJECT_SASS_SRC = "./_sass";
+uswds.paths.src.projectSass = PROJECT_SASS_SRC;
 
 // Images destination
 const IMG_DEST = "./assets/uswds/img";

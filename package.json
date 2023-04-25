@@ -60,6 +60,7 @@
     "url-search-params-polyfill": "^8.1.0"
   },
   "devDependencies": {
+    "@uswds/compile": "^1.0.0",
     "autoprefixer": "^10.4.14",
     "chromedriver": "^112.0.0",
     "dayjs": "^1.10.4",
