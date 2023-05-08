@@ -84,7 +84,7 @@
     "postcss-csso": "^5.0.1",
     "postcss-uncss": "^0.17.0",
     "prettier": "2.8.7",
-    "sass": "^1.62.0",
+    "sass": "^1.62.1",
     "uncss": "^0.17.3",
     "uswds": "^2.13.3",
     "uswds-gulp": "github:uswds/uswds-gulp",
