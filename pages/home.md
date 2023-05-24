@@ -124,7 +124,7 @@ return_top: 'false'
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
           aria-controls="a1">
-          <svg class="flex-auto height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="checkmark" role="img"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"/></svg>
+          <svg class="flex-auto height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" alt="" role="presentation"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"/></svg>
           <span class="flex-fill">It’s simple to get started</span>
         </button>
       </h3>
@@ -137,7 +137,7 @@ return_top: 'false'
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
           aria-controls="a2">
-          <svg class="flex-auto height-3 margin-right-105" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" aria-label="laptop icon" role="img"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M604 127.1h-184C400.1 127.1 384 144.1 384 164v312C384 495.9 400.1 512 420 512h184C623.9 512 640 495.9 640 476v-312C640 144.1 623.9 127.1 604 127.1zM576 448h-128V192h128V448zM128 64h320v32h64V48c0-26.5-21.5-47.88-47.88-48H111.9C85.5 .125 64 21.5 64 48V288H16C7.125 288 0 295.1 0 304V320c.125 35.25 28.62 63.88 63.88 64H352V288H128V64z"/></svg>
+          <svg class="flex-auto height-3 margin-right-105" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" alt="" role="presentation"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M604 127.1h-184C400.1 127.1 384 144.1 384 164v312C384 495.9 400.1 512 420 512h184C623.9 512 640 495.9 640 476v-312C640 144.1 623.9 127.1 604 127.1zM576 448h-128V192h128V448zM128 64h320v32h64V48c0-26.5-21.5-47.88-47.88-48H111.9C85.5 .125 64 21.5 64 48V288H16C7.125 288 0 295.1 0 304V320c.125 35.25 28.62 63.88 63.88 64H352V288H128V64z"/></svg>
           <span class="flex-fill">All you need is a laptop or tablet with an internet connection</span>
         </button>
       </h3>
@@ -149,7 +149,7 @@ return_top: 'false'
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
           aria-controls="a3">
-          <svg class="flex-auto height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="building icon" role="img"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M496 448H480v-32c0-17.67-14.33-32-32-32V192h-64v192h-96V192H224v192H128V192H64v192c-17.67 0-32 14.33-32 32v32H16C7.199 448 0 455.2 0 464v32C0 504.8 7.199 512 16 512h480c8.801 0 16-7.201 16-16v-32C512 455.2 504.8 448 496 448zM501.6 92.13l-234.4-90.07C264.3 .8958 259.2-.0039 256-.0039c-3.188 0-8.219 .8997-11.22 2.056L10.38 92.13C4.656 94.25 0 100.1 0 107.1V144C0 152.8 7.156 160 16 160h480C504.8 160 512 152.8 512 144V107.1C512 100.4 507.9 94.44 501.6 92.13z"/></svg>
+          <svg class="flex-auto height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" alt="" role="presentation"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M496 448H480v-32c0-17.67-14.33-32-32-32V192h-64v192h-96V192H224v192H128V192H64v192c-17.67 0-32 14.33-32 32v32H16C7.199 448 0 455.2 0 464v32C0 504.8 7.199 512 16 512h480c8.801 0 16-7.201 16-16v-32C512 455.2 504.8 448 496 448zM501.6 92.13l-234.4-90.07C264.3 .8958 259.2-.0039 256-.0039c-3.188 0-8.219 .8997-11.22 2.056L10.38 92.13C4.656 94.25 0 100.1 0 107.1V144C0 152.8 7.156 160 16 160h480C504.8 160 512 152.8 512 144V107.1C512 100.4 507.9 94.44 501.6 92.13z"/></svg>
           <span class="flex-fill">SimpleReport meets state and local reporting requirements</span>
         </button>
       </h3>
@@ -217,7 +217,7 @@ return_top: 'false'
           </div>
         </div>
         <div class="tablet:grid-col usa-prose margin-top-4 tablet:margin-top-0">
-          <img class="height-7" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="shield">
+          <img class="height-7" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="" role="presentation">
           <h2 class="font-heading-lg text-primary-darker margin-top-2">
             Safe and secure
           </h2>
