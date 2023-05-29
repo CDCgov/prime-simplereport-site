@@ -83,7 +83,7 @@
     "postcss": "^8.4.23",
     "postcss-csso": "^5.0.1",
     "postcss-uncss": "^0.17.0",
-    "prettier": "2.8.7",
+    "prettier": "2.8.8",
     "sass": "^1.62.1",
     "uncss": "^0.17.3",
     "uswds": "^2.14.0",
