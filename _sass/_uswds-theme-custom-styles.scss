@@ -28,6 +28,8 @@ Variables
 
 $image-path: "/assets/img/";
 $external-href: '[href^="http"]:not([href*="simplereport.gov"]):not([href*="cdc.gov"])';
+$theme-external-link-sr-label-tab-new: "External, opens in a new tab." !default;
+$theme-external-link-sr-label-tab-same: "External." !default;
 
 /*
 ----------------------------------------
