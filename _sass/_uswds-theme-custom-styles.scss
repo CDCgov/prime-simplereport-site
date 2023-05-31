@@ -27,7 +27,7 @@ Variables
 */
 
 $image-path: "/assets/img/";
-$external-href: '[href^="http"]:not([href*="simplereport.gov"])';
+$external-href: '[href^="http"]:not([href*="simplereport.gov"]):not([href*="cdc.gov"])';
 
 /*
 ----------------------------------------
@@ -1496,4 +1496,14 @@ Typography
 
 #{$external-href} {
   @include external-link;
+  // icon information overrides external-link since there is an issue where the icon name being "ICON_NAME.svg"
+  &::after {
+    @include add-color-icon((
+        "name": "launch",
+        "color": currentColor,
+        "height": 1.75ex,
+        "svg-height": 24,
+        "svg-width": 24,
+    ), "default");
+  }
 }
