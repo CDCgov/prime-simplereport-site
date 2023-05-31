@@ -1497,7 +1497,8 @@ Typography
 }
 
 #{$external-href} {
-  // icon information overrides external-link since there is an issue where the icon name being "ICON_NAME.svg"
+  // Current version of USWDS provides an outdated version of the mixin external-link
+  // Below is a copy of external-link from USWDS 3.4.1
   display: inline;
 
   // Screen reader label
