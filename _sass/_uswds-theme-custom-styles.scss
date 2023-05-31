@@ -1495,8 +1495,20 @@ Typography
 }
 
 #{$external-href} {
-  @include external-link;
   // icon information overrides external-link since there is an issue where the icon name being "ICON_NAME.svg"
+  display: inline;
+
+  // Screen reader label
+  &::before {
+    @include sr-only;
+    content: $theme-external-link-sr-label-tab-same;
+  }
+
+  &[target="_blank"]::before {
+    @include sr-only;
+    content: $theme-external-link-sr-label-tab-new;
+  }
+
   &::after {
     @include add-color-icon((
         "name": "launch",
@@ -1504,6 +1516,14 @@ Typography
         "height": 1.75ex,
         "svg-height": 24,
         "svg-width": 24,
+        "position-x": center,
+        "position-y": center,
     ), "default");
+    content: "";
+    display: inline;
+    margin-top: 0.7ex;
+    margin-left: 2px;
+    padding-left: 1.75ex;
+    vertical-align: middle;
   }
 }
