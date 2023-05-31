@@ -1,6 +1,6 @@
 {% assign feature = include.feature %}
 <div class="whats-new-card">
-  <img class="whats-new-image" src="{{feature.image-path}}" />
+  <img class="whats-new-image" src="{{feature.image-path}}" alt="{{feature.image_alt || ''}}" />
   <div class="whats-new-textbox">
     <div class="whats-new-text-content">
       {% if feature.link_to_learn_more %}
