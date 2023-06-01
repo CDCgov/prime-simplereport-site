@@ -60,7 +60,7 @@ Your SimpleReport account will be accessible after your identity is verified. Yo
 
 ## (optional) Get training
 Learn how to use SimpleReport:
-- Watch these {%-include components/external-link.html link_href="https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF" link_text="quick training videos"-%}
+- Watch these [quick training videos](https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF).
 - Check out our step-by-step instructions for [using SimpleReport]({% link _pages/using-simplereport/index.md %}).
 
 <div class="usa-alert usa-alert--info">
