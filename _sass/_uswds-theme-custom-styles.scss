@@ -1320,7 +1320,12 @@ Typography
 }
 
 .usa-breadcrumb__link {
-  text-decoration: underline;
+  :hover :focus {
+    text-decoration: underline;
+  }
+  :visited {
+    color: unset
+  }
 }
 
 @include at-media("desktop") {
