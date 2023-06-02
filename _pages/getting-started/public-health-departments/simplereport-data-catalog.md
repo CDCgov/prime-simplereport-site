@@ -126,7 +126,9 @@ The testing lab and ordering facility are the same thing in SimpleReport, so you
 The sample data below is not real. It’s here to give you a sense of the information you’ll receive from SimpleReport. All required and system-generated fields appear in the example data below, but only some optional fields appear.
 
 ### Patient information
+{: #ed_patient_information}
 #### Patient information
+{: #ed_pi_patient_information}
 - Patient’s last name: Doe
 - Patient’s first name: Jane
 - Patient’s middle name: A
@@ -143,6 +145,7 @@ The sample data below is not real. It’s here to give you a sense of the inform
 - Patient’s role: Visitor
 
 #### Ask on order entry
+{: #ed_pi_ask_on_order_entry}
 - Is the patient employed in healthcare? No
 - Is the patient a resident of a congregate setting? No
 - Is this the patient’s first test for COVID-19?: Yes
@@ -151,17 +154,21 @@ The sample data below is not real. It’s here to give you a sense of the inform
   - Symptom Onset Date: 1/30/2021
 
 ### Test information
+{: #ed_test_information}
 #### Test information
+{: #ed_ti_test_information}
 - Device Name: Abbott BinaxNow
 - Ordered test code: 94558-4
 - Swab Type: Nasal swabs
 - Test date: 2/1/2021
 
 #### Results
+{: #ed_ti_results}
 - Specimen ID: 30aea118-1eae-41db-8aea-0652358fc37b
 - Test result code: Negative
 
 ### Testing lab/facility/organization information
+{: #ed_lab_facility_organization_information}
 - Testing lab's name: Your Local Facility
 - Testing lab's CLIA: 12D3456789
 - Testing lab's street address: 987 Main Street
@@ -182,6 +189,7 @@ The sample data below is not real. It’s here to give you a sense of the inform
 - Reporting facility’s CLIA: 12D3456789
 
 ### Ordering provider information
+{: #ed_ordering_provider_information}
 - Ordering provider's ID: 1538234679
 - Ordering provider's last name: Smith
 - Ordering provider's first name: Barbara
