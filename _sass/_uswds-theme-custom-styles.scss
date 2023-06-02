@@ -1317,6 +1317,10 @@ Typography
   max-width: 64rem;
   display: flex;
   justify-content: flex-start;
+
+  .usa-breadcrumb__link {
+    text-decoration: underline;
+  }
 }
 
 @include at-media("desktop") {
