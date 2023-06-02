@@ -190,7 +190,7 @@ The sample data below is not real. It’s here to give you a sense of the inform
 - Ordering provider's zip code: 23456
 {% endcapture %}
 
-<div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+<div class="usa-accordion usa-accordion--bordered">
   <!-- Use the accurate heading level to maintain the document outline -->
   <h2 class="usa-accordion__heading">
     <button class="usa-accordion__button"
