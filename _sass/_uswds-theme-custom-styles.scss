@@ -1320,11 +1320,11 @@ Typography
 }
 
 .usa-breadcrumb__link {
-  :hover :focus {
+  :hover, :focus {
     text-decoration: underline;
   }
   :visited {
-    color: unset
+    color: inherit
   }
 }
 
