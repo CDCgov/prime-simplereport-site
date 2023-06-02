@@ -8,11 +8,11 @@
           {% for entry in item.subnav %}
             {% assign title_slug = entry.page | slugify %}
             <li class="usa-sidenav__item">
-              <a class="{% if page.url contains title_slug %}usa-current{% endif %} display-flex flex-justify" href="{{ site.baseurl }}{{ entry.url }}" aria-label="More topics under this category">
+              <a class="{% if page.url contains title_slug %}usa-current{% endif %} display-flex flex-justify" href="{{ site.baseurl }}{{ entry.url }}">
                 <span class="flex-fill">{{ entry.page }}</span>
                 {% if entry.subsubnav[0] %}
                   {% unless page.url contains title_slug %}
-                    <svg class="usa-icon flex-align-self-center" aria-hidden="true" role="img">
+                    <svg class="usa-icon flex-align-self-center" aria-label="More topics under this category" role="img">
                       <use xlink:href="/assets/uswds/img/sprite.svg#add"></use>
                     </svg>
                   {% endunless %}
