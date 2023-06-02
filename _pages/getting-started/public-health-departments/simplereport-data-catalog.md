@@ -145,7 +145,7 @@ The sample data below is not real. It’s here to give you a sense of the inform
 - Patient’s role: Visitor
 
 #### Ask on order entry
-{: #ed_pi_ask_on_entry}
+{: #ed_pi_ask_on_order_entry}
 - Is the patient employed in healthcare? No
 - Is the patient a resident of a congregate setting? No
 - Is this the patient’s first test for COVID-19?: Yes
