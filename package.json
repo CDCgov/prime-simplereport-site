@@ -79,7 +79,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "lodash": "^4.17.20",
     "minimist": "1.2.8",
-    "nightwatch": "^2.6.20",
+    "nightwatch": "^2.6.21",
     "postcss": "^8.4.23",
     "postcss-csso": "^5.0.1",
     "postcss-uncss": "^0.17.0",
