@@ -1319,6 +1319,16 @@ Typography
   justify-content: flex-start;
 }
 
+.usa-breadcrumb__link {
+  &:visited {
+    color: #005ea2;
+  }
+  &:hover {
+    text-decoration: underline;
+    color: #1a4480;
+  }
+}
+
 @include at-media("desktop") {
   .breadcrumb-container {
     padding-left: 2rem;
