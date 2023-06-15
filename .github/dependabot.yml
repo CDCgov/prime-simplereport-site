@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "simplereport-staticsitereviewers"
+      - "cdcgov/simplereport-staticsitereviewers"
       - "alismx"
 
   - package-ecosystem: "npm"
@@ -17,7 +17,7 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "simplereport-staticsitereviewers"
+      - "cdcgov/simplereport-staticsitereviewers"
       - "alismx"
 
   - package-ecosystem: "bundler"
@@ -26,5 +26,5 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "simplereport-staticsitereviewers"
+      - "cdcgov/simplereport-staticsitereviewers"
       - "alismx"
