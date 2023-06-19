@@ -57,7 +57,7 @@
     "jquery": "^3.7.0",
     "jslint": "^0.12.1",
     "minimist": "1.2.8",
-    "url-search-params-polyfill": "^8.1.0"
+    "url-search-params-polyfill": "^8.2.3"
   },
   "devDependencies": {
     "@uswds/compile": "^1.0.0",
