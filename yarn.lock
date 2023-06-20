@@ -6925,10 +6925,10 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-url-search-params-polyfill@^8.1.0:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-8.1.1.tgz#9e69e4dba300a71ae7ad3cead62c7717fd99329f"
-  integrity sha512-KmkCs6SjE6t4ihrfW9JelAPQIIIFbJweaaSLTh/4AO+c58JlDcb+GbdPt8yr5lRcFg4rPswRFRRhBGpWwh0K/Q==
+url-search-params-polyfill@^8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/url-search-params-polyfill/-/url-search-params-polyfill-8.2.3.tgz#bc2fe7e9939fc1cce656bec2ecb3c34fc7e16a99"
+  integrity sha512-DTQqQ7tYuQlmCzAAPAE7ALvXZhqh6+WfCQ+kpbLyGMM/PHG90P95XtLFLw7XskcL+4x7TyyNDFxfGJrJXUk7jg==
 
 use@^3.1.0:
   version "3.1.1"
