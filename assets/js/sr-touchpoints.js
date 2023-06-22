@@ -57,7 +57,7 @@ function initCustomTouchpointsJS() {
 
   function attachModalToggleListener() {
     const touchpointsModalButton = document.querySelector(TOUCHPOINTS_BUTTON_ID);
-    touchpointsModalButton.addEventListener("click", function (e) {
+    touchpointsModalButton.addEventListener("click", function () {
       const modal = document.querySelector(TOUCHPOINTS_MODAL_CLASS);
       if (modal !== null && window.getComputedStyle(modal).display === "block") {
         attachTabEventListener(modal);
