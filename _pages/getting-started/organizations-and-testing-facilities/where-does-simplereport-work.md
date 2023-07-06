@@ -45,6 +45,7 @@ If you report to one of these states or territories, review our instructions on 
 - Oregon
 - Pennsylvania
 - Rhode Island
+- South Dakota
 - Tennessee
 - Texas
 - Utah
