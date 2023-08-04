@@ -23,5 +23,3 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Deploy static landing page
         run: npm run deploy-azure-training
-      - name: Purge CDN
-        run: az cdn endpoint purge --resource-group prime-simple-report-training --profile-name simple-report-training --name simple-report-training --content-paths "/*" --no-wait
