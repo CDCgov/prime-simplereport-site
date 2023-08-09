@@ -16,7 +16,7 @@ To record flu results on SimpleReport, [conduct and submit a test](https://www.s
 ## Reporting results
 Organizations sending results to the California Department of Public Health (CDPH) can use [SimpleReport's bulk uploader](https://www.simplereport.gov/using-simplereport/report-test-results/bulk-upload-results/) to report positive flu tests. Report COVID-19, flu A, and flu B results all from a single spreadsheet. [See more information and guidance about reporting flu results](https://www.simplereport.gov/assets/resources/bulk_results_upload_guide-flu_pilot.pdf). 
 
-CDPH senders can also conduct and submit a flu test using one of the eight devices listed below, along with all multiplex devices. If you use another device to test for flu, please send information about it to support@simplereport.gov. 
+CDPH senders can also conduct and submit a flu test using one of the eight devices listed below, along with all multiplex devices. If you use another device to test for flu, please send information about it to [support@simplereport.gov](mailto:support@simplereport.gov). 
 - Abbott ID NOW Influenza A & B 2 Test
 - Abbott BinaxNOW Influenza A & B Card 2 and DIGIVAL
 - bioMerieux bioNexia Influenza A+B test
