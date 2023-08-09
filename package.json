@@ -62,7 +62,6 @@
     "del": "^6.0.0",
     "eslint": "^8.46.0",
     "eslint-plugin-frontmatter": "0.0.8",
-    "faker": "^6.6.6",
     "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
