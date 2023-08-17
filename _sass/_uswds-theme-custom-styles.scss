@@ -1320,11 +1320,9 @@ Typography
 }
 
 .usa-breadcrumb__link {
-  &:visited {
-    color: #005ea2;
-  }
-  &:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+
+  &:hover, &:focus {
     color: #1a4480;
   }
 }
