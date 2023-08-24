@@ -54,6 +54,3 @@ Test|https://test.simplereport.gov|Automed on merge to `main`|[Github Actions](#
 Pentest|https://pentest.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 Training|https://training.simplereport.gov|Automed on merge to `main`|[Github Actions](#manually-trigger-deploy)
 github pages|https://cdcgov.github.io/prime-simplereport-site/|Automed on merge to `main` and `gh-pages`|`yarn deploy`
-
-The Azure environments are served behind a CDN and may take some time to update. If you are not seeing an update or are fixing an urgent bug the CDN can be purged via https://docs.microsoft.com/en-us/azure/cdn/cdn-purge-endpoint
-![Screen Shot 2021-03-02 at 4 35 14 PM](https://user-images.githubusercontent.com/53869143/109719316-7c7f3180-7b76-11eb-9dec-59d977850315.png)
