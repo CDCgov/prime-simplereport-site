@@ -23,25 +23,10 @@ Let’s get started.
 ## SimpleReport sign-up checklist
 Organization administrators need to complete a few steps to sign up for a SimpleReport organization account. After that, we recommend taking a look at our training resources to learn how to use SimpleReport.
 
-<fieldset class="usa-fieldset">
-  <legend class="usa-legend usa-sr-only">Onboarding checklist</legend>
-  <div class="usa-checkbox">
-    <input class="usa-checkbox__input" id="access" type="checkbox" name="access" value="access">
-    <label class="usa-checkbox__label" for="access">Fill out your organization information</label>
-  </div>
-  <div class="usa-checkbox">
-    <input class="usa-checkbox__input" id="personal_details" type="checkbox" name="access" value="access">
-    <label class="usa-checkbox__label" for="personal_details">Enter your personal contact details</label>
-  </div>
-  <div class="usa-checkbox">
-    <input class="usa-checkbox__input" id="identity" type="checkbox" name="identity" value="identity">
-    <label class="usa-checkbox__label" for="identity">Verify your identity</label>
-  </div>
-  <div class="usa-checkbox">
-    <input class="usa-checkbox__input" id="training" type="checkbox" name="training" value="training">
-    <label class="usa-checkbox__label" for="training">(optional) Get training</label>
-  </div>
-</fieldset>
+- Fill out your organization information
+- Enter your personal contact details
+- Verify your identity
+- (optional) Get training
 
 ## Fill out your organization information
 You’ll fill out basic information about your organization and your work contact details as part of our [SimpleReport organization sign up](/app/sign-up).
