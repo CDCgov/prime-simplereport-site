@@ -191,6 +191,7 @@ title: Support
         const toggleButton = footerElement.querySelector("button");
         const cardElement = footerElement.parentElement;
         const bodyElement = cardElement.querySelector('.usa-card__body');
+        const sectionName = cardElement.querySelector('.usa-card__heading').textContent;
         const hiddenLinks = cardElement.querySelectorAll('.hidden-link');
         hiddenLinks.forEach(link => {
             if (link.classList.contains('display-none')) {
@@ -198,13 +199,13 @@ title: Support
                 bodyElement.classList.add('expanded');
                 animateCSS(link, 'fadeInDown');
                 footerText.textContent = 'Less';
-                footerText.setAttribute("aria-label", "see less helpful links")
+                footerText.setAttribute("aria-label", `see less ${sectionName} related links`)
                 toggleButton.setAttribute("aria-expanded", true)
             } else {
                 animateCSS(link, 'fadeOutUp');
                 bodyElement.classList.remove('expanded');
                 footerText.textContent = 'More';
-                footerText.setAttribute("aria-label", "see more helpful links")
+                footerText.setAttribute("aria-label", `see more ${sectionName} related links`)
                 toggleButton.setAttribute("aria-expanded", false)
             }
         });
