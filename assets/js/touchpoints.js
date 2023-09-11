@@ -406,7 +406,7 @@ function FBAform(d, N) {
     },
     loadFeebackSkipLink: function () {
       this.skipLink = document.createElement("a");
-      this.skipLink.setAttribute("class", "touchpoints-skipnav");
+      this.skipLink.setAttribute("class", "usa-skipnav touchpoints-skipnav");
       this.skipLink.setAttribute("href", "#fba-button");
       this.skipLink.addEventListener("click", function () {
         document.querySelector("#fba-button").focus();
