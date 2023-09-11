@@ -60,7 +60,7 @@
     "autoprefixer": "^10.4.15",
     "dayjs": "^1.11.9",
     "del": "^6.0.0",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-frontmatter": "0.0.8",
     "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
