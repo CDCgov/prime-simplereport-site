@@ -68,6 +68,8 @@ function initCustomTouchpointsJS() {
   }
 
   attachModalToggleListener();
+  const feedbackSkipLink = document.querySelector(".touchpoints-skipnav");
+  feedbackSkipLink.classList.remove("usa-skipnav");
 }
 
 // need to wait for everything to load otherwise this will not work in Firefox

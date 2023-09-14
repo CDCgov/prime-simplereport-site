@@ -50,17 +50,17 @@
   },
   "dependencies": {
     "gulp-watch": "^5.0.1",
-    "jquery": "^3.7.0",
+    "jquery": "^3.7.1",
     "jslint": "^0.12.1",
     "minimist": "1.2.8",
     "url-search-params-polyfill": "^8.2.4"
   },
   "devDependencies": {
     "@uswds/compile": "^1.0.0",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "dayjs": "^1.11.9",
     "del": "^6.0.0",
-    "eslint": "^8.47.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-frontmatter": "0.0.8",
     "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
