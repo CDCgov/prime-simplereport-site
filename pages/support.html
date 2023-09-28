@@ -36,9 +36,9 @@ title: Support
                     </header>
                     <div class="usa-card__body display-flex flex-column">
                         <a class="usa-link" href="/using-simplereport/reset-your-simplereport-password/">Reset your password</a>
-                        <a class="usa-link" href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/#multi-factor-authentication-options">Multi-factor authentication</a>
                         <a class="usa-link" href="/using-simplereport/manage-users/">Manage users</a>
-                        <a class="usa-link hidden-link display-none" href="/using-simplereport/manage-facility-info/">Manage facility info</a>
+                        <a class="usa-link" href="/using-simplereport/manage-users/reactivate-users/">Reactivate a user</a>
+                        <a class="usa-link hidden-link display-none" href="/using-simplereport/manage-users/invite-new-users/">Add a new user</a>
                     </div>
                     <div class="divider"></div>
                     <div class="usa-card__footer grid-row">
@@ -59,7 +59,8 @@ title: Support
                     <div class="usa-card__body display-flex flex-column">
                         <a class="usa-link" href="/using-simplereport/conduct-and-submit-tests/">Conduct and submit tests</a>
                         <a class="usa-link" href="/using-simplereport/report-test-results/bulk-upload-results/">Bulk upload results</a>
-                        <a class="usa-link" href="/using-simplereport/manage-people-you-test/">Manage people you test</a>
+                        <a class="usa-link" href="/using-simplereport/manage-people-you-test/bulk-upload-patients/">Upload multiple patients</a>
+                        <a class="usa-link hidden-link display-none" href="/using-simplereport/manage-people-you-test/add-a-new-patient/">Add a patient</a>
                     </div>
                     <div class="divider"></div>
                     <div class="usa-card__footer grid-row">
@@ -79,9 +80,9 @@ title: Support
                     </header>
                     <div class="usa-card__body tall display-flex flex-column">
                         <a class="usa-link" href="/sign-up">Sign up</a>
-                        <a class="usa-link" href="/using-simplereport/manage-facility-info/add-a-facility/">Add a testing facility</a>
                         <a class="usa-link" href="/using-simplereport/manage-facility-info/find-supported-jurisdictions/">Where does SimpleReport work?</a>
-                        <a class="usa-link hidden-link display-none" href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/">Activate your user account</a>
+                        <a class="usa-link" href="/getting-started/organizations-and-testing-facilities/activate-your-user-account/">Activate your user account</a>
+                        <a class="usa-link hidden-link display-none" href="/using-simplereport/manage-facility-info/add-a-facility/">Add a testing facility</a> 
                         <a class="usa-link hidden-link display-none" href="/getting-started/organizations-and-testing-facilities/log-in-to-simplereport/">Log in</a>
                     </div>
                     <div class="divider"></div>
@@ -187,8 +188,10 @@ title: Support
         });
     const toggleHiddenLinks = (footerElement) => {
         const footerText = footerElement.querySelector('.footer-text');
+        const toggleButton = footerElement.querySelector("button");
         const cardElement = footerElement.parentElement;
         const bodyElement = cardElement.querySelector('.usa-card__body');
+        const sectionName = cardElement.querySelector('.usa-card__heading').textContent;
         const hiddenLinks = cardElement.querySelectorAll('.hidden-link');
         hiddenLinks.forEach(link => {
             if (link.classList.contains('display-none')) {
@@ -196,10 +199,14 @@ title: Support
                 bodyElement.classList.add('expanded');
                 animateCSS(link, 'fadeInDown');
                 footerText.textContent = 'Less';
+                footerText.setAttribute("aria-label", `see less ${sectionName} related links`)
+                toggleButton.setAttribute("aria-expanded", true)
             } else {
                 animateCSS(link, 'fadeOutUp');
                 bodyElement.classList.remove('expanded');
                 footerText.textContent = 'More';
+                footerText.setAttribute("aria-label", `see more ${sectionName} related links`)
+                toggleButton.setAttribute("aria-expanded", false)
             }
         });
     }

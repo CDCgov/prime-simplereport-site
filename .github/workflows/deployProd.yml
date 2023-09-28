@@ -10,7 +10,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
@@ -23,5 +23,3 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Deploy static landing page
         run: npm run deploy-azure-prod
-      - name: Purge CDN
-        run: az cdn endpoint purge --resource-group prime-simple-report-prod --profile-name simple-report-prod --name simple-report-prod --content-paths "/*" --no-wait

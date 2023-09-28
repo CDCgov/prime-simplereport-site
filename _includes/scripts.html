@@ -49,7 +49,8 @@ _src %}
 <!-- Script for getting current maintenance mode status -->
 <script type="text/javascript">
   (async function getMaintenanceMode() {
-    const maintenance = await fetch("/maintenance.json");
+    const maintenanceUrl = `/maintenance.json?v=${Date.now()}`;
+    const maintenance = await fetch(maintenanceUrl);
     try {
       const maintenanceJSON = await maintenance.json();
       if (maintenanceJSON.active) {
