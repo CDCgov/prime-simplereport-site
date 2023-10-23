@@ -338,7 +338,7 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
           <code>Other</code>
         </li>
          <li>
-          <code>refused</code>
+          <code>Refused</code>
         </li>
       </ul>
     </td>
