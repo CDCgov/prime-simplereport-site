@@ -320,22 +320,22 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
       <br>
       <ul>
         <li>
-          <code>female</code>
+          <code>Female</code>
         </li>
         <li>
-          <code>male</code>
+          <code>Male</code>
         </li>
         <li>
-          <code>transwoman</code>
+          <code>Transwoman</code>
         </li>
         <li>
-          <code>transman</code>
+          <code>Transman</code>
         </li>
          <li>
-          <code>nonbinary</code>
+          <code>Nonbinary</code>
         </li>
          <li>
-          <code>other</code>
+          <code>Other</code>
         </li>
          <li>
           <code>refused</code>
@@ -348,6 +348,6 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td>address_notes</td>
     <td></td>
     <td>Any</td>
-    <td></td>
+    <td>Details about a patient's location or alternative contact information</td>
   </tr>
 </tbody></table>
