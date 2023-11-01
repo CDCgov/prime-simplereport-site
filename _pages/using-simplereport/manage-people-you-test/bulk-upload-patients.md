@@ -56,14 +56,12 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td>Any</td>
     <td></td>
   </tr>
-    
    <tr>
     <td style="font-weight: 600;">first_name</td>
     <td style="font-weight: 600;">Yes</td>
     <td>Any</td>
     <td></td>
   </tr>
-    
    <tr>
     <td>middle_name</td>
     <td></td>
@@ -200,7 +198,10 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td style="font-weight: 600;">street</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>500 characters or fewer</td>
+    <td>
+      <span class="display-block">500 characters or fewer.</span>
+      <span class="display-block margin-top-105">If address is unknown or patient is unhoused, write <code>** Unknown / not given **</code> in this field.</span>
+    </td>
     <td></td>
   </tr>
   <tr>
@@ -224,7 +225,10 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td style="font-weight: 600;">state</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>Any 2-character state or US/Canada territory code</td>
+    <td>
+      <span class="display-block">Any 2-character state or US/Canada territory code.</span>
+      <span class="display-block margin-top-105">If address is unknown or patient is unhoused, write <code>NA</code> in this field.</span>
+    </td>
     <td><strong>Yes: </strong><i>CA</i><br><strong>No:</strong> <i>Arkansas</i></td>
   </tr>
   <tr>
@@ -236,7 +240,10 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
   <tr>
     <td style="font-weight: 600;">zip_code</td>
     <td style="font-weight: 600;">Yes</td>
-    <td>00000 or 00000-0000</td>
+    <td>
+      <span class="display-block">Use format 00000 or 00000-0000.</span>
+      <span class="display-block margin-top-105">If address is unknown or patient is unhoused, write <code>00000</code> in this field.</span>
+    </td>
     <td><strong>Yes: </strong><i>53421</i><br><strong>Yes: </strong><i>53421-7890</i></td>
   </tr>
   <tr>
