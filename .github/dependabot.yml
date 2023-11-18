@@ -8,8 +8,8 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "cdcgov/simplereport-staticsitereviewers"
-      - "alismx"
+      - "cdcgov/simplereport-devsecops"
+      - "cdcgov/simplereport-engineeringreviews"
 
   - package-ecosystem: "npm"
     directory: "/"
@@ -17,8 +17,8 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "cdcgov/simplereport-staticsitereviewers"
-      - "alismx"
+      - "cdcgov/simplereport-devsecops"
+      - "cdcgov/simplereport-engineeringreviews"
 
   - package-ecosystem: "bundler"
     directory: "/"
@@ -26,5 +26,5 @@ updates:
     schedule:
       interval: "weekly"
     reviewers:
-      - "cdcgov/simplereport-staticsitereviewers"
-      - "alismx"
+      - "cdcgov/simplereport-devsecops"
+      - "cdcgov/simplereport-engineeringreviews"
