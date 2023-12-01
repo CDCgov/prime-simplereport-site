@@ -4,7 +4,7 @@ layout: post
 class: page-docs
 return_top: "false"
 home_link: true
-link_to_learn_more: /using-simplereport/test-for-other-diseases/
+link_to_learn_more: /using-simplereport/test-for-other-diseases/influenza/
 date: 2023-12-01
 image-path: /assets/img/resources/whats-new/flu-and-rsv.png
 image_alt: A test card showing RSV and flu results on SimpleReport
