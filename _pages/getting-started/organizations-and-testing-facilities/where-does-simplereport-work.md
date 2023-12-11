@@ -17,6 +17,7 @@ If you report to one of these states or territories, review our instructions on 
 - Alabama
 - Alaska
 - Arizona
+- Arkansas
 - California
 - Colorado
 - Delaware
