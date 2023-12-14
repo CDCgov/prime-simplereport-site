@@ -40,8 +40,8 @@ If you report to one of these states or territories, review our instructions on 
 - New Hampshire
 - New Jersey
 - New Mexico
-- North Dakota
 - New York
+- North Dakota
 - Ohio
 - Oklahoma
 - Oregon
