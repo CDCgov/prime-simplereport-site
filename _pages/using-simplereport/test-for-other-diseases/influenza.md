@@ -9,14 +9,22 @@ return_top: "true"
 ---
 
 ## Recording results
-Certain devices test for COVID-19, influenza A, and influenza B (“multiplex devices”). SimpleReport requires you to include flu results when you record tests from these devices. **At this time, flu results are not sent to public health departments other than the California Department of Public Health (CDPH)**, but you can share them with patients.
+Certain devices test for COVID-19, influenza A, and influenza B (“multiplex devices”). SimpleReport requires you to include flu results when you record tests from these devices. **At this time, you can share flu results with patients, but they will not be reported to public health departments**, other than the ones in states listed below. 
 
 To record flu results on SimpleReport, [conduct and submit a test](https://www.simplereport.gov/using-simplereport/conduct-and-submit-tests/) as you normally would. You’ll be able to enter results for flu A and flu B, along with COVID-19, when you select a multiplex device. 
 
 ## Reporting results
-Organizations sending results to the California Department of Public Health (CDPH) can use [SimpleReport's bulk uploader](https://www.simplereport.gov/using-simplereport/report-test-results/bulk-upload-results/) to report positive flu tests. Report COVID-19, flu A, and flu B results all from a single spreadsheet. [See more information and guidance about reporting flu results](https://www.simplereport.gov/assets/resources/bulk_results_upload_guide-flu_pilot.pdf). 
+Organizations can use SimpleReport to report positive flu results to the following state health departments: 
 
-CDPH senders can also conduct and submit a flu test using one of the eight devices listed below, along with all multiplex devices. If you use another device to test for flu, please send information about it to [support@simplereport.gov](mailto:support@simplereport.gov). 
+- Alaska
+- California
+- New York
+- Rhode Island
+- Virginia
+  
+You can report COVID-19, flu, and RSV results all from a single spreadsheet using [SimpleReport's bulk uploader](https://www.simplereport.gov/using-simplereport/report-test-results/bulk-upload-results/). [See more information and guidance about reporting flu results](https://www.simplereport.gov/assets/resources/bulk_results_upload_guide-flu_pilot.pdf). 
+
+You can also report flu results through the [conduct tests workflow](https://www.simplereport.gov/using-simplereport/conduct-and-submit-tests/) by using any multiplex device, or the flu-only devices listed below. If you use an RSV-only testing device, please send information about it to [support@simplereport.gov](mailto:support@simplereport.gov). 
 - Abbott ID NOW Influenza A & B 2 Test
 - Abbott BinaxNOW Influenza A & B Card 2 and DIGIVAL
 - bioMerieux bioNexia Influenza A+B test

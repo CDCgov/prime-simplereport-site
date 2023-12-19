@@ -138,7 +138,9 @@ using-simplereport:
         url: /using-simplereport/test-for-other-diseases/influenza/
         subsubnav:
           - page: Influenza A and B
-            url: /using-simplereport/test-for-other-diseases/influenza/            
+            url: /using-simplereport/test-for-other-diseases/influenza/  
+          - page: RSV
+            url: /using-simplereport/test-for-other-diseases/rsv/
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
       - page: What's new
