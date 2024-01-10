@@ -2,7 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem 'html-pipeline', '>= 2.14.2'
 gem 'jekyll', '>= 4.2.2'
 gem 'jekyll-babel'
 gem 'jekyll-last-modified-at'
