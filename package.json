@@ -63,7 +63,7 @@
     "eslint": "^8.56.0",
     "eslint-plugin-frontmatter": "0.0.8",
     "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.0",
+    "gulp-postcss": "^9.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^5.1.0",
