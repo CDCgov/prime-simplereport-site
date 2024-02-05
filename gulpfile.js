@@ -112,13 +112,13 @@ gulp.task("build-sass", function () {
             `${uswds}/scss`,
             `${uswds}/scss/packages`,
           ],
-        })
+        }),
       )
       .pipe(replace(/\buswds @version\b/g, "based on uswds v" + pkg.version))
       .pipe(
         ghPages
           ? replace(/\/assets\/img/g, "/prime-simplereport-site/assets/img")
-          : replace(/this will never be found/g, "this will never be found")
+          : replace(/this will never be found/g, "this will never be found"),
       )
       .pipe(postcss(plugins))
       .pipe(sourcemaps.write("."))
@@ -162,8 +162,8 @@ gulp.task(
     "copy-subset-fonts",
     "copy-uswds-images",
     "copy-uswds-js",
-    "build-sass"
-  )
+    "build-sass",
+  ),
 );
 
 gulp.task("watch-sass", function () {
