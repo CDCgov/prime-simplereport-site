@@ -1,0 +1,9 @@
+# Ignore minified files
+**/*.min.js
+
+# Ignore all non-lintable files:
+**/*.html
+**/*.md
+**/*.pdf
+**/*.scss
+**/*.yml

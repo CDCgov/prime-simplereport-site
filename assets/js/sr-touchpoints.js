@@ -1,5 +1,5 @@
 // custom touchpoints modifications for improved accessibility
-'use strict';
+"use strict";
 
 function initCustomTouchpointsJS() {
   const TOUCHPOINTS_MODAL_CLASS = ".fba-modal";
@@ -7,7 +7,8 @@ function initCustomTouchpointsJS() {
   // NOTE: Will need to update this if there are multiple "Other" options + "Other" text inputs; currently this supports only one
   const TOUCHPOINTS_OTHER_INPUT_ID = "#answer_01_other";
   const TOUCHPOINTS_OTHER_RADIO_ID = "#answer_01_3";
-  const focusableElements = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+  const focusableElements =
+    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
 
   // modified from https://uxdesign.cc/how-to-trap-focus-inside-modal-to-make-it-ada-compliant-6a50f9a70700
   // traps keyboard focus when tabbing through touchpoints modal
@@ -56,10 +57,15 @@ function initCustomTouchpointsJS() {
   }
 
   function attachModalToggleListener() {
-    const touchpointsModalButton = document.querySelector(TOUCHPOINTS_BUTTON_ID);
+    const touchpointsModalButton = document.querySelector(
+      TOUCHPOINTS_BUTTON_ID,
+    );
     touchpointsModalButton.addEventListener("click", function () {
       const modal = document.querySelector(TOUCHPOINTS_MODAL_CLASS);
-      if (modal !== null && window.getComputedStyle(modal).display === "block") {
+      if (
+        modal !== null &&
+        window.getComputedStyle(modal).display === "block"
+      ) {
         attachTabEventListener(modal);
         toggleInputDisabledAttr(TOUCHPOINTS_OTHER_INPUT_ID);
         attachRadioChangeEventListener();
