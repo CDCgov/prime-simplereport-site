@@ -77,7 +77,7 @@
     "uncss": "^0.17.3",
     "uswds": "^2.14.0",
     "uswds-gulp": "github:uswds/uswds-gulp",
-    "webpack": "^5.90.0",
+    "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4",
     "yargs": "17.7.2"
   },
