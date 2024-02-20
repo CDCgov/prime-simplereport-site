@@ -51,6 +51,7 @@ If you report to one of these states or territories, review our instructions on 
 - South Dakota
 - Tennessee
 - Texas
+- U.S. Virgin Islands
 - Utah
 - Vermont
 - Washington
