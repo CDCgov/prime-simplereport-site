@@ -18,9 +18,11 @@ Organizations can use SimpleReport to report positive RSV results to the followi
 
 - Alaska
 - California
+- Hawaii
+- Nevada
 - New York
 - Rhode Island
-- Virginia
+- US Virgin Islands
   
 You can report COVID-19, flu, and RSV results all from a single spreadsheet using [SimpleReport's bulk uploader](https://www.simplereport.gov/using-simplereport/report-test-results/bulk-upload-results/). [See more information and guidance about reporting flu results](https://www.simplereport.gov/assets/resources/bulk_results_upload_guide-flu_pilot.pdf). 
 
