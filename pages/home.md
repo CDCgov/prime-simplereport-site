@@ -31,7 +31,7 @@ return_top: 'false'
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col hero-img-col mobile-display">
         <img class="usa-hero-placeholder"
-          src="{{ '/assets/img/project-images/test-queue-horiz.png' | relative_url }}"
+          src="{{ '/assets/img/project-images/multi-test-queue-horiz.png' | relative_url }}"
           alt="simplereport displayed on a tablet">
       </div>
       <div class="tablet:grid-col usa-hero-subsection usa-prose flex-align-self-center">
@@ -53,7 +53,7 @@ return_top: 'false'
       </div>
       <div class="tablet:grid-col hero-img-col tablet-display">
         <img class="usa-hero-placeholder"
-          src="{{ '/assets/img/project-images/test-queue-horiz.png' | relative_url }}"
+          src="{{ '/assets/img/project-images/multi-test-queue-horiz.png' | relative_url }}"
           alt="simplereport displayed on a tablet">
       </div>
     </div>
