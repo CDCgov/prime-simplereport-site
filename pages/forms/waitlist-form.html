@@ -56,9 +56,9 @@ class: page-form
         autocomplete="tel"
         required
       />
-      <label class="usa-label" for="state" id="state"
-        >State {% include required.html %}</label
-      >
+      <label class="usa-label" for="state">
+        State {% include required.html %}
+      </label>
       <div class="usa-combo-box">
         <select class="usa-select" id="state" name="state" required>
           {% include forms/state-options.html %}
@@ -77,11 +77,46 @@ class: page-form
         type="text"
         required
       />
+      <p> Currently, SimpleReport helps facilities report results for:</p>
+      <ul style="padding-inline-start:20px">
+        <li>COVID-19</li>
+        <li>Flu A</li>
+        <li>Flu B</li>
+        <li>RSV</li>
+      </ul>
+      <label class="usa-label">Please check the boxes below for the conditions you're interested in reporting:</label>
+      <br>
+      <div class="checkboxes">
+        <div class="usa-checkbox">
+          <input class="usa-checkbox__input" type="checkbox" id="interested in COVID-19" name="interested in COVID-19" value="interested in COVID-19">
+          <label class="usa-checkbox__label" for="interested in COVID-19">COVID-19</label>
+        </div>
+        <div class="usa-checkbox">
+          <input class="usa-checkbox__input" type="checkbox" id="interested in Flu A" name="interested in Flu A" value="interested in Flu A">
+          <label class="usa-checkbox__label" for="interested in Flu A">Flu A</label>
+        </div>
+        <div class="usa-checkbox">
+          <input class="usa-checkbox__input" type="checkbox" id="interested in Flu B" name="interested in Flu B" value="interested in Flu B">
+          <label class="usa-checkbox__label" for="interested in Flu B">Flu B</label>
+        </div>
+        <div class="usa-checkbox">
+          <input class="usa-checkbox__input" type="checkbox" id="interested in RSV" name="interested in RSV" value="interested in RSV">
+          <label class="usa-checkbox__label" for="interested in RSV">RSV</label>
+        </div>
+      </div>
+      <br>
+      <label class="usa-label" for="additional-conditions">If there are any additional conditions you would like to be able to report
+        using SimpleReport, please enter them below.</label>
+      <textarea
+              class="usa-textarea height-10"
+              id="additional-conditions"
+              name="additional-conditions"
+      ></textarea>
       <label class="usa-label" for="referral">How did you hear about us?</label>
       <textarea
-        class="usa-textarea height-10"
-        id="referral"
-        name="referral"
+              class="usa-textarea height-10"
+              id="referral"
+              name="referral"
       ></textarea>
       <p class="margin-bottom-0">
         By submitting this form, you agree to our
@@ -116,11 +151,23 @@ class: page-form
         "state",
         "organization",
         "referral",
+        "interested in COVID-19",
+        "interested in Flu A",
+        "interested in Flu B",
+        "interested in RSV",
+        "additional-conditions",
       ];
 
       const data = {};
       fields.forEach(
-        (field) => (data[field] = document.getElementById(field).value)
+        (field) => {
+          const element = document.getElementById(field);
+          if(element.type === "checkbox"){
+            data[field] = element.checked;
+          } else {
+            data[field] = element.value;
+          }
+        }
       );
 
       try {
