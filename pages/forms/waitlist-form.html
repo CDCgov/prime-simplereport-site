@@ -83,6 +83,36 @@ class: page-form
         id="referral"
         name="referral"
       ></textarea>
+      <label class="usa-label" for="referral"> Currently, SimpleReport helps facilities report results for:</label>
+      <ul>
+        <li>COVID-19</li>
+        <li>FLU A</li>
+        <li>FLU B</li>
+        <li>RSV</li>
+      </ul>
+        <summary>Please check the boxes below for the conditions you're interested in reporting:</summary>
+        <form>
+          <fieldset>
+            <ul>
+              <li>
+                <label for="COVID-19">COVID-19</label>
+                <input type="checkbox" id="COVID-19" name="COVID-19" value="COVID-19" />
+              </li>
+              <li>
+                <label for="FLU A">FLU A</label>
+                <input type="checkbox" id="FLU A" name="FLU A" value="FLU A" />
+              </li>
+              <li>
+                <label for="FLU B">FLU B</label>
+                <input type="checkbox" id="FLU B" name="FLU B" value="FLU B" />
+              </li>
+              <li>
+                <label for="RSV">RSV</label>
+                <input type="checkbox" id="RSV" name="RSV" value="RSV" />
+              </li>
+            </ul>
+          </fieldset>
+        </form>
       <p class="margin-bottom-0">
         By submitting this form, you agree to our
         <a href="{% link pages/tos.md %}">Terms of Service</a>.
