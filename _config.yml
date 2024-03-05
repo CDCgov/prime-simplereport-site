@@ -51,6 +51,20 @@ defaults:
     values:
       sitemap: true
 
+content: 
+  supported_diseases:
+    - COVID-19
+    - Flu A
+    - Flu B
+    - RSV
+  universal_pipeline_states:
+    - Alaska
+    - California
+    - Hawaii
+    - New York
+    - Rhode Island
+    - US Virgin Islands
+    
 exclude:
   - .jekyll-cache/
   - .sass-cache/
