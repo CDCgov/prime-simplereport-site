@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-Public health departments receive SimpleReport testing data via ReportStream (previously known as the PRIME Data Hub). ReportStream is a free and open source data platform that makes it easier for testing facilities to send their test results to public health departments.
+Public health departments receive SimpleReport testing data via ReportStream (previously known as the PRIME Data Hub). ReportStream is CDC’s free interoperable platform that aggregates and securely delivers public health data from organizations and testing facilities directly to public health entities.
 ![Diagram showing how SimpleReport, lab, and hospitals all send data to the Data Hub, which then sends data to state and county public health departments]({% link assets/img/resources/about-prime-reportstream/report-stream-diagram.png %})
 
 There are three main reasons for public health departments to use ReportStream:
