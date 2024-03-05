@@ -1,0 +1,15 @@
+<!-- can also extend / genericize this for any collection by making the site.content.supported_diseases iterable
+  a variable that takes its value from an includes param
+https://jekyllrb.com/docs/includes/#passing-parameters-to-includes
+-->
+
+{% assign diseases = "" %}
+{%- for disease in site.content.supported_diseases -%}
+  {% if forloop.last %} 
+    {% assign diseases = diseases | append: 'and ' | append: disease %} 
+  {% else %}
+    {% assign diseases = diseases | append: disease | append: ', ' %} 
+  {% endif %}
+{%- endfor -%}
+
+{{diseases}}
