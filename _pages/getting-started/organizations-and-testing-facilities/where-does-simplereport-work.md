@@ -64,4 +64,4 @@ If you report to one of these states or territories, review our instructions on 
  
 ## Other states or locations
 
-If you’re a facility doing COVID-19 testing and reporting, or a public health department not located in one of the states or territories listed above, [let us know you’re interested in SimpleReport]({% link pages/forms/waitlist-form.html %}).
+If you’re a facility doing rapid point-of-care testing and reporting, or a public health department not located in one of the states or territories listed above, [let us know you’re interested in SimpleReport]({% link pages/forms/waitlist-form.html %}).

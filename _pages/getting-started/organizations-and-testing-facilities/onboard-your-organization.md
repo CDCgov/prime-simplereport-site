@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-If you’re doing COVID-19 testing, your first step is to choose just one person to sign up for your organization account. They'll create the account and complete [identity verification](#verify-your-identity). This person —  called the account administrator — can add testing facilities and staff after creating the organization account.
+Your first step is to choose just one person to sign up for your organization account. They'll create the account and complete [identity verification](#verify-your-identity). This person —  called the account administrator — can add testing facilities and staff after creating the organization account.
 
 ## Organizations and facilities
 

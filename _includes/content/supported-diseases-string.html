@@ -1,0 +1,10 @@
+{% assign diseases = "" %}
+{%- for disease in site.content.supported_diseases -%}
+  {% if forloop.last %} 
+    {% assign diseases = diseases | append: 'and ' | append: disease %} 
+  {% else %}
+    {% assign diseases = diseases | append: disease | append: ', ' %} 
+  {% endif %}
+{%- endfor -%}
+
+{{ diseases }}

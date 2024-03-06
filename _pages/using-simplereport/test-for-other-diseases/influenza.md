@@ -16,7 +16,7 @@ To record flu results on SimpleReport, [conduct and submit a test](https://www.s
 ## Reporting results
 Organizations can use SimpleReport to report positive flu results to the following state health departments: 
 
-{% include influenza-supported-states.html %}
+{% include content/states-on-universal-pipeline.html %}
   
 You can report COVID-19, flu, and RSV results all from a single spreadsheet using [SimpleReport's bulk uploader](https://www.simplereport.gov/using-simplereport/report-test-results/bulk-upload-results/). [See more information and guidance about reporting flu results](https://www.simplereport.gov/assets/resources/bulk_results_upload_guide-flu_pilot.pdf). 
 
