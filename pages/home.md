@@ -15,7 +15,7 @@ return_top: 'false'
           <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport">
         </h1>
         <span>
-          A better way to report COVID-19 tests
+          A simpler way to report rapid point-of-care tests
         </span>
         <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2"
           href="/app/sign-up">
@@ -31,7 +31,7 @@ return_top: 'false'
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col hero-img-col mobile-display">
         <img class="usa-hero-placeholder"
-          src="{{ '/assets/img/project-images/test-queue-horiz.png' | relative_url }}"
+          src="{{ '/assets/img/project-images/multi-test-queue-horiz.png' | relative_url }}"
           alt="simplereport displayed on a tablet">
       </div>
       <div class="tablet:grid-col usa-hero-subsection usa-prose flex-align-self-center">
@@ -53,7 +53,7 @@ return_top: 'false'
       </div>
       <div class="tablet:grid-col hero-img-col tablet-display">
         <img class="usa-hero-placeholder"
-          src="{{ '/assets/img/project-images/test-queue-horiz.png' | relative_url }}"
+          src="{{ '/assets/img/project-images/multi-test-queue-horiz.png' | relative_url }}"
           alt="simplereport displayed on a tablet">
       </div>
     </div>
@@ -190,7 +190,7 @@ return_top: 'false'
     <div class="grid-container">
       <div class="usa-prose">
         <h2 class="font-heading-3 text-primary-darker">
-          Ready to simplify your COVID-19 reporting?
+          Ready to simplify your rapid point-of-care test reporting?
         </h2>
         <p class="usa-intro">If you report to a location where SimpleReport is already set up, you can sign up now. If not, join the waitlist and we’ll let you know when SimpleReport is available to you.</p>
       </div>
