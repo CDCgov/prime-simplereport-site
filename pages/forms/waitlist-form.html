@@ -83,14 +83,14 @@ class: page-form
         id="referral"
         name="referral"
       ></textarea>
-      <label class="usa-label" for="referral"> Currently, SimpleReport helps facilities report results for:</label>
+      <p> Currently, SimpleReport helps facilities report results for:</p>
       <ul>
         <li>COVID-19</li>
         <li>FLU A</li>
         <li>FLU B</li>
         <li>RSV</li>
       </ul>
-      <label>Please check the boxes below for the conditions you're interested in reporting:</label>
+      <label class="usa-label">Please check the boxes below for the conditions you're interested in reporting:</label>
       <br>
         <form>
           <fieldset>
@@ -114,6 +114,13 @@ class: page-form
             </ul>
           </fieldset>
         </form>
+      <label class="usa-label" for="additional-conditions">If there are any additional conditions you would like to be able to report
+        using SimpleReport, please enter them below.</label>
+      <textarea
+              class="usa-textarea height-10"
+              id="additional-conditions"
+              name="additional-conditions"
+      ></textarea>
       <p class="margin-bottom-0">
         By submitting this form, you agree to our
         <a href="{% link pages/tos.md %}">Terms of Service</a>.
@@ -147,6 +154,7 @@ class: page-form
         "state",
         "organization",
         "referral",
+        "additional-conditions",
       ];
 
       const data = {};
