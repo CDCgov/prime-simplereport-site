@@ -88,20 +88,20 @@ class: page-form
       <br>
       <div class="checkboxes">
         <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="COVID-19" name="COVID-19" value="COVID-19">
-          <label class="usa-checkbox__label" for="COVID-19">COVID-19</label>
+          <input class="usa-checkbox__input" type="checkbox" id="interested in COVID-19" name="interested in COVID-19" value="interested in COVID-19">
+          <label class="usa-checkbox__label" for="interested in COVID-19">COVID-19</label>
         </div>
         <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="Flu A" name="Flu A" value="Flu A">
-          <label class="usa-checkbox__label" for="Flu A">Flu A</label>
+          <input class="usa-checkbox__input" type="checkbox" id="interested in Flu A" name="interested in Flu A" value="interested in Flu A">
+          <label class="usa-checkbox__label" for="interested in Flu A">Flu A</label>
         </div>
         <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="Flu B" name="Flu B" value="Flu B">
-          <label class="usa-checkbox__label" for="Flu B">Flu B</label>
+          <input class="usa-checkbox__input" type="checkbox" id="interested in Flu B" name="interested in Flu B" value="interested in Flu B">
+          <label class="usa-checkbox__label" for="interested in Flu B">Flu B</label>
         </div>
         <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="RSV" name="RSV" value="RSV">
-          <label class="usa-checkbox__label" for="RSV">RSV</label>
+          <input class="usa-checkbox__input" type="checkbox" id="interested in RSV" name="interested in RSV" value="interested in RSV">
+          <label class="usa-checkbox__label" for="interested in RSV">RSV</label>
         </div>
       </div>
       <br>
@@ -151,19 +151,24 @@ class: page-form
         "state",
         "organization",
         "referral",
-        "COVID-19",
-        "FLU-A",
-        "FLU-B",
-        "RSV",
+        "interested in COVID-19",
+        "interested in Flu A",
+        "interested in Flu B",
+        "interested in RSV",
         "additional-conditions",
       ];
 
       const data = {};
       fields.forEach(
-        (field) => (data[field] = document.getElementById(field).value)
+        (field) => {
+          const element = document.getElementById(field);
+          if(element.type === "checkbox"){
+            data[field] = element.checked;
+          } else {
+            data[field] = element.value;
+          }
+        }
       );
-
-      console.log("HEY DAN LOOK HERE: " + JSON.stringify(data));
 
       try {
         let response = await fetch("/api/account-request/waitlist", {
