@@ -71,7 +71,7 @@ class: page-form
         Your facility or the Public Health Department you are representing
       </span>
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="organization"
         name="organization"
         type="text"
@@ -137,9 +137,10 @@ class: page-form
       fieldsToCheck.forEach(
         (element) => {
           if(element.type === "checkbox"){
-            data[element.id] = element.checked;
-          } else {
-            data[element.id] = element.value;
+            data[element.name] = element.checked;
+          } 
+          else {
+            data[element.name] = element.value;
           }
         }
       );
