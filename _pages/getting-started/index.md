@@ -13,6 +13,7 @@ Before you can use SimpleReport, you’ll need to set it up.
 
 SimpleReport supports the following conditions: 
 
+
 {%include content/supported-diseases.html%}
 
 If you're looking for an an easier way to report results, find out [how to sign up]({% link _pages/getting-started/organizations-and-testing-facilities/onboard-your-organization.md %}).

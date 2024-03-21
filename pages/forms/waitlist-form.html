@@ -25,7 +25,7 @@ class: page-form
         >Name {% include required.html %}</label
       >
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="name"
         name="name"
         type="text"
@@ -37,7 +37,7 @@ class: page-form
         >Email address {% include required.html %}</label
       >
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="email"
         name="email"
         type="email"
@@ -49,7 +49,7 @@ class: page-form
         >Phone number {% include required.html %}</label
       >
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="phone"
         name="phone"
         type="tel"
@@ -60,7 +60,7 @@ class: page-form
         State {% include required.html %}
       </label>
       <div class="usa-combo-box">
-        <select class="usa-select" id="state" name="state" required>
+        <select class="usa-select form-input" id="state" name="state" required>
           {% include forms/state-options.html %}
         </select>
       </div>
@@ -78,43 +78,31 @@ class: page-form
         required
       />
       <p> Currently, SimpleReport helps facilities report results for:</p>
-      <ul style="padding-inline-start:20px">
-        <li>COVID-19</li>
-        <li>Flu A</li>
-        <li>Flu B</li>
-        <li>RSV</li>
-      </ul>
+     
+      {% include content/supported-diseases.html styles="padding-left-205" %}
+
       <label class="usa-label">Please check the boxes below for the conditions you're interested in reporting:</label>
       <br>
+
       <div class="checkboxes">
-        <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="interested in COVID-19" name="interested in COVID-19" value="interested in COVID-19">
-          <label class="usa-checkbox__label" for="interested in COVID-19">COVID-19</label>
-        </div>
-        <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="interested in Flu A" name="interested in Flu A" value="interested in Flu A">
-          <label class="usa-checkbox__label" for="interested in Flu A">Flu A</label>
-        </div>
-        <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="interested in Flu B" name="interested in Flu B" value="interested in Flu B">
-          <label class="usa-checkbox__label" for="interested in Flu B">Flu B</label>
-        </div>
-        <div class="usa-checkbox">
-          <input class="usa-checkbox__input" type="checkbox" id="interested in RSV" name="interested in RSV" value="interested in RSV">
-          <label class="usa-checkbox__label" for="interested in RSV">RSV</label>
-        </div>
+        {% for disease in site.content.supported_diseases %}
+          <div class="usa-checkbox">
+            <input class="usa-checkbox__input form-input" type="checkbox" id="interested in {{disease}}" name="interested in {{disease}}" value="interested in {{disease}}">
+            <label class="usa-checkbox__label" for="interested in {{disease}}">{{disease}}</label>
+          </div>
+        {% endfor %}
       </div>
       <br>
       <label class="usa-label" for="additional-conditions">If there are any additional conditions you would like to be able to report
         using SimpleReport, please enter them below.</label>
       <textarea
-              class="usa-textarea height-10"
+              class="usa-textarea height-10 form-input"
               id="additional-conditions"
               name="additional-conditions"
       ></textarea>
       <label class="usa-label" for="referral">How did you hear about us?</label>
       <textarea
-              class="usa-textarea height-10"
+              class="usa-textarea height-10 form-input"
               id="referral"
               name="referral"
       ></textarea>
@@ -144,28 +132,14 @@ class: page-form
     const form = document.getElementById("waitlist-form");
     form.onsubmit = async (e) => {
       e.preventDefault();
-      const fields = [
-        "name",
-        "email",
-        "phone",
-        "state",
-        "organization",
-        "referral",
-        "interested in COVID-19",
-        "interested in Flu A",
-        "interested in Flu B",
-        "interested in RSV",
-        "additional-conditions",
-      ];
-
+      const fieldsToCheck = Array.from(document.getElementsByClassName("form-input"))
       const data = {};
-      fields.forEach(
-        (field) => {
-          const element = document.getElementById(field);
+      fieldsToCheck.forEach(
+        (element) => {
           if(element.type === "checkbox"){
-            data[field] = element.checked;
+            data[element.id] = element.checked;
           } else {
-            data[field] = element.value;
+            data[element.id] = element.value;
           }
         }
       );
