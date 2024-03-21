@@ -77,14 +77,13 @@ class: page-form
         type="text"
         required
       />
-      <p> Currently, SimpleReport helps facilities report results for:</p>
-     
+      <label class="usa-label">
+        Currently, SimpleReport helps facilities report results for:
+      </label>
       {% include content/supported-diseases.html styles="padding-left-205" %}
 
-      <label class="usa-label">Please check the boxes below for the conditions you're interested in reporting:</label>
-      <br>
-
-      <div class="checkboxes">
+      <label class="usa-label" for="supported-diseases">Please check the boxes below for the conditions you're interested in reporting:</label>
+      <div class="checkboxes" id="supported-diseases">
         {% for disease in site.content.supported_diseases %}
           <div class="usa-checkbox">
             <input class="usa-checkbox__input form-input" type="checkbox" id="interested in {{disease}}" name="interested in {{disease}}" value="interested in {{disease}}">
@@ -92,7 +91,6 @@ class: page-form
           </div>
         {% endfor %}
       </div>
-      <br>
       <label class="usa-label" for="additional-conditions">If there are any additional conditions you would like to be able to report
         using SimpleReport, please enter them below.</label>
       <textarea
