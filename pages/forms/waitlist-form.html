@@ -77,12 +77,7 @@ class: page-form
         type="text"
         required
       />
-      <label class="usa-label">
-        Currently, SimpleReport helps facilities report results for:
-      </label>
-      {% include content/supported-diseases.html styles="padding-left-205" %}
-
-      <label class="usa-label" for="supported-diseases">Please check the boxes below for the conditions you're interested in reporting:</label>
+      <label class="usa-label" for="supported-diseases">Check the boxes below for the conditions you're interested in reporting:</label>
       <div class="checkboxes" id="supported-diseases">
         {% for disease in site.content.supported_diseases %}
           <div class="usa-checkbox">
