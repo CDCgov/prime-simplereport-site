@@ -25,7 +25,7 @@ class: page-form
         >Name {% include required.html %}</label
       >
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="name"
         name="name"
         type="text"
@@ -37,7 +37,7 @@ class: page-form
         >Email address {% include required.html %}</label
       >
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="email"
         name="email"
         type="email"
@@ -49,18 +49,18 @@ class: page-form
         >Phone number {% include required.html %}</label
       >
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="phone"
         name="phone"
         type="tel"
         autocomplete="tel"
         required
       />
-      <label class="usa-label" for="state" id="state"
-        >State {% include required.html %}</label
-      >
+      <label class="usa-label" for="state">
+        State {% include required.html %}
+      </label>
       <div class="usa-combo-box">
-        <select class="usa-select" id="state" name="state" required>
+        <select class="usa-select form-input" id="state" name="state" required>
           {% include forms/state-options.html %}
         </select>
       </div>
@@ -71,17 +71,33 @@ class: page-form
         Your facility or the Public Health Department you are representing
       </span>
       <input
-        class="usa-input"
+        class="usa-input form-input"
         id="organization"
         name="organization"
         type="text"
         required
       />
+      <label class="usa-label" for="supported-diseases">Check the boxes below for the conditions you're interested in reporting:</label>
+      <div class="checkboxes" id="supported-diseases">
+        {% for disease in site.content.supported_diseases %}
+          <div class="usa-checkbox">
+            <input class="usa-checkbox__input form-input" type="checkbox" id="interested in {{disease}}" name="interested in {{disease}}" value="interested in {{disease}}">
+            <label class="usa-checkbox__label" for="interested in {{disease}}">{{disease}}</label>
+          </div>
+        {% endfor %}
+      </div>
+      <label class="usa-label" for="additional-conditions">If there are any additional conditions you would like to be able to report
+        using SimpleReport, please enter them below.</label>
+      <textarea
+              class="usa-textarea height-10 form-input"
+              id="additional-conditions"
+              name="additional-conditions"
+      ></textarea>
       <label class="usa-label" for="referral">How did you hear about us?</label>
       <textarea
-        class="usa-textarea height-10"
-        id="referral"
-        name="referral"
+              class="usa-textarea height-10 form-input"
+              id="referral"
+              name="referral"
       ></textarea>
       <p class="margin-bottom-0">
         By submitting this form, you agree to our
@@ -109,18 +125,17 @@ class: page-form
     const form = document.getElementById("waitlist-form");
     form.onsubmit = async (e) => {
       e.preventDefault();
-      const fields = [
-        "name",
-        "email",
-        "phone",
-        "state",
-        "organization",
-        "referral",
-      ];
-
+      const fieldsToCheck = Array.from(document.getElementsByClassName("form-input"))
       const data = {};
-      fields.forEach(
-        (field) => (data[field] = document.getElementById(field).value)
+      fieldsToCheck.forEach(
+        (element) => {
+          if(element.type === "checkbox"){
+            data[element.name] = element.checked;
+          } 
+          else {
+            data[element.name] = element.value;
+          }
+        }
       );
 
       try {
