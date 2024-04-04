@@ -49,6 +49,7 @@ If you report to one of these states or territories, review our instructions on 
 - Pennsylvania
 - Puerto Rico
 - Rhode Island
+- South Carolina
 - South Dakota
 - Tennessee
 - Texas
