@@ -18,7 +18,7 @@
     "uswds-update": "npm update uswds",
     "uncss": "gulp uncss",
     "watch": "gulp watch",
-    "eslint": "eslint",
+    "eslint": "eslint ",
     "build": "gulp build-sass && bundle exec jekyll build --config _config.yml",
     "build:dev": "gulp build-sass && bundle exec jekyll build --config _config.yml,_dev_config.yml",
     "build:dev2": "gulp build-sass && bundle exec jekyll build --config _config.yml,_dev2_config.yml",
