@@ -1,5 +1,10 @@
-<input class="display-none {{include.styles}}"
+<input  
     name="form-honeypot"
     type="checkbox"
-    alt="This is a form field to catch spam. Don't fill this out if you're a human">
+    class ="usa-checkbox__input {{include.styles}} honeypot"
+    alt="This is a form field to catch spam. Don't fill this out if you're a human"
+    id="interested in honeypot"
+    tabindex="-1"
+    >
 </input>
+<label class="honeypot usa-checkbox__label" for="interested in honeypot">honeypot label</label>
