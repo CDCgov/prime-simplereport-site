@@ -113,6 +113,7 @@ class: page-form
           <p class="usa-alert__text">Failed to submit. Please try again.</p>
         </div>
       </div>
+      {% include form-honeypot.html styles="form-input" %}
       <button class="usa-button" type="submit" value="submit" name="submit">
         Submit
       </button>
@@ -130,9 +131,12 @@ class: page-form
       const diseaseInterest = [];
       fieldsToCheck.forEach(
         (element) => {
-          if (element.type === "checkbox" && element.name.includes("interested in")){
-            if (element.checked) {
-              diseaseInterest.push(element.value);
+          if (element.type === "checkbox"){
+            if (!element.name.includes("interested in")) {
+              data[element.name] = element.checked;
+            }
+            else if (element.name.includes("interested in") && element.checked) {
+              diseaseInterest.push(element.value);              
             }
           }
           else {

@@ -1537,3 +1537,11 @@ Typography
     vertical-align: middle;
   }
 }
+
+.honeypot {
+  position: absolute;
+  left: -5000px;
+  height: 0;
+  width: 0;
+  z-index: -1;
+}
