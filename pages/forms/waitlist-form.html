@@ -132,11 +132,11 @@ class: page-form
       fieldsToCheck.forEach(
         (element) => {
           if (element.type === "checkbox"){
-            if (element.name.includes("interested in") && element.checked) {
-              diseaseInterest.push(element.value);
-            }
-            else{
+            if (!element.name.includes("interested in")) {
               data[element.name] = element.checked;
+            }
+            else if (element.name.includes("interested in") && element.checked) {
+              diseaseInterest.push(element.value);              
             }
           }
           else {
