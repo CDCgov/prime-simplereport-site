@@ -56,7 +56,6 @@
   "devDependencies": {
     "@uswds/compile": "^1.1.0",
     "autoprefixer": "^10.4.19",
-    "dayjs": "^1.11.11",
     "del": "^6.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-frontmatter": "0.0.8",
