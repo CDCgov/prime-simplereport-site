@@ -3,12 +3,6 @@ import globals from "globals";
 
 export default [
     {
-        files:["assets/**/*.js"],
-        ignores: [
-            "**/uswds.js",
-            "**/uswds.min.js",
-            "**/main.js"
-        ],
         languageOptions: {
             ecmaVersion: 2020,
             sourceType: "module",
@@ -20,4 +14,5 @@ export default [
             frontmatter: frontmatter
         },
     }
+    
 ];
