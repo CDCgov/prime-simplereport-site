@@ -629,4 +629,4 @@ var formOptions = {
 };
 
 // Create unique Touchpoints form object
-export const touchpointForm2a6e9509 = new FBAform(document, window).init(formOptions);
+const touchpointForm2a6e9509 = new FBAform(document, window).init(formOptions);
