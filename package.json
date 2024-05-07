@@ -3,7 +3,6 @@
   "private": true,
   "author": "Skylight Digital",
   "license": "CC0-1.0",
-  "type": "module",
   "scripts": {
     "serve": "bundle exec jekyll serve --livereload --config _config.yml",
     "setup": "npm run uswds-copy-assets && npm run uswds-build-sass",
@@ -59,7 +58,6 @@
     "autoprefixer": "^10.4.19",
     "del": "^6.0.0",
     "eslint": "^9.0.0",
-    "eslint-plugin-frontmatter": "^0.0.8",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.1.0",
     "gulp-rename": "^2.0.0",
