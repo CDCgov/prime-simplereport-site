@@ -18,7 +18,6 @@ export default [
             "**/uswds*.js",
             "**/main.js",
             "**/anchor*.js",
-            "**/touchpoints.js",
         ],
     }
 ];

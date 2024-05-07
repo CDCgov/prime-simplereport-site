@@ -6,7 +6,7 @@
 // Form components are namespaced under 'fba' = 'Feedback Analytics'
 "use strict";
 
-function FBAform(d, N) {
+function FBAform(d) {
   return {
     formId: "2a6e9509",
     formComponent: function () {
@@ -81,8 +81,8 @@ function FBAform(d, N) {
         );
       }
       var phoneElements = d.querySelectorAll("input[type='tel']");
-      for (var i = 0; i < phoneElements.length; i++) {
-        phoneElements[i].addEventListener(
+      for (var j = 0; j < phoneElements.length; j++) {
+        phoneElements[j].addEventListener(
           "keyup",
           this.handlePhoneInput.bind(this),
           false,
@@ -166,21 +166,6 @@ function FBAform(d, N) {
         number = number.replace(/(\d{3})(\d{4})/, "$1-$2");
       } else if (number.length == 10) {
         number = number.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
-      }
-      e.srcElement.value = number;
-    },
-    handleEmailInput: function (e) {
-      var EmailRegex =
-        /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-      var email = e.srcElement.value.trim();
-      if (email.length == 0) {
-        return;
-      }
-      result = EmailRegex.test(email);
-      if (!result) {
-        showWarning($(this), "Please enter a valid email address");
-      } else {
-        showValid($(this));
       }
       e.srcElement.value = number;
     },
@@ -292,7 +277,7 @@ function FBAform(d, N) {
           delete questions[item.name];
         } else {
           var EmailRegex =
-            /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
           if (EmailRegex.test(item.value)) delete questions[item.name];
         }
       });
@@ -368,10 +353,10 @@ function FBAform(d, N) {
       var elem = form.querySelector(".usa-form-group--error");
       if (elem == null) return;
       elem.setAttribute("class", "question");
-      var elem = form.querySelector("#input-error-message");
-      if (elem != null) elem.parentNode.removeChild(elem);
-      elem = form.querySelector("#input-error");
-      if (elem != null) elem.parentNode.removeChild(elem);
+      var newElem = form.querySelector("#input-error-message");
+      if (newElem != null) newElem.parentNode.removeChild(newElem);
+      newElem = form.querySelector("#input-error");
+      if (newElem != null) newElem.parentNode.removeChild(newElem);
     },
     textCounter: function (field, maxlimit) {
       var countfield = field.parentNode.querySelector(".counter-msg");
@@ -440,7 +425,7 @@ function FBAform(d, N) {
     successText: function () {
       return "Thanks for your feedback!";
     },
-    showFormSuccess: function (e) {
+    showFormSuccess: function () {
       var formComponent = this.formComponent();
       var formElement = this.formElement();
       var alertElement = formComponent.querySelector(".fba-alert");
@@ -500,7 +485,6 @@ function FBAform(d, N) {
     formSuccess: function (e) {
       // Clear the alert box
       var formComponent = this.formComponent();
-      var alertElement = formComponent.querySelector(".fba-alert");
       var alertElementBody =
         formComponent.getElementsByClassName("usa-alert__text")[0];
       var alertErrorElement = formComponent.querySelector(".fba-alert-error");
@@ -530,7 +514,7 @@ function FBAform(d, N) {
           var errors = jsonResponse.messages;
 
           for (var err in errors) {
-            if (errors.hasOwnProperty(err)) {
+            if (Object.prototype.hasOwnProperty.call(errors, err)) {
               alertErrorElementBody.innerHTML += err;
               alertErrorElementBody.innerHTML += " ";
               alertErrorElementBody.innerHTML += errors[err];
@@ -622,8 +606,8 @@ function FBAform(d, N) {
         );
       }
 
-      for (var i = 0; i < nextButtons.length; i++) {
-        nextButtons[i].addEventListener(
+      for (var k = 0; k < nextButtons.length; k++) {
+        nextButtons[k].addEventListener(
           "click",
           function (e) {
             e.preventDefault();
@@ -645,4 +629,4 @@ var formOptions = {
 };
 
 // Create unique Touchpoints form object
-const touchpointForm2a6e9509 = new FBAform(document, window).init(formOptions);
+export const touchpointForm2a6e9509 = new FBAform(document, window).init(formOptions);
