@@ -10,7 +10,6 @@
 USWDS SASS GULPFILE
 ----------------------------------------
 */
-
 const autoprefixer = require("autoprefixer");
 const csso = require("postcss-csso");
 const uncss = require("postcss-uncss");
