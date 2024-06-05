@@ -57,6 +57,7 @@ content:
     - Flu A
     - Flu B
     - RSV
+    - HIV
   universal_pipeline_states:
     - Alaska
     - Arizona
