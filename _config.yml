@@ -59,10 +59,16 @@ content:
     - RSV
   universal_pipeline_states:
     - Alaska
+    - Arizona
     - California
+    - Colorado
     - Hawaii
+    - Kansas
+    - Nevada
     - New York
     - Rhode Island
+    - South Carolina
+    - Texas
     - US Virgin Islands
     
 exclude:
