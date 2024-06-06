@@ -141,8 +141,6 @@ using-simplereport:
             url: /using-simplereport/test-for-other-diseases/influenza/  
           - page: RSV
             url: /using-simplereport/test-for-other-diseases/rsv/
-          - page: HIV
-            url: /using-simplereport/test-for-other-diseases/hiv/
 
       - page: Reset your SimpleReport password
         url: /using-simplereport/reset-your-simplereport-password/
