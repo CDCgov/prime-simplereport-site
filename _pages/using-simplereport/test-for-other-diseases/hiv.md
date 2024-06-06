@@ -1,5 +1,5 @@
 ---
-title: Accept HIV Results
+title: HIV
 meta: Record test results for HIV SimpleReport
 layout: page
 class: page-docs
