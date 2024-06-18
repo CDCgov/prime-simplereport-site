@@ -6,7 +6,6 @@
   "scripts": {
     "serve": "bundle exec jekyll serve --livereload --config _config.yml",
     "setup": "npm run uswds-copy-assets && npm run uswds-build-sass",
-    "build-webpack": "./node_modules/.bin/webpack",
     "uswds-build-sass": "gulp build-sass",
     "uswds-build-app": "gulp build-app",
     "uswds-copy-assets": "npm run uswds-copy-fonts && npm run copy-subset-fonts && npm run uswds-copy-img",
@@ -75,8 +74,6 @@
     "uncss": "^0.17.3",
     "uswds": "^2.14.0",
     "uswds-gulp": "github:uswds/uswds-gulp",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4",
     "yargs": "17.7.2"
   },
   "resolutions": {

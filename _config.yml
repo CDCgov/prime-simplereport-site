@@ -51,7 +51,7 @@ defaults:
     values:
       sitemap: true
 
-content: 
+content:
   supported_diseases:
     - COVID-19
     - Flu A
@@ -71,7 +71,7 @@ content:
     - South Carolina
     - Texas
     - US Virgin Islands
-    
+
 exclude:
   - .jekyll-cache/
   - .sass-cache/
@@ -89,14 +89,12 @@ exclude:
   - README.md
   - scripts/
   - vendor/
-  - webpack.config.js
   - artifact/
   - artifact.zip
   - lighthouse
   - release-notes.txt
   - spec/
   - assets/js/uswds.js
-  - webpack/
   - e2e/
   - tests_output/
   - geckodriver.log
