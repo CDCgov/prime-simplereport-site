@@ -110,15 +110,15 @@ The testing lab and ordering facility are the same thing in SimpleReport, so you
 {% endcapture %}
 
 {% capture ordering-provider %}
-- Ordering provider's ID (optional)
+- Ordering provider's ID (required)
   - The ordering provider's National Provider Identifier
-- Ordering provider's last name (optional)
-- Ordering provider's first name (optional)
-- Ordering provider's street address (optional)
-- Ordering provider's city (optional)
-- Ordering provider's state (optional)
-- Ordering provider's zip code (optional)
-- Ordering provider's phone number (optional)
+- Ordering provider's last name (required)
+- Ordering provider's first name (required)
+- Ordering provider's street address (required)
+- Ordering provider's city (required)
+- Ordering provider's state (required)
+- Ordering provider's zip code (required)
+- Ordering provider's phone number (required)
 - Ordering provider's county (optional)
 {% endcapture %}
 
