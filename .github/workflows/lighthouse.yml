@@ -30,7 +30,7 @@ jobs:
       - name: Serve site
         run: bundle exec jekyll serve &
       - name: Lighthouse CI Action
-        uses: treosh/lighthouse-ci-action@v11
+        uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
             $SITE_URL/
