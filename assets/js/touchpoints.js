@@ -11,7 +11,7 @@ function FBAform(d) {
     formId: "2a6e9509",
     formComponent: function () {
       return document.querySelector(
-        "[data-touchpoints-form-id='" + this.formId + "']",
+        "[data-touchpoints-form-id='" + this.formId + "']"
       );
     },
     formElement: function () {
@@ -22,7 +22,7 @@ function FBAform(d) {
     // enable Javascript experience
     javscriptIsEnabled: function () {
       var javascriptDisabledMessage = document.getElementsByClassName(
-        "javascript-disabled-message",
+        "javascript-disabled-message"
       )[0];
       var touchpointForm =
         document.getElementsByClassName("touchpoint-form")[0];
@@ -70,14 +70,14 @@ function FBAform(d) {
       d.querySelector(".fba-modal-close").addEventListener(
         "click",
         this.handleDialogClose.bind(this),
-        false,
+        false
       );
       var otherElements = d.querySelectorAll(".usa-input.other-option");
       for (var i = 0; i < otherElements.length; i++) {
         otherElements[i].addEventListener(
           "keyup",
           this.handleOtherOption.bind(this),
-          false,
+          false
         );
       }
       var phoneElements = d.querySelectorAll("input[type='tel']");
@@ -85,7 +85,7 @@ function FBAform(d) {
         phoneElements[j].addEventListener(
           "keyup",
           this.handlePhoneInput.bind(this),
-          false,
+          false
         );
       }
 
@@ -102,7 +102,7 @@ function FBAform(d) {
           submitButton.addEventListener(
             "click",
             that.handleYesNoSubmitClick.bind(that),
-            false,
+            false
           );
         });
       } else {
@@ -112,7 +112,7 @@ function FBAform(d) {
             submitButton.addEventListener(
               "click",
               that.handleSubmitClick.bind(that),
-              false,
+              false
             );
           });
         }
@@ -186,7 +186,7 @@ function FBAform(d) {
       e.preventDefault();
 
       var input = this.formComponent().querySelector(
-        ".fba-touchpoints-page-form",
+        ".fba-touchpoints-page-form"
       );
       input.value = e.target.value;
       this.resetErrors();
@@ -235,7 +235,7 @@ function FBAform(d) {
       for (var key in questions) {
         this.showValidationError(
           questions[key],
-          "You must respond to question: ",
+          "You must respond to question: "
         );
         return false;
       }
@@ -259,7 +259,7 @@ function FBAform(d) {
       for (var key in questions) {
         this.showValidationError(
           questions[key],
-          "Please enter a valid value: ",
+          "Please enter a valid value: "
         );
         return false;
       }
@@ -284,7 +284,7 @@ function FBAform(d) {
       for (var key in questions) {
         this.showValidationError(
           questions[key],
-          "Please enter a valid value: ",
+          "Please enter a valid value: "
         );
         return false;
       }
@@ -308,7 +308,7 @@ function FBAform(d) {
       for (var key in questions) {
         this.showValidationError(
           questions[key],
-          "Please enter a valid value: ",
+          "Please enter a valid value: "
         );
         return false;
       }
@@ -380,7 +380,7 @@ function FBAform(d) {
       this.buttonEl.addEventListener(
         "click",
         this.handleButtonClick.bind(this),
-        false,
+        false
       );
       this.buttonEl.innerHTML = this.options.modalButtonText;
       d.getElementsByTagName("footer")[0].appendChild(this.buttonEl);
@@ -430,7 +430,7 @@ function FBAform(d) {
       var formElement = this.formElement();
       var alertElement = formComponent.querySelector(".fba-alert");
       var alertElementHeading = formComponent.querySelector(
-        ".usa-alert__heading",
+        ".usa-alert__heading"
       );
       var alertElementBody = formComponent.querySelector(".usa-alert__text");
 
@@ -451,7 +451,7 @@ function FBAform(d) {
         }
         if (formComponent.querySelector(".touchpoints-form-disclaimer")) {
           var formDisclaimer = formComponent.querySelector(
-            ".touchpoints-form-disclaimer",
+            ".touchpoints-form-disclaimer"
           );
           if (formDisclaimer) {
             formDisclaimer.setAttribute("hidden", true);
@@ -555,7 +555,7 @@ function FBAform(d) {
           form.querySelector("input[name=answer_06]:checked") &&
           Array.apply(
             null,
-            form.querySelectorAll("input[name=answer_06]:checked"),
+            form.querySelectorAll("input[name=answer_06]:checked")
           )
             .map(function (x) {
               return x.value;
@@ -584,7 +584,7 @@ function FBAform(d) {
       xhr.send(
         JSON.stringify({
           submission: params,
-        }),
+        })
       );
     },
     pagination: function () {
@@ -602,7 +602,7 @@ function FBAform(d) {
             currentPage.classList.remove("visible");
             currentPage.previousElementSibling.classList.add("visible");
             window.scrollTo(0, 0);
-          }.bind(self),
+          }.bind(self)
         );
       }
 
@@ -616,7 +616,7 @@ function FBAform(d) {
             currentPage.classList.remove("visible");
             currentPage.nextElementSibling.classList.add("visible");
             window.scrollTo(0, 0);
-          }.bind(self),
+          }.bind(self)
         );
       }
     },
