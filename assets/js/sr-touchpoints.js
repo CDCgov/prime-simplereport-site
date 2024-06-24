@@ -58,7 +58,7 @@ function initCustomTouchpointsJS() {
 
   function attachModalToggleListener() {
     const touchpointsModalButton = document.querySelector(
-      TOUCHPOINTS_BUTTON_ID,
+      TOUCHPOINTS_BUTTON_ID
     );
     touchpointsModalButton.addEventListener("click", function () {
       const modal = document.querySelector(TOUCHPOINTS_MODAL_CLASS);
