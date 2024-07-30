@@ -61,8 +61,10 @@ content:
   universal_pipeline_states:
     - Alaska
     - Arizona
+    - Arkansas
     - California
     - Colorado
+    - Florida
     - Hawaii
     - Kansas
     - Nevada
