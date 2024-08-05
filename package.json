@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@uswds/compile": "^1.1.0",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "del": "^6.0.0",
     "eslint": "^9.7.0",
     "gulp": "^4.0.2",
