@@ -15,7 +15,7 @@ Organizations from the following states can now use SimpleReport to report HIV r
 ## HIV test reporting demo
 
 <div class="usa-embed-container">
-  <iframe title="SimpleReport for HIV Rapid Point of Care Test Results Reporting " width="560" height="315" src="https://youtu.be/oGZAhKxOhZA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rtIbhD7QpQM?si=lmAYOKCrpcGNd4VA" title="SimpleReport for HIV Rapid Point of Care Test Results Reporting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 You can report HIV results through the [conduct tests workflow](/using-simplereport/report-test-results/conduct-and-submit-tests/) by using the **INSTI HIV-1/HIV-2 Rapid Antibody** and **OraQuick In-Home HIV** rapid tests. 

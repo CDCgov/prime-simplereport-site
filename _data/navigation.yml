@@ -19,7 +19,7 @@ primary:
     - text: Using SimpleReport
       href: /using-simplereport/
     - text: Training videos
-      href: https://www.youtube.com/playlist?list=PL3U3nqqPGhab0sys3ombZmwOplRYlBOBF
+      href: https://www.youtube.com/playlist?list=PL3eCr1t9uamxNLGwfG_zptznDhJ6LJW7b
     - text: Demo site
       href: https://training.simplereport.gov/app
     - text: For K-12 schools
@@ -137,8 +137,10 @@ using-simplereport:
       - page: Test for other diseases
         url: /using-simplereport/test-for-other-diseases/influenza/
         subsubnav:
+          - page: HIV
+            url: /using-simplereport/test-for-other-diseases/hiv/
           - page: Influenza A and B
-            url: /using-simplereport/test-for-other-diseases/influenza/  
+            url: /using-simplereport/test-for-other-diseases/influenza/
           - page: RSV
             url: /using-simplereport/test-for-other-diseases/rsv/
 
