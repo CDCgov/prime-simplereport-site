@@ -59,6 +59,7 @@ content:
     - RSV
     - HIV
   universal_pipeline_states:
+    - Alabama
     - Alaska
     - Arizona
     - Arkansas
@@ -72,12 +73,18 @@ content:
     - Kansas
     - Louisiana
     - Maine
+    - Maryland
+    - Massachusetts
+    - Missouri
+    - Minnesota
+    - Montana
     - Nevada
     - New York
     - North Dakota
     - Oregon
     - Rhode Island
     - South Carolina
+    - South Dakota
     - Texas
     - US Virgin Islands
 
