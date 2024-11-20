@@ -46,9 +46,6 @@ return_top: 'false'
           <li>
             Works with any diagnostic test
           </li>
-          <li>
-            Maintains HIPAA standards
-          </li>
         </ul>
       </div>
       <div class="tablet:grid-col hero-img-col tablet-display">
