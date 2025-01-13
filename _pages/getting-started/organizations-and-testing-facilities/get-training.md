@@ -20,7 +20,7 @@ Still have a question? Visit our [support page](https://www.simplereport.gov/sup
 
 ## Videos
 <div class="usa-embed-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=BTQbALXaPAVOqAHI&amp;list=PL3eCr1t9uamxNLGwfG_zptznDhJ6LJW7b" title="SimpleReport Training from the USDS & CDC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?si=BTQbALXaPAVOqAHI&amp;list=PL3eCr1t9uamxNLGwfG_zptznDhJ6LJW7b" title="SimpleReport Training from the USDS & CDC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <br>
 Continue learning with [our series of quick training videos](https://www.youtube.com/playlist?list=PL3eCr1t9uamxNLGwfG_zptznDhJ6LJW7b).
