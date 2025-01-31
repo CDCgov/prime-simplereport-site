@@ -1,6 +1,0 @@
-patient_id,patient_last_name,patient_first_name,patient_name_absent_reason,patient_admin_gender,test_performed_code,test_result_value,test_result_status,test_result_effective_date
-1234,Doe,Jane,,F,85479-4,260415000,F,12/20/2021 14:00
-5678,Doe,John,,M,85479-4,260373001,F,12/21/2021 17:00
-90123,Doe,Bob,,M,85479-4,455371000124106,F,12/21/2021 15:00
-P2300,Doe,Rich,,F,92131-2,260415000,C,1/5/2022 12:00
-P2300,Doe,Rich,,F,92131-2,260373001,C,1/5/2022 15:00
