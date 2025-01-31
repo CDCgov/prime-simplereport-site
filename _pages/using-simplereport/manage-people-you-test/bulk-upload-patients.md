@@ -131,26 +131,6 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
         <td><strong>Yes: </strong><i>07/01/1993</i><br><strong>Yes: </strong><i>7/1/1993</i><br><strong>Yes:</strong> <i>7/1/93</i></td>
   </tr>
   <tr>
-    <td style="font-weight: 600;">biological_sex</td>
-    <td style="font-weight: 600;">Yes</td>
-    <td>Select from these values:
-      <br>
-      <ul>
-        <li>
-          <code>M</code>
-          or
-          <code>Male</code>
-        </li>
-        <li>
-          <code>F</code>
-          or
-          <code>Female</code>
-        </li>
-      </ul>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
     <td style="font-weight: 600;">ethnicity</td>
     <td style="font-weight: 600;">Yes</td>
     <td>Select from these values:
