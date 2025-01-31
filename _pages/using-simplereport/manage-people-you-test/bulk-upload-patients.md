@@ -146,26 +146,6 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
           or
           <code>Female</code>
         </li>
-        <li>
-          <code>O</code>
-          or
-          <code>Other</code>
-        </li>
-        <li>
-          <code>U</code>
-          or
-          <code>Unknown</code>
-        </li>
-        <li>
-          <code>A</code>
-          or
-          <code>Ambiguous</code>
-        </li>
-        <li>
-          <code>N</code>
-          or
-          <code>Not applicable</code>
-        </li>
       </ul>
     </td>
     <td></td>
@@ -319,37 +299,6 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
     <td></td>
     <td>If including, select from one of these values:<br><ul><li><code>Staff</code></li><li><code>Resident</code></li><li><code>Student</code></li><li><code>Visitor</code></li><li><code>Unknown</code></li></ul></td>
   <td>If you leave this blank, it will default to <code>Unknown</code>.</td>
-  </tr>
-   <tr>
-    <td>gender_identity</td>
-    <td></td>
-    <td>Select from one of these values:
-      <br>
-      <ul>
-        <li>
-          <code>Female</code>
-        </li>
-        <li>
-          <code>Male</code>
-        </li>
-        <li>
-          <code>Transwoman</code>
-        </li>
-        <li>
-          <code>Transman</code>
-        </li>
-         <li>
-          <code>Nonbinary</code>
-        </li>
-         <li>
-          <code>Other</code>
-        </li>
-         <li>
-          <code>Refused</code>
-        </li>
-      </ul>
-    </td>
-    <td></td>
   </tr>
   <tr>
     <td>address_notes</td>
