@@ -38,11 +38,9 @@ Data created in SimpleReport falls into three categories:
     - Patient’s zip code (required)
 - Patient’s phone number (required)
 - Patient's email (optional)
-- Patient’s sex assigned at birth (required)
+- Patient’s sex (required)
   - Female
   - Male
-  - Other
-  - Prefer not to answer
 - Patient’s race (required)
   - American Indian/Alaskan Native
   - Asian

@@ -146,26 +146,6 @@ Before you upload your spreadsheet on SimpleReport, make sure your patient data 
           or
           <code>Female</code>
         </li>
-        <li>
-          <code>O</code>
-          or
-          <code>Other</code>
-        </li>
-        <li>
-          <code>U</code>
-          or
-          <code>Unknown</code>
-        </li>
-        <li>
-          <code>A</code>
-          or
-          <code>Ambiguous</code>
-        </li>
-        <li>
-          <code>N</code>
-          or
-          <code>Not applicable</code>
-        </li>
       </ul>
     </td>
     <td></td>
