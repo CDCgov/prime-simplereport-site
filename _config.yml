@@ -88,6 +88,7 @@ content:
     - South Dakota
     - Texas
     - US Virgin Islands
+    - Utah
 
 exclude:
   - .jekyll-cache/
