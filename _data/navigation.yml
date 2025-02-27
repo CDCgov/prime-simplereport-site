@@ -85,7 +85,7 @@ using-simplereport:
           - page: Bulk upload results
             url: /using-simplereport/report-test-results/bulk-upload-results/
           - page: Backdate a test
-            url: /using-simplereport/conduct-and-submit-tests/backdate-a-test/
+            url: /using-simplereport/report-test-results/backdate-a-test/
       - page: Manage results
         url: /using-simplereport/manage-results/review-results/
         subsubnav:
