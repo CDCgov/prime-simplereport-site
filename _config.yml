@@ -89,6 +89,7 @@ content:
     - Texas
     - US Virgin Islands
     - Utah
+    - Wyoming
 
 exclude:
   - .jekyll-cache/
