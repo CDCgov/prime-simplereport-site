@@ -31,6 +31,9 @@ pagination:
   sort_field: "date"
   sort_reverse: true
 
+flags:
+  show_hiv_page: &show_hiv_page false
+
 defaults:
   - scope:
       path: "assets/**"
@@ -50,6 +53,10 @@ defaults:
       path: "assets/resources/Bulk_person_upload_guide.pdf"
     values:
       sitemap: true
+  - scope:
+      path: "_pages/using-simplereport/test-for-other-diseases/hiv.md"
+    values:
+      published: *show_hiv_page
 
 content:
   supported_diseases:

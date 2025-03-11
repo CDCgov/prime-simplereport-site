@@ -21,12 +21,14 @@
               {% if entry.subsubnav[0] and page.url contains title_slug %}
                 <ul class="usa-sidenav__sublist">
                 {% for subentry in entry.subsubnav %}
-                  <li class="usa-sidenav__item">
-                    <a href="{{ site.baseurl }}{{ subentry.url }}"
-                      {% if subentry.url == page.url %} class="usa-current" {% endif %}>
-                      {{ subentry.page }}
-                    </a>
-                  </li>
+                  {% if subentry.page != 'HIV' or site.flags.show_hiv_page %}
+                    <li class="usa-sidenav__item">
+                      <a href="{{ site.baseurl }}{{ subentry.url }}"
+                        {% if subentry.url == page.url %} class="usa-current" {% endif %}>
+                        {{ subentry.page }}
+                      </a>
+                    </li>
+                  {% endif %}
                 {% endfor %}
                 </ul>
               {% endif %}
