@@ -17,7 +17,7 @@ CDC works 24/7 to protect America from health, safety and security threats, both
 
 CDC increases the health security of our nation. As the nation’s health protection agency, CDC saves lives and protects people from health threats. To accomplish our mission, CDC conducts critical science and provides health information that protects our nation against expensive and dangerous health threats, and responds when these arise.
 
-- [Learn more about the CDC](https://www.cdc.gov/about/default.htm).
+- [Learn more about the CDC](https://www.cdc.gov/about/).
 - [Read CDC’s Privacy Policy Notice](https://www.cdc.gov/other/privacy.html).
 
 ## USDS
