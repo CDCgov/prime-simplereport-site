@@ -8,7 +8,7 @@ home_link: true
 return_top: "true"
 ---
 
-You might want to limit which members of your staff can perform certain tasks or access certain information in SimpleReport. All users can conduct and report tests, but you can restrict access to other things, like viewing and correcting results, viewing and editing profiles, and accessing testing facility settings.
+You might want to limit which members of your staff can perform certain tasks or access certain information in SimpleReport. All users can report tests, but you can restrict access to other things, like viewing and correcting results, viewing and editing profiles, and accessing testing facility settings.
 
 To manage user permissions in SimpleReport, you must have admin privileges. If you don't have admin privileges, talk to an admin about upgrading permissions on your account.
 
@@ -21,9 +21,9 @@ To change permissions for a user:
 1. Under “User role”, click the user whose access you want to edit.<br>
 1. Select the access level you want to give this user. There are three levels of access you can choose from:
 
-   - **Admin** users have full access to conduct and report tests, manage test results, manage patient profiles, and manage testing facility and user (staff) settings.
-   - **Standard** users can conduct and report tests, manage test results, and manage patient profiles. They can’t manage testing facility or user (staff) settings.
-   - **Testing only** users can only conduct and report tests.
+   - **Admin** users have full access to report tests, manage test results, manage patient profiles, and manage testing facility and user (staff) settings.
+   - **Standard** users can report tests, manage test results, and manage patient profiles. They can’t manage testing facility or user (staff) settings.
+   - **Testing only** users can only report tests.
 
 1. Select the testing facilities you want the user to access. Non-admins can access up to 30 facilities.
    ![SimpleReport's list of testing facilities, with a few facilities selected with a check box]({% link assets/img/resources/manage-user-permissions/testing-facility-access.png %})
