@@ -6,9 +6,9 @@ class: page-docs
 sidenav: resources
 ---
 
-If you’re submitting test results you’ve already conducted, you can backdate the result in SimpleReport.
+If you’re reporting test results you’ve already conducted, you can backdate the result in SimpleReport.
 
-1. Go to **Conduct tests**, search for a patient name, and click **Begin test**
+1. Go to **Report tests**, search for a patient name, and click **Begin test**
 2. Uncheck the checkbox that says **Use current date**
    ![The SimpleReport site showing where to find the use current date checkbox]({% link assets/img/resources/backdate-a-test/backdate-current-date.png %})
 3. Enter the correct **Test date** and **Test time**. Enter the result by clicking **Submit**
