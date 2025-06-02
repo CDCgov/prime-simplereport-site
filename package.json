@@ -75,7 +75,7 @@
     "uncss": "^0.17.3",
     "uswds": "^2.14.0",
     "uswds-gulp": "github:uswds/uswds-gulp",
-    "yargs": "17.7.2"
+    "yargs": "18.0.0"
   },
   "resolutions": {
     "chokidar": "^3.5.3",
