@@ -1,0 +1,16 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# the team on this line will be requested for
+# review when someone opens a pull request.
+*                   @CDCgov/simplereport-engineeringreviews
+
+# github-actions
+workflows/*         @CDCgov/simplereport-dependencyreviews @CDCgov/simplereport-devsecops
+
+# npm
+package.json        @CDCgov/simplereport-dependencyreviews @CDCgov/simplereport-devsecops
+yarn.lock           @CDCgov/simplereport-dependencyreviews @CDCgov/simplereport-devsecops
+
+# bundler
+Gemfile             @CDCgov/simplereport-dependencyreviews @CDCgov/simplereport-devsecops
+Gemfile.lock        @CDCgov/simplereport-dependencyreviews @CDCgov/simplereport-devsecops
