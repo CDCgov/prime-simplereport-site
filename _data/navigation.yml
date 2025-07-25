@@ -148,6 +148,8 @@ using-simplereport:
         url: /using-simplereport/reset-your-simplereport-password/
       - page: What's new
         url: /using-simplereport/whats-new/
+      - page: Data retention limits
+        url: /using-simplereport/data-retention-limits/
 
 user-guide:
   - title: User guide
