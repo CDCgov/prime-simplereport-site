@@ -8,7 +8,7 @@ home_link: true
 return_top: 'true'
 ---
 
-The fastest way to get new people into SimpleReport and start conducting tests is through patient self-registration. Only new patients can self-register.
+The fastest way to get new people into SimpleReport and start reporting tests is through patient self-registration. Only new patients can self-register.
 
 To offer self-registration to your patients:
 
