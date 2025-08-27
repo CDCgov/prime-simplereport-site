@@ -137,8 +137,6 @@ using-simplereport:
       - page: Test for other diseases
         url: /using-simplereport/test-for-other-diseases/influenza/
         subsubnav:
-          - page: HIV
-            url: /using-simplereport/test-for-other-diseases/hiv/
           - page: Influenza A and B
             url: /using-simplereport/test-for-other-diseases/influenza/
           - page: RSV
