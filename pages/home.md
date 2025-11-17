@@ -69,26 +69,6 @@ return_top: 'false'
       SimpleReport fits into your existing workflow.
     </h2>
     <div class="grid-row margin-top-5">
-      <div class="display-flex flex-justify-end flex-align-end tablet:display-none">
-        <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="">
-        <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="search by patient name">
-      </div>
-      <div class="grid-row tablet:grid-gap-6 display-flex">
-        <div class="tablet:grid-col-6 flex-align-self-center">
-          <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
-            No more repeat data entry
-          </h3>
-          <p class="usa-intro line-height-sans-4 margin-bottom-0">
-            Skip re-entering the same data every time you report. Just pull up a name and click a few buttons, or upload a spreadsheet. It’s that easy.
-          </p>
-        </div>
-        <div class="display-none tablet:display-block grid-col-6">
-          <div class="display-flex flex-justify-end flex-align-end">
-            <img class="brown-bubble" src="{{ '/assets/img/brown-bubble.svg' | relative_url }}" alt="">
-            <img class="animation-1" src="{{ '/assets/img/animation1.gif' | relative_url }}" alt="search by patient name">
-          </div>
-        </div>
-      </div>
       <div class="grid-row tablet:grid-gap-6 margin-top-6 tablet:margin-top-15">
         <div class="tablet:grid-col-6">
           <div class="display-flex">
