@@ -62,10 +62,8 @@ getting-started:
             url: /getting-started/organizations-and-testing-facilities/get-training/
           
       - page: Public health departments
-        url: /getting-started/public-health-departments/about-prime-reportstream/
+        url: /getting-started/public-health-departments/simplereport-data-catalog/
         subsubnav:
-          - page: What is ReportStream?
-            url: /getting-started/public-health-departments/about-prime-reportstream/
           - page: SimpleReport data catalog
             url: /getting-started/public-health-departments/simplereport-data-catalog/
       - page: Sign up
