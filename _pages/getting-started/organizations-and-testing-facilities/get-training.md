@@ -17,4 +17,3 @@ Check out our step-by-step instructions for using SimpleReport.
 
 Still have a question? Visit our [support page](https://www.simplereport.gov/support/).
 
-Continue learning with [our series of quick training videos](https://www.youtube.com/playlist?list=PL3eCr1t9uamxNLGwfG_zptznDhJ6LJW7b).
