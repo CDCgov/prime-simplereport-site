@@ -26,9 +26,6 @@ primary:
       href: /assets/resources/k12-guide.pdf
 - text: Support
   href: /support/
-- text: Sign up
-  href: /app/sign-up/
-  class: usa-button usa-button--outline padding-x-205 padding-y-105 font-ui-2xs desktop:margin-left-105
 - text: Log in
   href: "#"
   class: usa-button text-white padding-x-205 padding-y-105 font-ui-2xs margin-right-0
@@ -46,10 +43,8 @@ getting-started:
     url: /getting-started/
     subnav:
       - page: Organizations and testing facilities
-        url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
+        url: /getting-started/organizations-and-testing-facilities/where-does-simplereport-work/
         subsubnav:
-          - page: How to sign up
-            url: /getting-started/organizations-and-testing-facilities/onboard-your-organization/
           - page: Where does SimpleReport work?
             url: /getting-started/organizations-and-testing-facilities/where-does-simplereport-work/
           - page: Test devices we support
@@ -60,14 +55,12 @@ getting-started:
             url: /getting-started/organizations-and-testing-facilities/log-in-to-simplereport/
           - page: Learn how to use SimpleReport
             url: /getting-started/organizations-and-testing-facilities/get-training/
-          
+
       - page: Public health departments
         url: /getting-started/public-health-departments/simplereport-data-catalog/
         subsubnav:
           - page: SimpleReport data catalog
             url: /getting-started/public-health-departments/simplereport-data-catalog/
-      - page: Sign up
-        url: /app/sign-up/
 
 using-simplereport:
   - title: Using SimpleReport
