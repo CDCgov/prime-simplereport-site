@@ -17,10 +17,6 @@ return_top: 'false'
         <span>
           A simpler way to report rapid point-of-care tests
         </span>
-        <a class="usa-button usa-button--accent-cool tablet:margin-left-8 margin-top-2"
-          href="/app/sign-up">
-          Sign up for free
-        </a>
       </div>
     </div>
   </div>
@@ -100,19 +96,6 @@ return_top: 'false'
         <button
           class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
           aria-expanded="false"
-          aria-controls="a1">
-          <svg class="flex-auto height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"/></svg>
-          <span class="flex-fill">It’s simple to get started</span>
-        </button>
-      </h3>
-      <div id="a1" class="usa-accordion__content usa-prose text-primary-darker">
-        <p>Signing up for SimpleReport is easy. Only one person from each organization or workplace has to sign up and verify their identity. Then you’re ready to test.</p>
-        <p>If you’re in a <a href="{% link _pages/getting-started/organizations-and-testing-facilities/where-does-simplereport-work.md %}">state or territory where we're already set up</a>, you can sign up now and expect to be up and running in about a week. Otherwise, you can <a href="{% link pages/forms/waitlist-form.html %}">join the waitlist</a>, and we’ll let you know when SimpleReport comes to your area.</p>
-      </div>
-      <h3 class="usa-accordion__heading">
-        <button
-          class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
-          aria-expanded="false"
           aria-controls="a2">
           <svg class="flex-auto height-3 margin-right-105" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" aria-hidden="true"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M604 127.1h-184C400.1 127.1 384 144.1 384 164v312C384 495.9 400.1 512 420 512h184C623.9 512 640 495.9 640 476v-312C640 144.1 623.9 127.1 604 127.1zM576 448h-128V192h128V448zM128 64h320v32h64V48c0-26.5-21.5-47.88-47.88-48H111.9C85.5 .125 64 21.5 64 48V288H16C7.125 288 0 295.1 0 304V320c.125 35.25 28.62 63.88 63.88 64H352V288H128V64z"/></svg>
           <span class="flex-fill">All you need is a laptop or tablet with an internet connection</span>
@@ -159,25 +142,6 @@ return_top: 'false'
       <p>View the <a href="{% link _pages/getting-started/organizations-and-testing-facilities/where-does-simplereport-work.md %}">list of supported states and jurisdictions</a>.</p>
     </div>
   </div>
-</section>
-
-<section>
-  <img class="mid-wave-top" src="{{ '/assets/img/mid-wave-top.svg' | relative_url }}" alt="">
-  <div class="bg-accent-cool-lighter padding-y-2 tablet:padding-y-0">
-    <div class="grid-container">
-      <div class="usa-prose">
-        <h2 class="font-heading-3 text-primary-darker">
-          Ready to simplify your rapid point-of-care test reporting?
-        </h2>
-        <p class="usa-intro">If you report to a location where SimpleReport is already set up, you can sign up now. If not, join the waitlist and we’ll let you know when SimpleReport is available to you.</p>
-      </div>
-      <div class="margin-top-2">
-        <a class="usa-button text-no-underline font-body-sm" href="/app/sign-up">Sign up</a>
-        <a class="usa-button usa-button--outline text-no-underline font-body-sm margin-top-2 tablet:margin-top-0" href="{% link pages/forms/waitlist-form.html %}">Join the waitlist</a>
-      </div>
-    </div>
-  </div>
-  <img class="mid-wave-bottom" src="{{ '/assets/img/mid-wave-bottom.svg' | relative_url }}" alt="">
 </section>
 
 <section class="usa-section padding-top-0">
