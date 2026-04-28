@@ -55,6 +55,18 @@ return_top: 'false'
 
 <section class="margin-y-4 tablet:margin-y-8">
   <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col">
+      <p>
+            <b>Note:</b> After careful consideration, CDC is sunsetting SimpleReport on August 31, 2026. This decision is part of CDC’s long-term strategy to focus on modernizing and streamlining data exchange. See <a href="{{ site.baseurl }}/sunset">simplereport.gov/sunset</a> for more information about the timeline and answers to frequently asked questions.
+            </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="margin-y-4 tablet:margin-y-8">
+  <div class="grid-container">
     <div class="section__title-line"></div>
     <h2 class="section__heading">How it works</h2>
     <div class="section__title-line"></div>
