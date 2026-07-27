@@ -11,7 +11,6 @@ return_top: 'true'
 Check out our step-by-step instructions for using SimpleReport. 
 
 - Check out our [video introduction and onboarding guide](https://youtu.be/3YsfDprX2aw).
-- Practice using SimpleReport and take a look around on our [demo site](https://training.simplereport.gov/app).
 - Have a look at our [resources pages](https://www.simplereport.gov/resources).
 - Review our [K-12 schools guide](https://www.simplereport.gov/assets/resources/k12-guide.pdf).
 

@@ -18,10 +18,6 @@ primary:
   links:
     - text: Using SimpleReport
       href: /using-simplereport/
-    - text: Training videos
-      href: https://www.youtube.com/playlist?list=PL3eCr1t9uamxNLGwfG_zptznDhJ6LJW7b
-    - text: Demo site
-      href: https://training.simplereport.gov/app
     - text: For K-12 schools
       href: /assets/resources/k12-guide.pdf
 - text: Support
