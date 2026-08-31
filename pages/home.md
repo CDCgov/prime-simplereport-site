@@ -22,9 +22,9 @@ The code is no longer maintained by CDC and is not provided as a turnkey replace
 
 ## Frequently asked questions
 
-Do I need to delete my account?
+* **Do I need to delete my account?**
 
-All user accounts have been deleted as of 5:00PM ET August 31, 2026. You do not need to take any action to delete your account.
+  * All user accounts have been deleted as of 5:00PM ET August 31, 2026. You do not need to take any action to delete your account.
 
 * **Do I still need to report?**
 
