@@ -16,7 +16,7 @@ For current reporting requirements and alternative reporting methods to SimpleRe
 
 ## SimpleReport source code
 
-The SimpleReport source code remains available on <a href="https://github.com/CDCgov/prime-simplereport">GitHub</a>as an archived open-source reference.
+The SimpleReport source code remains available on <a href="https://github.com/CDCgov/prime-simplereport">GitHub</a> as an archived open-source reference.
 
 However, the code will no longer be maintained by CDC and is not provided as a turnkey replacement for SimpleReport. CDC will not provide technical assistance, implementation support, security updates, or other support for use of the archived open-source code.
 
