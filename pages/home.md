@@ -1,174 +1,39 @@
 ---
-title: Home
+title: SimpleReport has shut down
 meta: SimpleReport is a COVID-19 testing and reporting tool that sends results to your public health department.
 permalink: /
-layout: home
-class: page-home
+layout: page
 return_top: 'false'
 ---
-<main>
-<section class="usa-hero padding-top-2" aria-label="Introduction">
-  <div class="grid-container">
-    <div class="grid-row">
-      <div class="grid-col usa-hero__callout">
-        <h1 class="margin-top-3 mobile-lg:margin-top-1">
-          <img src="{{ '/assets/img/SimpleReportLogo.svg' | relative_url }}" alt="SimpleReport">
-        </h1>
-        <span>
-          A simpler way to report rapid point-of-care tests
-        </span>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="container-blue">
-  <div class="grid-container usa-hero-placeholder-container">
-    <div class="grid-row grid-gap">
-      <div class="tablet:grid-col hero-img-col mobile-display">
-        <img class="usa-hero-placeholder"
-          src="{{ '/assets/img/project-images/multi-test-queue-horiz.png' | relative_url }}"
-          alt="simplereport displayed on a tablet">
-      </div>
-      <div class="tablet:grid-col usa-hero-subsection usa-prose flex-align-self-center">
-        <p>SimpleReport is a fast, free, and easy way for your organization to report results to public health departments.</p>
-        <ul class="margin-left-1">
-          <li>
-            Easy to set up and use
-          </li>
-          <li>
-            100% free
-          </li>
-          <li>
-            Works with any diagnostic test
-          </li>
-        </ul>
-      </div>
-      <div class="tablet:grid-col hero-img-col tablet-display">
-        <img class="usa-hero-placeholder"
-          src="{{ '/assets/img/project-images/multi-test-queue-horiz.png' | relative_url }}"
-          alt="simplereport displayed on a tablet">
-      </div>
-    </div>
-  </div>
-</section>
+SimpleReport shut down on August 31, 2026, and is no longer available for public health reporting.  Users can no longer log in, submit test results, access records, or receive support through SimpleReport.
 
-<section class="margin-y-4 tablet:margin-y-8">
-  <div class="grid-container">
-    <div class="grid-row">
-      <div class="grid-col">
-      <p>
-            <b>Note:</b> After careful consideration, CDC is sunsetting SimpleReport on August 31, 2026. This decision is part of CDC’s long-term strategy to focus on modernizing and streamlining data exchange. See <a href="{{ site.baseurl }}/sunset">simplereport.gov/sunset</a> for more information about the timeline and answers to frequently asked questions.
-            </p>
-      </div>
-    </div>
-  </div>
-</section>
+## Reporting test results
 
-<section class="margin-y-4 tablet:margin-y-8">
-  <div class="grid-container">
-    <div class="section__title-line"></div>
-    <h2 class="section__heading">How it works</h2>
-    <div class="section__title-line"></div>
-    <!-- <div class="display-flex flex-justify-center margin-top-2">
-      <img class="illustration-image" src="{{ '/assets/img/how-it-works.svg' | relative_url }}" alt="how it works">
-    </div> -->
-    <h2 class="font-heading-xl text-medium text-primary-darker margin-top-3 tablet:margin-top-5">
-      SimpleReport fits into your existing workflow.
-    </h2>
-    <div class="grid-row margin-top-5">
-      <div class="grid-row tablet:grid-gap-6 margin-top-6 tablet:margin-top-15">
-        <div class="tablet:grid-col-6">
-          <div class="display-flex">
-          <img class="blue-bubble flex-align-self-start" src="{{ '/assets/img/blue-bubble.svg' | relative_url }}" alt="">
-          <img class="animation-2" src="{{ '/assets/img/animation2.gif' | relative_url }}" alt="submit test result">
-          </div>
-        </div>
-        <div class="tablet:grid-col-6">
-          <h3 class="font-heading-3 text-primary-darker text-medium margin-top-4 desktop:margin-top-0">
-            Reporting done for you
-          </h3>
-          <p class="usa-intro line-height-sans-4 margin-bottom-0">
-            SimpleReport automatically converts your data into the format required by your public health department. Real-time reporting submits test results the moment you record them — saving you time.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+SimpleReport’s shutdown does not change public health reporting requirements.
 
-<section class="margin-y-4 tablet:margin-top-8">
-  <div class="grid-container">
-    <div class="section__title-line"></div>
-    <h2 class="section__heading">What you need to know</h2>
-    <div class="section__title-line"></div>
-    <div class="usa-accordion usa-accordion--bordered margin-top-4">
-      <!-- Use the accurate heading level to maintain the document outline -->
-      <h3 class="usa-accordion__heading">
-        <button
-          class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
-          aria-expanded="false"
-          aria-controls="a2">
-          <svg class="flex-auto height-3 margin-right-105" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" aria-hidden="true"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M604 127.1h-184C400.1 127.1 384 144.1 384 164v312C384 495.9 400.1 512 420 512h184C623.9 512 640 495.9 640 476v-312C640 144.1 623.9 127.1 604 127.1zM576 448h-128V192h128V448zM128 64h320v32h64V48c0-26.5-21.5-47.88-47.88-48H111.9C85.5 .125 64 21.5 64 48V288H16C7.125 288 0 295.1 0 304V320c.125 35.25 28.62 63.88 63.88 64H352V288H128V64z"/></svg>
-          <span class="flex-fill">All you need is a laptop or tablet with an internet connection</span>
-        </button>
-      </h3>
-      <div id="a2" class="usa-accordion__content usa-prose">
-        <p>You won’t need to install an app or buy any fancy equipment. As long as you have a computer or tablet with an internet connection, you can use SimpleReport.</p>
-      </div>
-      <h3 class="usa-accordion__heading">
-        <button
-          class="usa-accordion__button font-ui-md text-medium text-primary-darker display-flex flex-align-center"
-          aria-expanded="false"
-          aria-controls="a3">
-          <svg class="flex-auto height-3 margin-right-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true"><!--! Font Awesome Pro 6.0.0-alpha3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M496 448H480v-32c0-17.67-14.33-32-32-32V192h-64v192h-96V192H224v192H128V192H64v192c-17.67 0-32 14.33-32 32v32H16C7.199 448 0 455.2 0 464v32C0 504.8 7.199 512 16 512h480c8.801 0 16-7.201 16-16v-32C512 455.2 504.8 448 496 448zM501.6 92.13l-234.4-90.07C264.3 .8958 259.2-.0039 256-.0039c-3.188 0-8.219 .8997-11.22 2.056L10.38 92.13C4.656 94.25 0 100.1 0 107.1V144C0 152.8 7.156 160 16 160h480C504.8 160 512 152.8 512 144V107.1C512 100.4 507.9 94.44 501.6 92.13z"/></svg>
-          <span class="flex-fill">SimpleReport meets state and local reporting requirements</span>
-        </button>
-      </h3>
-      <div id="a3" class="usa-accordion__content usa-prose">
-        <p>SimpleReport automatically sends data to your state public health department. If your local public health departments don’t receive this data directly from the state or have additional requirements, SimpleReport can send the data directly to local public health departments too. If you're curious about particular reporting requirements, have a look at the <a href="{% link _pages/getting-started/public-health-departments/simplereport-data-catalog.md %}">SimpleReport data catalog</a>.</p>
-      </div>
-    </div>
-  </div>
-</section>
+For current reporting requirements and available reporting methods, contact your state, territorial, local, or tribal public health agency.
 
-<section class="margin-y-4 tablet:margin-top-0 tablet:margin-bottom-4">
-  <div class="grid-container">
-    <div class="section__title-line"></div>
-    <h2 class="section__heading">Where you can use SimpleReport</h2>
-    <div class="section__title-line"></div>
-    <div class="usa-prose margin-top-4">
-      <p class="usa-intro">SimpleReport is available in many parts of the country and is quickly expanding to new states and territories.</p>
-      <img class="margin-top-4" src="{{ '/assets/img/sr-map.svg' | relative_url }}" alt="Map of supported jurisdictions">
-      <p>View the <a href="{% link _pages/getting-started/organizations-and-testing-facilities/where-does-simplereport-work.md %}">list of supported states and jurisdictions</a>.</p>
-    </div>
-  </div>
-</section>
+## SimpleReport source code
 
-<section class="usa-section padding-top-0">
-  <div class="padding-top-4 tablet:padding-top-0">
-    <div class="grid-container">
-      <div class="grid-row grid-gap grid-gap-small-btm section-columns">
-        <div class="tablet:grid-col usa-prose">
-          <img class="height-7" src="{{ '/assets/img/cdc-logo.svg' | relative_url }}" alt="cdc logo">
-          <h2 class="font-heading-lg text-primary-darker margin-top-2">
-            Free and created by the CDC
-          </h2>
-          <div class="font-body-sm">
-            Developed for testing sites and public health departments, SimpleReport is 100% free.
-          </div>
-        </div>
-        <div class="tablet:grid-col usa-prose margin-top-4 tablet:margin-top-0">
-          <img class="height-7" src="{{ '/assets/img/shield.svg' | relative_url }}" alt="">
-          <h2 class="font-heading-lg text-primary-darker margin-top-2">
-            Safe and secure
-          </h2>
-          <div class="font-body-sm">
-            Test results and patient information are securely stored and protected by two-factor authentication, database encryption, and HTTPS.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
+The SimpleReport source code remains available on GitHub as an archived open-source reference.
+
+The code is no longer maintained by CDC and is not provided as a turnkey replacement for SimpleReport. CDC does not provide technical assistance, implementation support, security updates, or other support for use of the archived code.
+
+## Frequently asked questions
+
+Do I need to delete my account?
+
+All user accounts have been deleted as of 5:00PM ET August 31, 2026. You do not need to take any action to delete your account.
+
+* **Do I still need to report?**
+
+    * SimpleReport’s sunset does not change your reporting obligations. If you’re unsure whether you still need to report, your public health authority is the best place to get a clear answer. You can confirm current requirements by contacting your PHA or checking your jurisdiction’s public health website.
+
+* **How should I report instead?**
+
+    * Contact your jurisdiction to confirm reporting requirements and the reporting methods available.
+
+* **Whom can I contact if I have more questions?**
+
+    * For questions about SimpleReport sunset plans or assistance with account access, submitting a report, troubleshooting, or exporting data, email <support@simplereport.gov> 
