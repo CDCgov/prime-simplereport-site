@@ -32,7 +32,7 @@ However, the code will no longer be maintained by CDC and is not provided as a t
 
 * **How should I report instead?**
 
-    * Contact your PHA to confirm reporting requirements and the reporting methods available to you.
+    * Contact your public health agency to confirm reporting requirements and the reporting methods available to you.
 
 * **Whom can I contact if I have more questions?**
 
